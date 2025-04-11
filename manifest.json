@@ -1,6 +1,6 @@
 {
-    "name": "concept",
-    "short_name": "concept",
+    "name": "monthly_users",
+    "short_name": "monthly_users",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
