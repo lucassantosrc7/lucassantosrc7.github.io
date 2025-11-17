@@ -99380,7 +99380,7 @@ A.ck(q).eL("/challenge/"+A.i(r),s)},
 $S:0}
 A.a9q.prototype={
 $2(a,b){var s,r=null,q=A.QG(B.k,-1,1),p=A.eX(60),o=this.a,n=t.p
-p=A.b([A.bY(r,A.aQ("Voc\xea foi desafiado",r,r,r,r,r,r),B.m,r,r,new A.dn(r,r,q,p,r,r,B.aF),r,r,new A.ac(0,10,0,10),new A.ac(30,5,30,5),r,r,r),new A.dG(new A.aa(0,120,0,120),A.yt("assets/Logo/Logo.png",r,r),r),new A.bc(new A.ac(0,10,0,10),A.bt(A.b([A.aQ("Os time foram escolhidos",r,r,r,r,r,r),B.af,A.QW(o,r,r,50,!0)],n),B.r,B.t,B.o),r)],n)
+p=A.b([A.bY(r,A.aQ("Voc\xea foi desafiado",r,r,r,r,r,r),B.m,r,r,new A.dn(r,r,q,p,r,r,B.aF),r,r,new A.ac(0,10,0,10),new A.ac(30,5,30,5),r,r,r),new A.dG(new A.aa(0,120,0,120),A.yt("Assets/Logo/Logo.png",r,r),r),new A.bc(new A.ac(0,10,0,10),A.bt(A.b([A.aQ("Os time foram escolhidos",r,r,r,r,r,r),B.af,A.QW(o,r,r,50,!0)],n),B.r,B.t,B.o),r)],n)
 q=o.b
 if(q!=null)p.push(new A.bc(new A.ac(0,10,0,10),A.bt(A.b([A.aQ("O produto foi escolhido",r,r,r,r,r,r),B.af,new A.v0(q,!0,300,120,r)],n),B.r,B.t,B.o),r))
 q=this.b
@@ -99450,7 +99450,7 @@ q.l()
 r.aJ()},
 L(a){var s,r,q,p,o,n=this,m=null,l=n.gib(),k=l.c8($.PS(),t.b0),j=l.c8($.a9k(),t.A9),i=l.c8($.iU().gi9(),t.sv)
 l=t.p
-s=A.bt(A.b([A.bY(B.E,A.yt("assets/Logo/Logo.png",m,m),B.m,m,new A.aa(0,200,0,200),m,m,m,m,m,m,m,m),A.aQ("Entre ou cadastra-se\npara desafiar",m,m,m,m,B.cO,m)],l),B.r,B.t,B.o)
+s=A.bt(A.b([A.bY(B.E,A.yt("Assets/Logo/Logo.png",m,m),B.m,m,new A.aa(0,200,0,200),m,m,m,m,m,m,m,m),A.aQ("Entre ou cadastra-se\npara desafiar",m,m,m,m,B.cO,m)],l),B.r,B.t,B.o)
 r=n.w
 r===$&&A.a()
 q=n.y
@@ -99573,7 +99573,7 @@ A.aFc.prototype={
 $0(){return A.ck(this.a).ux("/sing_up",null,t.X)},
 $S:0}
 A.Up.prototype={
-iz(a,b){var s,r=null,q=A.a6(a),p=q.ax,o=q.ok,n=b.es($.iU(),t.SK),m=t.p,l=A.bt(A.b([A.ef(A.nQ(!1,!0,new A.dG(new A.aa(0,90,0,90),A.yt("assets/Logo/Logo.png",r,r),r),r,!0,r,r,r,r,r,r,r,r,new A.anb(a),r,r,r),r,r),new A.bc(new A.ac(30,40,30,10),new A.anj(n,a,o).$0(),r),$.aTM(),new A.bc(new A.ac(30,20,30,30),new A.anc(new A.ani(),a).$0(),r),new A.bc(B.JH,new A.anl(q.dh,a,o).$0(),r)],m),B.ay,B.t,B.o),k=A.eX(8)
+iz(a,b){var s,r=null,q=A.a6(a),p=q.ax,o=q.ok,n=b.es($.iU(),t.SK),m=t.p,l=A.bt(A.b([A.ef(A.nQ(!1,!0,new A.dG(new A.aa(0,90,0,90),A.yt("Assets/Logo/Logo.png",r,r),r),r,!0,r,r,r,r,r,r,r,r,new A.anb(a),r,r,r),r,r),new A.bc(new A.ac(30,40,30,10),new A.anj(n,a,o).$0(),r),$.aTM(),new A.bc(new A.ac(30,20,30,30),new A.anc(new A.ani(),a).$0(),r),new A.bc(B.JH,new A.anl(q.dh,a,o).$0(),r)],m),B.ay,B.t,B.o),k=A.eX(8)
 k=A.aQN(A.bY(r,A.aQ("Feito para torcedores",r,r,r,r,r,r),B.m,r,r,new A.dn(p.k2,r,r,k,r,r,B.aF),r,r,r,B.JJ,r,r,r),new A.k(0,0),0.2,5)
 s=o.Q
 return new A.k7(A.bY(r,A.bt(A.b([l,A.bt(A.b([k,B.af,A.aQ("v0.1.11",r,r,r,s==null?r:s.a_K(B.by),r,r)],m),B.r,B.t,B.o)],m),B.r,B.de,B.o),B.m,p.b,r,r,r,r,r,new A.ac(0,30,0,30),r,r,r),600,r)}}
@@ -99592,7 +99592,7 @@ $2(a,b){return this.$3$onTap(a,b,null)},
 $S:670}
 A.anc.prototype={
 $0(){var s=null,r=this.a,q=this.b
-return A.kU(!1,B.a_,!0,s,A.bt(A.b([r.$3$onTap(A.oE("assets/Icons/home.svg",s,s,s),"In\xedcio",new A.and(q)),r.$3$onTap(A.oE("assets/Icons/challenge.svg",s,s,s),"Meus desafios",new A.ane(q)),r.$3$onTap(A.oE("assets/Icons/user_add.svg",s,s,s),"Membros",new A.anf(q)),r.$3$onTap(A.oE("assets/Icons/question.svg",s,s,s),"Sobre n\xf3s",new A.ang(q)),r.$3$onTap(A.oE("assets/Icons/fire.svg",s,s,s),"Como funciona",new A.anh(q))],t.p),B.r,B.t,B.o),B.m,B.B,0,s,s,s,s,s,B.c3)},
+return A.kU(!1,B.a_,!0,s,A.bt(A.b([r.$3$onTap(A.oE("Assets/Icons/home.svg",s,s,s),"In\xedcio",new A.and(q)),r.$3$onTap(A.oE("Assets/Icons/challenge.svg",s,s,s),"Meus desafios",new A.ane(q)),r.$3$onTap(A.oE("Assets/Icons/user_add.svg",s,s,s),"Membros",new A.anf(q)),r.$3$onTap(A.oE("Assets/Icons/question.svg",s,s,s),"Sobre n\xf3s",new A.ang(q)),r.$3$onTap(A.oE("Assets/Icons/fire.svg",s,s,s),"Como funciona",new A.anh(q))],t.p),B.r,B.t,B.o),B.m,B.B,0,s,s,s,s,s,B.c3)},
 $S:33}
 A.and.prototype={
 $0(){return A.ck(this.a).eL("/",null)},
@@ -99612,7 +99612,7 @@ $S:0}
 A.anl.prototype={
 $0(){var s,r,q=null,p=this.a.a
 p=p==null?q:p.auN(A.wV(new A.anm()))
-s=A.yt("assets/Icons/whatsapp.png",20,20)
+s=A.yt("Assets/Icons/whatsapp.png",20,20)
 r=this.c.z
 return A.jr(A.fR(A.b([s,new A.bv(10,q,q,q),A.aQ("Participe do nosso grupo",q,q,q,r==null?q:r.c4(B.l),q,q)],t.p),B.r,B.dd,B.o),new A.ann(this.b),p)},
 $S:671}
@@ -99655,7 +99655,7 @@ L(a){var s,r,q,p,o,n=this,m=null,l=n.gib(),k=l.es($.iU(),t.SK),j=l.es($.b5B(),t.
 if(f==null)return B.ch
 l=new A.aFQ(n,k,a)
 if(k==null&&!n.Q){n.Q=!0
-$.ab.rx$.push(new A.aFK(a))}s=A.yt("assets/Logo/Logo.png",m,m)
+$.ab.rx$.push(new A.aFK(a))}s=A.yt("Assets/Logo/Logo.png",m,m)
 r=A.aQ("Quem vai ganhar?",m,m,m,m,m,m)
 q=n.w
 p=n.x
@@ -100017,7 +100017,7 @@ break
 case 6:case 1:return A.o(q,r)
 case 2:return A.n(o.at(-1),r)}})
 return A.p($async$te,r)},
-L(a){var s=this,r=null,q=A.a6(a),p=t.p,o=A.bt(A.b([A.bY(B.E,A.yt("assets/Logo/Logo.png",r,r),B.m,r,new A.aa(0,1/0,0,100),r,r,r,r,r,r,r,r),new A.bc(new A.e4(0,50,0,50),new A.aJ_(s,q.ax).$3$length$size$space(3,80,15),r)],p),B.r,B.t,B.o),n=s.ch
+L(a){var s=this,r=null,q=A.a6(a),p=t.p,o=A.bt(A.b([A.bY(B.E,A.yt("Assets/Logo/Logo.png",r,r),B.m,r,new A.aa(0,1/0,0,100),r,r,r,r,r,r,r,r),new A.bc(new A.e4(0,50,0,50),new A.aJ_(s,q.ax).$3$length$size$space(3,80,15),r)],p),B.r,B.t,B.o),n=s.ch
 if(n===0)n=new A.aIW(s).$0()
 else n=n===1?new A.aIZ(s).$0():new A.aJ2(s,a).$0()
 return new A.k7(new A.bc(B.hn,A.bt(A.b([o,n,A.jr(A.aQ("Continuar",r,r,r,r,r,r),new A.aIV(s,a),r)],p),B.r,B.de,B.o),r),600,r)}}
@@ -100144,7 +100144,7 @@ $1(a){var s=null
 return A.bY(s,new A.px(a,20,new A.d1(a.a,t.kK)),B.m,s,s,new A.dn(this.b.b,s,A.QG(B.l,-1,2),s,s,s,B.cV),s,this.a,s,s,s,s,s)},
 $S:686}
 A.awm.prototype={
-$0(){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=A.Z3(i,i,i,i,"",i,i,"","",i,i,i,i),g=A.yt("assets/Logo/Logo.png",i,i),f=j.b,e=A.aQ("Os time foram escolhidos",i,i,i,f,i,i),d=j.c,c=j.a.e,b=c.f
+$0(){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=A.Z3(i,i,i,i,"",i,i,"","",i,i,i,i),g=A.yt("Assets/Logo/Logo.png",i,i),f=j.b,e=A.aQ("Os time foram escolhidos",i,i,i,f,i,i),d=j.c,c=j.a.e,b=c.f
 b=d.$1(b==null?h:b)
 s=j.d
 r=s/2
@@ -100172,7 +100172,7 @@ else{g=A.eX(30)
 e=A.aO(180,B.k.H()>>>16&255,B.k.H()>>>8&255,B.k.H()&255)
 d=A.q3(B.Kq,B.l,i,100)
 n=n.e
-g=A.iH(B.bD,A.b([k,A.aQC(0,A.bY(B.E,A.bt(A.b([d,B.m0,A.aQ("DESAFIO RECUSADO",i,i,i,n==null?i:n.a_U(B.l,B.by),i,i)],l),B.r,B.t,B.c2),B.m,i,i,new A.dn(e,i,i,g,i,i,B.aF),i,i,i,i,i,i,i))],l),B.F,B.bs,i)}return A.bt(A.b([g,A.jr(new A.bc(new A.ac(30,0,30,0),A.fR(A.b([A.oE("assets/Icons/link.svg",i,20,20),B.VO,A.aQ("Compartilhar",i,i,i,i,i,i)],l),B.r,B.t,B.c2),i),new A.awn(f,j.Q),i)],l),B.r,B.df,B.o)},
+g=A.iH(B.bD,A.b([k,A.aQC(0,A.bY(B.E,A.bt(A.b([d,B.m0,A.aQ("DESAFIO RECUSADO",i,i,i,n==null?i:n.a_U(B.l,B.by),i,i)],l),B.r,B.t,B.c2),B.m,i,i,new A.dn(e,i,i,g,i,i,B.aF),i,i,i,i,i,i,i))],l),B.F,B.bs,i)}return A.bt(A.b([g,A.jr(new A.bc(new A.ac(30,0,30,0),A.fR(A.b([A.oE("Assets/Icons/link.svg",i,20,20),B.VO,A.aQ("Compartilhar",i,i,i,i,i,i)],l),B.r,B.t,B.c2),i),new A.awn(f,j.Q),i)],l),B.r,B.df,B.o)},
 $S:33}
 A.awn.prototype={
 $0(){var s=this.a.gN()
@@ -100288,7 +100288,7 @@ $2(a,b){return new A.bv(null,20,null,null)},
 $S:250}
 A.ayv.prototype={
 $2(a,b){var s,r=null
-switch(b){case 0:return A.nQ(!1,!0,new A.bc(B.hm,A.fR(A.b([A.bY(r,A.oE("assets/Icons/link.svg",new A.pR(B.l,B.n7,r,B.nO),30,30),B.m,r,r,new A.dn(r,r,r,r,r,B.hJ,B.cV),r,r,r,new A.ac(10,10,10,10),r,r,r),new A.bv(10,r,r,r),A.aQ("Convidar via link",r,r,r,r,r,r)],t.p),B.r,B.t,B.o),r),r,!0,r,r,r,r,r,r,r,r,new A.ayt(a),r,r,r)
+switch(b){case 0:return A.nQ(!1,!0,new A.bc(B.hm,A.fR(A.b([A.bY(r,A.oE("Assets/Icons/link.svg",new A.pR(B.l,B.n7,r,B.nO),30,30),B.m,r,r,new A.dn(r,r,r,r,r,B.hJ,B.cV),r,r,r,new A.ac(10,10,10,10),r,r,r),new A.bv(10,r,r,r),A.aQ("Convidar via link",r,r,r,r,r,r)],t.p),B.r,B.t,B.o),r),r,!0,r,r,r,r,r,r,r,r,new A.ayt(a),r,r,r)
 default:s=J.dP(this.a,b-1)
 return A.aRd(new A.ayu(a,s),B.hm,s)}},
 $S:695}
@@ -100611,7 +100611,7 @@ A.Db.prototype={
 aj(){return new A.a_l()}}
 A.a_l.prototype={
 gfD(){var s=this.d
-return s===$?this.d=new A.Kp("assets/Banner_v01.mp4",B.a2r,$.aB()):s},
+return s===$?this.d=new A.Kp("Assets/Banner_v01.mp4",B.a2r,$.aB()):s},
 aB(){this.aV()
 this.rX()},
 l(){this.gfD().l()
@@ -100657,7 +100657,7 @@ q=l.$3(s.f,r.a,n.r)
 if(n.d){p=n.e
 o=p*0.5
 p*=0.25
-o=A.bY(m,A.oE("assets/Icons/challenge.svg",m,m,m),B.m,m,new A.aa(0,25,0,25),m,m,o,new A.ac(p,p,p,p),m,m,m,o)
+o=A.bY(m,A.oE("Assets/Icons/challenge.svg",m,m,m),B.m,m,new A.aa(0,25,0,25),m,m,o,new A.ac(p,p,p,p),m,m,m,o)
 p=o}else p=new A.Ga(r,60,10,m)
 return A.fR(A.b([q,p,l.$3(s.r,r.b,n.w)],t.p),B.r,B.t,B.c2)}}
 A.abA.prototype={
@@ -100825,7 +100825,7 @@ $0(){return A.Ik(this.a).a37()},
 $S:0}
 A.asB.prototype={
 $1(a){var s=null
-return A.q5(s,s,A.oE("assets/Icons/challenge.svg",s,28,s),s,s,new A.asA(a),s,s,s,"Desafios")},
+return A.q5(s,s,A.oE("Assets/Icons/challenge.svg",s,28,s),s,s,new A.asA(a),s,s,s,"Desafios")},
 $S:210}
 A.asA.prototype={
 $0(){A.Ik(this.a).a38()},
@@ -100904,7 +100904,7 @@ $0(){return A.ck(this.a).eL("/perfil",null)},
 $S:0}
 A.Z5.prototype={
 L(a){if(this.c<1)return B.iD
-return A.iH(B.bD,A.b([A.oE("assets/Icons/shirt.svg",null,25,25)],t.p),B.m,B.bs,null)}}
+return A.iH(B.bD,A.b([A.oE("Assets/Icons/shirt.svg",null,25,25)],t.p),B.m,B.bs,null)}}
 A.aMH.prototype={
 $1(a){var s=null,r=a.es($.b5l(),t.ux),q=a.c8($.PS(),t.b0).a,p=A.b8Z(q.W0(q.gnV().jU())),o=a.c8($.aOV(),t.T)
 q=A.b([A.j2(new A.aMt(),"/"),A.j2(new A.aMu(),"/perfil"),A.j2(new A.aMv(),"/my-challenge"),A.j2(new A.aMz(),"/about-us"),A.j2(new A.aMA(),"/how-works"),A.j2(new A.aMB(),"/users"),A.j2(new A.aMC(),"/rules"),A.j2(new A.aMD(),"/login"),A.j2(new A.aME(),"/sing_up"),A.j2(new A.aMF(),"/new-challenge/:matchId"),A.j2(new A.aMG(),"/challenge/:id"),A.j2(new A.aMw(),"/terms"),A.j2(new A.aMx(),"/policy")],t.yo)
