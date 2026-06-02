@@ -51258,7 +51258,7 @@ $1$uid(a){return this.E(this,A.A("call","$1$uid",0,[a],["uid"],0))},
 $1$fontWeight(a){return this.E(this,A.A("call","$1$fontWeight",0,[a],["fontWeight"],0))},
 $2$controller$player(a,b){return this.E(this,A.A("call","$2$controller$player",0,[a,b],["controller","player"],0))},
 $3$controller$inverse$player(a,b,c){return this.E(this,A.A("call","$3$controller$inverse$player",0,[a,b,c],["controller","inverse","player"],0))},
-$2$scoreA$scoreB(a,b){return this.E(this,A.A("call","$2$scoreA$scoreB",0,[a,b],["scoreA","scoreB"],0))},
+$3$finish$scoreA$scoreB(a,b,c){return this.E(this,A.A("call","$3$finish$scoreA$scoreB",0,[a,b,c],["finish","scoreA","scoreB"],0))},
 $3$color$fontSize$fontStyle(a,b,c){return this.E(this,A.A("call","$3$color$fontSize$fontStyle",0,[a,b,c],["color","fontSize","fontStyle"],0))},
 $2$color$fontWeight(a,b){return this.E(this,A.A("call","$2$color$fontWeight",0,[a,b],["color","fontWeight"],0))},
 $1$toPay(a){return this.E(this,A.A("call","$1$toPay",0,[a],["toPay"],0))},
@@ -52851,7 +52851,7 @@ l(){this.agx()
 this.Fz()},
 J(a){var s,r,q,p,o=this
 o.a.toString
-s=A.o8(a).aEk(A.cS([B.aN,B.bT,B.be],t.F),!1,!1)
+s=A.o8(a).aEj(A.cS([B.aN,B.bT,B.be],t.F),!1,!1)
 r=o.a
 q=r.c
 p=o.f.b
@@ -75403,7 +75403,7 @@ aE_(a,b){var s=null
 return this.jl(s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s)},
 py(a){var s=null
 return this.jl(s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s,s,s)},
-aEi(a,b,c){var s=null
+aEh(a,b,c){var s=null
 return this.jl(s,s,a,s,s,s,s,s,s,s,s,b,c,s,s,s,s,s,s,s,s,s,s,s,s)},
 FJ(a,b){var s=null
 return this.jl(s,s,a,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s)},
@@ -94376,7 +94376,7 @@ return new A.JK(s.a,s.b,r,s.e,o,q,p,s.x,!1,s.z,s.Q,s.as,s.at,s.ax,s.ay,s.ch,s.CW
 OV(a){var s=null
 return this.zn(s,a,s,s,s)},
 aEd(a,b){return this.zn(null,a,null,null,b)},
-aEh(a,b){return this.zn(null,null,null,a,b)},
+aEg(a,b){return this.zn(null,null,null,a,b)},
 a4v(a){var s=null
 return this.zn(s,s,a,s,s)},
 aEr(a,b,c,d){return this.zn(a,b,null,c,d)},
@@ -94397,7 +94397,7 @@ q=q.rn(l,p,n,o)
 p=b?0:r
 o=d?0:r
 n=c?0:r
-return s.aEh(m.rn(0,p,n,o),q)},
+return s.aEg(m.rn(0,p,n,o),q)},
 aMJ(a){return this.a9a(a,!1,!1,!1)},
 aMF(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=a.c,f=a.a,e=a.d,d=a.b,c=h.a
 if(new A.I(g-f,e-d).k(0,c)&&new A.l(f,d).k(0,B.h))return h
@@ -98417,7 +98417,7 @@ aEc(a,b){var s=null
 return this.OY(s,s,s,a,s,s,s,b)},
 aDP(a){var s=null
 return this.OY(s,s,s,s,s,s,s,a)},
-aEk(a,b,c){var s=null
+aEj(a,b,c){var s=null
 return this.OY(a,s,s,b,s,s,s,c)},
 mn(a){return A.b1()},
 grB(){return B.CJ},
@@ -110252,18 +110252,18 @@ $0(){return B.ck},
 $S:746}
 A.a4H.prototype={}
 A.cb.prototype={
-zo(a,b,c,d,e,f,a0,a1){var s=this,r=s.a,q=c==null?r.b:c,p=s.b,o=d==null?p.b:d,n=s.c,m=a1==null?n.b:a1,l=a==null?s.d:a,k=a0==null?s.e:a0,j=e==null?s.f:e,i=f==null?s.r:f,h=b==null?s.aM$:b,g=s.mZ$
-return A.b35(l,h,!1,new A.lc(r.a,q),new A.lc(p.a,o),j,i,g,k,new A.yx(n.a,m))},
+zo(a,b,c,d,e,f,a0,a1,a2){var s=this,r=s.a,q=d==null?r.b:d,p=s.b,o=e==null?p.b:e,n=s.c,m=a2==null?n.b:a2,l=a==null?s.d:a,k=a1==null?s.e:a1,j=f==null?s.f:f,i=a0==null?s.r:a0,h=b==null?s.aM$:b,g=s.mZ$
+return A.b35(l,h,c===!0,new A.lc(r.a,q),new A.lc(p.a,o),j,i,g,k,new A.yx(n.a,m))},
 aEl(a,b,c){var s=null
-return this.zo(s,s,a,b,s,s,s,c)},
+return this.zo(s,s,s,a,b,s,s,s,c)},
 rm(a){var s=null
-return this.zo(s,a,s,s,s,s,s,s)},
+return this.zo(s,a,s,s,s,s,s,s,s)},
 aEq(a,b,c,d){var s=null
-return this.zo(a,s,b,c,s,s,d,s)},
-aEg(a,b){var s=null
-return this.zo(s,s,s,s,a,b,s,s)},
+return this.zo(a,s,s,b,c,s,s,d,s)},
+aEk(a,b,c){var s=null
+return this.zo(s,s,a,s,s,b,c,s,s)},
 aEe(a,b){var s=null
-return this.zo(s,s,a,b,s,s,s,s)},
+return this.zo(s,s,s,a,b,s,s,s,s)},
 jx(){var s=this,r=s.d,q=A.u(["player_a",s.a.BB(),"player_b",s.b.BB(),"tournament",s.c.BB(),"date",A.aHe(1000*r.a+r.b),"sport",s.e,"finish",s.w],t.N,t.X)
 r=s.f
 if(r!=null)q.m(0,"score_a",r)
@@ -110312,7 +110312,7 @@ A.d2.prototype={
 jx(){return A.u(["country",this.a,"logo",this.b,"name",this.c],t.N,t.z)},
 a4H(a,b,c,d){var s=this,r=b==null?s.aM$:b,q=a==null?s.a:a,p=c==null?s.b:c
 return A.b44(q,r,p,d==null?s.c:d)},
-aEj(a,b,c){return this.a4H(a,null,b,c)},
+aEi(a,b,c){return this.a4H(a,null,b,c)},
 rm(a){return this.a4H(null,a,null,null)}}
 A.abT.prototype={}
 A.yx.prototype={
@@ -110758,7 +110758,7 @@ j=j.a
 m=A.R(new A.U(A.b(i.a.split(","),m),new A.afM(),l),k)
 h=p
 s=6
-return A.m(n.oD(o.aEj(m,J.cp(J.cp(a,"photo"),0),j)),$async$$1)
+return A.m(n.oD(o.aEi(m,J.cp(J.cp(a,"photo"),0),j)),$async$$1)
 case 6:h.a=c
 case 3:p.b=!0
 return A.p(null,r)}})
@@ -110844,7 +110844,7 @@ var $async$$1=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:l=p.b
 A.oO(l)
 o=p.a
-n=o.a.aEg(a[0],a[1])
+n=o.a.aEk(!0,a[0],a[1])
 m=p.c
 s=3
 return A.m(m.aZ($.rj().gcr(),t.dZ).nu(n),$async$$1)
@@ -112289,7 +112289,7 @@ p=q==null
 if(p)o=l
 else o=q.vw(n?B.m:B.n,6)
 if(p)q=l
-else q=q.aEi(n?B.m:B.n,6,B.dU)
+else q=q.aEh(n?B.m:B.n,6,B.dU)
 r.push(new A.aA(B.ly,A.bD(A.b([A.kz(l,l,l,B.aV,l,l,!0,l,A.bw(A.b([A.bw(l,l,l,q,"Quer Valer?"),A.bw(l,l,l,l,"  \xe9 o mediador confi\xe1vel desse acordo. *Leia o nosso Termos de Uso.")],t.VO),l,l,o,"O "),B.v,l,l,B.S,B.a6),new A.d_(B.Gt,A.ki("Assets/Logo/Logo.png",l,l,l,l),l)],g),B.de,B.b1,B.j,0,l),l))
 j=A.b([new A.My(A.ek(B.t,A.b([i,h,A.ax(r,B.k,l,B.d0,B.j,0,B.o)],g),B.r,B.a1c,l),j,m.e)],g)
 if(k.y===B.ed){k=A.V(a)
