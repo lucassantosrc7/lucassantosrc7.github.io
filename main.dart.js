@@ -274,7 +274,7 @@ if(o<=17)r=o===17&&n>=4
 else r=!0
 return r}return!1},
 bAa(){var s,r,q
-if($.bW().geH()!==B.dJ)return!1
+if($.bW().geH()!==B.dK)return!1
 s=A.b_("Firefox\\/([0-9]+)",!0,!1,!1)
 r=$.bW().gpn()
 q=s.hi(r)
@@ -282,11 +282,11 @@ if(q!=null){r=q.b[1]
 r.toString
 return A.cO(r,null)>=119}return!1},
 Ae(a,b){if(a.a!=null)throw A.f(A.b2(u.r,null))
-return a.Fk(b==null?B.dr:b)},
+return a.Fk(b==null?B.ds:b)},
 aI(){return $.b8.b6()},
 va(a){var s=$.bk4()[a.a]
 return s},
-b60(a){return a===B.dh?$.b8.b6().FilterMode.Nearest:$.b8.b6().FilterMode.Linear},
+b60(a){return a===B.di?$.b8.b6().FilterMode.Nearest:$.b8.b6().FilterMode.Linear},
 b64(a){return a===B.bE?$.b8.b6().MipmapMode.Linear:$.b8.b6().MipmapMode.None},
 b3P(a,b,c,d){var s=a.readPixels(b,c,d)
 return s==null?null:s},
@@ -471,7 +471,7 @@ return new A.xI(b,a,c)},
 aet(a,b,c,a0){var s=0,r=A.r(t.hP),q,p,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$aet=A.n(function(a1,a2){if(a1===1)return A.o(a2,r)
 for(;;)switch(s){case 0:d=A.bz8(a)
-if(d==null)A.a1(A.px("Failed to detect image file format using the file header.\nFile header was "+(!B.C.ga0(a)?"["+A.byn(B.C.cU(a,0,Math.min(10,a.length)))+"]":"empty")+".\nImage source: encoded image bytes"))
+if(d==null)A.a1(A.px("Failed to detect image file format using the file header.\nFile header was "+(!B.C.ga0(a)?"["+A.byn(B.C.cV(a,0,Math.min(10,a.length)))+"]":"empty")+".\nImage source: encoded image bytes"))
 s=$.bkq()?3:5
 break
 case 3:s=6
@@ -493,7 +493,7 @@ n=l==null
 if(n&&k!=null)l=B.d.aH(k*(m.width()/m.height()))
 else if(k==null&&!n)k=B.e.lt(l,m.width()/m.height())
 j=new A.k9()
-i=j.Fk(B.dr)
+i=j.Fk(B.ds)
 h=A.ba()
 n=A.GQ(m,null)
 g=m.width()
@@ -668,7 +668,7 @@ return new A.x6(s,a,new A.a0j(),B.oX,new A.Wk(),r)},
 bpS(a,b){var s=A.b8g(new A.axT(),t.vA),r=A.cB(v.G.document,"flt-scene")
 a.ghe().TN(r)
 return new A.xf(b,s,a,new A.a0j(),B.oX,new A.Wk(),r)},
-ba(){return new A.rB(B.bV,B.ci,B.hP,B.hQ,B.dh)},
+ba(){return new A.rB(B.bV,B.ci,B.hP,B.hQ,B.di)},
 blQ(){var s=new v.G.window.flutterCanvasKit.Path()
 s.setFillType($.aeL()[0])
 return A.b24(s,B.hq)},
@@ -679,13 +679,13 @@ s.a=r
 return s},
 blz(){var s,r=A.ew().b
 r=r==null?null:r.canvasKitForceMultiSurfaceRasterizer
-if((r==null?!1:r)||$.bW().geH()===B.bP||$.bW().geH()===B.dJ)return new A.axb(A.w(t.lz,t.Es))
+if((r==null?!1:r)||$.bW().geH()===B.bP||$.bW().geH()===B.dK)return new A.axb(A.w(t.lz,t.Es))
 r=A.cB(v.G.document,"flt-canvas-container")
 s=$.b1q()&&$.bW().geH()!==B.bP
 return new A.axR(new A.ln(s,!1,r),A.w(t.lz,t.yF))},
 bs5(a){var s=A.cB(v.G.document,"flt-canvas-container")
 return new A.ln($.b1q()&&$.bW().geH()!==B.bP&&!a,a,s)},
-aY3(a){if($.kE==null)$.kE=B.dM
+aY3(a){if($.kE==null)$.kE=B.dN
 return a},
 blP(a,b){var s,r,q
 t.S3.a(a)
@@ -746,7 +746,7 @@ r.f=p}else r.f=null
 return r},
 b8A(a,b){return new A.d9(a,b,null,B.aj)},
 byC(a){var s,r,q,p,o,n,m,l=A.pM()
-$label0$1:for(s=a.c.a,r=s.length,q=B.dr,p=0;p<s.length;s.length===r||(0,A.H)(s),++p){o=s[p]
+$label0$1:for(s=a.c.a,r=s.length,q=B.ds,p=0;p<s.length;s.length===r||(0,A.H)(s),++p){o=s[p]
 switch(o.a.a){case 0:n=o.b
 n.toString
 q=q.eP(A.U9(l,n))
@@ -1109,7 +1109,7 @@ ae4(){var s=0,r=A.r(t.H),q,p,o
 var $async$ae4=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:p=$.a4().gyb()
 p.R(0)
-if($.kE==null)$.kE=B.dM
+if($.kE==null)$.kE=B.dN
 q=$.Fk
 s=q!=null?2:3
 break
@@ -1418,7 +1418,7 @@ case 6:return"bold"
 case 7:return"800"
 case 8:return"900"}return""},
 bBw(a,b){var s
-switch(a){case B.dv:return"left"
+switch(a){case B.dw:return"left"
 case B.fc:return"right"
 case B.c4:return"center"
 case B.hS:return"justify"
@@ -1472,7 +1472,7 @@ A.a9(q,"transform-origin","0 0 0")
 if(b){A.a9(q,"top","-9999px")
 A.a9(q,"left","-9999px")}if(d){A.a9(q,"width","0")
 A.a9(q,"height","0")}if(c)A.a9(q,"pointer-events",r)
-if($.bW().geH()===B.dc||$.bW().geH()===B.bP)a.classList.add("transparentTextEditing")
+if($.bW().geH()===B.dd||$.bW().geH()===B.bP)a.classList.add("transparentTextEditing")
 A.a9(q,"caret-color",s)},
 bw0(a,b){var s,r=a.isConnected
 if(!(r==null?!1:r))return
@@ -1859,8 +1859,8 @@ A.bxS(s,a,"normal normal 14px sans-serif")},
 bxS(a,b,c){var s,r,q,p=v.G
 a.append(p.document.createTextNode(b+" flt-scene-host {  font: "+c+";}"+b+" flt-semantics input[type=range] {  appearance: none;  -webkit-appearance: none;  width: 100%;  position: absolute;  border: none;  top: 0;  right: 0;  bottom: 0;  left: 0;}"+b+" input::selection {  background-color: transparent;}"+b+" textarea::selection {  background-color: transparent;}"+b+" flt-semantics input,"+b+" flt-semantics textarea,"+b+' flt-semantics [contentEditable="true"] {  caret-color: transparent;}'+b+" .flt-text-editing::placeholder {  opacity: 0;}"+b+":focus { outline: none;}"))
 if($.bW().geH()===B.bP)a.append(p.document.createTextNode(b+" * {  -webkit-tap-highlight-color: transparent;}"+b+" flt-semantics input[type=range]::-webkit-slider-thumb {  -webkit-appearance: none;}"))
-if($.bW().geH()===B.dJ)a.append(p.document.createTextNode(b+" flt-paragraph,"+b+" flt-span {  line-height: 100%;}"))
-if($.bW().geH()===B.dc||$.bW().geH()===B.bP)a.append(p.document.createTextNode(b+" .transparentTextEditing:-webkit-autofill,"+b+" .transparentTextEditing:-webkit-autofill:hover,"+b+" .transparentTextEditing:-webkit-autofill:focus,"+b+" .transparentTextEditing:-webkit-autofill:active {  opacity: 0 !important;}"))
+if($.bW().geH()===B.dK)a.append(p.document.createTextNode(b+" flt-paragraph,"+b+" flt-span {  line-height: 100%;}"))
+if($.bW().geH()===B.dd||$.bW().geH()===B.bP)a.append(p.document.createTextNode(b+" .transparentTextEditing:-webkit-autofill,"+b+" .transparentTextEditing:-webkit-autofill:hover,"+b+" .transparentTextEditing:-webkit-autofill:focus,"+b+" .transparentTextEditing:-webkit-autofill:active {  opacity: 0 !important;}"))
 r=$.bW().gpn()
 if(B.c.n(r,"Edg/"))try{a.append(p.document.createTextNode(b+" input::-ms-reveal {  display: none;}"))}catch(q){r=A.Z(q)
 if(t.m.b(r)){s=r
@@ -3945,7 +3945,7 @@ if(typeof a=="string")return JSON.stringify(a)
 if(a instanceof A.rC)return a.j(0)
 if(a instanceof A.uQ)return a.a1R(!0)
 s=$.bjP()
-for(r=0;r<1;++r){q=s[r].aNL(a)
+for(r=0;r<1;++r){q=s[r].aNK(a)
 if(q!=null)return q}return"Instance of '"+A.a_C(a)+"'"},
 bqt(){return Date.now()},
 bqv(){var s,r
@@ -8222,12 +8222,12 @@ b40(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,a0,a1,a2){var s
 $.a4()
 if(A.ew().go2()===B.cT)s=new A.yL(g,j,b)
 else{s=A.aY3(g)
-if($.kE==null)$.kE=B.dM
+if($.kE==null)$.kE=B.dN
 s=A.b25(a,b,c,d,e,f,s,h,i,j,k,l,m,n,o,p,q,r,g,h,a0,a1,a2)}return s},
 b3o(a,b,c,d,e,f,g,h,i,j,k,l){var s,r,q,p,o,n,m=null
 $.a4()
 if(A.ew().go2()===B.cT){s=k==null?B.a2:k
-r=j==null?B.dv:j
+r=j==null?B.dw:j
 r=new A.Ob(new A.yL(b,c,m),s,r)
 s=r}else{s=A.aY3(b)
 r=f===0
@@ -8552,7 +8552,7 @@ case 4:o.didCreateEngineInitializer(q.aM0())
 case 3:return A.p(null,r)}})
 return A.q($async$aZF,r)},
 bsb(){var s=$.kE
-return s==null?$.kE=B.dM:s},
+return s==null?$.kE=B.dN:s},
 agw:function agw(a){this.b=a},
 GA:function GA(a,b){this.a=a
 this.b=b},
@@ -11128,7 +11128,7 @@ h.e3(o,new A.ao_())
 B.b.il(g,r);--r}else if(h.am(n)){++s
 h.e3(n,new A.ao0())
 B.b.il(g,r);--r}}m=A.bm(q,null,!1,t.T)
-for(l=0;!1;++l)$.bnU[l].aOO(g,m)
+for(l=0;!1;++l)$.bnU[l].aON(g,m)
 q=t.s
 k=A.b([],q)
 for(r=0;r<g.length;++r){for(;;){if(!!1)break;++r}j=g[r]
@@ -12052,7 +12052,7 @@ pt:function pt(a,b,c){this.a=a
 this.b=b
 this.c=c},
 asE(a,b){var s=t.S
-return new A.mg(B.fX,-1,null,B.dV,A.w(s,t.SP),A.ee(s),a,b,A.bAh(),A.w(s,t.F))},
+return new A.mg(B.fX,-1,null,B.dW,A.w(s,t.SP),A.ee(s),a,b,A.bAh(),A.w(s,t.F))},
 bp5(a){return a===1||a===2||a===4},
 Bx:function Bx(a,b){this.a=a
 this.b=b},
@@ -12105,11 +12105,11 @@ this.c=c},
 bn5(a){return new A.mT(a.gdd(),A.bm(20,null,!1,t.av))},
 bn6(a){return a===1},
 bcF(a,b){var s=t.S
-return new A.kH(B.D,B.e3,A.TZ(),B.cJ,A.w(s,t.GY),A.w(s,t.o),B.h,A.b([],t.t),A.w(s,t.SP),A.ee(s),a,b,A.U_(),A.w(s,t.F))},
+return new A.kH(B.D,B.e4,A.TZ(),B.cJ,A.w(s,t.GY),A.w(s,t.o),B.h,A.b([],t.t),A.w(s,t.SP),A.ee(s),a,b,A.U_(),A.w(s,t.F))},
 b2O(a,b){var s=t.S
-return new A.kh(B.D,B.e3,A.TZ(),B.cJ,A.w(s,t.GY),A.w(s,t.o),B.h,A.b([],t.t),A.w(s,t.SP),A.ee(s),a,b,A.U_(),A.w(s,t.F))},
+return new A.kh(B.D,B.e4,A.TZ(),B.cJ,A.w(s,t.GY),A.w(s,t.o),B.h,A.b([],t.t),A.w(s,t.SP),A.ee(s),a,b,A.U_(),A.w(s,t.F))},
 baC(a,b){var s=t.S
-return new A.ku(B.D,B.e3,A.TZ(),B.cJ,A.w(s,t.GY),A.w(s,t.o),B.h,A.b([],t.t),A.w(s,t.SP),A.ee(s),a,b,A.U_(),A.w(s,t.F))},
+return new A.ku(B.D,B.e4,A.TZ(),B.cJ,A.w(s,t.GY),A.w(s,t.o),B.h,A.b([],t.t),A.w(s,t.SP),A.ee(s),a,b,A.U_(),A.w(s,t.F))},
 Pr:function Pr(a,b){this.a=a
 this.b=b},
 ju:function ju(){},
@@ -12242,7 +12242,7 @@ hm:function hm(a,b){this.a=a
 this.b=b},
 a6H:function a6H(){},
 Dl(a,b,c){var s=t.S
-return new A.iA(B.br,-1,b,B.dV,A.w(s,t.SP),A.ee(s),a,c,A.FC(),A.w(s,t.F))},
+return new A.iA(B.br,-1,b,B.dW,A.w(s,t.SP),A.ee(s),a,c,A.FC(),A.w(s,t.F))},
 Dk:function Dk(a,b,c){this.a=a
 this.b=b
 this.c=c},
@@ -13986,7 +13986,7 @@ p=A.cY(A.bG(c),A.c4(c),A.dF(c),0,0,0)
 o=A.cY(A.bG(b),A.c4(b),A.dF(b),0,0,0)
 n=A.cY(A.bG(d),A.c4(d),A.dF(d),0,0,0)
 m=new A.ck(Date.now(),0,!1)
-l.a=new A.Ht(p,o,n,A.cY(A.bG(m),A.c4(m),A.dF(m),0,0,0),B.dO,null,null,null,null,B.iE,null,null,null,null,null,null,null,null,B.H9,null)
+l.a=new A.Ht(p,o,n,A.cY(A.bG(m),A.c4(m),A.dF(m),0,0,0),B.dP,null,null,null,null,B.iE,null,null,null,null,null,null,null,null,B.H9,null)
 A.vS(a)
 q=A.ri(null,null,!0,null,new A.b0z(l,null),a,null,!0,t.CG)
 s=1
@@ -14126,7 +14126,7 @@ a.ak(t.Rf)
 s=A.V(a)
 return s.aU},
 E6(a){var s=null
-return new A.a5s(a,s,6,s,s,B.n8,s,s,s,s,s,s,s,s,s,B.aa1,s,s,s,s,s,s,s,B.dy,s,0,s,s,B.f8,s,s,s,s,s,s,s,s,s,s,s,s,s)},
+return new A.a5s(a,s,6,s,s,B.n8,s,s,s,s,s,s,s,s,s,B.aa1,s,s,s,s,s,s,s,B.dz,s,0,s,s,B.f8,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 hg:function hg(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1){var _=this
 _.a=a
 _.b=b
@@ -14256,7 +14256,7 @@ m=a3.h("ag<0?>")
 l=a3.h("b5<0?>")
 return new A.HB(b,new A.akm(f,a0,!0),d,"Dismiss",c,B.eG,A.bza(),a,!1,k,a1,k,s,A.aN(t.f9),new A.bs(k,a3.h("bs<oz<0>>")),new A.bs(k,t.B),new A.BY(),k,0,new A.b5(new A.ag(r,a3.h("ag<0?>")),a3.h("b5<0?>")),q,p,i,B.Cj,new A.dd(k,o),new A.b5(new A.ag(n,m),l),new A.b5(new A.ag(n,m),l),a3.h("HB<0>"))},
 bcW(a){var s=null
-return new A.aNO(a,s,6,s,s,B.n8,B.v,s,s,s,s,s,s,B.q,s)},
+return new A.aNO(a,s,6,s,s,B.n8,B.u,s,s,s,s,s,s,B.q,s)},
 WV:function WV(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
 _.c=a
 _.d=b
@@ -16124,13 +16124,13 @@ a.jF(b,b,b,1)
 s=c.a
 r=c.b
 a.e1(-((s*b-s)/2),-((r*b-r)/2),0,1)},
-bdY(a,b,c,d,e){var s=new A.T7(d,a,e,c,b,new A.bi(new Float64Array(16)),A.an(),A.an(),$.ap()),r=s.gcY()
+bdY(a,b,c,d,e){var s=new A.T7(d,a,e,c,b,new A.bi(new Float64Array(16)),A.an(),A.an(),$.ap()),r=s.gcZ()
 a.Y(r)
 a.ha(s.gyC())
 e.a.Y(r)
 c.Y(r)
 return s},
-bdZ(a,b,c,d){var s=new A.T8(c,d,b,a,new A.bi(new Float64Array(16)),A.an(),A.an(),$.ap()),r=s.gcY()
+bdZ(a,b,c,d){var s=new A.T8(c,d,b,a,new A.bi(new Float64Array(16)),A.an(),A.an(),$.ap()),r=s.gcZ()
 d.a.Y(r)
 b.Y(r)
 a.ha(s.gyC())
@@ -17272,7 +17272,7 @@ aYK:function aYK(a){this.a=a},
 aXN:function aXN(){},
 TH:function TH(){},
 bc4(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q){var s=null,r=b.a.a
-return new A.Ns(b,new A.aGB(c,s,i,B.a9,m,e,g,p,n,s,o,s,s,B.an,a,s,s,!1,s,"\u2022",!1,!0,s,s,!0,s,h,s,d,s,s,!1,s,s,j,k,f,s,s,2,s,s,s,s,B.af,s,s,s,s,s,s,s,s,!0,s,A.bBy(),s,s,s,s,s,s,s,B.D,s,B.t,!0,!0,!0,s),l,s,q,r,!0,B.dH,m,s)},
+return new A.Ns(b,new A.aGB(c,s,i,B.a9,m,e,g,p,n,s,o,s,s,B.an,a,s,s,!1,s,"\u2022",!1,!0,s,s,!0,s,h,s,d,s,s,!1,s,s,j,k,f,s,s,2,s,s,s,s,B.af,s,s,s,s,s,s,s,s,!0,s,A.bBy(),s,s,s,s,s,s,s,B.D,s,B.t,!0,!0,!0,s),l,s,q,r,!0,B.dI,m,s)},
 bsm(a,b){var s
 if(!b.a.x){s=b.c
 s.toString
@@ -17399,7 +17399,7 @@ break
 default:s=r}if(!s)return a.k2
 switch(q){case 1:q=B.n
 break
-case 0:q=B.de
+case 0:q=B.df
 break
 default:q=r}return q},
 a2I:function a2I(a,b,c,d){var _=this
@@ -17656,7 +17656,7 @@ a1=n?A.aM(31,B.n.G()>>>16&255,B.n.G()>>>8&255,B.n.G()&255):A.aM(31,B.m.G()>>>16&
 a2=n?A.aM(10,B.n.G()>>>16&255,B.n.G()>>>8&255,B.n.G()&255):A.aM(10,B.m.G()>>>16&255,B.m.G()>>>8&255,B.m.G()&255)
 if(k==null)k=n?B.l2:B.q2
 if(h==null)h=k
-if(d==null)d=n?B.de:B.n
+if(d==null)d=n?B.df:B.n
 if(j==null)j=n?B.LH:B.l3
 if(d1==null){a3=n?B.KZ:B.kZ
 p=n?B.eB:B.pX
@@ -17690,7 +17690,7 @@ if(c9!=null)c9=c9.giK()
 if(d3==null)d3=B.Yp
 if(d4==null)d4=B.a26
 if(d5==null)d5=B.a2E
-if(e==null)e=n?B.de:B.n
+if(e==null)e=n?B.df:B.n
 if(f==null){f=d1.y
 if(f.k(0,g))f=B.n}p=A.bsA(c8)
 a5=A.bsC(c7)
@@ -19716,7 +19716,7 @@ break $label0$0}return s},
 yo(a,b,c,d,e,f,g,h,i,j){return new A.ug(e,f,g,i.k(0,B.cS)?new A.iI(1):i,a,b,c,d,j,h)},
 bca(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=null
 $label0$0:{s=0
-if(B.dv===a)break $label0$0
+if(B.dw===a)break $label0$0
 if(B.fc===a){s=1
 break $label0$0}if(B.c4===a){s=0.5
 break $label0$0}r=B.r===a
@@ -20333,8 +20333,8 @@ r.gHn()
 q.sHn(r.gHn())
 r.gFV()
 q.sFV(r.gFV())
-r.gaNz()
-q.saJl(r.gaNz())
+r.gaNy()
+q.saJl(r.gaNy())
 r.gdG()
 q.sa7j(r.gdG())
 r.gR1()
@@ -20355,8 +20355,8 @@ q.r=!0
 r.gaIB()
 q.xr=r.gaIB()
 q.r=!0
-r.gaND()
-q.S=r.gaND()
+r.gaNC()
+q.S=r.gaNC()
 q.r=!0
 r.gQH()
 q.sQH(r.gQH())
@@ -20371,8 +20371,8 @@ q.r=!0
 r.gc0()
 q.Z=r.gc0()
 q.r=!0
-r.gaOc()
-q.c3=r.gaOc()
+r.gaOb()
+q.c3=r.gaOb()
 q.r=!0
 r.gaIT()
 q.cb=r.gaIT()
@@ -20426,7 +20426,7 @@ q.sRp(r.gRp())
 s.oF(B.mv,q)
 s.sbq(b.gbq())
 s.scv(b.gcv())
-s.dy=b.gaOW()
+s.dy=b.gaOV()
 return s},
 WA:function WA(){},
 Lp:function Lp(a,b,c,d,e,f,g,h){var _=this
@@ -20458,7 +20458,7 @@ bdo(a){var s=new A.a9G(a,new A.aR(),A.an())
 s.aN()
 return s},
 bdB(){$.a4()
-return new A.Sp(A.ba(),B.i8,B.dI,$.ap())},
+return new A.Sp(A.ba(),B.i8,B.dJ,$.ap())},
 yp:function yp(a,b){this.a=a
 this.b=b},
 aIy:function aIy(a,b,c,d,e,f){var _=this
@@ -20705,7 +20705,7 @@ _.ba=h
 _.bf=i
 _.aP=j
 _.aGQ$=k
-_.aOM$=l
+_.aOL$=l
 _.cu$=m
 _.a8$=n
 _.d2$=o
@@ -22081,7 +22081,7 @@ if(s)return c===B.a2?new A.l(a.a,r):new A.l(a.c,r)
 else{s=a.d
 return c===B.a2?new A.l(a.c,s):new A.l(a.a,s)}},
 aD7(a,b){return new A.Md(a,b==null?B.nY:b,B.ZL)},
-aD6(a,b){return new A.Md(a,b==null?B.nY:b,B.dt)},
+aD6(a,b){return new A.Md(a,b==null?B.nY:b,B.du)},
 u0:function u0(a,b){this.a=a
 this.b=b},
 ho:function ho(){},
@@ -22472,14 +22472,14 @@ a9W:function a9W(){},
 rl:function rl(a,b){this.a=a
 this.b=b},
 btb(a){var s,r,q,p,o,n=$.eA(),m=n.d
-if(m==null)m=n.gcW()
+if(m==null)m=n.gcX()
 s=A.bcG(a.Q,a.gtq().ep(0,m)).a6(0,m)
 r=s.a
 q=s.b
 p=s.c
 s=s.d
 o=n.d
-if(o==null)o=n.gcW()
+if(o==null)o=n.gcX()
 return new A.O9(new A.ae(r/o,q/o,p/o,s/o),new A.ae(r,q,p,s),o)},
 O9:function O9(a,b,c){this.a=a
 this.b=b
@@ -22653,8 +22653,8 @@ this.c=c},
 aBt:function aBt(a){this.a=a},
 a9Z:function a9Z(){},
 aa_:function aa_(){},
-brc(a,b){return a.ga8I().bl(0,b.ga8I()).aOu(0)},
-bz3(a,b){if(b.p4$.a>0)return a.aOs(0,1e5)
+brc(a,b){return a.ga8I().bl(0,b.ga8I()).aOt(0)},
+bz3(a,b){if(b.p4$.a>0)return a.aOr(0,1e5)
 return!0},
 Ei:function Ei(a){this.a=a},
 xS:function xS(a,b){this.a=a
@@ -22701,7 +22701,7 @@ if(a.d==null)return b
 s=new Float64Array(3)
 r=new A.hs(s)
 r.nB(b.a,b.b,0)
-a.d.aNG(r)
+a.d.aNF(r)
 return new A.l(s[0],s[1])},
 bvA(a,b){var s,r,q,p,o,n,m,l,k=A.b([],t.TV)
 for(s=a.length,r=0;r<a.length;a.length===s||(0,A.H)(a),++r){q=a[r]
@@ -22732,7 +22732,7 @@ TS(a){if(a==null)return B.X
 if(a)return B.aW
 return B.hX},
 b5k(a){var s,r,q,p=a.a,o=p!==B.ez?1:0
-if(p===B.dN)o|=2
+if(p===B.dO)o|=2
 s=a.b
 if(s===B.aW)o|=4
 if(a.w)o|=8
@@ -23043,7 +23043,7 @@ $label0$0:{if("AppLifecycleState.resumed"===a){s=B.cN
 break $label0$0}if("AppLifecycleState.inactive"===a){s=B.i3
 break $label0$0}if("AppLifecycleState.hidden"===a){s=B.i4
 break $label0$0}if("AppLifecycleState.paused"===a){s=B.kD
-break $label0$0}if("AppLifecycleState.detached"===a){s=B.dG
+break $label0$0}if("AppLifecycleState.detached"===a){s=B.dH
 break $label0$0}s=null
 break $label0$0}return s},
 Mr:function Mr(){},
@@ -23298,7 +23298,7 @@ b3X(a){if($.Dj!=null){$.Dj=a
 return}if(a.k(0,$.aG8))return
 $.Dj=a
 A.ff(new A.aGb())},
-bs8(a){if(a===B.dG)A.ff(new A.aG9())},
+bs8(a){if(a===B.dH)A.ff(new A.aG9())},
 agr:function agr(a,b){this.a=a
 this.b=b},
 qw:function qw(a,b,c,d,e,f,g,h){var _=this
@@ -23826,7 +23826,7 @@ b1R(a,b,c,d,e,f){return new A.vl(a,b,d,e,f,c,null)},
 ble(a,b){return new A.dV(b,!1,a,new A.cv(a.gAy(),t.Ll))},
 bld(a,b){var s=A.R(b,t.l)
 if(a!=null)s.push(a)
-return A.el(B.v,s,B.t,B.aw,null)},
+return A.el(B.u,s,B.t,B.aw,null)},
 uA:function uA(a,b,c,d){var _=this
 _.a=a
 _.b=b
@@ -24041,7 +24041,7 @@ aj6(a,b){return new A.W4(a,b,null)},
 aj4(a,b,c){return new A.Ak(c,b,a,null)},
 blT(a,b){return new A.eb(new A.aj5(b,B.bD,a),null)},
 a2O(a,b,c,d,e){return new A.qA(d,a,e,c,b,null)},
-bco(a,b){return new A.qA(A.bsZ(a),B.v,!0,null,b,null)},
+bco(a,b){return new A.qA(A.bsZ(a),B.u,!0,null,b,null)},
 b4c(a,b){return new A.qA(A.pN(b.a,b.b,0),null,!0,null,a,null)},
 b4b(a,b,c,d){var s=c==null,r=s?d:c
 if(r==null)r=1
@@ -24067,7 +24067,7 @@ return new A.bi(s)},
 b7O(a,b,c,d){return new A.Wi(b,!1,c,a,null)},
 Il(a,b,c,d){return new A.wf(d,a,c,b,null)},
 b8V(a,b,c){return new A.XG(c,b,a,null)},
-ct(a,b,c){return new A.ec(B.v,c,b,a,null)},
+ct(a,b,c){return new A.ec(B.u,c,b,a,null)},
 asi(a,b){return new A.Jm(b,a,new A.cv(b,t.V1))},
 bT(a,b,c){return new A.dc(c,b,a,null)},
 u8(a,b){return new A.dc(b.a,b.b,a,null)},
@@ -24442,7 +24442,7 @@ p=A.b([],t.Jh)
 o=A.bm(7,l,!1,t.JI)
 n=t.S
 m=t.j1
-n=new A.a3u(l,l,!1,l,$,j,k,!0,new A.b5(new A.ag(s,t.c),t.h),!1,l,!1,$,$,l,$,$,$,A.w(t.K,t.Ju),!1,0,!1,$,new A.bo(r,t.Xx),0,l,$,$,new A.abh(A.aN(t.M)),$,$,$,new A.dd(l,q),$,l,l,p,l,A.byk(),new A.XX(A.byj(),o,t.G7),!1,0,A.w(n,t.h1),A.ee(n),A.b([],m),A.b([],m),l,!1,B.e7,!0,!1,l,B.O,B.O,l,0,l,!1,l,l,0,A.pJ(l,t.qL),new A.az0(A.w(n,t.rr),A.w(t.Ld,t.iD)),new A.apl(A.w(n,t.cK)),new A.az3(),A.w(n,t.Fn),$,!1,B.Nj)
+n=new A.a3u(l,l,!1,l,$,j,k,!0,new A.b5(new A.ag(s,t.c),t.h),!1,l,!1,$,$,l,$,$,$,A.w(t.K,t.Ju),!1,0,!1,$,new A.bo(r,t.Xx),0,l,$,$,new A.abh(A.aN(t.M)),$,$,$,new A.dd(l,q),$,l,l,p,l,A.byk(),new A.XX(A.byj(),o,t.G7),!1,0,A.w(n,t.h1),A.ee(n),A.b([],m),A.b([],m),l,!1,B.e8,!0,!1,l,B.O,B.O,l,0,l,!1,l,l,0,A.pJ(l,t.qL),new A.az0(A.w(n,t.rr),A.w(t.Ld,t.iD)),new A.apl(A.w(n,t.cK)),new A.az3(),A.w(n,t.Fn),$,!1,B.Nj)
 n.iQ()
 n.ahH()
 return n},
@@ -24755,7 +24755,7 @@ m=e4==null?A.b8r():e4
 return new A.AL(j,b0,c3,c2,f7,g0,d3,b1,q,e7,n,l,s,r,!0,f2,g2,f1,f4,f6,f5,f9,k,b,f,b9,c0,a9,e,e2,e3,p,f8,c5,c6,c9,c4,c7,c8,b2,d0,d1,o,c1,!0,a4,a0,a3,a2,a1,d2,m,e5==null?A.b8s():e5,b6,d9,a7,a5,d8,e0,!0,!0,!0,d,c,g,d5,d7,!0,h,i,f0,b8,b3,b5)},
 b8r(){return B.p6},
 b8s(){if(A.b1()===B.U||$.b66().geH()===B.bP)return B.GN
-return B.dI},
+return B.dJ},
 bnf(){return!0},
 bng(a){return!0},
 bnh(a,b){return b===1?B.DR:B.jW},
@@ -26007,11 +26007,11 @@ r=r==null?null:r.b
 if(r==null)r=1
 return new A.IS(s,r,A.Bv(a),A.ep(a),b,A.b1())},
 pw(a,b,c,d){var s=null
-return new A.t4(A.a0B(s,s,new A.tv(a,1,s,B.oj)),s,s,d,c,s,s,B.bE,s,b,B.v,B.c0,!1,!1,!1,s)},
+return new A.t4(A.a0B(s,s,new A.tv(a,1,s,B.oj)),s,s,d,c,s,s,B.bE,s,b,B.u,B.c0,!1,!1,!1,s)},
 kj(a,b,c,d,e){var s=null
-return new A.t4(A.a0B(s,s,d!=null?new A.I1(a,d,s,s):new A.zV(a,s,s)),s,s,e,c,s,s,B.bE,s,b,B.v,B.c0,!1,!1,!1,s)},
+return new A.t4(A.a0B(s,s,d!=null?new A.I1(a,d,s,s):new A.zV(a,s,s)),s,s,e,c,s,s,B.bE,s,b,B.u,B.c0,!1,!1,!1,s)},
 b99(a,b,c,d){var s=null
-return new A.t4(A.a0B(s,s,new A.pO(a,1)),s,s,d,c,s,s,B.bE,s,b,B.v,B.c0,!1,!1,!1,s)},
+return new A.t4(A.a0B(s,s,new A.pO(a,1)),s,s,d,c,s,s,B.bE,s,b,B.u,B.c0,!1,!1,!1,s)},
 t4:function t4(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.c=a
 _.d=b
@@ -27128,7 +27128,7 @@ s.a.push(n.gKA())
 n.b!==$&&A.br()
 n.b=m
 m=A.dy(B.ex,m,r)
-m.a.Y(n.gcY())
+m.a.Y(n.gcZ())
 n.f!==$&&A.br()
 n.f=m
 t.C.a(m)
@@ -29129,7 +29129,7 @@ aHj:function aHj(a,b){this.a=a
 this.b=b},
 NK:function NK(){},
 u9(a,b,c,d){return new A.a1L(c,d,a,b,null)},
-aCB(a,b){return new A.CH(A.bBL(),B.v,null,a,b,null)},
+aCB(a,b){return new A.CH(A.bBL(),B.u,null,a,b,null)},
 brb(a){return A.BF(a,a,1)},
 aBT(a,b,c,d){return new A.a0Q(A.bBK(),a,c,b,d,null)},
 br2(a){var s,r,q=a*3.141592653589793*2,p=new Float64Array(16)
@@ -29858,10 +29858,10 @@ if(q.k(0,b)){for(;r>0;r=p){p=r-1
 o=s.i(a,p)
 if(o instanceof A.hI){n=o.a
 n=!(n.f==null&&n.r==null)}else n=!0
-if(n)break}return s.cU(a,0,r)}if(q instanceof A.fF){n=q.d
+if(n)break}return s.cV(a,0,r)}if(q instanceof A.fF){n=q.d
 m=A.bbr(n,b)
 if(m===n)continue
-n=A.R(s.cU(a,0,r),t._W)
+n=A.R(s.cV(a,0,r),t._W)
 if(J.nd(m))n.push(new A.fF(q.a,q.b,q.c,m,q.e))
 return n}}return a},
 a0U(a,b){var s,r
@@ -32516,20 +32516,20 @@ _.cx=g
 _.d=$
 _.c=_.a=null},
 aUF:function aUF(){},
-aUO:function aUO(){},
-aUN:function aUN(a,b){this.a=a
+aUS:function aUS(){},
+aUR:function aUR(a,b){this.a=a
 this.b=b},
-aUM:function aUM(a,b){this.a=a
-this.b=b},
-aUL:function aUL(a,b){this.a=a
-this.b=b},
-aUK:function aUK(a){this.a=a},
-aUJ:function aUJ(a){this.a=a},
-aUR:function aUR(a){this.a=a},
 aUQ:function aUQ(a,b){this.a=a
 this.b=b},
-aUS:function aUS(a){this.a=a},
 aUP:function aUP(a,b){this.a=a
+this.b=b},
+aUM:function aUM(a){this.a=a},
+aUL:function aUL(a){this.a=a},
+aUN:function aUN(a){this.a=a},
+aUK:function aUK(a,b){this.a=a
+this.b=b},
+aUO:function aUO(a){this.a=a},
+aUJ:function aUJ(a,b){this.a=a
 this.b=b},
 aUG:function aUG(a){this.a=a},
 aUI:function aUI(a){this.a=a},
@@ -32998,7 +32998,7 @@ this.b=b},
 aZN(a){var s=0,r=A.r(t.H)
 var $async$aZN=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:s=2
-return A.m(A.pq(B.dR,null,t.z),$async$aZN)
+return A.m(A.pq(B.dS,null,t.z),$async$aZN)
 case 2:a.aY($.b1w().gcn(),t.lR).xJ(null)
 return A.p(null,r)}})
 return A.q($async$aZN,r)},
@@ -33430,7 +33430,7 @@ _.b=e
 _.c=f
 _.$ti=g},
 Gn:function Gn(a,b,c,d,e,f,g,h,i,j){var _=this
-_.aON$=a
+_.aOM$=a
 _.lT$=b
 _.ka$=c
 _.iO$=d
@@ -34789,7 +34789,7 @@ if(q==null)q="1"
 r=a.as.a.i(0,m)
 if(r==null)r=null
 p=a.B_(r,m,a.as.b)
-if(p==null)p=B.dd
+if(p==null)p=B.de
 r=A.hS(q,!1)
 r.toString
 o=p.a
@@ -34927,7 +34927,7 @@ o.toString
 q=a.as.w
 p=A.b([],t.H9)
 if(q==null)q=B.cj
-p.push(new A.ko(n,r,B.dn))
+p.push(new A.ko(n,r,B.dp))
 p.push(new A.hF(s,o,B.bS))
 return new A.kv(p,q).tH()},
 bbV(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4){return new A.Dh(o,n,m,d,p,g,a1,h,c,b,a,i,k,j,r,a0,s,a2,l,a3,q,a4,e,f)},
@@ -35325,7 +35325,7 @@ blS(){var s=$.a3.i(0,B.Du),r=s==null?null:t.Kb.a(s).$0()
 return r==null?new A.Gz(A.b([],t.O)):r},
 bBX(){var s=$.a3.i(0,B.Du)
 return s==null?null:t.Kb.a(s).$0()},
-boZ(a){return $.boY.i(0,a).gaOy()},
+boZ(a){return $.boY.i(0,a).gaOx()},
 b02(a){if(typeof dartPrint=="function"){dartPrint(a)
 return}if(typeof console=="object"&&typeof console.log!="undefined"){console.log(a)
 return}if(typeof print=="function"){print(a)
@@ -35520,7 +35520,7 @@ r=$.b5P
 if(r==null)A.b02(s)
 else r.$1(s)}if(!$.aeI().ga0(0)){$.b5_=!0
 $.ae2=0
-A.di(B.dR,A.bB_())
+A.di(B.dS,A.bB_())
 if($.aY9==null)$.aY9=new A.b5(new A.ag($.a3,t.c),t.h)}else{$.b6y().u4()
 q=$.aY9
 if(q!=null)q.eJ()
@@ -35929,8 +35929,8 @@ break $label0$0}return s},
 bBe(a,b){return a},
 bBf(a,b){return b},
 bBd(a,b){return a.b<=b.b?b:a},
-b3x(a,b,c,d){switch(d){case B.dp:return a.b<b.b+c?B.c3:B.dp
-case B.c3:return A.KZ().b>a.d+b.b+c?B.c3:B.dp
+b3x(a,b,c,d){switch(d){case B.dq:return a.b<b.b+c?B.c3:B.dq
+case B.c3:return A.KZ().b>a.d+b.b+c?B.c3:B.dq
 case B.jt:return a.a<b.a+c?B.f6:B.jt
 case B.f6:return A.KZ().a>a.c+b.a+c?B.f6:B.jt
 default:return B.c3}},
@@ -35938,7 +35938,7 @@ KZ(){var s=$.b6().gdQ().b,r=A.j(s).h("bl<2>"),q=new A.bl(s,r).gac(0).gtq()
 new A.bl(s,r).gac(0)
 r=$.eA()
 s=r.d
-return q.ep(0,s==null?r.gcW():s)},
+return q.ep(0,s==null?r.gcX():s)},
 bmz(){return B.Oo},
 ajG(a){return A.bm8(a)},
 bm8(a){var s=0,r=A.r(t.y),q,p=2,o=[],n,m,l,k,j,i,h,g,f
@@ -36010,7 +36010,7 @@ l=l.gv()
 s=4
 return A.m(p.IJ(new A.G(0,0,0+l.a,0+l.b),3),$async$Mw)
 case 4:s=3
-return A.m(e.aNo(B.ml),$async$Mw)
+return A.m(e.aNn(B.ml),$async$Mw)
 case 3:o=e
 n=o==null?null:J.lJ(B.a8.gaQ(o))
 if(n==null){s=1
@@ -36062,7 +36062,7 @@ case 2:s=4
 return A.m(A.MC(),$async$TY)
 case 4:s=3
 return A.m(b.R(0),$async$TY)
-case 3:$.UT.b=B.dF
+case 3:$.UT.b=B.dG
 if($.af==null)A.b4n()
 q=$.af
 q.toString
@@ -36080,7 +36080,7 @@ k.aN()
 k.aiM(null,null,p)
 q.fx$!==$&&A.aG()
 q.fx$=k
-l=k}q.ac8(new A.O8(n,new A.L7(new A.UR(B.dF,null),null),m,l,null))
+l=k}q.ac8(new A.O8(n,new A.L7(new A.UR(B.dG,null),null),m,l,null))
 q.Tv()
 return A.p(null,r)}})
 return A.q($async$TY,r)},
@@ -36659,8 +36659,8 @@ j.toString
 b5=k[j]
 j=s.i(0,a8.d)
 j.toString
-i=b5.gaP0()
-h=b5.gaOP()
+i=b5.gaP_()
+h=b5.gaOO()
 c4.h5(B.cI)
 c4.nF()
 c4.a.push(31)
@@ -37013,7 +37013,7 @@ s.delete()},
 PD(a,b,c){var s=c.eR()
 this.a.drawDRRect(A.zw(a),A.zw(b),s)
 s.delete()},
-rB(a,b,c,d){var s=d.Q,r=d.Sk(B.d7),q=this.a,p=a.b
+rB(a,b,c,d){var s=d.Q,r=d.Sk(B.d8),q=this.a,p=a.b
 if(s===B.h3){p===$&&A.a()
 p=p.a
 p===$&&A.a()
@@ -37067,7 +37067,7 @@ hC(a,b){var s=b.eR()
 this.a.drawRect(A.dv(a),s)
 s.delete()},
 a5s(a,b,c,d){var s,r,q,p,o=a.gfJ(),n=$.eA(),m=n.d
-n=m==null?n.gcW():m
+n=m==null?n.gcX():m
 s=d?5:4
 r=b.dv(B.d.aH(b.gfe()*0.039))
 q=b.dv(B.d.aH(b.gfe()*0.25))
@@ -37136,7 +37136,7 @@ return r},
 nv(a,b){var s=this.a6Q()
 a.$1(s)
 s.delete()},
-gOg(){return B.d7},
+gOg(){return B.d8},
 GC(a){var s=A.n0("result")
 this.nv(new A.aiQ(s,a),B.hV)
 return s.av()},
@@ -37417,7 +37417,7 @@ s=s.a
 s.toString
 s=r.isAliasOf(s)
 return s},
-aNo(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this
+aNn(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this
 $label0$0:{s=b.c
 if(s instanceof A.Yq){r=s.c
 return A.aep(r,a,J.au(r.naturalWidth),J.au(r.naturalHeight))}if(s instanceof A.Yl){q=s.c
@@ -37447,7 +37447,7 @@ o=m.getCanvas()
 o.clear(A.ae8($.Uu(),B.G))
 l=A.ba()
 f=l.Q
-e=l.Sk(B.d7)
+e=l.Sk(B.d8)
 l=b.b.a
 if(f===B.h3){l===$&&A.a()
 l=l.a
@@ -37489,7 +37489,7 @@ A.Yl.prototype={
 L3(){this.c.close()},
 gOr(){return this.c}}
 A.VT.prototype={
-gOg(){return B.d7},
+gOg(){return B.d8},
 GC(a){var s=A.n0("result")
 this.nv(new A.aiR(s,a),B.hV)
 return s.av()},
@@ -37512,7 +37512,7 @@ gOg(){return this.c},
 nv(a,b){var s,r,q=this,p=q.a,o=p===0&&q.b===0
 if(o){p=$.b8.b6().ImageFilter
 o=A.aeu(A.pM().a)
-s=$.b6C().i(0,B.dh)
+s=$.b6C().i(0,B.di)
 s.toString
 r=A.eZ(p,"MakeMatrixTransform",[o,s,null])}else{o=$.b8.b6().ImageFilter
 s=q.c
@@ -37597,7 +37597,7 @@ l.vz(q.c)
 j=q.c
 i=$.eA()
 h=i.d
-if(h==null)h=i.gcW()
+if(h==null)h=i.gcX()
 i=l.ay
 g=l.as.style
 g.setProperty("transform","translate(0px, "+A.i(j.b/h-i/h)+"px)","")
@@ -37763,8 +37763,8 @@ A.VY.prototype={
 l(){var s=this.a
 s===$&&A.a()
 s.l()},
-Sg(a,b){return this.aNs(a,b)},
-aNs(a,b){var s=0,r=A.r(t.lu),q,p=this
+Sg(a,b){return this.aNr(a,b)},
+aNr(a,b){var s=0,r=A.r(t.lu),q,p=this
 var $async$Sg=A.n(function(c,d){if(c===1)return A.o(d,r)
 for(;;)switch(s){case 0:q=p.tF(a,b)
 s=1
@@ -37987,7 +37987,7 @@ A.akT(n,m,0,k-p,l,p,0,0,l,p)
 case 3:return A.p(null,r)}})
 return A.q($async$Im,r)},
 ra(){var s,r,q=this,p=$.eA(),o=p.d
-if(o==null)o=p.gcW()
+if(o==null)o=p.gcX()
 p=q.ax
 s=q.ay
 r=q.as.style
@@ -38003,7 +38003,7 @@ r=s==null
 q=r?null:s.b
 if(q!=null&&h===q.a&&a.b===q.b){h=$.eA()
 p=h.d
-if(p==null)p=h.gcW()
+if(p==null)p=h.gcX()
 if(i.c&&p!==i.ch)i.ra()
 h=i.a
 h.toString
@@ -38223,7 +38223,7 @@ q=d.a
 p=$.bjZ()
 s=s.getRectsForRange(a,b,r,p[q<2?q:0])
 return this.TV(B.b.ei(s,t.m))},
-J6(a,b,c){return this.By(a,b,c,B.dI)},
+J6(a,b,c){return this.By(a,b,c,B.dJ)},
 TV(a){var s,r,q,p,o,n,m,l=A.b([],t.Lx)
 for(s=a.a,r=J.ad(s),q=a.$ti.y[1],p=0;p<r.gD(s);++p){o=q.a(r.i(s,p))
 n=o.rect
@@ -38553,7 +38553,7 @@ A.rL.prototype={}
 A.a0j.prototype={}
 A.xJ.prototype={
 ra(){var s,r,q=this,p=$.eA(),o=p.d
-if(o==null)o=p.gcW()
+if(o==null)o=p.gcX()
 p=q.c
 s=q.d
 r=q.b.style
@@ -38563,7 +38563,7 @@ q.r=o},
 Xj(a){var s,r=this,q=a.a
 if(q===r.c&&a.b===r.d){q=$.eA()
 s=q.d
-q=s==null?q.gcW():s
+q=s==null?q.gcX():s
 if(q!==r.r)r.ra()
 return}r.c=q
 r.d=a.b
@@ -38605,7 +38605,7 @@ if(s===0)s=1
 q=q.window.visualViewport
 r=q==null?null:q.scale
 q=s*(r==null?1:r)}return q},
-gcW(){var s,r=v.G,q=r.window.devicePixelRatio
+gcX(){var s,r=v.G,q=r.window.devicePixelRatio
 if(q===0)q=1
 r=r.window.visualViewport
 s=r==null?null:r.scale
@@ -38754,7 +38754,7 @@ $1(a){},
 $S:37}
 A.aok.prototype={
 aGn(a,b){var s,r,q,p,o,n,m=this
-if($.kE==null)$.kE=B.dM
+if($.kE==null)$.kE=B.dN
 s=A.aN(t.S)
 for(r=new A.a0V(a),q=m.d,p=m.c;r.u();){o=r.d
 if(!(o<160||q.n(0,o)||p.n(0,o)))s.B(0,o)}if(s.a===0)return
@@ -38844,7 +38844,7 @@ p.Q=!1
 p=p.b
 p===$&&A.a()
 s=2
-return A.m(p.aOh(),$async$$0)
+return A.m(p.aOg(),$async$$0)
 case 2:return A.p(null,r)}})
 return A.q($async$$0,r)},
 $S:9}
@@ -38859,7 +38859,7 @@ r=s+B.e.ca(p-s,2)
 if(a>=q[r])s=r+1
 else p=r}}}
 A.a6j.prototype={
-aOh(){var s=this.d
+aOg(){var s=this.d
 if(s==null)return A.da(null,t.H)
 else return s.a},
 B(a,b){var s,r,q=this
@@ -39045,7 +39045,7 @@ for(;;)switch(s){case 0:s=3
 return A.m(p.G0(),$async$hp)
 case 3:o=J.au(p.d.naturalWidth)
 n=J.au(p.d.naturalHeight)
-if(o===0&&n===0&&$.bW().geH()===B.dJ){o=300
+if(o===0&&n===0&&$.bW().geH()===B.dK){o=300
 n=300}m=p.d
 m.toString
 l=$.b8.b6()
@@ -39587,7 +39587,7 @@ s=A.b([],t.HU)
 $.a4()
 r=new A.k9()
 q=new A.avA(s,r,o)
-s=p.c.aNw()
+s=p.c.aNv()
 q.c=A.Ae(r,new A.G(0,0,0+s.a,0+s.b))
 if(!n.b.ga0(0))q.qe(n)
 r.mW().l()
@@ -39607,7 +39607,7 @@ A.Wk.prototype={}
 A.YS.prototype={}
 A.a_z.prototype={
 gaEX(){var s,r,q,p,o
-$label0$1:for(s=this.a.a,r=A.Y(s).h("c7<1>"),s=new A.c7(s,r),s=new A.be(s,s.gD(0),r.h("be<a6.E>")),r=r.h("a6.E"),q=B.dr;s.u();){p=s.d
+$label0$1:for(s=this.a.a,r=A.Y(s).h("c7<1>"),s=new A.c7(s,r),s=new A.be(s,s.gD(0),r.h("be<a6.E>")),r=r.h("a6.E"),q=B.ds;s.u();){p=s.d
 if(p==null)p=r.a(p)
 switch(p.a.a){case 0:p=p.b
 p.toString
@@ -39733,7 +39733,7 @@ r===$&&A.a()
 J.au(r.a.save())
 q=a.r
 r.a.translate(q.a,q.b)
-r.hq(B.dr,s)
+r.hq(B.ds,s)
 this.oq(a)
 r.a.restore()
 r.a.restore()},
@@ -39865,7 +39865,7 @@ r=this.a
 r.ku()
 q=a.r
 r.ns(q.a,q.b)
-r.hq(B.dr,s)
+r.hq(B.ds,s)
 this.ou(a)
 r.ju()
 r.ju()},
@@ -40691,7 +40691,7 @@ if(q===$){s=A.bq(new A.aKW(r))
 r.r!==$&&A.aG()
 r.r=s
 q=s}return q},
-avL(a){if(this.c.b.a===0)this.wv(B.dG)
+avL(a){if(this.c.b.a===0)this.wv(B.dH)
 else this.wv(B.cN)}}
 A.aKV.prototype={
 $1(a){this.a.wv(B.cN)},
@@ -40891,7 +40891,7 @@ p*=o/255
 break}}A.a9(b.style,"opacity",B.d.j(p))
 e=$.eA()
 g=e.d
-f=1/(g==null?e.gcW():g)
+f=1/(g==null?e.gcX():g)
 e=new Float32Array(16)
 e[15]=1
 e[10]=1
@@ -41134,7 +41134,7 @@ if(s!=null)s.remove()
 c.$1(B.ev.zP(null))
 return}c.$1(null)}}
 A.aCn.prototype={
-aOn(){if(this.a==null){var s=A.bq(new A.aCo())
+aOm(){if(this.a==null){var s=A.bq(new A.aCo())
 this.a=s
 v.G.document.addEventListener("touchstart",s)}}}
 A.aCo.prototype={
@@ -41221,7 +41221,7 @@ A.aXl.prototype={
 Zi(a,b){if(b==null)return!1
 return Math.abs(b- -3*a)>1},
 atI(a){var s,r,q,p,o,n,m=this
-if($.bW().geH()===B.dJ)return!1
+if($.bW().geH()===B.dK)return!1
 if(m.Zi(a.deltaX,a.wheelDeltaX)||m.Zi(a.deltaY,a.wheelDeltaY))return!1
 if(!(B.d.aR(a.deltaX,120)===0&&B.d.aR(a.deltaY,120)===0)){s=a.wheelDeltaX
 if(B.d.aR(s==null?1:s,120)===0){s=a.wheelDeltaY
@@ -41269,8 +41269,8 @@ break
 case 0:if($.bW().gem()===B.cC){o=$.eA()
 m=o.d
 k=m==null
-q*=k?o.gcW():m
-p*=k?o.gcW():m}break
+q*=k?o.gcX():m
+p*=k?o.gcX():m}break
 default:break}j=A.b([],t.D9)
 o=b.a
 m=o.b
@@ -41293,21 +41293,21 @@ k=A.DY(k)
 g=$.eA()
 e=g.d
 d=e==null
-c=d?g.gcW():e
-g=d?g.gcW():e
+c=d?g.gcX():e
+g=d?g.gcX():e
 e=a0.buttons
 e.toString
-o.aDg(j,J.au(e),B.e5,r,s,h*c,i.b*g,1,1,Math.exp(-p/200),B.Yk,k,m)}else{k=a0.timeStamp
+o.aDg(j,J.au(e),B.e6,r,s,h*c,i.b*g,1,1,Math.exp(-p/200),B.Yk,k,m)}else{k=a0.timeStamp
 k.toString
 k=A.DY(k)
 g=$.eA()
 e=g.d
 d=e==null
-c=d?g.gcW():e
-g=d?g.gcW():e
+c=d?g.gcX():e
+g=d?g.gcX():e
 e=a0.buttons
 e.toString
-o.aDi(j,J.au(e),B.e5,r,s,new A.aXm(b),h*c,i.b*g,1,1,q,p,B.Yj,k,m)}b.c=a0
+o.aDi(j,J.au(e),B.e6,r,s,new A.aXm(b),h*c,i.b*g,1,1,q,p,B.Yj,k,m)}b.c=a0
 b.d=s===B.bu
 return j},
 at5(a){var s=this,r=$.cF
@@ -41329,13 +41329,13 @@ s=(b===0&&a>-1?A.byE(a):b)&1073741823
 this.a=s
 return new A.oE(B.Yi,s)},
 Tq(a){var s=a&1073741823,r=this.a
-if(r===0&&s!==0)return new A.oE(B.e5,r)
+if(r===0&&s!==0)return new A.oE(B.e6,r)
 this.a=s
-return new A.oE(s===0?B.e5:B.jr,s)},
+return new A.oE(s===0?B.e6:B.jr,s)},
 Tp(a){if(this.a!==0&&(a&1073741823)===0){this.a=0
 return new A.oE(B.C9,0)}return null},
 ac2(a){if((a&1073741823)===0){this.a=0
-return new A.oE(B.e5,0)}return null},
+return new A.oE(B.e6,0)}return null},
 ac3(a){var s
 if(this.a===0)return null
 s=this.a=(a==null?0:a)&1073741823
@@ -41375,8 +41375,8 @@ m=e==null?this.ux(c):e
 l=$.eA()
 k=l.d
 j=k==null
-i=j?l.gcW():k
-l=j?l.gcW():k
+i=j?l.gcX():k
+l=j?l.gcX():k
 k=p==null?0:p
 r.d.aDh(a,b.b,b.a,m,s,n.a*i,n.b*l,k,1,B.js,h/180*3.141592653589793,q,o.a)},
 xV(a,b,c){return this.KS(a,b,c,null,null)},
@@ -41523,7 +41523,7 @@ case 4:s=$.oQ()
 r=s.a.am(d)
 s.Gl(d,g,h).a=$.bdl=$.bdl+1
 if(!r)a.push(n.pm(b,B.n4,d,0,0,e,!1,0,g,h,0,i,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
-if(n.Me(d,g,h))a.push(n.pm(0,B.e5,d,0,0,e,!1,0,g,h,0,0,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
+if(n.Me(d,g,h))a.push(n.pm(0,B.e6,d,0,0,e,!1,0,g,h,0,0,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
 a.push(n.uw(b,c,d,0,0,e,!1,0,g,h,0,i,j,0,0,0,0,0,k,l,m,a0,0,a1,a2,a3))
 s.b=b
 break
@@ -41549,7 +41549,7 @@ r=s.a.am(d)
 s.Gl(d,g,h)
 if(!r)a.push(n.pm(b,B.n4,d,0,0,e,!1,0,g,h,0,i,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
 if(n.Me(d,g,h))if(b!==0)a.push(n.pm(b,B.jr,d,0,0,e,!1,0,g,h,0,i,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
-else a.push(n.pm(b,B.e5,d,0,0,e,!1,0,g,h,0,i,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
+else a.push(n.pm(b,B.e6,d,0,0,e,!1,0,g,h,0,i,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
 a.push(n.XK(b,c,d,0,0,e,!1,f,0,g,h,0,i,j,0,0,0,0,0,k,l,m,a0,0,a1,a2,a3))
 break
 case 0:break
@@ -41766,7 +41766,7 @@ r.toString
 q.setAttribute("disabled",r)}else{q===$&&A.a()
 q.removeAttribute("aria-disabled")
 q.removeAttribute("disabled")}s=s.a
-s=s.a===B.dN||s.d===B.aW?o:"false"
+s=s.a===B.dO||s.d===B.aW?o:"false"
 r=p.a
 r===$&&A.a()
 s=A.am(s)
@@ -41804,7 +41804,7 @@ q.removeAttribute("aria-current")}}}}
 A.GJ.prototype={
 e2(){var s,r=this,q=r.a
 if((q.R8&1)!==0)if(q.gQU()){q=q.a.a
-if(q===B.dN){q=r.b.a
+if(q===B.dO){q=r.b.a
 q===$&&A.a()
 s=A.am("true")
 s.toString
@@ -42135,7 +42135,7 @@ if(q==null){o.akY()
 return}o.Lt().bs(q)
 l=m.as
 if(l!=null&&B.c.eo(l).length!==0){r=$.b9B
-if(r==null){if($.bW().geH()!==B.dc){r=$.bW().gpn()
+if(r==null){if($.bW().geH()!==B.dd){r=$.bW().gpn()
 r=B.c.n(r,"Edg/")||A.bAc()||A.bAa()}else r=!0
 r=$.b9B=r}if(r){m=o.b.a
 m===$&&A.a()
@@ -43181,7 +43181,7 @@ q=s.d
 if(r!==q.c){s.d=q.aDT(r)
 r=s.to
 if(r!=null)A.oK(r,s.x1)}},
-aFq(){if(!this.b){if($.kE==null)$.kE=B.dM
+aFq(){if(!this.b){if($.kE==null)$.kE=B.dN
 this.d.a.l()
 this.sJv(!0)}},
 aob(){var s=this,r=s.r
@@ -43226,7 +43226,7 @@ try{j=k.x
 r=j.length
 if(r!==0){for(p=0;p<j.length;j.length===r||(0,A.H)(j),++p){s=j[p]
 s.$0()}k.x=A.b([],t.qj)}}finally{}k.y=!1},
-aO5(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=$.cF;(h==null?$.cF=A.fY():h).aFq()
+aO4(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=$.cF;(h==null?$.cF=A.fY():h).aFq()
 h=$.cF
 if(!(h==null?$.cF=A.fY():h).b)return
 s=a.a
@@ -44217,7 +44217,7 @@ A.a9(s,"resize",p)
 A.a9(s,"text-shadow",p)
 A.a9(s,"overflow","hidden")
 A.a9(s,"transform-origin","0 0 0")
-if($.bW().geH()===B.dc||$.bW().geH()===B.bP)n.classList.add("transparentTextEditing")
+if($.bW().geH()===B.dd||$.bW().geH()===B.bP)n.classList.add("transparentTextEditing")
 n=q.r
 if(n!=null){r=q.c
 r.toString
@@ -44716,7 +44716,7 @@ if((s==null?$.cF=A.fY():s).b){s=A.brA(p)
 r=s}else{if($.bW().gem()===B.bs)q=new A.ara(p,A.b([],t.Up),$,$,$,o,o)
 else if($.bW().gem()===B.hp)q=new A.age(p,A.b([],t.Up),$,$,$,o,o)
 else if($.bW().geH()===B.bP)q=new A.CG(p,A.b([],t.Up),$,$,$,o,o)
-else q=$.bW().geH()===B.dJ?new A.anL(p,A.b([],t.Up),$,$,$,o,o):A.bog(p)
+else q=$.bW().geH()===B.dK?new A.anL(p,A.b([],t.Up),$,$,$,o,o):A.bog(p)
 r=q}p.f!==$&&A.aG()
 n=p.f=r}return n},
 az0(){var s,r,q=this
@@ -44784,7 +44784,7 @@ k(a,b){if(b==null)return!1
 return b instanceof A.lQ&&b.a===this.a&&b.b===this.b},
 gt(a){return A.L(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"BitmapSize("+this.a+", "+this.b+")"},
-aNw(){return new A.I(this.a,this.b)}}
+aNv(){return new A.I(this.a,this.b)}}
 A.jH.prototype={
 aiC(){var s=this.a
 s.$flags&2&&A.aD(s)
@@ -44905,7 +44905,7 @@ r.e.aq()},
 ga8d(){var s=this.e
 return new A.dj(s,A.j(s).h("dj<1>"))},
 OJ(){var s=$.eA(),r=s.d
-if(r==null)r=s.gcW()
+if(r==null)r=s.gcX()
 s=this.b
 return new A.I(s.clientWidth*r,s.clientHeight*r)},
 a4i(a,b){return B.fj}}
@@ -44931,7 +44931,7 @@ this.c.aq()},
 ga8d(){var s=this.c
 return new A.dj(s,A.j(s).h("dj<1>"))},
 OJ(){var s,r,q=A.n0("windowInnerWidth"),p=A.n0("windowInnerHeight"),o=v.G,n=o.window.visualViewport,m=$.eA(),l=m.d
-if(l==null)l=m.gcW()
+if(l==null)l=m.gcX()
 if(n!=null)if($.bW().gem()===B.bs){s=o.document.documentElement.clientWidth
 r=o.document.documentElement.clientHeight
 q.b=s*l
@@ -44947,7 +44947,7 @@ o=o.window.innerHeight
 o.toString
 p.b=o*l}return new A.I(q.av(),p.av())},
 a4i(a,b){var s,r,q=$.eA(),p=q.d
-if(p==null)p=q.gcW()
+if(p==null)p=q.gcX()
 q=v.G
 s=q.window.visualViewport
 r=A.n0("windowInnerHeight")
@@ -44967,7 +44967,7 @@ s=A.am(A.u(["once",!0,"passive",!0],t.N,t.K))
 s.toString
 q.addEventListener("change",p,s)},
 av3(a){var s=this,r=s.a,q=r.d
-r=q==null?r.gcW():q
+r=q==null?r.gcX():q
 s.b=r
 s.c.B(0,r)
 s.a1o()}}
@@ -45343,8 +45343,8 @@ return b instanceof A.Ob&&this.a.k(0,b.a)},
 gt(a){return A.L(this.a,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return this.ms(0)},
 aG6(){var s=this.c
-if(s===B.r)return this.b===B.a2?B.dv:B.fc
-else if(s===B.jV)return this.b===B.a2?B.fc:B.dv
+if(s===B.r)return this.b===B.a2?B.dw:B.fc
+else if(s===B.jV)return this.b===B.a2?B.fc:B.dw
 else return s}}
 A.yL.prototype={
 k(a,b){var s=this
@@ -45381,7 +45381,7 @@ SV(){return this.gajR()},
 gajR(){$===$&&A.a()
 return $},
 By(a,b,c,d){return A.b([],t.Lx)},
-J6(a,b,c){return this.By(a,b,c,B.dI)},
+J6(a,b,c){return this.By(a,b,c,B.dJ)},
 ef(a){return B.a2D},
 SY(a){return null},
 Jc(a){return null},
@@ -45554,7 +45554,7 @@ s=new A.ayW(p,new A.ayX(),s)
 r=$.bW().geH()===B.bP&&$.bW().gem()===B.bs
 if(r){r=$.bhD()
 s.a=r
-r.aOn()}s.f=s.alF()
+r.aOm()}s.f=s.alF()
 p.z!==$&&A.br()
 p.z=s
 s=p.ch.ga8d().kj(p.gaoX())
@@ -45604,7 +45604,7 @@ q=r.x=new A.ajC(s.a)}return q},
 ghe(){var s,r,q,p,o,n,m,l,k="flutter-view",j=this.y
 if(j===$){s=$.eA()
 r=s.d
-s=r==null?s.gcW():r
+s=r==null?s.gcX():r
 r=v.G
 q=A.cB(r.document,k)
 p=A.cB(r.document,"flt-glass-pane")
@@ -45639,7 +45639,7 @@ return s==null?this.at=this.KN():s},
 KN(){var s=this.ch.OJ()
 return s},
 aoY(a){var s,r=this,q=r.ghe(),p=$.eA(),o=p.d
-p=o==null?p.gcW():o
+p=o==null?p.gcX():o
 A.a9(q.f.style,"transform","scale("+A.i(1/p)+")")
 s=r.KN()
 if(!B.nm.n(0,$.bW().gem())&&$.zB().c&&!r.atG(s))r.Wp(!0)
@@ -45955,13 +45955,13 @@ s=p
 r=!0}if(o!==a.length)throw A.f(A.cj(a))}if(r)return s==null?A.Y(a).c.a(s):s
 throw A.f(A.c3())},
 cO(a,b){return a[b]},
-cU(a,b,c){var s=a.length
+cV(a,b,c){var s=a.length
 if(b>s)throw A.f(A.dp(b,0,s,"start",null))
 if(c==null)c=s
 else if(c<b||c>s)throw A.f(A.dp(c,b,s,"end",null))
 if(b===c)return A.b([],A.Y(a))
 return A.b(a.slice(b,c),A.Y(a))},
-ix(a,b){return this.cU(a,b,null)},
+ix(a,b){return this.cV(a,b,null)},
 BK(a,b,c){A.et(b,c,a.length,null,null)
 return A.fH(a,b,c,A.Y(a).c)},
 gac(a){if(a.length>0)return a[0]
@@ -46054,7 +46054,7 @@ $iaP:1,
 $iB:1,
 $ix:1}
 J.YB.prototype={
-aNL(a){var s,r,q
+aNK(a){var s,r,q
 if(!Array.isArray(a))return null
 s=a.$flags|0
 if((s&4)!==0)r="const, "
@@ -46117,7 +46117,7 @@ if(b>20)throw A.f(A.dp(b,0,20,"fractionDigits",null))
 s=a.toFixed(b)
 if(a===0&&this.gAu(a))return"-"+s
 return s},
-aNx(a,b){var s
+aNw(a,b){var s
 if(b<1||b>21)throw A.f(A.dp(b,1,21,"precision",null))
 s=a.toPrecision(b)
 if(a===0&&this.gAu(a))return"-"+s
@@ -46227,7 +46227,7 @@ return b===a.substring(c,s)}return J.b78(b,a,c)!=null},
 aZ(a,b){return this.dA(a,b,0)},
 P(a,b,c){return a.substring(b,A.et(b,c,a.length,null,null))},
 bv(a,b){return this.P(a,b,null)},
-aNy(a){return a.toUpperCase()},
+aNx(a){return a.toUpperCase()},
 eo(a){var s,r,q,p=a.trim(),o=p.length
 if(o===0)return p
 if(p.charCodeAt(0)===133){s=J.b9w(p,1)
@@ -46236,7 +46236,7 @@ r=o-1
 q=p.charCodeAt(r)===133?J.b9x(p,r):o
 if(s===0&&q===o)return p
 return p.substring(s,q)},
-aNJ(a){var s=a.trimStart()
+aNI(a){var s=a.trimStart()
 if(s.length===0)return s
 if(s.charCodeAt(0)!==133)return s
 return s.substring(J.b9w(s,1))},
@@ -46982,7 +46982,7 @@ return"Closure '"+A.bgn(r==null?"unknown":r)+"'"},
 gf9(a){var s=A.TU(this)
 return A.cg(s==null?A.aV(this):s)},
 $inE:1,
-gaOr(){return this},
+gaOq(){return this},
 $C:"$1",
 $R:1,
 $D:null}
@@ -47442,54 +47442,54 @@ $iB:1,
 $ix:1}
 A.K0.prototype={
 gf9(a){return B.a8Q},
-cU(a,b,c){return new Float32Array(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Float32Array(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $ianP:1}
 A.K1.prototype={
 gf9(a){return B.a8R},
-cU(a,b,c){return new Float64Array(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Float64Array(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $ianQ:1}
 A.Zs.prototype={
 gf9(a){return B.a8U},
 i(a,b){A.r7(b,a,a.length)
 return a[b]},
-cU(a,b,c){return new Int16Array(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Int16Array(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $iarG:1}
 A.K2.prototype={
 gf9(a){return B.a8V},
 i(a,b){A.r7(b,a,a.length)
 return a[b]},
-cU(a,b,c){return new Int32Array(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Int32Array(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $iarH:1}
 A.Zt.prototype={
 gf9(a){return B.a8W},
 i(a,b){A.r7(b,a,a.length)
 return a[b]},
-cU(a,b,c){return new Int8Array(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Int8Array(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $iarI:1}
 A.K4.prototype={
 gf9(a){return B.a9k},
 i(a,b){A.r7(b,a,a.length)
 return a[b]},
-cU(a,b,c){return new Uint16Array(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Uint16Array(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $iaHM:1}
 A.K5.prototype={
 gf9(a){return B.a9l},
 i(a,b){A.r7(b,a,a.length)
 return a[b]},
-cU(a,b,c){return new Uint32Array(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Uint32Array(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $iDC:1}
 A.BO.prototype={
@@ -47497,8 +47497,8 @@ gf9(a){return B.a9m},
 gD(a){return a.length},
 i(a,b){A.r7(b,a,a.length)
 return a[b]},
-cU(a,b,c){return new Uint8ClampedArray(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Uint8ClampedArray(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $iaHN:1}
 A.nP.prototype={
@@ -47506,8 +47506,8 @@ gf9(a){return B.a9n},
 gD(a){return a.length},
 i(a,b){A.r7(b,a,a.length)
 return a[b]},
-cU(a,b,c){return new Uint8Array(a.subarray(b,A.v4(b,c,a.length)))},
-ix(a,b){return this.cU(a,b,null)},
+cV(a,b,c){return new Uint8Array(a.subarray(b,A.v4(b,c,a.length)))},
+ix(a,b){return this.cV(a,b,null)},
 $idI:1,
 $inP:1,
 $ijf:1}
@@ -49353,12 +49353,12 @@ A.a20(a,0,this.gD(a)-1,s)},
 X(a,b){var s=A.R(a,A.aV(a).h("a0.E"))
 B.b.H(s,b)
 return s},
-cU(a,b,c){var s,r=this.gD(a)
+cV(a,b,c){var s,r=this.gD(a)
 if(c==null)c=r
 A.et(b,c,r,null,null)
 s=A.R(this.BK(a,b,c),A.aV(a).h("a0.E"))
 return s},
-ix(a,b){return this.cU(a,b,null)},
+ix(a,b){return this.cV(a,b,null)},
 BK(a,b,c){A.et(b,c,this.gD(a),null,null)
 return A.fH(a,b,c,A.aV(a).h("a0.E"))},
 aGT(a,b,c,d){var s
@@ -49399,14 +49399,14 @@ if(r.am(a)){s=r.i(0,a)
 return s==null?A.j(r).h("c1.V").a(s):s}s=b.$0()
 r.m(0,a,s)
 return s},
-aNO(a,b,c){var s,r=this
+aNN(a,b,c){var s,r=this
 if(r.am(a)){s=r.i(0,a)
 s=b.$1(s==null?A.j(r).h("c1.V").a(s):s)
 r.m(0,a,s)
 return s}if(c!=null){s=c.$0()
 r.m(0,a,s)
 return s}throw A.f(A.fT(a,"key","Key not in map."))},
-e3(a,b){return this.aNO(a,b,null)},
+e3(a,b){return this.aNN(a,b,null)},
 j1(a){var s,r,q,p,o=this
 for(s=o.gcr(),s=s.ga5(s),r=A.j(o).h("c1.V");s.u();){q=s.gK()
 p=o.i(0,q)
@@ -49682,7 +49682,7 @@ H(a,b){var s
 for(s=J.aS(b);s.u();)this.B(0,s.gK())},
 aMH(a){var s,r
 for(s=a.length,r=0;r<a.length;a.length===s||(0,A.H)(a),++r)this.F(0,a[r])},
-aNM(a){var s=this.j0(0)
+aNL(a){var s=this.j0(0)
 s.H(0,a)
 return s},
 kX(a){var s,r,q=this.j0(0)
@@ -50119,7 +50119,7 @@ A.et(b,c,a.length,null,null)
 for(s=~this.b,r=b;r<c;++r){q=a.charCodeAt(r)
 if((q&s)!==0)throw A.f(A.b2("Source contains invalid character with code point: "+q+".",null))}s=this.a
 p=new A.fj(a)
-s.B(0,p.cU(p,b,c))
+s.B(0,p.cV(p,b,c))
 if(d)s.aq()}}
 A.ack.prototype={
 cL(a){var s,r,q,p=null,o=J.ad(a),n=A.et(0,p,o.gD(a),p,p)
@@ -50149,7 +50149,7 @@ for(s=J.ad(b),r=0;r<s.gD(b);++r)if((s.i(b,r)&4294967168)>>>0!==0)throw A.f(A.cD(
 this.a.B(0,A.jb(b,0,null))},
 er(a,b,c,d){var s=a.length
 A.et(b,c,s,null,null)
-if(b<c)this.B(0,b!==0||c!==s?B.C.cU(a,b,c):a)
+if(b<c)this.B(0,b!==0||c!==s?B.C.cV(a,b,c):a)
 if(d)this.a.aq()}}
 A.Vb.prototype={
 aKr(a1,a2,a3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=null,a0="Invalid base64 encoding length "
@@ -50253,7 +50253,7 @@ if(r!=null)this.a.B(0,r)
 if(d){s.OG(a,c)
 this.a.aq()}}}
 A.GD.prototype={
-er(a,b,c,d){this.B(0,B.C.cU(a,b,c))
+er(a,b,c,d){this.B(0,B.C.cV(a,b,c))
 if(d)this.aq()}}
 A.OG.prototype={
 B(a,b){this.a.B(0,b)},
@@ -50273,7 +50273,7 @@ q.b=r}p=q.b
 o=q.c
 B.C.jI(p,o,o+n.gD(b),b)
 q.c=q.c+n.gD(b)},
-aq(){this.a.$1(B.C.cU(this.b,0,this.c))}}
+aq(){this.a.$1(B.C.cV(this.b,0,this.c))}}
 A.VI.prototype={}
 A.aaU.prototype={
 B(a,b){this.b.push(b)},
@@ -50478,8 +50478,8 @@ x4(a){var s,r,q
 for(s=this.f,r=this.c,q=0;q<a;++q)r.tN(s)}}
 A.a7l.prototype={
 gMG(){return null},
-aap(a){this.aOp(B.d.j(a))},
-aOp(a){var s,r
+aap(a){this.aOo(B.d.j(a))},
+aOo(a){var s,r
 for(s=a.length,r=0;r<s;++r)this.jA(a.charCodeAt(r))},
 ec(a){this.x5(a,0,a.length)},
 x5(a,b,c){var s,r,q,p,o=this
@@ -50625,7 +50625,7 @@ if(q===0)return new Uint8Array(0)
 s=new Uint8Array(q*3)
 r=new A.acv(s)
 if(r.Xn(a,0,q)!==q)r.ER()
-return B.C.cU(s,0,r.b)},
+return B.C.cV(s,0,r.b)},
 hT(a){var s=a instanceof A.GD?a:new A.OG(a)
 return new A.ST(s,new Uint8Array(1024))}}
 A.acv.prototype={
@@ -50810,7 +50810,7 @@ j(a){var s=this,r=A.b82(A.bG(s)),q=A.p6(A.c4(s)),p=A.p6(A.dF(s)),o=A.p6(A.Ch(s))
 k=r+"-"+q
 if(s.c)return k+"-"+p+" "+o+":"+n+":"+m+"."+l+j+"Z"
 else return k+"-"+p+" "+o+":"+n+":"+m+"."+l+j},
-aNv(){var s=this,r=A.bG(s)>=-9999&&A.bG(s)<=9999?A.b82(A.bG(s)):A.bmt(A.bG(s)),q=A.p6(A.c4(s)),p=A.p6(A.dF(s)),o=A.p6(A.Ch(s)),n=A.p6(A.Ci(s)),m=A.p6(A.b3y(s)),l=A.ajZ(A.bb5(s)),k=s.b,j=k===0?"":A.ajZ(k)
+aNu(){var s=this,r=A.bG(s)>=-9999&&A.bG(s)<=9999?A.b82(A.bG(s)):A.bmt(A.bG(s)),q=A.p6(A.c4(s)),p=A.p6(A.dF(s)),o=A.p6(A.Ch(s)),n=A.p6(A.Ci(s)),m=A.p6(A.b3y(s)),l=A.ajZ(A.bb5(s)),k=s.b,j=k===0?"":A.ajZ(k)
 k=r+"-"+q
 if(s.c)return k+"-"+p+"T"+o+":"+n+":"+m+"."+l+j+"Z"
 else return k+"-"+p+"T"+o+":"+n+":"+m+"."+l+j},
@@ -51957,7 +51957,7 @@ aHA(a){var s,r,q,p,o,n,m,l="Invalid arguments for 'resize' method sent to dev.fl
 if(j[0]===7){s=j[1]
 if(s>=254)throw A.f(A.dz("Unrecognized message sent to dev.flutter/channel-buffers (method name too long)"))
 r=2+s
-q=B.a5.fv(B.C.cU(j,2,r))
+q=B.a5.fv(B.C.cV(j,2,r))
 switch(q){case"resize":if(j[r]!==12)throw A.f(A.dz(l))
 p=r+1
 if(j[p]<2)throw A.f(A.dz(l));++p
@@ -51965,7 +51965,7 @@ if(j[p]!==7)throw A.f(A.dz("Invalid arguments for 'resize' method sent to dev.fl
 o=j[p]
 if(o>=254)throw A.f(A.dz("Invalid arguments for 'resize' method sent to dev.flutter/channel-buffers (channel name must be less than 254 characters long)"));++p
 r=p+o
-n=B.a5.fv(B.C.cU(j,p,r))
+n=B.a5.fv(B.C.cV(j,p,r))
 if(j[r]!==3)throw A.f(A.dz("Invalid arguments for 'resize' method sent to dev.flutter/channel-buffers (second argument must be an integer in the range 0 to 2147483647)"))
 this.a9l(n,a.getUint32(r+1,B.b_===$.fv()))
 break
@@ -51976,7 +51976,7 @@ if(j[p]!==7)throw A.f(A.dz("Invalid arguments for 'overflow' method sent to dev.
 o=j[p]
 if(o>=254)throw A.f(A.dz("Invalid arguments for 'overflow' method sent to dev.flutter/channel-buffers (channel name must be less than 254 characters long)"));++p
 r=p+o
-B.a5.fv(B.C.cU(j,p,r))
+B.a5.fv(B.C.cV(j,p,r))
 r=j[r]
 if(r!==1&&r!==2)throw A.f(A.dz("Invalid arguments for 'overflow' method sent to dev.flutter/channel-buffers (second argument must be a boolean)"))
 break
@@ -52426,7 +52426,7 @@ a2=null
 a3=a0.b
 a2=a3
 a4=a1
-a5=[b,b.X(0,B.dl.a6(0,a4).a6(0,p)),s.X(0,f.a6(0,a2).a6(0,p)),s]
+a5=[b,b.X(0,B.dm.a6(0,a4).a6(0,p)),s.X(0,f.a6(0,a2).a6(0,p)),s]
 if(!b1){A.aSD(a8,a7.$1(a5[1]),a7.$1(a5[2]),a7.$1(a5[3]))
 A.aSD(a8,a7.$1(c[1]),a7.$1(c[2]),a7.$1(c[3]))}else{A.aSD(a8,a7.$1(c[2]),a7.$1(c[1]),a7.$1(c[0]))
 A.aSD(a8,a7.$1(a5[2]),a7.$1(a5[1]),a7.$1(a5[0]))}}}
@@ -52484,7 +52484,7 @@ j(a){return"SemanticsAction."+this.b}}
 A.Ac.prototype={
 I(){return"CheckedState."+this.b},
 bi(a){if(this===B.eA||a===B.eA)return B.eA
-if(this===B.dN||a===B.dN)return B.dN
+if(this===B.dO||a===B.dO)return B.dO
 if(this===B.id||a===B.id)return B.id
 return B.ez}}
 A.NV.prototype={
@@ -52682,12 +52682,12 @@ p.d!==$&&A.aG()
 p.d=q
 o=q}r=o
 return r},
-aFh(a,b){if(a==="Google Inc.")return B.dc
+aFh(a,b){if(a==="Google Inc.")return B.dd
 else if(a==="Apple Computer, Inc.")return B.bP
-else if(B.c.n(b,"Edg/"))return B.dc
-else if(a===""&&B.c.n(b,"firefox"))return B.dJ
+else if(B.c.n(b,"Edg/"))return B.dd
+else if(a===""&&B.c.n(b,"firefox"))return B.dK
 A.b5O("WARNING: failed to detect current browser engine. Assuming this is a Chromium-compatible browser.")
-return B.dc},
+return B.dd},
 gem(){var s,r,q=this,p=q.f
 if(p===$){s=q.aFi()
 q.f!==$&&A.aG()
@@ -52865,7 +52865,7 @@ abf(a){this.a.toString
 return A.ct(a,null,null)},
 abs(a,b,c,d,e){var s=null
 this.a.toString
-return A.b4b(B.v,A.by(s,a,B.q,s,s,s,s,b,s,s,s,s,e),d,s)},
+return A.b4b(B.u,A.by(s,a,B.q,s,s,s,s,b,s,s,s,s,e),d,s)},
 abr(a,b,c,d){return this.abs(a,b,c,d,null)},
 l(){this.agB()
 this.FA()},
@@ -52879,7 +52879,7 @@ r=r.w
 return o.abu(A.baz(q.fy,p,new A.ai1(o),r,null,new A.ai2(o),!0,!0,null,!1,s,B.a4))}}
 A.ai8.prototype={
 $0(){var s=t.S
-return new A.oA(B.D,B.e3,A.TZ(),B.cJ,A.w(s,t.GY),A.w(s,t.o),B.h,A.b([],t.t),A.w(s,t.SP),A.ee(s),null,null,A.U_(),A.w(s,t.F))},
+return new A.oA(B.D,B.e4,A.TZ(),B.cJ,A.w(s,t.GY),A.w(s,t.o),B.h,A.b([],t.t),A.w(s,t.SP),A.ee(s),null,null,A.U_(),A.w(s,t.F))},
 $S:875}
 A.ai9.prototype={
 $1(a){var s=this.a
@@ -52949,7 +52949,7 @@ return k},
 $S:121}
 A.oA.prototype={}
 A.OK.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -53239,11 +53239,11 @@ J3(a,b,c){var s=null
 return this.x3(0,b,s,c,s,s,s,s)},
 SP(a,b,c){var s=null
 return this.x3(0,b,s,s,s,c,s,s)},
-aOj(a,b,c){var s=null
+aOi(a,b,c){var s=null
 return this.x3(0,b,s,s,c,s,s,s)},
 J2(a,b,c){var s=null
 return this.x3(0,b,c,s,s,s,s,s)},
-aOk(a,b,c){var s=null
+aOj(a,b,c){var s=null
 return this.x3(0,b,s,s,s,s,c,s)},
 k(a,b){if(b==null)return!1
 return A.A(this)===J.a_(b)&&b instanceof A.Qh&&b.a.k(0,this.a)&&b.gh6().k(0,this.gh6())},
@@ -53343,8 +53343,8 @@ break
 case 5:return A.p(null,r)
 case 1:return A.o(p.at(-1),r)}})
 return A.q($async$hQ,r)},
-bs(a){return this.aNQ(a)},
-aNQ(a){var s=0,r=A.r(t.H),q=1,p=[],o=this,n,m,l,k,j,i
+bs(a){return this.aNP(a)},
+aNP(a){var s=0,r=A.r(t.H),q=1,p=[],o=this,n,m,l,k,j,i
 var $async$bs=A.n(function(b,c){if(b===1){p.push(c)
 s=q}for(;;)switch(s){case 0:q=3
 l=$.Um()
@@ -53375,7 +53375,7 @@ j=$.Um()
 i=n.c
 i===$&&A.a()
 s=7
-return A.m(j.Ge(n.d,new A.w0(B.b.aB(i.a,"/"),null,null,B.jQ,B.e9)),$async$c5)
+return A.m(j.Ge(n.d,new A.w0(B.b.aB(i.a,"/"),null,null,B.jQ,B.ea)),$async$c5)
 case 7:m=c
 i=A.akQ(n.a,B.b.aB(n.c.a,"/"),m.b,m.c)
 q=i
@@ -53429,7 +53429,7 @@ ab5(a){var s=0,r=A.r(t.TW),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$c5=A.n(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.m($.Um().I9(n.e,B.b.aB(n.d.a,"/"),!1,n.ga_o(),new A.C4(B.jQ,B.e9)),$async$c5)
+return A.m($.Um().I9(n.e,B.b.aB(n.d.a,"/"),!1,n.ga_o(),new A.C4(B.jQ,B.ea)),$async$c5)
 case 7:m=c
 j=A.bad(n.a,m)
 q=j
@@ -53453,7 +53453,7 @@ return A.q($async$c5,r)},
 wn(a){return this.D0(A.u(["limit",a,"limitToLast",null],t.N,t.z))},
 TY(a,b){var s={},r=A.bV()
 s.a=null
-r.b=new A.ft(new A.awk(s,this,B.e9,!1,b,r),new A.awl(s),t.mC)
+r.b=new A.ft(new A.awk(s,this,B.ea,!1,b,r),new A.awl(s),t.mC)
 return r.av().gu7()},
 a8k(a){return this.D0(A.u(["orderBy",a],t.N,t.z))},
 U0(a,b){return this.D0(A.u(["orderBy",a,"startAt",null,"startAfter",b],t.N,t.z))},
@@ -53544,7 +53544,7 @@ if(s===B.rb){s=r.b
 p=J.b_e(s)
 s=p.Jn(s,2147483647)||p.Tm(s,-2147483648)}else s=!1
 if(s){a.aM(189)
-m.aJ(a,A.cn(r.b).aOZ(0))}else{a.aM(q)
+m.aJ(a,A.cn(r.b).aOY(0))}else{a.aM(q)
 m.aJ(a,r.b)}}else if(b instanceof A.I9){s=B.Vv.i(0,b)
 s.toString
 a.aM(s)}else if(b instanceof A.m3){a.aM(192)
@@ -53613,12 +53613,12 @@ I(){return"PigeonTransactionType."+this.b}}
 A.zP.prototype={
 I(){return"AggregateType."+this.b}}
 A.KK.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e]}}
 A.Ij.prototype={}
 A.KP.prototype={}
 A.ms.prototype={
-cX(){var s=this.c
+cY(){var s=this.c
 return[this.a,this.b,[s.a,s.b]]}}
 A.mr.prototype={}
 A.C5.prototype={}
@@ -53642,11 +53642,11 @@ p=b.d
 p=p==null?m:p.a
 o=b.e
 n.aJ(a,[s,r,q,p,o==null?m:o.a])}else if(b instanceof A.Ij){a.aM(131)
-n.aJ(a,[b.a,b.b.cX(),b.c])}else if(b instanceof A.mr){a.aM(132)
-n.aJ(a,[b.a.a,b.b.cX(),b.c,b.d])}else if(b instanceof A.KI){a.aM(133)
+n.aJ(a,[b.a,b.b.cY(),b.c])}else if(b instanceof A.mr){a.aM(132)
+n.aJ(a,[b.a.a,b.b.cY(),b.c,b.d])}else if(b instanceof A.KI){a.aM(133)
 n.aJ(a,[b.a,b.b])}else if(b instanceof A.ms){a.aM(134)
-n.aJ(a,b.cX())}else if(b instanceof A.KK){a.aM(135)
-n.aJ(a,b.cX())}else if(b instanceof A.C4){a.aM(136)
+n.aJ(a,b.cY())}else if(b instanceof A.KK){a.aM(135)
+n.aJ(a,b.cY())}else if(b instanceof A.C4){a.aM(136)
 n.aJ(a,[b.a.a,b.b.a])}else if(b instanceof A.KN){a.aM(137)
 n.aJ(a,[b.a,b.b,b.c,b.d,b.e,b.f,b.r,b.w,b.x])}else if(b instanceof A.C5){a.aM(138)
 s=b.a
@@ -54006,7 +54006,7 @@ n=A
 m=p.a
 s=3
 return A.m(t.dd.b(o)?o:A.fL(o,t.yn),$async$c5)
-case 3:q=n.b5v(m,c,B.e9)
+case 3:q=n.b5v(m,c,B.ea)
 s=1
 break
 case 1:return A.p(q,r)}})
@@ -54075,8 +54075,8 @@ case 4:s=6
 return A.m(A.d6(v.G.firebase_firestore.setDoc(p.a,A.oL(a)),t.X),$async$hQ)
 case 6:case 1:return A.p(q,r)}})
 return A.q($async$hQ,r)},
-bs(a){return this.aNP(a)},
-aNP(a){var s=0,r=A.r(t.H),q=this,p,o,n
+bs(a){return this.aNO(a)},
+aNO(a){var s=0,r=A.r(t.H),q=this,p,o,n
 var $async$bs=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:n=A.j(a).h("aZ<1>")
 n=A.jG(new A.aZ(a,n),new A.akO(a),n.h("B.E"),t.W)
@@ -54257,7 +54257,7 @@ n=A
 m=o.a
 s=3
 return A.m(o.VN().c5(A.bf7(p.b)),$async$$0)
-case 3:q=n.bf9(m,b,B.e9)
+case 3:q=n.bf9(m,b,B.ea)
 s=1
 break
 case 1:return A.p(q,r)}})
@@ -54268,7 +54268,7 @@ $0(){var s=this.b
 return new A.fb(new A.azY(this.a),s,s.$ti.h("fb<bb.T,hH>"))},
 $S:381}
 A.azY.prototype={
-$1(a){return A.bf9(this.a.a,a,B.e9)},
+$1(a){return A.bf9(this.a.a,a,B.ea)},
 $S:383}
 A.ak6.prototype={
 $2(a,b){return A.b86(b,this.a)},
@@ -54638,7 +54638,7 @@ m=0
 do{l=k.c.getUint32(m*4,!1)
 r&2&&A.aD(s)
 s[m]=l;++m}while(m<q)
-k.aNV(s)}},
+k.aNU(s)}},
 aq(){var s,r,q,p,o,n,m,l=this
 if(l.w)return
 l.w=!0
@@ -54672,7 +54672,7 @@ A.aaM.prototype={
 hT(a){var s=new Uint32Array(A.fd(A.b([1779033703,3144134277,1013904242,2773480762,1359893119,2600822924,528734635,1541459225],t.t))),r=new Uint32Array(64),q=new Uint8Array(64)
 return new A.OG(new A.aaN(s,r,a,q,new Uint32Array(16)))}}
 A.aUz.prototype={
-aNV(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
+aNU(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
 for(s=this.z,r=s.$flags|0,q=0;q<16;++q){p=a0[q]
 r&2&&A.aD(s)
 s[q]=p}for(q=16;q<64;++q){p=s[q-2]
@@ -55165,40 +55165,40 @@ I(){return"ActionCodeInfoOperation."+this.b}}
 A.KL.prototype={}
 A.KM.prototype={}
 A.mt.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e]}}
 A.vp.prototype={}
 A.C2.prototype={}
 A.KG.prototype={}
 A.C3.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e]}}
 A.xl.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d]}}
 A.tG.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q]}}
 A.xp.prototype={}
 A.xo.prototype={}
 A.KH.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w]}}
 A.KJ.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e]}}
 A.KO.prototype={}
 A.KS.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e,s.f]}}
 A.tF.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e,s.f,s.r]}}
 A.KR.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d]}}
 A.KQ.prototype={
-cX(){var s=this
+cY(){var s=this
 return[s.a,s.b,s.c,s.d,s.e]}}
 A.aOr.prototype={
 aJ(a,b){var s=this
@@ -55206,21 +55206,21 @@ if(b instanceof A.vp){a.aM(128)
 s.aJ(a,[b.a,b.b,b.c])}else if(b instanceof A.KG){a.aM(129)
 s.aJ(a,[b.a.a,b.b])}else if(b instanceof A.C2){a.aM(130)
 s.aJ(a,[b.a,b.b])}else if(b instanceof A.KH){a.aM(131)
-s.aJ(a,b.cX())}else if(b instanceof A.C3){a.aM(132)
-s.aJ(a,b.cX())}else if(b instanceof A.xl){a.aM(133)
-s.aJ(a,b.cX())}else if(b instanceof A.KJ){a.aM(134)
-s.aJ(a,b.cX())}else if(b instanceof A.tF){a.aM(135)
-s.aJ(a,b.cX())}else if(b instanceof A.mt){a.aM(136)
-s.aJ(a,b.cX())}else if(b instanceof A.KL){a.aM(137)
+s.aJ(a,b.cY())}else if(b instanceof A.C3){a.aM(132)
+s.aJ(a,b.cY())}else if(b instanceof A.xl){a.aM(133)
+s.aJ(a,b.cY())}else if(b instanceof A.KJ){a.aM(134)
+s.aJ(a,b.cY())}else if(b instanceof A.tF){a.aM(135)
+s.aJ(a,b.cY())}else if(b instanceof A.mt){a.aM(136)
+s.aJ(a,b.cY())}else if(b instanceof A.KL){a.aM(137)
 s.aJ(a,[b.a])}else if(b instanceof A.KM){a.aM(138)
 s.aJ(a,[b.a,b.b])}else if(b instanceof A.KO){a.aM(139)
 s.aJ(a,[b.a,b.b,b.c])}else if(b instanceof A.KQ){a.aM(140)
-s.aJ(a,b.cX())}else if(b instanceof A.xo){a.aM(141)
+s.aJ(a,b.cY())}else if(b instanceof A.xo){a.aM(141)
 s.aJ(a,[b.a,b.b,b.c])}else if(b instanceof A.xp){a.aM(142)
 s.aJ(a,[b.a,b.b])}else if(b instanceof A.tG){a.aM(143)
-s.aJ(a,b.cX())}else if(b instanceof A.KR){a.aM(144)
-s.aJ(a,b.cX())}else if(b instanceof A.KS){a.aM(145)
-s.aJ(a,b.cX())}else s.uj(a,b)},
+s.aJ(a,b.cY())}else if(b instanceof A.KR){a.aM(144)
+s.aJ(a,b.cY())}else if(b instanceof A.KS){a.aM(145)
+s.aJ(a,b.cY())}else s.uj(a,b)},
 hJ(a,b){var s,r=this
 switch(a){case 128:s=r.b2(b)
 s.toString
@@ -55402,21 +55402,21 @@ if(b instanceof A.vp){a.aM(128)
 s.aJ(a,[b.a,b.b,b.c])}else if(b instanceof A.KG){a.aM(129)
 s.aJ(a,[b.a.a,b.b])}else if(b instanceof A.C2){a.aM(130)
 s.aJ(a,[b.a,b.b])}else if(b instanceof A.KH){a.aM(131)
-s.aJ(a,b.cX())}else if(b instanceof A.C3){a.aM(132)
-s.aJ(a,b.cX())}else if(b instanceof A.xl){a.aM(133)
-s.aJ(a,b.cX())}else if(b instanceof A.KJ){a.aM(134)
-s.aJ(a,b.cX())}else if(b instanceof A.tF){a.aM(135)
-s.aJ(a,b.cX())}else if(b instanceof A.mt){a.aM(136)
-s.aJ(a,b.cX())}else if(b instanceof A.KL){a.aM(137)
+s.aJ(a,b.cY())}else if(b instanceof A.C3){a.aM(132)
+s.aJ(a,b.cY())}else if(b instanceof A.xl){a.aM(133)
+s.aJ(a,b.cY())}else if(b instanceof A.KJ){a.aM(134)
+s.aJ(a,b.cY())}else if(b instanceof A.tF){a.aM(135)
+s.aJ(a,b.cY())}else if(b instanceof A.mt){a.aM(136)
+s.aJ(a,b.cY())}else if(b instanceof A.KL){a.aM(137)
 s.aJ(a,[b.a])}else if(b instanceof A.KM){a.aM(138)
 s.aJ(a,[b.a,b.b])}else if(b instanceof A.KO){a.aM(139)
 s.aJ(a,[b.a,b.b,b.c])}else if(b instanceof A.KQ){a.aM(140)
-s.aJ(a,b.cX())}else if(b instanceof A.xo){a.aM(141)
+s.aJ(a,b.cY())}else if(b instanceof A.xo){a.aM(141)
 s.aJ(a,[b.a,b.b,b.c])}else if(b instanceof A.xp){a.aM(142)
 s.aJ(a,[b.a,b.b])}else if(b instanceof A.tG){a.aM(143)
-s.aJ(a,b.cX())}else if(b instanceof A.KR){a.aM(144)
-s.aJ(a,b.cX())}else if(b instanceof A.KS){a.aM(145)
-s.aJ(a,b.cX())}else s.uj(a,b)},
+s.aJ(a,b.cY())}else if(b instanceof A.KR){a.aM(144)
+s.aJ(a,b.cY())}else if(b instanceof A.KS){a.aM(145)
+s.aJ(a,b.cY())}else s.uj(a,b)},
 hJ(a,b){var s,r=this
 switch(a){case 128:s=r.b2(b)
 s.toString
@@ -56217,12 +56217,12 @@ k(a,b){var s,r
 if(b==null)return!1
 if(b instanceof A.ud){s=b.b
 r=this.b
-s=A.a_U(s,b.a.gcZ()).k(0,A.a_U(r,this.a.gcZ()))&&s.k(0,r)}else s=!1
+s=A.a_U(s,b.a.gcU()).k(0,A.a_U(r,this.a.gcU()))&&s.k(0,r)}else s=!1
 return s},
 gt(a){var s=this.b
-return A.L(s,A.a_U(s,this.a.gcZ()),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.L(s,A.a_U(s,this.a.gcU()),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){var s=this.a
-return B.a9f.j(0)+"(ref: "+A.a_U(this.b,s.gcZ()).j(0)+", state: "+s.gdg().j(0)+")"}}
+return B.a9f.j(0)+"(ref: "+A.a_U(this.b,s.gcU()).j(0)+", state: "+s.gdg().j(0)+")"}}
 A.aoR.prototype={}
 A.ayV.prototype={}
 A.JR.prototype={
@@ -56410,7 +56410,7 @@ return A.da(s,t.Vf)},
 $S:481}
 A.awe.prototype={}
 A.x5.prototype={
-gcZ(){return A.bae(this.c,this.d.i(0,"path"))}}
+gcU(){return A.bae(this.c,this.d.i(0,"path"))}}
 A.C7.prototype={}
 A.xm.prototype={}
 A.a_9.prototype={}
@@ -56655,7 +56655,7 @@ case 1:return A.p(q,r)}})
 return A.q($async$$0,r)},
 $S:272}
 A.yi.prototype={
-gcZ(){return this.c},
+gcU(){return this.c},
 gdg(){var s=this.d.gdg()
 s=$.b6B().i(0,s)
 s.toString
@@ -56921,10 +56921,10 @@ if(s.b!==s.c.gq())s.ar()
 if(s.a!==s.c.gb3())s.AT(s.c.gb3())
 s.b=s.a=null}},
 G9(){var s=this,r=s.c
-if(r!=null){r.Y(s.gcY())
+if(r!=null){r.Y(s.gcZ())
 s.c.ha(s.ga83())}},
 Ga(){var s=this,r=s.c
-if(r!=null){r.L(s.gcY())
+if(r!=null){r.L(s.gcZ())
 s.c.dm(s.ga83())}},
 gb3(){var s=this.c
 if(s!=null)s=s.gb3()
@@ -57277,7 +57277,7 @@ break $label0$0}a1=B.Mr.du(a4)
 break $label0$0}n=a1
 a.a.toString
 a1=A.boj((p==null?B.iB:p).b1(0.8))
-m=new A.IL(a1.a,a1.b,0.835,0.69).aNp()
+m=new A.IL(a1.a,a1.b,0.835,0.69).aNo()
 a.a.toString
 a1=r.gnp().gaB8()
 l=a1.bd(n)
@@ -57355,7 +57355,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.dO.prototype={
@@ -57537,7 +57537,7 @@ Fq(a,b,c,d){return B.aC},
 x8(a,b){return B.h}}
 A.acX.prototype={}
 A.Wt.prototype={
-J(a){var s=null,r=A.al(a,B.bp,t.w).w.r.b+8,q=this.c.a1(0,new A.l(8,r)),p=A.ax(this.d,B.l,s,B.j,B.a0,0,B.o),o=A.b([2.574,-1.43,-0.144,0,0,-0.426,1.57,-0.144,0,0,-0.426,-1.43,2.856,0,0,0,0,0,1,0],t.n)
+J(a){var s=null,r=A.al(a,B.bp,t.w).w.r.b+8,q=this.c.a1(0,new A.l(8,r)),p=A.ax(this.d,B.j,s,B.k,B.a0,0,B.o),o=A.b([2.574,-1.43,-0.144,0,0,-0.426,1.57,-0.144,0,0,-0.426,-1.43,2.856,0,0,0,0,0,1,0],t.n)
 $.a4()
 o=A.bfe(new A.d9(s,s,o,B.pz))
 o.toString
@@ -57660,7 +57660,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.ajM.prototype={
@@ -57854,7 +57854,7 @@ m=l
 k=n
 for(s=b.b,r=s+p,j=a.a,i=0,h=0;h<q;++h){if(B.e.lt(h,o)!==i)++i
 $.a4()
-g=new A.rB(B.bV,B.ci,B.hP,B.hQ,B.dh)
+g=new A.rB(B.bV,B.ci,B.hP,B.hQ,B.di)
 g.r=A.N(d[i],d[i+1],B.e.aR(h,o)/o).gq()
 f=m+k*h-1
 e=g.eR()
@@ -58063,7 +58063,7 @@ $2(a,b){return a.en(this.a,b)},
 $S:12}
 A.P3.prototype={
 a7(){return new A.P4(new A.bs(null,t.B),null,null)},
-aNB(a,b,c,d){return this.f.$4(a,b,c,d)}}
+aNA(a,b,c,d){return this.f.$4(a,b,c,d)}}
 A.P4.prototype={
 avi(a){var s=a.d
 if(s!=null&&s!==0)if(s>0)this.YJ()
@@ -58124,7 +58124,7 @@ s=k.d
 r=p.d
 r===$&&A.a()
 q=p.f
-return k.aNB(a,j,s,new A.dV(r,!1,A.b1Q(B.v,A.h_(o,new A.P5(m,i,B.Mn.du(a),1/A.al(a,B.cM,t.w).w.b,l,q,p.r),B.D,!1,o,o,o,o,p.gavh(),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o),B.ex,B.ls,o),o))}}
+return k.aNA(a,j,s,new A.dV(r,!1,A.b1Q(B.u,A.h_(o,new A.P5(m,i,B.Mn.du(a),1/A.al(a,B.cM,t.w).w.b,l,q,p.r),B.D,!1,o,o,o,o,p.gavh(),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o),B.ex,B.ls,o),o))}}
 A.aMx.prototype={
 $0(){var s=this.a,r=s.e
 r.toString
@@ -58370,7 +58370,7 @@ $S:16}
 A.yS.prototype={
 I(){return"_CupertinoTextSelectionToolbarItemsSlot."+this.b}}
 A.Tk.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -58402,7 +58402,7 @@ this.T(new A.aMw(this))
 s=this.a.d
 if(s!=null)s.$0()},
 avy(){this.T(new A.aMu(this))},
-J(a){var s=this,r=null,q=s.anX(a),p=s.d?B.Mq.du(a):B.G,o=s.a.d,n=A.b7U(B.v,r,q,p,B.G,r,o,B.NN,1)
+J(a){var s=this,r=null,q=s.anX(a),p=s.d?B.Mq.du(a):B.G,o=s.a.d,n=A.b7U(B.u,r,q,p,B.G,r,o,B.NN,1)
 if(o!=null)return A.h_(r,n,B.D,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s.gavx(),s.gavz(),s.gavB(),r,r,r)
 else return n},
 anX(a){var s,r=null,q=this.a,p=q.c
@@ -58598,7 +58598,7 @@ e0(){return"Exception caught by "+this.c},
 j(a){A.btP(null,B.MI,this)
 return""}}
 A.anY.prototype={
-$0(){return B.c.aNJ(this.a.aGw().split("\n")[0])},
+$0(){return B.c.aNI(this.a.aGw().split("\n")[0])},
 $S:23}
 A.wg.prototype={
 gl4(){return this.j(0)},
@@ -58737,8 +58737,8 @@ e0(){return"<optimized out>#"+A.bF(this)}}
 A.kZ.prototype={
 j(a){return this.a9A(B.lo).ms(0)},
 e0(){return"<optimized out>#"+A.bF(this)},
-aNq(a,b){return A.b2e(a,b,this)},
-a9A(a){return this.aNq(null,a)}}
+aNp(a,b){return A.b2e(a,b,this)},
+a9A(a){return this.aNp(null,a)}}
 A.HA.prototype={}
 A.a5L.prototype={}
 A.fz.prototype={}
@@ -59082,7 +59082,7 @@ $0(){return this.a.axz(this.b,this.c)},
 $S:0}
 A.aTF.prototype={
 h3(){var s,r,q,p=this
-for(s=p.a,r=new A.dK(s,s.r,s.e),q=p.r;r.u();)r.d.aOv(q)
+for(s=p.a,r=new A.dK(s,s.r,s.e),q=p.r;r.u();)r.d.aOu(q)
 s.R(0)
 p.c=B.O
 s=p.y
@@ -59098,7 +59098,7 @@ ami(a){var s,r
 if($.b6().gdQ().b.i(0,a)==null)s=null
 else{s=$.eA()
 r=s.d
-s=r==null?s.gcW():r}return s},
+s=r==null?s.gcX():r}return s},
 aCz(a){var s=this.ah$
 if(s.b===s.c&&this.c<=0)A.ff(this.ganC())
 s.F_(A.baY(0,0,0,0,0,B.aN,!1,0,a,B.h,1,1,0,0,0,0,0,0,B.O,0))},
@@ -59112,7 +59112,7 @@ if(!q||t.w5.b(a))r.aP$.m(0,a.gbI(),s)}else if(t.oN.b(a)||t.Ko.b(a)||t.WQ.b(a))s=
 else s=a.gGh()||t.DB.b(a)?r.aP$.i(0,a.gbI()):null
 if(s!=null||t.ge.b(a)||t.PB.b(a)){q=r.dy$
 q.toString
-q.aO9(a,t.n2.b(a)?null:s)
+q.aO8(a,t.n2.b(a)?null:s)
 r.aep(a,s)}},
 Ai(a,b,c){a.B(0,new A.kg(this,t.AL))},
 aFw(a,b){var s,r,q,p,o,n,m,l,k,j,i="gesture library"
@@ -59620,7 +59620,7 @@ switch(s.k4){case 1:if(s.p4!=null)s.dt("onLongPressMoveUpdate",new A.asG(s,new A
 break
 case 2:break
 case 4:break}},
-akM(a){var s=this,r=s.Z.BN(),q=r==null?B.dx:new A.kG(r.a),p=a.gbS(),o=a.gdZ()
+akM(a){var s=this,r=s.Z.BN(),q=r==null?B.dy:new A.kG(r.a),p=a.gbS(),o=a.gdZ()
 s.Z=null
 switch(s.k4){case 1:if(s.RG!=null)s.dt("onLongPressEnd",new A.asF(s,new A.Bw(p,o,q)))
 p=s.R8
@@ -59662,7 +59662,7 @@ r=this.b
 r===$&&A.a()
 return"PolynomialFit("+s+", confidence: "+B.d.ap(r,3)+")"}}
 A.az6.prototype={
-$1(a){return B.d.aNx(a,3)},
+$1(a){return B.d.aNw(a,3)},
 $S:634}
 A.YW.prototype={
 U_(a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5=this.a,a6=a5.length
@@ -59900,7 +59900,7 @@ p=null}else{o=m.a=n.OL(r,s.a)
 q=o!=null?new A.al3(m,r):new A.al4(r)
 p=o}if(p==null){p=n.k1
 p===$&&A.a()
-m.a=new A.jt(p.b,p.a,B.dx,0)}n.aJ1("onEnd",new A.al5(m,n),q)},
+m.a=new A.jt(p.b,p.a,B.dy,0)}n.aJ1("onEnd",new A.al5(m,n),q)},
 l(){this.p2.R(0)
 this.oQ()}}
 A.al1.prototype={
@@ -60168,7 +60168,7 @@ s=s==null?null:s.a
 return s==null?18:s},
 iE(a){var s=this
 s.xC(a)
-if(s.ch===B.dV){s.ch=B.iW
+if(s.ch===B.dW){s.ch=B.iW
 s.CW=a.gbI()
 s.cx=new A.hm(a.gdZ(),a.gbS())
 s.db=A.di(s.at,new A.azf(s,a))}},
@@ -60201,7 +60201,7 @@ if(a===s.CW&&s.ch===B.iW){s.pl()
 s.ch=B.OB}},
 vJ(a){var s=this
 s.pl()
-s.ch=B.dV
+s.ch=B.dW
 s.cx=null
 s.cy=!1},
 l(){this.pl()
@@ -60225,7 +60225,7 @@ A.Nn.prototype={}
 A.Vg.prototype={
 a6t(a){},
 iE(a){var s=this
-if(s.ch===B.dV){if(s.k4!=null&&s.ok!=null)s.yK()
+if(s.ch===B.dW){if(s.k4!=null&&s.ok!=null)s.yK()
 s.k4=a}if(s.k4!=null)s.aeY(a)},
 Cm(a,b){this.aeT(a,b)},
 a6n(a){var s,r=this
@@ -61049,7 +61049,7 @@ break $label0$0}if(B.U===a8||B.b7===a8)break $label0$0}a6=A.bL(b6,b6,a7,!1,b6,b6
 a2.toString
 a6=A.JM(A.lX(a6,b6,b6,B.aE,!1,a2,b6,b6,B.a6),1.34)
 s=s.f
-if(s!=null)a9=new A.aA(a0,A.bA(s,B.l,B.j,B.a0,0,b6),b6)
+if(s!=null)a9=new A.aA(a0,A.bA(s,B.j,B.k,B.a0,0,b6),b6)
 else if(r===!0){s=c.a
 a9=new A.Xe(b6,b6,b6,b6,B.Oc,b6,b6,b6,b6,A.wA(b6,b6,b6,b6,b6,b6,b6,b6,b6,b6,s==null?24:s,b6,b6,b6,b6,b6,b6),b6)}else a9=b6
 if(a9!=null){if(a.k(0,c0.gnV()))b0=b8
@@ -61080,7 +61080,7 @@ A.aKq.prototype={
 $0(){},
 $S:0}
 A.a4d.prototype={
-aO(a){var s=new A.a9C(B.v,a.ak(t.I).w,null,new A.aR(),A.an())
+aO(a){var s=new A.a9C(B.u,a.ak(t.I).w,null,new A.aR(),A.an())
 s.aN()
 s.sb4(null)
 return s},
@@ -61712,13 +61712,13 @@ if(q==null)return null
 s=q.fS(a,b)
 if(s==null)return null
 r=q.al(B.Y,a,q.gct())
-return s+B.v.lC(t.o.a(this.al(B.Y,a,this.gct()).a1(0,r))).b},
+return s+B.u.lC(t.o.a(this.al(B.Y,a,this.gct()).a1(0,r))).b},
 bC(){var s,r=this
 r.fy=r.VO(t.k.a(A.C.prototype.gV.call(r)),A.n9())
 s=r.p$
 if(s!=null){s=s.b
 s.toString
-t.q.a(s).a=B.v.lC(t.o.a(r.gv().a1(0,r.p$.gv())))}},
+t.q.a(s).a=B.u.lC(t.o.a(r.gv().a1(0,r.p$.gv())))}},
 cI(a,b){var s
 if(this.mt(a,b))return!0
 s=this.p$.gv().k5(B.h)
@@ -61727,7 +61727,7 @@ A.aT3.prototype={
 $2(a,b){return this.a.p$.cI(a,this.b)},
 $S:17}
 A.Td.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -61944,9 +61944,9 @@ q=A.ai(q,i,B.aE,i,p==null?i:p.z2(m),i,i,i)
 k=this.d
 k===$&&A.a()
 j=t.p
-j=A.b([new A.f4(1,B.b0,A.bL(!0,i,A.bT(A.fo(!1,!0,new A.aA(B.lC,A.bA(A.b([new A.f4(1,B.b0,q,i),A.aBT(B.v,A.B9(B.OR,n,i,i),i,k)],j),B.l,B.j,B.k,0,i),i),i,!0,i,i,i,i,i,i,i,i,i,i,l,i,i,i,i),52,i),!0,i,i,i,!1,!1,i,i,i,i,i,i,i,i,"Select year",i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.F,i),i)],j)
+j=A.b([new A.f4(1,B.b0,A.bL(!0,i,A.bT(A.fo(!1,!0,new A.aA(B.lC,A.bA(A.b([new A.f4(1,B.b0,q,i),A.aBT(B.u,A.B9(B.OR,n,i,i),i,k)],j),B.j,B.k,B.l,0,i),i),i,!0,i,i,i,i,i,i,i,i,i,i,l,i,i,i,i),52,i),!0,i,i,i,!1,!1,i,i,i,i,i,i,i,i,"Select year",i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.F,i),i)],j)
 if(this.a.c===B.iE)j.push(B.a0J)
-return A.bT(new A.aA(B.qA,A.bA(j,B.l,B.j,B.k,0,i),i),52,i)},
+return A.bT(new A.aA(B.qA,A.bA(j,B.j,B.k,B.l,0,i),i),52,i)},
 l(){var s=this.d
 s===$&&A.a()
 s.l()
@@ -62077,7 +62077,7 @@ r=A.B9(B.OU,i,r,i)
 if(j.gDF())q=i
 else{j.r===$&&A.a()
 q=g}p=t.p
-q=A.bT(new A.aA(B.qA,A.bA(A.b([B.a14,s,A.hB(f,i,r,i,i,j.gDF()?i:j.gar3(),i,i,i,q)],p),B.l,B.j,B.k,0,i),i),52,i)
+q=A.bT(new A.aA(B.qA,A.bA(A.b([B.a14,s,A.hB(f,i,r,i,i,j.gDF()?i:j.gar3(),i,i,i,q)],p),B.j,B.k,B.l,0,i),i),52,i)
 r=j.x
 s=j.y
 o=j.z
@@ -62087,7 +62087,7 @@ m=o.gbJ()?j.Q:i
 l=j.f
 l===$&&A.a()
 k=j.a
-return A.bL(i,i,A.ax(A.b([q,A.ed(A.b2H(s,!1,new A.PN(n,m,A.j0(!1,B.N,!0,i,A.baz(B.t,l,j.gak1(),A.b2c(k.e,k.f)+1,j.d,j.gaqQ(),!0,!0,i,!1,i,B.a4),B.q,i,0,i,i,i,i,i,B.hn),i),!0,o,B.bX,j.gaq9(),i,i,r),1)],p),B.l,i,B.j,B.k,0,B.o),!0,i,i,i,!1,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.F,i)}}
+return A.bL(i,i,A.ax(A.b([q,A.ed(A.b2H(s,!1,new A.PN(n,m,A.j0(!1,B.N,!0,i,A.baz(B.t,l,j.gak1(),A.b2c(k.e,k.f)+1,j.d,j.gaqQ(),!0,!0,i,!1,i,B.a4),B.q,i,0,i,i,i,i,i,B.hn),i),!0,o,B.bX,j.gaq9(),i,i,r),1)],p),B.j,i,B.k,B.l,0,B.o),!0,i,i,i,!1,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.F,i)}}
 A.aQX.prototype={
 $0(){var s,r,q=this.a,p=q.a.e,o=A.cY(A.bG(p),A.c4(p)+this.b,1,0,0,0)
 p=q.a.z
@@ -62174,7 +62174,7 @@ p=q.ax
 if(p!=null)p.ao()
 q.dB()}this.aE()},
 am3(a,b){var s,r=null,q=A.b([],t.p)
-for(s=0;q.length<7;s=(s+1)%7)q.push(new A.io(!0,new A.ec(B.v,r,r,A.ai(B.SP[s],r,r,r,a,r,r,r),r),r))
+for(s=0;q.length<7;s=(s+1)%7)q.push(new A.io(!0,new A.ec(B.u,r,r,A.ai(B.SP[s],r,r,r,a,r,r,r),r),r))
 return q},
 J(a3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=this,a1=null,a2=A.cp(a3,B.P,t.v)
 a2.toString
@@ -62183,7 +62183,7 @@ A.V(a3)
 r=A.E6(a3)
 q=s.y
 if(q==null)q=r.gBr()
-p=A.al(a3,B.cL,t.w).w.ghk()===B.dm
+p=A.al(a3,B.cL,t.w).w.ghk()===B.dn
 o=a0.a.w
 n=A.bG(o)
 m=A.c4(o)
@@ -62370,7 +62370,7 @@ d=m==null?a0:m.z2(g)
 A.cp(a2,B.P,t.v).toString
 m=!h
 a.a.toString
-c=A.ct(A.by(B.v,A.bL(!0,a0,A.ai(B.e.j(A.bG(A.cY(l,1,1,0,0,0))),a0,a0,a0,d,a0,a0,a0),!1,a0,a0,m,!1,!1,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,j,a0,a0,a0,a0,B.F,a0),B.q,a0,a0,new A.j7(f,a0,a0,a0,q),a0,36*o,a0,a0,a0,a0,72*o),a0,a0)
+c=A.ct(A.by(B.u,A.bL(!0,a0,A.ai(B.e.j(A.bG(A.cY(l,1,1,0,0,0))),a0,a0,a0,d,a0,a0,a0),!1,a0,a0,m,!1,!1,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,j,a0,a0,a0,a0,B.F,a0),B.q,a0,a0,new A.j7(f,a0,a0,a0,q),a0,36*o,a0,a0,a0,a0,72*o),a0,a0)
 if(m){q={}
 m=A.c4(a.a.f)
 b=q.a=A.cY(l,m,1,0,0,0)
@@ -62387,7 +62387,7 @@ q.a.toString
 s=Math.max(q.gDH(),18)
 r=o==null
 r=r?B.oS:p
-return A.ax(A.b([B.qt,A.ed(new A.IK(new A.aXv(a),new A.CX(q.gako(),s,!0,!0,!0,A.b5S(),p),B.iH,B.aa,!1,o,p,r,!1,p,s,B.D,p,p,B.t,B.aH,p),1),B.qt],t.p),B.l,p,B.j,B.k,0,B.o)}}
+return A.ax(A.b([B.qt,A.ed(new A.IK(new A.aXv(a),new A.CX(q.gako(),s,!0,!0,!0,A.b5S(),p),B.iH,B.aa,!1,o,p,r,!1,p,s,B.D,p,p,B.t,B.aH,p),1),B.qt],t.p),B.j,p,B.k,B.l,0,B.o)}}
 A.aXC.prototype={
 $1$1(a,b){var s=a.$1(this.a)
 return s==null?a.$1(this.b):s},
@@ -62441,7 +62441,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.GE.prototype={
@@ -62766,7 +62766,7 @@ return A.aM(20,s.G()>>>16&255,s.G()>>>8&255,s.G()&255)}if(a.n(0,B.K)){s=r.a.z.k3
 return A.aM(B.d.aH(25.5),s.G()>>>16&255,s.G()>>>8&255,s.G()&255)}return B.G},
 $S:6}
 A.Tf.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -62778,7 +62778,7 @@ au(){var s,r=this,q=null
 r.aL()
 s=A.cw(q,B.N,q,1,!r.a.c?0:1,r)
 r.PZ$=s
-r.Q_$=A.dy(B.df,s,B.cW)
+r.Q_$=A.dy(B.dg,s,B.cW)
 s=A.cw(q,r.aGR$,q,1,q,r)
 r.GA$=s
 r.Q0$=A.dy(B.av,s,q)
@@ -63250,7 +63250,7 @@ return s},
 $S:15}
 A.Ht.prototype={
 a7(){var s=null
-return new A.Pc(new A.aa1(B.dH,$.ap()),new A.bs(s,t.B),new A.bs(s,t.am),s,A.w(t.yb,t.M),s,!0,s)}}
+return new A.Pc(new A.aa1(B.dI,$.ap()),new A.bs(s,t.B),new A.bs(s,t.am),s,A.w(t.yb,t.M),s,!0,s)}}
 A.Pc.prototype={
 gr4(){var s=this.d
 return s===$?this.d=new A.a0J(this.a.c,$.ap()):s},
@@ -63268,7 +63268,7 @@ s.e_(s.gr4(),"selected_date")
 s.e_(s.f,"autovalidateMode")
 s.e_(s.gp7(),"calendar_entry_mode")},
 am1(){var s,r=this,q=r.gp7(),p=q.y,o=p==null
-if((o?A.j(q).h("aj.T").a(p):p)!==B.dg)q=(o?A.j(q).h("aj.T").a(p):p)===B.dP
+if((o?A.j(q).h("aj.T").a(p):p)!==B.dh)q=(o?A.j(q).h("aj.T").a(p):p)===B.dQ
 else q=!0
 if(q){s=r.w.gN()
 if(!s.Bo()){r.T(new A.aMX(r))
@@ -63289,8 +63289,8 @@ A.V(a)
 s=this.gp7()
 r=s.y
 if(r==null)r=A.j(s).h("aj.T").a(r)
-$label0$0:{if(B.dO===r||B.fR===r){s=!0
-break $label0$0}if(B.dg===r||B.dP===r){s=!1
+$label0$0:{if(B.dP===r||B.fR===r){s=!0
+break $label0$0}if(B.dh===r||B.dQ===r){s=!1
 break $label0$0}s=i}q=A.al(a,B.cL,t.w).w.ghk()
 $label1$1:{p=i
 if(s){p=B.bt===q
@@ -63329,18 +63329,18 @@ break $label1$1}j=i
 if(s){if(l)o=n
 else{o=q
 n=o
-l=!0}j=B.dm===o
+l=!0}j=B.dn===o
 o=j}else o=!1
 if(o){s=B.a0D
 break $label1$1}if(m)if(s)s=j
-else{j=B.dm===(l?n:q)
+else{j=B.dn===(l?n:q)
 s=j}else s=!1
 if(s){s=B.a0C
 break $label1$1}s=i}return s},
 J(a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0={},a1=A.V(a2)
 A.cp(a2,B.P,t.v).toString
 s=A.al(a2,B.cL,t.w).w.ghk()
-r=s===B.dm
+r=s===B.dn
 q=A.vS(a2)
 A.V(a2)
 p=A.E6(a2)
@@ -63348,9 +63348,9 @@ o=q.w
 if(o==null)o=p.gAe()
 n=b.gp7()
 m=n.y
-switch(m==null?A.j(n).h("aj.T").a(m):m){case B.dg:case B.dP:if(r)o=a1.ok.f
+switch(m==null?A.j(n).h("aj.T").a(m):m){case B.dh:case B.dQ:if(r)o=a1.ok.f
 break
-case B.dO:case B.fR:break}l=q.r
+case B.dP:case B.fR:break}l=q.r
 if(l==null)l=p.gw7()
 o=o==null?a:o.bd(l)
 n=r?1.6:3
@@ -63368,18 +63368,18 @@ a0.a=null
 m=b.gp7()
 k=m.y
 h=a
-switch(k==null?A.j(m).h("aj.T").a(k):k){case B.dO:a0.a=j.$0()
+switch(k==null?A.j(m).h("aj.T").a(k):k){case B.dP:a0.a=j.$0()
 m=b.a.cy
 m=A.B9(B.OY,a,a,a)
 h=A.hB(l,a,m,a,a,b.gWJ(),a,a,a,"Switch to input")
 break
 case B.fR:a0.a=j.$0()
 break
-case B.dg:a0.a=i.$0()
+case B.dh:a0.a=i.$0()
 b.a.toString
 h=A.hB(l,a,B.P3,a,a,b.gWJ(),a,a,a,"Switch to calendar")
 break
-case B.dP:a0.a=i.$0()
+case B.dQ:a0.a=i.$0()
 break}b.a.toString
 m=b.gr4()
 k=m.y
@@ -63403,22 +63403,22 @@ if(d==null)d=p.gc6()
 c=q.e
 if(c==null)c=p.e
 b.a.toString
-return A.b2f(a,k,A.agf(A.JM(A.ash(new A.aMZ(a0,b,!0,f,s,new A.a5t("Select date",m,o,s,r,h,a),q,new A.d0(B.Gy,n,a))),3),a,B.df,a,B.N,a,f.b,f.a),B.bD,a,g,B.NO,B.CE,e,c,d)}}
+return A.b2f(a,k,A.agf(A.JM(A.ash(new A.aMZ(a0,b,!0,f,s,new A.a5t("Select date",m,o,s,r,h,a),q,new A.d0(B.Gy,n,a))),3),a,B.dg,a,B.N,a,f.b,f.a),B.bD,a,g,B.NO,B.CE,e,c,d)}}
 A.aMX.prototype={
 $0(){this.a.f.sq(B.eq)
 return B.eq},
 $S:0}
 A.aMW.prototype={
 $0(){var s=this.a,r=s.gp7(),q=r.y
-switch(q==null?A.j(r).h("aj.T").a(q):q){case B.dO:s.f.sq(B.dH)
-r.sq(B.dg)
+switch(q==null?A.j(r).h("aj.T").a(q):q){case B.dP:s.f.sq(B.dI)
+r.sq(B.dh)
 s.YH()
 break
-case B.dg:s.w.gN().ku()
-r.sq(B.dO)
+case B.dh:s.w.gN().ku()
+r.sq(B.dP)
 s.YH()
 break
-case B.fR:case B.dP:break}},
+case B.fR:case B.dQ:break}},
 $S:0}
 A.aMV.prototype={
 $0(){var s=this.b
@@ -63458,14 +63458,14 @@ j=q.ax
 i=q.ay
 q=q.ch
 r=r!=null?A.cY(A.bG(r),A.c4(r),A.dF(r),0,0,0):h
-return A.b8U(f,A.bT(new A.aA(B.NT,A.a1y(A.ax(A.b([new A.f4(1,B.b0,A.JM(new A.J2(r,A.cY(A.bG(p),A.c4(p),A.dF(p),0,0,0),A.cY(A.bG(o),A.c4(o),A.dF(o),0,0,0),n,n,m,l,k,j,i,q,!0,s,h),2),h)],t.p),B.l,h,B.cg,B.k,0,B.o),h,B.Vu),h),e,h),g.w)},
+return A.b8U(f,A.bT(new A.aA(B.NT,A.a1y(A.ax(A.b([new A.f4(1,B.b0,A.JM(new A.J2(r,A.cY(A.bG(p),A.c4(p),A.dF(p),0,0,0),A.cY(A.bG(o),A.c4(o),A.dF(o),0,0,0),n,n,m,l,k,j,i,q,!0,s,h),2),h)],t.p),B.j,h,B.cg,B.l,0,B.o),h,B.Vu),h),e,h),g.w)},
 $S:864}
 A.aMZ.prototype={
 $2(a,b){var s,r,q,p,o,n,m=this,l=null,k=Math.min(m.d.b,270)
 switch(m.e.a){case 0:s=m.b.gp7()
 r=s.y
 q=r==null
-if((q?A.j(s).h("aj.T").a(r):r)!==B.dP)p=(q?A.j(s).h("aj.T").a(r):r)===B.dg
+if((q?A.j(s).h("aj.T").a(r):r)!==B.dQ)p=(q?A.j(s).h("aj.T").a(r):r)===B.dh
 else p=!0
 k=!(b.d>=k)
 o=!k||!p
@@ -63475,12 +63475,12 @@ s=A.b([],k)
 if(o)s.push(m.f)
 s.push(new A.HF(0,m.r.p2,l))
 if(n)B.b.H(s,A.b([A.ed(m.a.a,1),m.w],k))
-return A.ax(s,B.cq,l,B.j,B.a0,0,B.o)
+return A.ax(s,B.cq,l,B.k,B.a0,0,B.o)
 case 1:k=t.p
 s=A.b([m.f],k)
 s.push(new A.a3c(0,m.r.p2,l))
-s.push(new A.f4(1,B.b0,A.ax(A.b([A.ed(m.a.a,1),m.w],k),B.cq,l,B.j,B.a0,0,B.o),l))
-return A.bA(s,B.cq,B.j,B.a0,0,l)}},
+s.push(new A.f4(1,B.b0,A.ax(A.b([A.ed(m.a.a,1),m.w],k),B.cq,l,B.k,B.a0,0,B.o),l))
+return A.bA(s,B.cq,B.k,B.a0,0,l)}},
 $S:870}
 A.aa2.prototype={
 lN(){return this.cy},
@@ -63543,10 +63543,10 @@ a=f>1.3?f-0.2:1
 switch(h.a){case 0:o=t.p
 k=A.b([A.ed(b,1)],o)
 if(l)k.push(A.bL(a1,a1,m,!0,a1,a1,a1,!1,!1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,B.F,a1))
-return A.bL(a1,a1,A.bT(A.j0(!1,B.N,!0,a1,new A.aA(B.Ns,A.ax(A.b([B.hN,c,B.Oq,A.bA(k,B.l,B.j,B.k,0,a1)],o),B.u,a1,B.j,B.k,0,B.o),a1),B.q,q,0,a1,a1,a1,a1,a1,B.bR),120*a,a1),!0,a1,a1,a1,!1,!1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,B.F,a1)
+return A.bL(a1,a1,A.bT(A.j0(!1,B.N,!0,a1,new A.aA(B.Ns,A.ax(A.b([B.hN,c,B.Oq,A.bA(k,B.j,B.k,B.l,0,a1)],o),B.v,a1,B.k,B.l,0,B.o),a1),B.q,q,0,a1,a1,a1,a1,a1,B.bR),120*a,a1),!0,a1,a1,a1,!1,!1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,B.F,a1)
 case 1:o=A.b([B.hN,new A.aA(B.iH,c,a1),A.bT(a1,a0.w?16:56,a1),A.ed(new A.aA(B.iH,b,a1),1)],t.p)
 if(l)o.push(new A.aA(B.Nu,A.bL(a1,a1,m,!0,a1,a1,a1,!1,!1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,B.F,a1),a1))
-return A.bL(a1,a1,A.bT(A.j0(!1,B.N,!0,a1,A.ax(o,B.u,a1,B.j,B.k,0,B.o),B.q,q,0,a1,a1,a1,a1,a1,B.bR),a1,152),!0,a1,a1,a1,!1,!1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,B.F,a1)}}}
+return A.bL(a1,a1,A.bT(A.j0(!1,B.N,!0,a1,A.ax(o,B.v,a1,B.k,B.l,0,B.o),B.q,q,0,a1,a1,a1,a1,a1,B.bR),a1,152),!0,a1,a1,a1,!1,!1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,B.F,a1)}}}
 A.aXJ.prototype={
 $2(a,b){if(!a.a)a.L(b)},
 $S:33}
@@ -63748,7 +63748,7 @@ x8(a,b){return B.h}}
 A.acY.prototype={}
 A.WR.prototype={
 J(a){var s=null,r=A.al(a,B.bp,t.w).w.r.b+8
-return new A.aA(new A.ac(8,r,8,8),new A.p5(new A.WS(this.c.a1(0,new A.l(8,r))),A.bT(A.j0(!1,B.N,!0,B.Gi,A.ax(this.d,B.l,s,B.j,B.a0,0,B.o),B.bD,s,1,s,s,s,s,s,B.eU),s,222),s),s)}}
+return new A.aA(new A.ac(8,r,8,8),new A.p5(new A.WS(this.c.a1(0,new A.l(8,r))),A.bT(A.j0(!1,B.N,!0,B.Gi,A.ax(this.d,B.j,s,B.k,B.a0,0,B.o),B.bD,s,1,s,s,s,s,s,B.eU),s,222),s),s)}}
 A.AD.prototype={
 J(a){var s=null
 return A.bT(A.d2(this.d,this.c,A.yk(B.kz,s,s,s,s,B.bw,s,s,B.bw,A.V(a).ax.a===B.aS?B.n:B.ab,s,B.a0B,B.NQ,s,B.f8,s,s,s,s,s)),s,1/0)}}
@@ -63820,7 +63820,7 @@ f=A.b([],t.p)
 if(o!=null)f.push(o)
 if(n!=null)f.push(new A.f4(1,B.b0,n,j))
 if(m!=null)f.push(m)
-l=new A.Yz(A.ax(f,B.cq,j,B.j,B.a0,0,B.o),j)
+l=new A.Yz(A.ax(f,B.cq,j,B.k,B.a0,0,B.o),j)
 return A.b2f(j,j,e!=null?A.bL(j,j,l,!1,j,j,j,!1,!0,j,j,j,j,j,j,j,j,e,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,B.F,j):l,j,j,j,j,B.a_9,j,j,j)}}
 A.HB.prototype={
 rh(a,b,c,d){var s=this.o8,r=s==null
@@ -64184,7 +64184,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.AK.prototype={
@@ -64218,7 +64218,7 @@ A.Xc.prototype={
 G3(a){var s=null
 A.V(a)
 A.V(a)
-return new A.a68(a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.N,!0,B.v,s,s,s)},
+return new A.a68(a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.N,!0,B.u,s,s,s)},
 IH(a){var s
 a.ak(t.dq)
 s=A.V(a)
@@ -64242,7 +64242,7 @@ gii(){return B.ol},
 gie(){return B.ok},
 gda(){return new A.bt(new A.aO3(this),t.mN)},
 gih(){return B.el},
-gbU(){return B.dy},
+gbU(){return B.dz},
 gij(){return new A.bt(new A.aO4(),t.B_)},
 geS(){return A.V(this.fy).Q},
 gio(){return A.V(this.fy).f},
@@ -64396,13 +64396,13 @@ if(s!=null){s.M$=$.ap()
 s.a_$=0}this.aE()}}
 A.a6Y.prototype={
 G3(a){var s,r=null
-switch(this.ch.a){case 1:s=new A.a6o(a,this.CW,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,!0,B.v,r,r,r)
+switch(this.ch.a){case 1:s=new A.a6o(a,this.CW,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,!0,B.u,r,r,r)
 break
-case 2:s=new A.a6p(a,this.CW,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,!0,B.v,r,r,r)
+case 2:s=new A.a6p(a,this.CW,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,!0,B.u,r,r,r)
 break
-case 3:s=new A.a8e(a,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,!0,B.v,r,r,r)
+case 3:s=new A.a8e(a,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,!0,B.u,r,r,r)
 break
-case 0:s=new A.a6X(a,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,!0,B.v,r,r,r)
+case 0:s=new A.a6X(a,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,!0,B.u,r,r,r)
 break
 default:s=r}return s},
 IH(a){var s,r,q=null,p=A.arg(a),o=p.a,n=p.f
@@ -64431,7 +64431,7 @@ gii(){return B.k5},
 gih(){return B.el},
 gie(){return B.k3},
 gfq(){return null},
-gbU(){return B.dy},
+gbU(){return B.dz},
 gij(){return new A.bt(new A.aPs(),t.B_)},
 geS(){return B.fk},
 gio(){return A.V(this.fy).f},
@@ -64479,7 +64479,7 @@ gii(){return B.k5},
 gih(){return B.el},
 gie(){return B.k3},
 gfq(){return null},
-gbU(){return B.dy},
+gbU(){return B.dz},
 gij(){return new A.bt(new A.aOl(),t.B_)},
 geS(){return B.fk},
 gio(){return A.V(this.fy).f},
@@ -64533,7 +64533,7 @@ gii(){return B.k5},
 gih(){return B.el},
 gie(){return B.k3},
 gfq(){return null},
-gbU(){return B.dy},
+gbU(){return B.dz},
 gij(){return new A.bt(new A.aOp(),t.B_)},
 geS(){return B.fk},
 gio(){return A.V(this.fy).f},
@@ -64608,7 +64608,7 @@ gii(){return B.k5},
 gih(){return B.el},
 gie(){return B.k3},
 gfq(){return new A.bt(new A.aRR(this),t.jY)},
-gbU(){return B.dy},
+gbU(){return B.dz},
 gij(){return new A.bt(new A.aRP(),t.B_)},
 geS(){return B.fk},
 gio(){return A.V(this.fy).f},
@@ -64800,7 +64800,7 @@ m=b.gfe()
 l=t.C
 k=t.Hd
 q.CW=new A.aB(l.a(o),new A.tc(0,m),k.h("aB<aF.T>"))
-m=A.cw(h,B.dR,h,1,h,p)
+m=A.cw(h,B.dS,h,1,h,p)
 m.bE()
 m.cP$.B(0,n)
 m.c8()
@@ -64886,7 +64886,7 @@ $0(){var s=this.a.gv()
 return new A.G(0,0,0+s.a,0+s.b)},
 $S:226}
 A.a76.prototype={
-a4M(a,b,c,d,e,f,g,h,i,j,k){var s,r,q=null,p=h==null?A.bwl(j,c,i,g):h,o=new A.J1(g,B.az,p,A.bwg(j,c,i),!c,k,b,e,d,j,f),n=d.C,m=A.cw(q,B.dR,q,1,q,n),l=d.gel()
+a4M(a,b,c,d,e,f,g,h,i,j,k){var s,r,q=null,p=h==null?A.bwl(j,c,i,g):h,o=new A.J1(g,B.az,p,A.bwg(j,c,i),!c,k,b,e,d,j,f),n=d.C,m=A.cw(q,B.dS,q,1,q,n),l=d.gel()
 m.bE()
 m.cP$.B(0,l)
 m.c8()
@@ -65063,7 +65063,7 @@ switch(e){case 0:i.gd6().e3(B.Q,c)
 break
 case 1:if(b)i.gd6().e3(B.J,c)
 break
-case 2:break}if(a===B.dA){s=i.a.p2
+case 2:break}if(a===B.dB){s=i.a.p2
 if(s!=null)s.Rd(i,c)}s=f==null
 if(c===(!s&&f.CW))return
 if(c)if(s){s=i.a.fy
@@ -65203,13 +65203,13 @@ s=o.e
 if(s!=null)s.aX()
 o.e=p
 o.qb()
-o.nt(B.dA,!0)},
+o.nt(B.dB,!0)},
 az4(a){return this.a1k(null,a)},
 a1j(a){return this.a1k(a,null)},
 a6r(){var s=this,r=s.e
 if(r!=null)r.vr()
 s.e=null
-s.nt(B.dA,!1)
+s.nt(B.dB,!1)
 r=s.a
 if(r.d!=null){if(r.k1){r=s.c
 r.toString
@@ -65219,23 +65219,23 @@ aI5(){var s=this,r=s.e
 if(r!=null)r.aX()
 s.e=null
 s.a.toString
-s.nt(B.dA,!1)},
+s.nt(B.dB,!1)},
 aHn(){var s=this,r=s.e
 if(r!=null)r.vr()
 s.e=null
-s.nt(B.dA,!1)
+s.nt(B.dB,!1)
 r=s.a.w
 if(r!=null)r.$0()},
 aHT(){var s=this,r=s.e
 if(r!=null)r.vr()
 s.e=null
-s.nt(B.dA,!1)
+s.nt(B.dB,!1)
 s.a.toString},
 aHV(){var s=this,r=s.e
 if(r!=null)r.aX()
 s.e=null
 s.a.toString
-s.nt(B.dA,!1)},
+s.nt(B.dB,!1)},
 eK(){var s,r,q,p,o,n=this,m=n.d
 if(m!=null){n.d=null
 for(s=A.j(m),m=new A.jT(m,m.uo(),s.h("jT<1>")),s=s.c;m.u();){r=m.d;(r==null?s.a(r):r).l()}n.e=null}for(m=n.r,s=new A.hG(m,m.r,m.e);s.u();){r=s.d
@@ -65325,7 +65325,7 @@ A.aPH.prototype={
 $1(a){return a!=null},
 $S:907}
 A.aPD.prototype={
-$0(){this.a.nt(B.dA,!1)},
+$0(){this.a.nt(B.dB,!1)},
 $S:0}
 A.aPG.prototype={
 $0(){},
@@ -65783,7 +65783,7 @@ if(p!=null)q.push(p)
 if(r!=null)q.push(r)
 p=s.i(0,B.cn)
 if(p!=null)q.push(p)
-s=s.i(0,B.dz)
+s=s.i(0,B.dA)
 if(s!=null)q.push(s)
 return q},
 saG(a){if(this.A.k(0,a))return
@@ -65823,7 +65823,7 @@ a.$1(s)}if(r.i(0,B.bf)!=null){s=r.i(0,B.bf)
 s.toString
 a.$1(s)}if(r.i(0,B.bA)!=null){s=r.i(0,B.bA)
 s.toString
-a.$1(s)}if(r.i(0,B.dz)!=null){s=r.i(0,B.dz)
+a.$1(s)}if(r.i(0,B.dA)!=null){s=r.i(0,B.dA)
 s.toString
 a.$1(s)}s=r.i(0,B.cm)
 s.toString
@@ -66041,7 +66041,7 @@ r=s.e
 a2.fy=a4.bj(r)
 q=r.a
 r=a2.e9$
-p=r.i(0,B.dz)
+p=r.i(0,B.dA)
 if(p!=null){p.cm(A.kV(s.c,q-A.jj(r.i(0,B.b9)).a),!0)
 switch(a2.O.a){case 0:o=0
 break
@@ -66171,7 +66171,7 @@ aw1(a,b){var s=this.e9$.i(0,B.aq)
 s.toString
 a.en(s,b)},
 aD(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=new A.aSZ(a,b),d=f.e9$
-e.$1(d.i(0,B.dz))
+e.$1(d.i(0,B.dA))
 if(d.i(0,B.aq)!=null){s=d.i(0,B.aq).b
 s.toString
 r=t.q
@@ -66188,10 +66188,10 @@ else{s=f.A
 o=s.z
 j=s.a.b+new A.l(o.a,o.b).a6(0,4).b/2}s=A.a8(1,0.75,m)
 s.toString
-o=d.i(0,B.dz).b
+o=d.i(0,B.dA).b
 o.toString
 o=r.a(o).a
-r=A.jj(d.i(0,B.dz))
+r=A.jj(d.i(0,B.dA))
 switch(f.O.a){case 0:i=q.a+p*(1-s)
 if(d.i(0,B.ay)!=null&&!f.A.w&&l)h=i+(f.ah?A.jj(d.i(0,B.ay)).a-f.A.a.c:0)
 else h=i
@@ -66506,7 +66506,7 @@ d5.gaG()
 a4=d5.gaG().d
 a4.toString
 a4=A.ai(a4,d6,B.aE,d6,d6,d5.a.e,d6,d6)
-a6=new A.JK(new A.aPW(),B.v,d6,A.b1P(A.FZ(a4,B.av,B.cY,k),B.av,B.cY,a3),a2,d6)}else a6=d6
+a6=new A.JK(new A.aPW(),B.u,d6,A.b1P(A.FZ(a4,B.av,B.cY,k),B.av,B.cY,a3),a2,d6)}else a6=d6
 d5.gaG()
 d5.gaG()
 k=d5.gaG().p2==null
@@ -66899,7 +66899,7 @@ $S:55}
 A.a79.prototype={}
 A.a78.prototype={}
 A.Tc.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -66911,11 +66911,11 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.Tv.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -67044,18 +67044,18 @@ b.saJj(!1)
 b.saJ8(!1)
 b.seS(s.y)
 b.sc0(s.z)
-b.saNn(s.Q)
+b.saNm(s.Q)
 b.sadL(s.as)
 b.saIz(s.at)
 b.saKb(s.ay)
 b.saKd(s.ch)
 b.saKe(s.ax)
-b.saNm(s.CW)}}
+b.saNl(s.CW)}}
 A.Rm.prototype={
-geI(){var s=this.e9$,r=s.i(0,B.c7),q=A.b([],t.Ik),p=s.i(0,B.dB)
+geI(){var s=this.e9$,r=s.i(0,B.c7),q=A.b([],t.Ik),p=s.i(0,B.dC)
 if(p!=null)q.push(p)
 if(r!=null)q.push(r)
-p=s.i(0,B.dC)
+p=s.i(0,B.dD)
 if(p!=null)q.push(p)
 s=s.i(0,B.fr)
 if(s!=null)q.push(s)
@@ -67068,7 +67068,7 @@ saJj(a){return},
 sc0(a){if(this.ad===a)return
 this.ad=a
 this.W()},
-saNn(a){if(this.Z===a)return
+saNm(a){if(this.Z===a)return
 this.Z=a
 this.W()},
 sadL(a){if(this.ag===a)return
@@ -67087,35 +67087,35 @@ this.W()},
 saKd(a){if(this.bf==a)return
 this.bf=a
 this.W()},
-saNm(a){if(this.aP===a)return
+saNl(a){if(this.aP===a)return
 this.aP=a
 this.W()},
 gj4(){return!1},
 bo(a){var s,r,q,p=this.e9$
-if(p.i(0,B.dB)!=null){s=p.i(0,B.dB)
+if(p.i(0,B.dC)!=null){s=p.i(0,B.dC)
 r=Math.max(s.al(B.aQ,a,s.gbP()),this.ba)+this.gDd()}else r=0
 s=p.i(0,B.c7)
 s.toString
 s=s.al(B.aQ,a,s.gbP())
-q=p.i(0,B.dC)
+q=p.i(0,B.dD)
 q=q==null?0:q.al(B.aQ,a,q.gbP())
 q=Math.max(s,q)
 p=p.i(0,B.fr)
 p=p==null?0:p.al(B.ap,a,p.gbz())
 return r+q+p},
 bh(a){var s,r,q,p=this.e9$
-if(p.i(0,B.dB)!=null){s=p.i(0,B.dB)
+if(p.i(0,B.dC)!=null){s=p.i(0,B.dC)
 r=Math.max(s.al(B.ap,a,s.gbz()),this.ba)+this.gDd()}else r=0
 s=p.i(0,B.c7)
 s.toString
 s=s.al(B.ap,a,s.gbz())
-q=p.i(0,B.dC)
+q=p.i(0,B.dD)
 q=q==null?0:q.al(B.ap,a,q.gbz())
 q=Math.max(s,q)
 p=p.i(0,B.fr)
 p=p==null?0:p.al(B.ap,a,p.gbz())
 return r+q+p},
-gD5(){var s,r=this.O,q=new A.l(r.a,r.b).a6(0,4),p=this.e9$.i(0,B.dC)!=null
+gD5(){var s,r=this.O,q=new A.l(r.a,r.b).a6(0,4),p=this.e9$.i(0,B.dD)!=null
 $label0$0:{r=p
 s=r
 if(r){r=72
@@ -67128,7 +67128,7 @@ s=this.e9$
 r=s.i(0,B.c7)
 r.toString
 r=r.al(B.aX,a,r.gbT())
-s=s.i(0,B.dC)
+s=s.i(0,B.dD)
 s=s==null?null:s.al(B.aX,a,s.gbT())
 return Math.max(q,r+(s==null?0:s))},
 bm(a){return this.al(B.aX,a,this.gbT())},
@@ -67142,7 +67142,7 @@ s.toString
 return A.ahk(s.mm(a),r.a.b)},
 Zw(b3,b4,b5,b6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8=this,a9=b5.b,b0=new A.ae(0,a9,0,b5.d),b1=a8.O,b2=b0.kR(new A.ae(0,1/0,0,56+new A.l(b1.a,b1.b).a6(0,4).b))
 b1=a8.e9$
-s=b1.i(0,B.dB)
+s=b1.i(0,B.dC)
 r=b1.i(0,B.fr)
 q=s==null
 p=q?null:b4.$2(s,b2)
@@ -67153,7 +67153,7 @@ l=m?0:Math.max(a8.ba,p.a)+a8.gDd()
 k=n==null
 j=k?0:Math.max(n.a+a8.gDd(),32)
 i=b0.Bb(a9-l-j)
-h=b1.i(0,B.dC)
+h=b1.i(0,B.dD)
 g=b1.i(0,B.c7)
 g.toString
 f=b4.$2(g,i).b
@@ -67197,11 +67197,11 @@ cl(a){return a.bj(this.Zv(A.k1(),A.hR(),a).b)},
 bC(){var s=this,r=t.k,q=s.Zw(A.b_D(),A.n9(),r.a(A.C.prototype.gV.call(s)),A.bAf())
 s.fy=r.a(A.C.prototype.gV.call(s)).bj(q.b)},
 aD(a,b){var s,r=new A.aT7(a,b),q=this.e9$
-r.$1(q.i(0,B.dB))
+r.$1(q.i(0,B.dC))
 s=q.i(0,B.c7)
 s.toString
 r.$1(s)
-r.$1(q.i(0,B.dC))
+r.$1(q.i(0,B.dD))
 r.$1(q.i(0,B.fr))},
 ic(a){return!0},
 d5(a,b){var s,r,q,p,o,n
@@ -67466,7 +67466,7 @@ A.RZ.prototype={
 aD(a,b){this.b.fE(a,new A.G(0,0,0+b.a,0+b.b),this.c)},
 eV(a){return!a.b.k(0,this.b)}}
 A.ad4.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -67594,7 +67594,7 @@ A.a8_.prototype={}
 A.ZO.prototype={
 G3(a){var s=null
 A.V(a)
-return new A.a8c(a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.N,!0,B.v,s,s,s)},
+return new A.a8c(a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.N,!0,B.u,s,s,s)},
 IH(a){var s
 a.ak(t.BR)
 s=A.V(a)
@@ -67617,7 +67617,7 @@ gie(){return B.ok},
 gda(){return new A.bt(new A.aRJ(this),t.mN)},
 gih(){return B.el},
 gfq(){return new A.bt(new A.aRM(this),t.GD)},
-gbU(){return B.dy},
+gbU(){return B.dz},
 gij(){return new A.bt(new A.aRK(),t.B_)},
 geS(){return A.V(this.fy).Q},
 gio(){return A.V(this.fy).f},
@@ -67929,7 +67929,7 @@ a8o(a,b,c,d,e,f){var s
 this.X9(a,b,c)
 s=this.x
 A.bef(a,d,s.b.aj(s.a.gq()),this.y.gq(),f)},
-l(){var s=this,r=s.w,q=s.gcY()
+l(){var s=this,r=s.w,q=s.gcZ()
 r.L(q)
 r.dm(s.gyC())
 s.x.a.L(q)
@@ -67964,7 +67964,7 @@ r=s}return r},
 l(){var s,r=this
 r.Q.saF(null)
 r.as.saF(null)
-s=r.gcY()
+s=r.gcZ()
 r.w.a.L(s)
 r.x.L(s)
 r.y.dm(r.gyC())
@@ -68142,7 +68142,7 @@ break $label0$0}r=p.as
 r===$&&A.a()
 r=p.at=new A.l(r.b.aj(r.a.gq()).a,p.Dq(A.al(a,B.EP,t.w).w.a.b))
 break $label0$0}q=p.e.aj(p.r.gq())
-return A.b4b(B.v,A.b4c(A.Kk(A.aj6(A.eo(p.d.aj(o.gq())),b),q),r),s,null)},
+return A.b4b(B.u,A.b4c(A.Kk(A.aj6(A.eo(p.d.aj(o.gq())),b),q),r),s,null)},
 $S:324}
 A.ada.prototype={}
 A.Tz.prototype={
@@ -68150,7 +68150,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.aJu.prototype={
@@ -68273,7 +68273,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.Ck.prototype={
@@ -68511,15 +68511,15 @@ a0h(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=f.e
 if(d!=null)d.l()
 d=f.d
 d===$&&A.a()
-f.e=A.dy(B.df,d,e)
+f.e=A.dy(B.dg,d,e)
 d=f.f
 if(d!=null)d.l()
-d=A.dy(B.df,f.d,e)
+d=A.dy(B.dg,f.d,e)
 f.f=d
 s=t.Y
 r=f.r
 if(r!=null)r.l()
-f.r=A.dy(B.df,f.a.r,e)
+f.r=A.dy(B.dg,f.a.r,e)
 r=f.a
 q=r.r
 p=$.biy()
@@ -68562,13 +68562,13 @@ s=q.as
 o===$&&A.a()
 r=q.x
 r===$&&A.a()
-p.push(A.aCB(A.aBT(B.v,s,null,r),o))}o=q.a
+p.push(A.aCB(A.aBT(B.u,s,null,r),o))}o=q.a
 s=q.y
 o=o.c
 s===$&&A.a()
 r=q.Q
 r===$&&A.a()
-p.push(A.aCB(A.aBT(B.v,o,null,r),s))
+p.push(A.aCB(A.aBT(B.u,o,null,r),s))
 return A.el(B.ky,p,B.t,B.aw,null)},
 avr(){var s,r=this.w
 r===$&&A.a()
@@ -68613,7 +68613,7 @@ a4b(){this.a.toString},
 ast(){var s,r=this.c
 r.toString
 s=A.a_B(r)
-if(s!=null&&s.f.length!==0)s.lD(0,B.Mi,B.dR)},
+if(s!=null&&s.f.length!==0)s.lD(0,B.Mi,B.dS)},
 guO(){var s=this.a.dy
 return s!==!1},
 au(){var s,r=this,q=null
@@ -68786,7 +68786,7 @@ A.aU9.prototype={
 $2(a,b){if(!a.a)a.L(b)},
 $S:33}
 A.RE.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -68794,7 +68794,7 @@ if(r!=null)r.L(s.geX())
 s.bc$=null
 s.aE()}}
 A.RF.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -68822,7 +68822,7 @@ if(s!=null)s.l()
 r.be$=null
 r.ahg()}}
 A.Tq.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -68837,7 +68837,7 @@ q=r?3:s
 if(r)s=8
 r=p.y
 if(r==null)r=A.U7()
-return new A.Az(s,B.e6,p.c,p.d,p.e===!0,B.Ys,q,o,B.lt,B.N5,r,o,o,3,o)}s=p.y
+return new A.Az(s,B.e7,p.c,p.d,p.e===!0,B.Ys,q,o,B.lt,B.N5,r,o,o,3,o)}s=p.y
 if(s==null)s=A.U7()
 return new A.Ex(p.c,p.d,p.e,o,p.r,p.f,B.ct,B.fY,s,o,o,0,o)}}
 A.Ex.prototype={
@@ -69196,7 +69196,7 @@ if(a===B.bv)return!0
 if(r.a.length!==0)return!0
 return!1},
 J(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=A.V(a1),a0=a1.ak(t.Uf)
-if(a0==null)a0=B.dQ
+if(a0==null)a0=B.dR
 s=c.gqT()
 c.a.toString
 r=!0
@@ -69212,7 +69212,7 @@ if(l==null)l=n.gey()
 k=a0.x
 if(k==null)k=n.gey().b1(0.4)
 p=new A.l(-2/A.al(a1,B.cM,t.w).w.b,0)
-o=B.dq
+o=B.dr
 break
 case 4:n=A.rI(a1)
 c.w=!1
@@ -69223,7 +69223,7 @@ if(l==null)l=n.gey()
 k=a0.x
 if(k==null)k=n.gey().b1(0.4)
 p=new A.l(-2/A.al(a1,B.cM,t.w).w.b,0)
-o=B.dq
+o=B.dr
 break
 case 0:case 1:c.w=!1
 m=$.b6W()
@@ -69380,8 +69380,8 @@ g=a.a
 g=A.b([A.ed(new A.aA(B.NA,A.lX(g.c,a0,a0,B.aV,!0,a6,a0,a0,B.a6),a0),1)],a1)
 if(!h)B.b.H(g,l)
 if(h)g.push(A.bT(a0,a0,j*0.4))
-a1=A.b([A.bA(g,B.l,B.j,B.k,0,a0)],a1)
-if(h)a1.push(new A.aA(B.Nv,A.bA(l,B.l,B.hm,B.k,0,a0),a0))
+a1=A.b([A.bA(g,B.j,B.k,B.l,0,a0)],a1)
+if(h)a1.push(new A.aA(B.Nv,A.bA(l,B.j,B.hm,B.l,0,a0),a0))
 f=new A.aA(n,A.mV(B.aP,a1,B.cl,B.a4,B.aP,0,0),a0)
 if(!p)f=A.xQ(!0,f,B.aL,!1)
 a.a.toString
@@ -69510,7 +69510,7 @@ A.yj.prototype={
 G3(a){var s=null
 A.V(a)
 A.V(a)
-return new A.abs(a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.N,!0,B.v,s,s,s)},
+return new A.abs(a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.N,!0,B.u,s,s,s)},
 IH(a){var s=a.ak(t.if),r=s==null?null:s.w
 return(r==null?A.V(a).d4:r).a}}
 A.abs.prototype={
@@ -69530,7 +69530,7 @@ gii(){return B.ol},
 gie(){return B.ok},
 gda(){return new A.bt(new A.aVn(this),t.mN)},
 gih(){return B.el},
-gbU(){return B.dy},
+gbU(){return B.dz},
 gij(){return new A.bt(new A.aVo(),t.B_)},
 geS(){return A.V(this.fy).Q},
 gio(){return A.V(this.fy).f},
@@ -69756,7 +69756,7 @@ p=new A.A_(!0,"EditableText-"+n,s,r,q.z)}else p=B.oV
 n=o.y.gN().gno()
 return A.bc5(n.z,n.ay,n.e,p,!1,!0,n.y,!0,n.ch,n.Q,n.b,n.at,n.d,n.c,n.r,n.w,n.as,n.a)},
 J(f2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7=this,e8=null,e9={},f0=A.V(f2),f1=f2.ak(t.Uf)
-if(f1==null)f1=B.dQ
+if(f1==null)f1=B.dR
 s=A.cy(e7.a.z,e7.ghW().a,t.p8)
 r=A.V(f2).ok.y
 r.toString
@@ -69803,7 +69803,7 @@ e=new A.l(-2/A.al(f2,B.cM,t.w).w.b,0)
 d=a
 g=!0
 i=!0
-h=B.dq
+h=B.dr
 break
 case 4:c=A.rI(f2)
 i=e7.x=!1
@@ -69817,7 +69817,7 @@ e=new A.l(-2/A.al(f2,B.cM,t.w).w.b,0)
 e9.b=new A.aVx(e7)
 e9.a=new A.aVy(e7)
 g=!0
-h=B.dq
+h=B.dr
 break
 case 0:case 1:e7.x=!1
 j=$.b6W()
@@ -70128,7 +70128,7 @@ J(a){var s=this.c.a1(0,B.WD),r=this.d.X(0,B.WA),q=A.al(a,B.bp,t.w).w.r.b+8,p=44<
 return new A.aA(new A.ac(8,q,8,8),new A.p5(new A.a2J(s.a1(0,o),r.a1(0,o),p),new A.St(this.e,p,A.bBA(),null),null),null)}}
 A.St.prototype={
 a7(){return new A.abF(new A.ls(),null,null)},
-aNA(a,b){return this.e.$2(a,b)}}
+aNz(a,b){return this.e.$2(a,b)}}
 A.abF.prototype={
 aI(a){var s=this
 s.b_(a)
@@ -70147,7 +70147,7 @@ m=A.B9(q?B.ro:B.OW,j,j,j)
 l=q?"Back":"More"
 n=A.b([new A.abE(m,new A.aVX(k),l,n)],t.p)
 B.b.H(n,k.a.c)
-return new A.abG(q,s,A.b1Q(B.v,p.aNA(a,new A.abC(o,q,s,n,j)),B.a3,B.N6,j),r)}}
+return new A.abG(q,s,A.b1Q(B.u,p.aNz(a,new A.abC(o,q,s,n,j)),B.a3,B.N6,j),r)}}
 A.aVX.prototype={
 $0(){var s=this.a
 s.T(new A.aVW(s))},
@@ -70398,7 +70398,7 @@ q=s.b
 q.toString
 s=r.a(q).az$}}}
 A.adC.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -70527,7 +70527,7 @@ k=m==null?f.i9.c:m
 l=new A.Z8(f,new A.xa(s,r,q,p,o,n,m,l),B.or,s,r,q,p,o,n,k,l)
 f=l}f=f.du(a)
 j=a.ak(t.Uf)
-if(j==null)j=B.dQ
+if(j==null)j=B.dR
 s=i.c
 r=s.i9
 q=r.b
@@ -70676,7 +70676,7 @@ $0(){var s=this.a,r=this.b
 return s.aEi(r.bi(s.k4),r.bi(s.ok))},
 $S:337}
 A.aH9.prototype={
-$2(a,b){return new A.aT(a,b.aOQ(this.a.c.i(0,a),this.b),t.sw)},
+$2(a,b){return new A.aT(a,b.aOP(this.a.c.i(0,a),this.b),t.sw)},
 $S:338}
 A.aHa.prototype={
 $1(a){return!this.a.c.am(a.a)},
@@ -70771,11 +70771,11 @@ if(!r.k(s,a.y)&&b.n(0,B.oO))return!0
 if(!r.k(s,a.z)&&b.n(0,B.EZ))return!0
 if(!r.k(s,a.Q)&&b.n(0,B.F_))return!0
 if(q.ch!==a.ch&&b.n(0,B.oP))return!0
-if(!q.as.k(0,a.as)&&b.n(0,B.dE))return!0
-if(!J.c(q.at,a.at)&&b.n(0,B.db))return!0
+if(!q.as.k(0,a.as)&&b.n(0,B.dF))return!0
+if(!J.c(q.at,a.at)&&b.n(0,B.dc))return!0
 if(q.CW!==a.CW&&b.n(0,B.oL))return!0
-if(!q.cx.k(0,a.cx)&&b.n(0,B.da))return!0
-if(!q.cy.k(0,a.cy)&&b.n(0,B.dD))return!0
+if(!q.cx.k(0,a.cx)&&b.n(0,B.db))return!0
+if(!q.cy.k(0,a.cy)&&b.n(0,B.dE))return!0
 return!1},
 cw(a){var s=this
 return s.w!==a.w||s.x!==a.x||!J.c(s.y,a.y)||!J.c(s.z,a.z)||!J.c(s.Q,a.Q)||s.ch!==a.ch||!s.as.k(0,a.as)||!J.c(s.at,a.at)||s.CW!==a.CW||!s.cx.k(0,a.cx)||!s.cy.k(0,a.cy)}}
@@ -70784,7 +70784,7 @@ J(a){var s,r,q,p,o,n,m,l,k,j,i=null,h=t.v
 A.cp(a,B.P,h).toString
 s=t.E
 A.al(a,B.oJ,s).toString
-r=A.al(a,B.dD,s)
+r=A.al(a,B.dE,s)
 r.toString
 q=r.cy
 r=A.al(a,B.oL,s)
@@ -70797,38 +70797,38 @@ r=A.al(a,B.oP,s)
 r.toString
 m=r.ch
 switch(p.a){case 0:A.al(a,B.oK,s).toString
-r=A.al(a,B.da,s)
+r=A.al(a,B.db,s)
 r.toString
 r=r.cx.ax
 if(r==null)r=q.grW()
 r=A.ai(this.c,i,i,i,r,i,i,i)
 l=t.p
-k=A.b([A.ed(A.bA(A.b([B.qU,new A.Fa(B.ff,i),B.qV],l),B.l,B.j,B.k,0,B.a2),1)],l)
+k=A.b([A.ed(A.bA(A.b([B.qU,new A.Fa(B.ff,i),B.qV],l),B.j,B.k,B.l,0,B.a2),1)],l)
 if(m===B.kc)k.push(B.EC)
-r=A.ax(A.b([new A.aA(new A.dl(0,0,0,20-n/2),r,i),A.bA(k,B.l,B.j,B.k,12,B.a2)],l),B.u,i,B.j,B.k,0,B.o)
+r=A.ax(A.b([new A.aA(new A.dl(0,0,0,20-n/2),r,i),A.bA(k,B.j,B.k,B.l,12,B.a2)],l),B.v,i,B.k,B.l,0,B.o)
 break
-case 1:r=A.al(a,B.da,s)
+case 1:r=A.al(a,B.db,s)
 r.toString
 r=r.cx.ax
 if(r==null)r=q.grW()
 r=A.ai(this.c,i,i,i,r,i,i,i)
 l=Math.max(0,16-n/2)
 k=t.p
-j=A.b([A.bA(A.b([B.qU,new A.Fa(B.ff,i),B.qV],k),B.l,B.j,B.k,0,B.a2)],k)
+j=A.b([A.bA(A.b([B.qU,new A.Fa(B.ff,i),B.qV],k),B.j,B.k,B.l,0,B.a2)],k)
 if(m===B.kc)j.push(B.EC)
-r=A.bT(A.el(B.b5,A.b([r,A.ax(j,B.u,i,B.cg,B.k,l,B.o)],k),B.t,B.aw,i),i,216)
+r=A.bT(A.el(B.b5,A.b([r,A.ax(j,B.v,i,B.cg,B.l,l,B.o)],k),B.t,B.aw,i),i,216)
 break
 default:r=i}h=A.cp(a,B.P,h)
 h.toString
-s=A.al(a,B.dE,s)
+s=A.al(a,B.dF,s)
 s.toString
 A.al(a,B.cK,t.w).toString
 return A.bL(i,i,r,!1,i,i,i,!1,!1,i,i,i,i,i,i,i,i,h.aHe(s.as,!1),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.F,i)}}
 A.Po.prototype={
-J(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=t.E,h=A.al(a,B.da,i)
+J(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=t.E,h=A.al(a,B.db,i)
 h.toString
 s=h.cx
-h=A.al(a,B.dD,i)
+h=A.al(a,B.dE,i)
 h.toString
 r=h.cy
 q=s.ay
@@ -70838,10 +70838,10 @@ if(p==null)p=r.gAj()
 h=A.aN(t.Q)
 o=k.f
 if(o)h.B(0,B.L)
-n=A.al(a,B.da,i)
+n=A.al(a,B.db,i)
 n.toString
 n=n.cx.CW
-if(n==null){i=A.al(a,B.dD,i)
+if(n==null){i=A.al(a,B.dE,i)
 i.toString
 i=i.cy.grY()}else i=n
 m=A.cy(i,h,t.G)
@@ -70856,7 +70856,7 @@ A.a5M.prototype={
 J(a){var s,r,q,p,o,n,m,l,k,j=null
 A.al(a,B.cK,t.w).toString
 s=t.E
-r=A.al(a,B.dE,s)
+r=A.al(a,B.dF,s)
 r.toString
 q=r.as
 r=A.cp(a,B.P,t.v)
@@ -70883,12 +70883,12 @@ s=(r.a<12?B.bq:B.cd)===B.bq?0:12
 return r.IB(s+B.e.aR(r.gH4()+a,12))}},
 $S:340}
 A.aNy.prototype={
-$0(){var s=A.al(this.a,B.db,t.E)
+$0(){var s=A.al(this.a,B.dc,t.E)
 s.toString
 s.at.$1(this.b)},
 $S:0}
 A.aNx.prototype={
-$0(){var s=A.al(this.a,B.db,t.E)
+$0(){var s=A.al(this.a,B.dc,t.E)
 s.toString
 s.at.$1(this.b)},
 $S:0}
@@ -70931,7 +70931,7 @@ A.a5N.prototype={
 J(a){var s,r,q,p,o,n,m,l,k=null,j=A.cp(a,B.P,t.v)
 j.toString
 s=t.E
-r=A.al(a,B.dE,s)
+r=A.al(a,B.dF,s)
 r.toString
 q=r.as
 p=j.A8(q)
@@ -70946,12 +70946,12 @@ s=A.al(a,B.F_,s)
 s.toString
 return A.bL(k,k,new A.Po(p,new A.aNA(a),s.Q,j.x===B.kd,k),!1,k,l,k,!0,!1,k,k,k,k,k,k,n,k,k,k,k,k,k,k,k,k,new A.aNB(a,m),k,k,k,k,new A.aNC(a,o),k,k,k,k,k,k,k,k,k,k,k,B.F,"Select minutes "+p)}}
 A.aNC.prototype={
-$0(){var s=A.al(this.a,B.db,t.E)
+$0(){var s=A.al(this.a,B.dc,t.E)
 s.toString
 s.at.$1(this.b)},
 $S:0}
 A.aNB.prototype={
-$0(){var s=A.al(this.a,B.db,t.E)
+$0(){var s=A.al(this.a,B.dc,t.E)
 s.toString
 s.at.$1(this.b)},
 $S:0}
@@ -70961,33 +70961,33 @@ s.toString
 return s.y.$1(B.kd)},
 $S:0}
 A.Pf.prototype={
-a1S(a){var s,r,q=t.E,p=A.al(a,B.dE,q)
+a1S(a){var s,r,q=t.E,p=A.al(a,B.dF,q)
 p.toString
 s=p.as
 r=s.IB(B.e.aR(s.a+12,24))
 p=this.c
 if(p!=null)p.$1(r)
-else{q=A.al(a,B.db,q)
+else{q=A.al(a,B.dc,q)
 q.toString
 q.at.$1(r)}},
-a0Q(a){var s=A.al(a,B.dE,t.E)
+a0Q(a){var s=A.al(a,B.dF,t.E)
 s.toString
 if((s.as.a<12?B.bq:B.cd)===B.bq)return
 this.a1S(a)},
-a0X(a){var s=A.al(a,B.dE,t.E)
+a0X(a){var s=A.al(a,B.dF,t.E)
 s.toString
 if((s.as.a<12?B.bq:B.cd)===B.cd)return
 this.a1S(a)},
 J(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null
 A.cp(a,B.P,t.v).toString
 s=t.E
-r=A.al(a,B.da,s)
+r=A.al(a,B.db,s)
 r.toString
 q=r.cx
-r=A.al(a,B.dD,s)
+r=A.al(a,B.dE,s)
 r.toString
 p=r.cy
-r=A.al(a,B.dE,s)
+r=A.al(a,B.dF,s)
 r.toString
 o=(r.as.a<12?B.bq:B.cd)===B.bq
 n=!o
@@ -71019,15 +71019,15 @@ r=k.b
 e=Math.max(r,96)
 d=new A.I(s,e)
 r=(e-r)/2
-return new A.Pg(d,j,A.u8(A.ax(A.b([A.ed(new A.yN(o,new A.aN3(c,a),"AM",new A.ac(0,r,0,0),g,b),1),A.ed(new A.yN(n,new A.aN4(c,a),"PM",new A.ac(0,0,0,r),f,b),1)],t.p),B.l,b,B.j,B.k,0,B.o),d),b)
-case B.dm:if(i){h=t.m_.a(l.b)
+return new A.Pg(d,j,A.u8(A.ax(A.b([A.ed(new A.yN(o,new A.aN3(c,a),"AM",new A.ac(0,r,0,0),g,b),1),A.ed(new A.yN(n,new A.aN4(c,a),"PM",new A.ac(0,0,0,r),f,b),1)],t.p),B.j,b,B.k,B.l,0,B.o),d),b)
+case B.dn:if(i){h=t.m_.a(l.b)
 g=l.FH(new A.df(h.a,B.H,h.c,B.H))
 f=l.FH(new A.df(B.H,h.b,B.H,h.d))}else{f=l
 g=f}s=k.a
 r=k.b
 e=Math.max(r,48)
 r=(e-r)/2
-return new A.Pg(new A.I(s,e),j,A.bT(A.bA(A.b([A.ed(new A.yN(o,new A.aN5(c,a),"AM",new A.ac(0,r,0,r),g,b),1),A.ed(new A.yN(n,new A.aN6(c,a),"PM",new A.ac(0,r,0,r),f,b),1)],t.p),B.l,B.j,B.k,0,b),e,b),b)}}}
+return new A.Pg(new A.I(s,e),j,A.bT(A.bA(A.b([A.ed(new A.yN(o,new A.aN5(c,a),"AM",new A.ac(0,r,0,r),g,b),1),A.ed(new A.yN(n,new A.aN6(c,a),"PM",new A.ac(0,r,0,r),f,b),1)],t.p),B.j,B.k,B.l,0,b),e,b),b)}}}
 A.aN3.prototype={
 $0(){return this.a.a0Q(this.b)},
 $S:0}
@@ -71044,10 +71044,10 @@ A.yN.prototype={
 J(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=A.aN(t.Q),h=k.c
 if(h)i.B(0,B.L)
 s=t.E
-r=A.al(a,B.da,s)
+r=A.al(a,B.db,s)
 r.toString
 q=r.cx
-s=A.al(a,B.dD,s)
+s=A.al(a,B.dE,s)
 s.toString
 p=s.cy
 s=q.gpC()
@@ -71103,13 +71103,13 @@ if(q==null)return null
 s=q.fS(a,b)
 if(s==null)return null
 r=q.al(B.Y,a,q.gct())
-return s+B.v.lC(t.o.a(this.al(B.Y,a,this.gct()).a1(0,r))).b},
+return s+B.u.lC(t.o.a(this.al(B.Y,a,this.gct()).a1(0,r))).b},
 bC(){var s,r=this
 r.fy=r.a1O(t.k.a(A.C.prototype.gV.call(r)),A.n9())
 s=r.p$
 if(s!=null){s=s.b
 s.toString
-t.q.a(s).a=B.v.lC(t.o.a(r.gv().a1(0,r.p$.gv())))}},
+t.q.a(s).a=B.u.lC(t.o.a(r.gv().a1(0,r.p$.gv())))}},
 cI(a,b){var s,r,q,p,o,n,m=this,l={}
 if(m.mt(a,b))return!0
 s=b.a
@@ -71120,8 +71120,8 @@ q=l.a=m.p$.gv().k5(B.h)
 p=m.p
 $label0$0:{o=B.bt===p
 if(o&&b.b>q.b){s=B.ho
-break $label0$0}n=B.dm===p
-if(n&&s>q.a){s=B.dl
+break $label0$0}n=B.dn===p
+if(n&&s>q.a){s=B.dm
 break $label0$0}if(o){s=B.yp
 break $label0$0}if(n){s=B.mY
 break $label0$0}s=null}q=l.a=q.X(0,s)
@@ -71511,7 +71511,7 @@ r=p.c
 r.toString
 q=s.y
 s=q==null?A.j(s).h("aj.T").a(q):q
-r=A.al(r,B.db,t.E)
+r=A.al(r,B.dc,t.E)
 r.toString
 r.at.$1(s)
 s=p.c
@@ -71534,7 +71534,7 @@ r=p.c
 r.toString
 q=s.y
 s=q==null?A.j(s).h("aj.T").a(q):q
-r=A.al(r,B.db,t.E)
+r=A.al(r,B.dc,t.E)
 r.toString
 r.at.$1(s)
 s=p.c
@@ -71546,7 +71546,7 @@ s=this.c
 s.toString
 r=q.y
 q=r==null?A.j(q).h("aj.T").a(r):r
-s=A.al(s,B.db,t.E)
+s=A.al(s,B.dc,t.E)
 s.toString
 s.at.$1(q)},
 aAM(a){var s=this.MF(a)
@@ -71561,9 +71561,9 @@ s=t.E
 A.al(a,B.oJ,s).toString
 r=A.bfA(B.ff)
 q=A.V(a)
-p=A.al(a,B.da,s)
+p=A.al(a,B.db,s)
 p.toString
-o=A.al(a,B.dD,s)
+o=A.al(a,B.dE,s)
 o.toString
 n=o.cy
 m=p.cx.cx
@@ -71573,10 +71573,10 @@ A.al(a,B.oK,s).toString
 A.al(a,B.oK,s).toString
 p=l/2
 o=e.a.r
-k=A.al(a,B.da,s)
+k=A.al(a,B.db,s)
 k.toString
 k=k.cx.ax
-if(k==null){s=A.al(a,B.dD,s)
+if(k==null){s=A.al(a,B.dE,s)
 s.toString
 s=s.cy.grW()}else s=k
 s=A.ai(o,d,d,d,s,d,d,d)
@@ -71594,7 +71594,7 @@ f=g.y
 g=!(f==null?A.j(g).h("aj.T").a(f):f)}else g=!1
 if(g){e.a.toString
 A.cp(a,B.P,c).toString
-h.push(new A.io(!0,A.ai("Hour",1,B.aE,d,q.ok.Q,d,d,d),d))}h=A.ed(A.ax(h,B.u,d,B.j,B.k,0,B.o),1)
+h.push(new A.io(!0,A.ai("Hour",1,B.aE,d,q.ok.Q,d,d,d),d))}h=A.ed(A.ax(h,B.v,d,B.k,B.l,0,B.o),1)
 g=j.y
 j=g==null?A.j(j).h("aj.T").a(g):g
 g=e.a
@@ -71605,9 +71605,9 @@ f=j.y
 j=!(f==null?A.j(j).h("aj.T").a(f):f)}else j=!1
 if(j){e.a.toString
 A.cp(a,B.P,c).toString
-g.push(new A.io(!0,A.ai("Minute",1,B.aE,d,q.ok.Q,d,d,d),d))}k.push(A.ed(new A.aA(new A.dl(0,p,0,0),A.bA(A.b([h,new A.Fa(B.ff,d),A.ed(A.ax(g,B.u,d,B.j,B.k,0,B.o),1)],o),B.u,B.j,B.k,0,B.a2),d),1))
+g.push(new A.io(!0,A.ai("Minute",1,B.aE,d,q.ok.Q,d,d,d),d))}k.push(A.ed(new A.aA(new A.dl(0,p,0,0),A.bA(A.b([h,new A.Fa(B.ff,d),A.ed(A.ax(g,B.v,d,B.k,B.l,0,B.o),1)],o),B.v,B.k,B.l,0,B.a2),d),1))
 if(r===B.mj)B.b.H(k,A.b([new A.aA(B.Nn,new A.Pf(e.gapn(),d),d)],o))
-s=A.b([new A.aA(new A.dl(0,0,0,20-p),s,d),A.bA(k,B.u,B.j,B.k,0,d)],o)
+s=A.b([new A.aA(new A.dl(0,0,0,20-p),s,d),A.bA(k,B.v,B.k,B.l,0,d)],o)
 r=i.y
 if(!(r==null?A.j(i).h("aj.T").a(r):r)){r=e.f
 p=r.y
@@ -71615,7 +71615,7 @@ r=p==null?A.j(r).h("aj.T").a(p):p}else r=!0
 if(r){e.a.toString
 A.cp(a,B.P,c).toString
 s.push(A.ai("Enter a valid time",d,d,d,q.ok.z.bd(q.ax.fy),d,d,d))}else s.push(B.a0Q)
-return new A.aA(B.aL,A.ax(s,B.u,d,B.j,B.k,0,B.o),d)}}
+return new A.aA(B.aL,A.ax(s,B.v,d,B.k,B.l,0,B.o),d)}}
 A.aWd.prototype={
 $0(){this.a.e.lr(this.b==null)},
 $S:0}
@@ -71714,7 +71714,7 @@ b=a1.d.y
 b.toString
 a=d.x
 a0=d.y
-return A.u8(A.ba4(A.DH(l,A.bL(a2,a2,A.bc4(h===!0,b,p,!0,e,f,B.dw,a2,d.z,new A.aPo(a1),a0,a0,"hour_minute_text_form_field",i,B.c4,c,a),!1,a2,a2,a2,!1,!1,a2,a2,a2,a2,a2,a2,a2,a2,g,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,B.F,a2))),o)}}
+return A.u8(A.ba4(A.DH(l,A.bL(a2,a2,A.bc4(h===!0,b,p,!0,e,f,B.dx,a2,d.z,new A.aPo(a1),a0,a0,"hour_minute_text_form_field",i,B.c4,c,a),!1,a2,a2,a2,!1,!1,a2,a2,a2,a2,a2,a2,a2,a2,g,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,B.F,a2))),o)}}
 A.aPq.prototype={
 $0(){var s=this.a
 s.T(new A.aPp(s))},
@@ -71734,7 +71734,7 @@ return r.aL_(s.d.y.a.a)},
 $S:0}
 A.NI.prototype={
 a7(){var s=null
-return new A.Sx(new A.bs(s,t.am),new A.qg(B.dH,A.kl(B.t1,t.iF),$.ap(),t.dX),s,A.w(t.yb,t.M),s,!0,s)}}
+return new A.Sx(new A.bs(s,t.am),new A.qg(B.dI,A.kl(B.t1,t.iF),$.ap(),t.dX),s,A.w(t.yb,t.M),s,!0,s)}}
 A.Sx.prototype={
 gmB(){var s,r,q,p=this,o=p.d
 if(o===$){s=p.a.z
@@ -71772,13 +71772,13 @@ switch(r==null?s.$ti.h("aj.T").a(r):r){case B.bn:this.LL(B.c5)
 break
 case B.c5:this.LL(B.bn)
 break
-case B.fg:case B.d8:A.iV("Can not change entry mode from "+s.j(0))
+case B.fg:case B.d9:A.iV("Can not change entry mode from "+s.j(0))
 break}},
 ap1(){var s=this.c
 s.toString
 A.ml(s,!1).c2(null)},
 ar7(){var s,r=this,q=r.gmB(),p=q.y,o=p==null
-if((o?q.$ti.h("aj.T").a(p):p)!==B.c5)q=(o?q.$ti.h("aj.T").a(p):p)===B.d8
+if((o?q.$ti.h("aj.T").a(p):p)!==B.c5)q=(o?q.$ti.h("aj.T").a(p):p)===B.d9
 else q=!0
 if(q){s=r.f.gN()
 if(!s.Bo()){r.T(new A.aW9(r))
@@ -71797,7 +71797,7 @@ break
 case 1:s=B.a0A
 break
 default:s=null}return s
-case B.c5:case B.d8:A.cp(a,B.P,t.v).toString
+case B.c5:case B.d9:A.cp(a,B.P,t.v).toString
 A.al(a,B.cK,t.w).toString
 switch(4){case 5:case 4:break}return new A.I(280,196)}},
 amj(a,b){var s,r,q=this.gpf(),p=q.y,o=p==null?q.$ti.h("aj.T").a(p):p
@@ -71812,7 +71812,7 @@ switch(p==null?q.$ti.h("aj.T").a(p):p){case B.bn:case B.fg:switch(o.a){case 0:r=
 break
 case 1:r=new A.I(524*s,342)
 break}break
-case B.c5:case B.d8:A.cp(a,B.P,t.v).toString
+case B.c5:case B.d9:A.cp(a,B.P,t.v).toString
 A.al(a,B.cK,t.w).toString
 switch(4){case 5:case 4:break}r=new A.I(280,252)
 break}return new A.I(r.a,r.b*s)},
@@ -71846,7 +71846,7 @@ n=d.c
 if(n==null)n=c.glK()
 g.a.toString
 p.push(A.ed(new A.d0(B.GD,new A.eB(B.eo,f,f,A.b3m(f,A.b([r,A.d2(A.ai("OK",f,f,f,f,f,f,f),g.gar6(),n)],q),B.yx,B.o,0,8),f),f),1))
-r=A.bA(p,B.l,B.j,B.k,0,f)
+r=A.bA(p,B.j,B.k,B.l,0,f)
 switch(e.f.a){case 0:q=B.h
 break
 case 1:q=B.WE
@@ -71859,7 +71859,7 @@ p=d.a
 if(p==null)p=c.gby()
 n=o.y
 m=n==null
-if((m?o.$ti.h("aj.T").a(n):n)!==B.c5)o=(m?o.$ti.h("aj.T").a(n):n)===B.d8
+if((m?o.$ti.h("aj.T").a(n):n)!==B.c5)o=(m?o.$ti.h("aj.T").a(n):n)===B.d9
 else o=!0
 o=o?0:24
 n=d.db
@@ -71870,12 +71870,12 @@ $0(){this.a.gft().sq(this.b)},
 $S:0}
 A.aW8.prototype={
 $0(){var s=this.a,r=s.gmB(),q=r.y
-switch(q==null?r.$ti.h("aj.T").a(q):q){case B.bn:s.r.lr(B.dH)
+switch(q==null?r.$ti.h("aj.T").a(q):q){case B.bn:s.r.lr(B.dI)
 break
 case B.c5:s.f.gN().ku()
 break
 case B.fg:break
-case B.d8:break}r.lr(this.b)
+case B.d9:break}r.lr(this.b)
 s.a.toString},
 $S:0}
 A.aW9.prototype={
@@ -71887,7 +71887,7 @@ if(p<n)p=n
 n=q.b
 o=o.b
 o=n<o?o:n
-return A.lk(A.lk(A.agf(A.ax(A.b([new A.eb(new A.aWb(s.a),r),s.d],t.p),B.u,r,B.b1,B.a0,0,B.o),new A.ae(0,1/0,216,o),B.df,r,B.N,r,r,p),r,r,"time_picker_scroll_view_vertical",B.aa),r,r,"time_picker_scroll_view_horizontal",B.a4)},
+return A.lk(A.lk(A.agf(A.ax(A.b([new A.eb(new A.aWb(s.a),r),s.d],t.p),B.v,r,B.b1,B.a0,0,B.o),new A.ae(0,1/0,216,o),B.dg,r,B.N,r,r,p),r,r,"time_picker_scroll_view_vertical",B.aa),r,r,"time_picker_scroll_view_horizontal",B.a4)},
 $S:199}
 A.aWb.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j=this.a,i=j.r,h=i.y
@@ -71903,7 +71903,7 @@ n=o.y
 m=n==null
 l=m?o.$ti.h("aj.T").a(n):n
 k=A.b8U(i,new A.Sw(r,q,p,h,"time_picker",l,s,j.gDx(),j.a.Q,j.gapR(),!1,null),j.f)
-if((m?o.$ti.h("aj.T").a(n):n)!==B.c5)j=(m?o.$ti.h("aj.T").a(n):n)!==B.d8
+if((m?o.$ti.h("aj.T").a(n):n)!==B.c5)j=(m?o.$ti.h("aj.T").a(n):n)!==B.d9
 else j=!1
 if(j)return new A.f4(1,B.b0,k,null)
 return k},
@@ -72002,10 +72002,10 @@ d=e.y
 e=d==null?A.j(e).h("aj.T").a(d):d
 c=new A.aA(h,new A.io(!0,A.u8(new A.Gh(1,new A.Pl(e,f,q,a.gDx(),a.gaqq(),a0),a0),g),a0),a0)
 switch(p){case 0:p=t.p
-j=A.ax(A.b([new A.aA(new A.ac(0,0,0,0),new A.Pn(a1,a0),a0),A.ed(A.ax(A.b([A.ed(new A.aA(new A.ac(0,0,0,0),c,a0),1)],p),B.l,a0,B.j,B.a0,0,B.o),1)],p),B.cq,a0,B.j,B.a0,0,B.o)
+j=A.ax(A.b([new A.aA(new A.ac(0,0,0,0),new A.Pn(a1,a0),a0),A.ed(A.ax(A.b([A.ed(new A.aA(new A.ac(0,0,0,0),c,a0),1)],p),B.j,a0,B.k,B.a0,0,B.o),1)],p),B.cq,a0,B.k,B.a0,0,B.o)
 break
 case 1:p=t.p
-j=A.ax(A.b([A.ed(new A.aA(new A.ac(0,0,0,0),A.bA(A.b([new A.Pn(a1,a0),A.ed(c,1)],p),B.cq,B.j,B.k,0,a0),a0),1)],p),B.l,a0,B.j,B.k,0,B.o)
+j=A.ax(A.b([A.ed(new A.aA(new A.ac(0,0,0,0),A.bA(A.b([new A.Pn(a1,a0),A.ed(c,1)],p),B.cq,B.k,B.l,0,a0),a0),1)],p),B.j,a0,B.k,B.l,0,B.o)
 break}break
 case 1:case 3:p=a.gft()
 h=p.y
@@ -72019,7 +72019,7 @@ d=e.y
 e=d==null?A.j(e).h("aj.T").a(d):d
 d=a.x
 b=d.y
-j=A.ax(A.b([new A.Sy(p,g,f,h,"Enter time",e,b==null?A.j(d).h("aj.T").a(b):b,"time_picker_input",!1,a0)],t.p),B.l,a0,B.j,B.a0,0,B.o)
+j=A.ax(A.b([new A.Sy(p,g,f,h,"Enter time",e,b==null?A.j(d).h("aj.T").a(b):b,"time_picker_input",!1,a0)],t.p),B.j,a0,B.k,B.a0,0,B.o)
 break}p=a.a.y
 h=a.gft()
 g=h.y
@@ -72208,7 +72208,7 @@ $1(a){var s,r=this.a,q=r.A
 $label0$0:{if(B.bn===q||B.fg===q){s=r.guZ().a
 s.toString
 r=s.bd(r.gM_().a.$1(a))
-break $label0$0}if(B.c5===q||B.d8===q){s=r.guZ().b
+break $label0$0}if(B.c5===q||B.d9===q){s=r.guZ().b
 s.toString
 r=s.bd(r.gM_().a.$1(a))
 break $label0$0}r=null}return r},
@@ -72230,7 +72230,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.Tt.prototype={
@@ -72622,7 +72622,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.NQ.prototype={
@@ -73324,7 +73324,7 @@ ajQ(a,b,c){var s,r,q,p,o,n,m=this.b.e
 if(m==null)return
 for(s=m.length,r=0;r<m.length;m.length===s||(0,A.H)(m),++r){q=m[r]
 $.a4()
-p=new A.rB(B.bV,B.ci,B.hP,B.hQ,B.dh)
+p=new A.rB(B.bV,B.ci,B.hP,B.hQ,B.di)
 p.r=q.a.gq()
 o=q.c
 o=o>0?o*0.57735+0.5:0
@@ -73477,7 +73477,7 @@ $1(a){this.a.gc1().a.clipRect(A.dv(this.b),$.kP()[1],a)
 return null},
 $S:14}
 A.IL.prototype={
-aNp(){var s=this,r=s.d,q=(1-Math.abs(2*r-1))*s.c,p=s.b
+aNo(){var s=this,r=s.d,q=(1-Math.abs(2*r-1))*s.c,p=s.b
 return A.bvC(s.a,p,q,q*(1-Math.abs(B.d.aR(p/60,2)-1)),r-q/2)},
 k(a,b){var s=this
 if(b==null)return!1
@@ -73517,16 +73517,16 @@ if(r===b)return!0
 if(J.a_(b)!==A.A(r))return!1
 s=!1
 if(t.u5.b(b))if(b.gdG().k(0,r.a)){b.ghA()
-if(b.gn2()===r.d)if(b.geG().k(0,B.v)){b.gvk()
+if(b.gn2()===r.d)if(b.geG().k(0,B.u)){b.gvk()
 if(b.gwG()===B.c0){b.gpX()
 if(b.giu()===1)if(b.gcs()===1){s=b.goc()===B.bE
 if(s){b.gpU()
 b.gwh()}}}}}return s},
-gt(a){return A.L(this.a,null,this.d,B.v,null,B.c0,!1,1,1,B.bE,!1,!1,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gt(a){return A.L(this.a,null,this.d,B.u,null,B.c0,!1,1,1,B.bE,!1,!1,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){var s=A.b([this.a.j(0)],t.s),r=!1
 r=this.d!==B.et
 if(r)s.push(this.d.j(0))
-s.push(B.v.j(0))
+s.push(B.u.j(0))
 s.push("scale "+B.e.ap(1,1))
 s.push("opacity "+B.e.ap(1,1))
 s.push(B.bE.j(0))
@@ -73534,7 +73534,7 @@ return"DecorationImage("+B.b.aB(s,", ")+")"},
 gdG(){return this.a},
 ghA(){return null},
 gn2(){return this.d},
-geG(){return B.v},
+geG(){return B.u},
 gvk(){return null},
 gwG(){return B.c0},
 gpX(){return!1},
@@ -73557,7 +73557,7 @@ l.Y(p)}if(o.d==null)return
 k=c!=null
 if(k){J.au(a.a.save())
 a.FB(c)}s=o.d.gdG()
-A.bfS(B.v,f,a,n,n,o.d.gk8(),B.bE,m.d,!1,s,!1,!1,e,b,B.c0,o.d.giu())
+A.bfS(B.u,f,a,n,n,o.d.gk8(),B.bE,m.d,!1,s,!1,!1,e,b,B.c0,o.d.giu())
 if(k)a.a.restore()},
 tj(a,b,c,d){return this.AZ(a,b,c,d,1,B.bV)},
 aqv(a,b){var s,r=this
@@ -75080,7 +75080,7 @@ p=o.ax
 return m.abK(o.y,o.z,q,o.as,n,s,p,r)},
 alM(){return this.WD(null)},
 d1(){var s,r,q=this,p=q.ch
-if(p==null){p=q.WD(B.dv)
+if(p==null){p=q.WD(B.dw)
 $.a4()
 s=A.ew().go2()===B.cT?A.aIQ(p):A.aiU(p)
 p=q.e
@@ -75221,7 +75221,7 @@ else{r=A.Y(s).h("U<1,iD>")
 r=A.R(new A.U(s,new A.aH0(p),r),r.h("a6.E"))
 r.$flags=1
 r=r}return r},
-oH(a){return this.qh(a,B.i8,B.dI)},
+oH(a){return this.qh(a,B.i8,B.dJ)},
 SX(a){var s=this.b,r=s.a.c.SY(a.a1(0,s.gkm()))
 if(r==null||s.gkm().k(0,B.h))return r
 return new A.wv(r.a.dz(s.gkm()),r.b,r.c)},
@@ -75341,7 +75341,7 @@ q=p.length
 b.a=s+q
 return r<q?p.charCodeAt(r):null},
 bl(a,b){var s,r,q,p,o,n=this
-if(n===b)return B.ds
+if(n===b)return B.dt
 if(A.A(b)!==A.A(n))return B.bJ
 t.AU.a(b)
 if(b.b==n.b){s=n.c
@@ -75349,7 +75349,7 @@ s=s==null?null:s.length
 r=b.c
 s=s!=(r==null?null:r.length)||n.a==null!==(b.a==null)}else s=!0
 if(s)return B.bJ
-q=n.d==b.d?B.ds:B.Z8
+q=n.d==b.d?B.dt:B.Z8
 s=n.a
 if(s!=null){r=b.a
 r.toString
@@ -75518,15 +75518,15 @@ j=d.y
 $.a4()
 if(A.ew().go2()===B.cT)s=new A.a3m()
 else{s=A.aY3(s)
-if($.kE==null)$.kE=B.dM
+if($.kE==null)$.kE=B.dN
 s=new A.GU(s,r,p,o===0?h:o,n,l,k,j,m)}}return A.b3o(a,i.d,e,i.x,i.w,i.as,b,c,s,a0,a1,f)},
 bl(a,b){var s,r=this
-if(r===b)return B.ds
+if(r===b)return B.dt
 s=!0
 if(r.a===b.a)if(r.d==b.d)if(r.r==b.r)if(r.w==b.w)if(r.x==b.x)if(r.y==b.y)if(r.z==b.z)if(r.Q==b.Q)if(r.as==b.as)if(r.at==b.at)if(r.ay==b.ay)if(r.ch==b.ch)if(A.ds(r.dy,b.dy))if(A.ds(r.fr,b.fr))if(A.ds(r.fx,b.fx)){s=A.ds(r.gkd(),b.gkd())
 s=!s}if(s)return B.bJ
 if(!J.c(r.b,b.b)||!J.c(r.c,b.c)||!J.c(r.CW,b.CW)||!J.c(r.cx,b.cx)||r.cy!=b.cy||r.db!=b.db)return B.Z9
-return B.ds},
+return B.dt},
 k(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -75564,7 +75564,7 @@ if(s!==0)if(s>0)q=a<q||a>r.gGD()
 else q=a>q||a<r.gGD()
 else q=!0
 if(q)return 1/0
-return A.beC(r.gPH(),r.gaOq(),0,10,a)},
+return A.beC(r.gPH(),r.gaOp(),0,10,a)},
 oh(a){return Math.abs(this.hD(a))<this.a.c},
 j(a){return"FrictionSimulation(c\u2093: "+B.d.ap(this.b,1)+", x\u2080: "+B.d.ap(this.d,1)+", dx\u2080: "+B.d.ap(this.e,1)+")"}}
 A.aoQ.prototype={
@@ -75769,7 +75769,7 @@ r=r||q.p$!=null
 p=q.fx
 o=$.eA()
 n=o.d
-if(n==null)n=o.gcW()
+if(n==null)n=o.gcX()
 m=p.at
 if(m==null){m=p.ch.OJ()
 p.at=m}m=A.bcG(p.Q,new A.I(m.a/n,m.b/n))
@@ -75778,7 +75778,7 @@ l=m.b*n
 k=m.c*n
 m=m.d*n
 j=o.d
-if(j==null)j=o.gcW()
+if(j==null)j=o.gcX()
 q.svq(new A.O9(new A.ae(p/j,l/j,k/j,m/j),new A.ae(p,l,k,m),j))}if(r)this.ac9()},
 Qr(){},
 Qn(){},
@@ -75807,7 +75807,7 @@ if(s!=null)s.BU()},
 $S:0}
 A.aBy.prototype={
 $1(a){var s=this.a.gHZ().e
-if(s!=null)s.fx.gBZ().aO5(a)},
+if(s!=null)s.fx.gBZ().aO4(a)},
 $S:188}
 A.aBx.prototype={
 $0(){var s=this.a.gHZ().e
@@ -75819,10 +75819,10 @@ this.a.Ai(s,a,b)
 return s},
 $S:384}
 A.aBu.prototype={
-$1(a){this.a.dy$.aNR()},
+$1(a){this.a.dy$.aNQ()},
 $S:3}
 A.OA.prototype={
-l(){this.a.gr5().L(this.gcY())
+l(){this.a.gr5().L(this.gcZ())
 this.dB()}}
 A.a5F.prototype={}
 A.aa7.prototype={
@@ -77253,12 +77253,12 @@ I(){return"MainAxisSize."+this.b}}
 A.to.prototype={
 I(){return"MainAxisAlignment."+this.b},
 ya(a,b,c,d){var s,r,q,p=this
-$label0$0:{if(B.j===p){s=c?new A.aq(a,d):new A.aq(0,d)
-break $label0$0}if(B.hm===p){s=B.j.ya(a,b,!c,d)
+$label0$0:{if(B.k===p){s=c?new A.aq(a,d):new A.aq(0,d)
+break $label0$0}if(B.hm===p){s=B.k.ya(a,b,!c,d)
 break $label0$0}r=B.b1===p
-if(r&&b<2){s=B.j.ya(a,b,c,d)
-break $label0$0}q=B.dk===p
-if(q&&b===0){s=B.j.ya(a,b,c,d)
+if(r&&b<2){s=B.k.ya(a,b,c,d)
+break $label0$0}q=B.dl===p
+if(q&&b===0){s=B.k.ya(a,b,c,d)
 break $label0$0}if(B.cg===p){s=new A.aq(a/2,d)
 break $label0$0}if(r){s=new A.aq(0,a/(b-1)+d)
 break $label0$0}if(q){s=a/b
@@ -77270,9 +77270,9 @@ A.vQ.prototype={
 I(){return"CrossAxisAlignment."+this.b},
 Ls(a,b){var s,r=this
 $label0$0:{if(B.cq===r||B.iA===r){s=0
-break $label0$0}if(B.u===r){s=b?a:0
-break $label0$0}if(B.l===r){s=a/2
-break $label0$0}if(B.cV===r){s=B.u.Ls(a,!b)
+break $label0$0}if(B.v===r){s=b?a:0
+break $label0$0}if(B.j===r){s=a/2
+break $label0$0}if(B.cV===r){s=B.v.Ls(a,!b)
 break $label0$0}s=null}return s}}
 A.Lt.prototype={
 sxw(a){if(this.bf===a)return
@@ -77316,7 +77316,7 @@ $label0$1:{s=!1
 if(B.iA===r){switch(this.A.a){case 0:s=!0
 break
 case 1:break
-default:s=null}break $label0$1}if(B.u===r||B.l===r||B.cV===r||B.cq===r)break $label0$1
+default:s=null}break $label0$1}if(B.v===r||B.j===r||B.cV===r||B.cq===r)break $label0$1
 s=null}return s},
 anZ(a){var s
 switch(this.A.a){case 0:s=a.b
@@ -77352,7 +77352,7 @@ default:q=null}break
 default:q=null}return q},
 Ww(a){var s,r,q=null,p=this.ad
 $label0$0:{if(B.cq===p){s=!0
-break $label0$0}if(B.u===p||B.l===p||B.cV===p||B.iA===p){s=!1
+break $label0$0}if(B.v===p||B.j===p||B.cV===p||B.iA===p){s=!1
 break $label0$0}s=q}switch(this.A.a){case 0:r=a.d
 s=s?A.kV(r,q):new A.ae(0,1/0,0,r)
 break
@@ -77369,7 +77369,7 @@ case 1:q=0
 break
 default:q=null}s=this.ad
 $label0$1:{if(B.cq===s){r=!0
-break $label0$1}if(B.u===s||B.l===s||B.cV===s||B.iA===s){r=!1
+break $label0$1}if(B.v===s||B.j===s||B.cV===s||B.iA===s){r=!1
 break $label0$1}r=null}switch(this.A.a){case 0:r=r?b.d:0
 r=new A.ae(q,c,r,b.d)
 q=r
@@ -77473,7 +77473,7 @@ p=s
 break $label0$1
 p=a}o=A.btr(o,p)
 e=b.S
-$label1$2:{d=B.k===e
+$label1$2:{d=B.l===e
 if(d&&a1){p=a0
 break $label1$2}if(d||B.a0===e){p=o.a
 break $label1$2}p=a}c=A.bts(new A.I(p,o.b),a3,b.A)
@@ -77913,8 +77913,8 @@ q=this.k3
 r.e1(-(a.a+q.a),-(a.b+q.b),0,1)
 s.aMd(r.a)
 return this.a3S(s)},
-IJ(a,b){return this.aNt(a,b)},
-aNt(a,b){var s=0,r=A.r(t.lu),q,p=2,o=[],n=[],m=this,l,k,j
+IJ(a,b){return this.aNs(a,b)},
+aNs(a,b){var s=0,r=A.r(t.lu),q,p=2,o=[],n=[],m=this,l,k,j
 var $async$IJ=A.n(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:j=m.WF(a,b)
 p=3
@@ -77937,7 +77937,7 @@ break
 case 5:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$IJ,r)},
-aNu(a,b){var s,r,q=this.WF(a,b)
+aNt(a,b){var s,r,q=this.WF(a,b)
 try{s=B.d.lH(b*(a.c-a.a))
 r=B.d.lH(b*(a.d-a.b))
 r=q.a.a5U(new A.I(s,r)).tF(s,r)
@@ -78168,7 +78168,7 @@ A.bpt(a)
 s=a.b
 r=A.j(s).h("aZ<1>")
 this.b.aHl(a.glO(),a.d,A.jG(new A.aZ(s,r),new A.awN(),r.h("B.E"),t.Pb))},
-aO9(a,b){var s,r,q,p,o,n=this
+aO8(a,b){var s,r,q,p,o,n=this
 if(a.gdd()!==B.bT&&a.gdd()!==B.be)return
 if(t.ks.b(a))return
 $label0$0:{if(t.PB.b(a)){s=A.aqB()
@@ -78180,7 +78180,7 @@ if(!A.bpu(p,a))return
 o=q.a
 new A.awQ(n,p,a,r,s).$0()
 if(o!==0!==(q.a!==0))n.ar()},
-aNR(){new A.awO(this).$0()}}
+aNQ(){new A.awO(this).$0()}}
 A.awN.prototype={
 $1(a){return a.gP8()},
 $S:394}
@@ -79569,8 +79569,8 @@ k=g
 j=f.b
 k=j
 i=l
-h.aP=A.apZ(new A.l(i,0),new A.l(k,0),A.b([B.n,B.pP],t.t_),g,B.d7,g)}else{k=h.gv().b
-h.aP=A.apZ(new A.l(0,k-m.b.a.c.gbt()/2),new A.l(0,k),A.b([B.n,B.pP],t.t_),g,B.d7,g)}m.l()
+h.aP=A.apZ(new A.l(i,0),new A.l(k,0),A.b([B.n,B.pP],t.t_),g,B.d8,g)}else{k=h.gv().b
+h.aP=A.apZ(new A.l(0,k-m.b.a.c.gbt()/2),new A.l(0,k),A.b([B.n,B.pP],t.t_),g,B.d8,g)}m.l()
 break}else{h.bf=!1
 h.aP=null}},
 dq(a,b){this.a4Z(a,b)},
@@ -79598,7 +79598,7 @@ s.hC(new A.G(0,0,0+r.a,0+r.b),n)}a.gc1().a.restore()}},
 nx(a,b){this.pc(t.k.a(A.C.prototype.gV.call(this)))
 return this.A.nx(a,b)},
 SW(a,b){this.pc(t.k.a(A.C.prototype.gV.call(this)))
-return this.A.qh(a,b,B.dI)},
+return this.A.qh(a,b,B.dJ)},
 oH(a){return this.SW(a,B.i8)},
 ef(a){this.pc(t.k.a(A.C.prototype.gV.call(this)))
 return this.A.ef(a)},
@@ -79688,7 +79688,7 @@ b9.jH(b6.bR)
 a1=a0.b
 a1=b6.ah||b6.an===B.aE?a1:1/0
 b9.iV(a1,a0.a)
-a2=b9.qh(new A.jd(i,d,B.p,!1,b,c),B.i8,B.dI)
+a2=b9.qh(new A.jd(i,d,B.p,!1,b,c),B.i8,B.dJ)
 if(a2.length===0)continue
 c=B.b.gac(a2)
 a3=new A.G(c.a,c.b,c.c,c.d)
@@ -79753,7 +79753,7 @@ $S:173}
 A.aB5.prototype={
 $1(a){var s=a.x
 s===$&&A.a()
-return s.c!==B.du},
+return s.c!==B.dv},
 $S:410}
 A.aB2.prototype={
 $2(a,b){return new A.I(a.al(B.aQ,1/0,a.gbP()),0)},
@@ -79809,11 +79809,11 @@ p=p?B.ZP:B.nj
 return new A.u_(new A.y0(q,a0,c),new A.y0(o,n,e),p,j,!0)},
 pG(a){var s=this,r=A.bV(),q=s.d,p=s.e,o=a.a
 switch(o.a){case 0:case 1:t.mb.a(a)
-switch(a.c.a){case 0:r.sds(s.aAs(a.b,o===B.dt))
+switch(a.c.a){case 0:r.sds(s.aAs(a.b,o===B.du))
 break
-case 1:r.sds(s.aAu(a.b,s.gaoE(),o===B.dt))
+case 1:r.sds(s.aAu(a.b,s.gaoE(),o===B.du))
 break
-case 2:r.sds(s.aAt(a.b,s.ganV(),s.gaop(),o===B.dt))
+case 2:r.sds(s.aAt(a.b,s.ganV(),s.gaop(),o===B.du))
 break
 case 4:case 3:break}break
 case 2:s.e=s.d=null
@@ -79830,7 +79830,7 @@ r.sds(B.T)
 s.f=!0
 break
 case 6:t.rQ.a(a)
-r.sds(s.aq8(a.gGJ(),a.gm3(),a.gaOt()))
+r.sds(s.aq8(a.gGJ(),a.gm3(),a.gaOs()))
 break
 case 7:t.ra.a(a)
 r.sds(s.apr(a.gPH(),a.gm3(),a.glQ()))
@@ -80503,7 +80503,7 @@ this.ay.F(0,a)},
 arq(a){return this.garp().$1(a)}}
 A.aSh.prototype={
 $1(a){var s=a.OM()
-s.saOX(this.a.w)
+s.saOW(this.a.w)
 s.gor()
 return s},
 $S:413}
@@ -81235,7 +81235,7 @@ A.aAK.prototype={
 $2(a,b){return this.a.xF(a,b)},
 $S:17}
 A.a07.prototype={
-saNI(a){var s=this
+saNH(a){var s=this
 if(s.C.k(0,a))return
 s.C=a
 s.aC()
@@ -81340,7 +81340,7 @@ this.kw(a)
 s=this.C
 a.d=s}}
 A.qd.prototype={
-saOb(a){if(A.zv(a,this.cz))return
+saOa(a){if(A.zv(a,this.cz))return
 this.cz=a
 this.bk()},
 sq0(a){var s,r=this
@@ -81742,7 +81742,7 @@ O2(){var s=this,r=s.p$.b
 r.toString
 t.q.a(r).a=s.ga9m().lC(t.o.a(s.gv().a1(0,s.p$.gv())))}}
 A.LB.prototype={
-saOl(a){if(this.cg==a)return
+saOk(a){if(this.cg==a)return
 this.cg=a
 this.W()},
 saIn(a){if(this.d9==a)return
@@ -82501,16 +82501,16 @@ s=t.r
 r=!0
 switch(A.rb(s.a(A.C.prototype.gV.call(c)).a,s.a(A.C.prototype.gV.call(c)).b).a){case 0:q=a0.X(0,new A.l(0,c.dy.c))
 p=B.yp
-o=B.dl
+o=B.dm
 break
 case 1:q=a0
-p=B.dl
+p=B.dm
 o=B.ho
 r=!1
 break
 case 2:q=a0
 p=B.ho
-o=B.dl
+o=B.dm
 r=!1
 break
 case 3:q=a0.X(0,new A.l(c.dy.c,0))
@@ -82955,7 +82955,7 @@ o=l.dy
 p=p.b.bj(o.a6(0,p.c))
 o=$.eA()
 n=o.d
-m=p.ep(0,n==null?o.gcW():n)
+m=p.ep(0,n==null?o.gcX():n)
 p=q.ghe().a.style
 A.a9(p,"width",A.i(m.a)+"px")
 A.a9(p,"height",A.i(m.b)+"px")
@@ -83536,7 +83536,7 @@ case 2:s=0.5
 break
 default:s=null}return s}}
 A.RC.prototype={
-aNK(a,b,c,d,e){var s=this,r=s.a
+aNJ(a,b,c,d,e){var s=this,r=s.a
 if(r.a+b.a+d-e>1e-10)return new A.RC(b,a)
 else{s.a=A.aKL(r,A.aKL(b,new A.I(d,0)));++s.b
 if(c)s.c=a
@@ -83718,7 +83718,7 @@ i=b
 h=B.R
 while(j!=null){g=A.b4t(a1.$2(j,o),c.A)
 f=i==null
-e=f?new A.RC(g,j):i.aNK(j,g,m,l,q)
+e=f?new A.RC(g,j):i.aNJ(j,g,m,l,q)
 if(e!=null){k.push(e)
 if(f)f=b
 else{f=i.a
@@ -83838,7 +83838,7 @@ n=i.De(o)
 i.b[o]=null
 i.c=o
 if(o>0)i.ajT(n,0)
-s.aOV()}catch(m){r=A.Z(m)
+s.aOU()}catch(m){r=A.Z(m)
 q=A.ar(m)
 p=null
 h=A.bI("during a task callback")
@@ -83855,7 +83855,7 @@ aca(a,b){return this.Jq(a,!1,b)},
 a42(a){this.p4$.F(0,a)
 this.R8$.B(0,a)},
 gaGm(){var s=this
-if(s.ry$==null){if(s.x1$===B.e7)s.nz()
+if(s.ry$==null){if(s.x1$===B.e8)s.nz()
 s.ry$=new A.b5(new A.ag($.a3,t.c),t.h)
 s.rx$.push(new A.aCD(s))}return s.ry$.a},
 ga65(){return this.x2$},
@@ -83889,7 +83889,7 @@ $.lG.push(s.gD8())
 $.po=s}s.nz()
 this.to$=!0},
 Tv(){var s,r,q=this
-if(q.xr$||q.x1$!==B.e7)return
+if(q.xr$||q.x1$!==B.e8)return
 q.xr$=!0
 s=q.to$
 $.b6()
@@ -83925,7 +83925,7 @@ s.ag$=1}return new A.ayg(s.gamA())},
 amB(){if(--this.ag$===0){this.Z$=null
 $.b6()}},
 a6f(){var s,r,q,p,o,n,m,l,k,j=this
-try{j.x1$=B.e8
+try{j.x1$=B.e9
 p=t.zv
 o=A.R(j.RG$,p)
 n=o.length
@@ -83941,7 +83941,7 @@ B.b.R(o)
 try{for(p=r,o=p.length,m=0;m<p.length;p.length===o||(0,A.H)(p),++m){q=p[m]
 n=j.b8$
 n.toString
-j.Ze(q,n)}}finally{}}finally{j.x1$=B.e7
+j.Ze(q,n)}}finally{}}finally{j.x1$=B.e8
 j.b8$=null}},
 Zf(a,b,c){var s,r,q,p
 try{a.$1(b)}catch(q){s=A.Z(q)
@@ -83998,7 +83998,7 @@ if(this.b)return!1
 var s=$.c2
 s.toString
 if(A.o7.prototype.ga65.call(s)&&s.hh$)return!0
-if($.c2.x1$!==B.e7)return!0
+if($.c2.x1$!==B.e8)return!0
 return!1},
 u4(){var s,r,q=this
 q.a=new A.yt(new A.b5(new A.ag($.a3,t.c),t.h))
@@ -84042,7 +84042,7 @@ a1M(a){var s
 this.c=!1
 s=this.b
 if(s!=null)s.lJ(new A.NF(a))},
-aOi(a){var s,r,q=this,p=new A.aHe(a)
+aOh(a){var s,r,q=this,p=new A.aHe(a)
 if(q.b==null){s=q.b=new A.b5(new A.ag($.a3,t.c),t.h)
 r=q.c
 if(r!=null)if(r)s.eJ()
@@ -84577,7 +84577,7 @@ sa7g(a){this.M=this.M.aDz(A.TS(a))
 this.r=!0},
 sa7c(a){var s
 if(a!=null){s=this.M
-this.M=s.a4t(a?B.dN:B.id)}this.r=!0},
+this.M=s.a4t(a?B.dO:B.id)}this.r=!0},
 sa7b(a){if(a===!0)this.M=this.M.a4t(B.eA)
 this.r=!0},
 saJl(a){this.M=this.M.aDN(A.TS(a))
@@ -84968,8 +84968,8 @@ s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.ea(B.h9,a)
 q=B.b.ea(B.h9,b)
-if(b===B.dG){for(p=r+1;p<5;++p)s.push(B.h9[p])
-s.push(B.dG)}else if(r>q)for(p=q;p<r;++p)B.b.iR(s,0,B.h9[p])
+if(b===B.dH){for(p=r+1;p<5;++p)s.push(B.h9[p])
+s.push(B.dH)}else if(r>q)for(p=q;p<r;++p)B.b.iR(s,0,B.h9[p])
 else for(p=r+1;p<=q;++p)s.push(B.h9[p])}return s},
 LE(a){return this.aoG(a)},
 aoG(a){var s=0,r=A.r(t.H),q,p=this,o
@@ -85268,10 +85268,10 @@ s=B.kM.iL(a)
 s.toString
 return B.bQ.fv(s)}}
 A.arN.prototype={
-lS(a){var s=B.dL.cD(A.u(["method",a.a,"args",a.b],t.N,t.X))
+lS(a){var s=B.dM.cD(A.u(["method",a.a,"args",a.b],t.N,t.X))
 s.toString
 return s},
-kL(a){var s,r,q=null,p=B.dL.iL(a)
+kL(a){var s,r,q=null,p=B.dM.iL(a)
 if(!t.f.b(p))throw A.f(A.cD("Expected method call Map, got "+A.i(p),q,q))
 s=p.i(0,"method")
 if(s==null)r=p.am("method")
@@ -85280,7 +85280,7 @@ if(r)r=typeof s=="string"
 else r=!1
 if(r)return new A.mj(s,p.i(0,"args"))
 throw A.f(A.cD("Invalid method call: "+p.j(0),q,q))},
-Pf(a){var s,r,q,p=null,o=B.dL.iL(a)
+Pf(a){var s,r,q,p=null,o=B.dM.iL(a)
 if(!t.j.b(o))throw A.f(A.cD("Expected envelope List, got "+A.i(o),p,p))
 s=J.ad(o)
 if(s.gD(o)===1)return s.i(o,0)
@@ -85293,10 +85293,10 @@ if(s.gD(o)===4)if(typeof s.i(o,0)=="string")if(s.i(o,1)==null||typeof s.i(o,1)==
 if(r){r=A.aE(s.i(o,0))
 q=A.ab(s.i(o,1))
 throw A.f(A.d1(r,s.i(o,2),q,A.ab(s.i(o,3))))}throw A.f(A.cD("Invalid envelope: "+A.i(o),p,p))},
-zP(a){var s=B.dL.cD([a])
+zP(a){var s=B.dM.cD([a])
 s.toString
 return s},
-rD(a,b,c){var s=B.dL.cD([a,c,b])
+rD(a,b,c){var s=B.dM.cD([a,c,b])
 s.toString
 return s},
 a5B(a,b){return this.rD(a,null,b)}}
@@ -85813,9 +85813,9 @@ for(o=A.j(l),m=new A.uJ(l,l.r,o.h("uJ<1>")),m.c=l.e,o=o.c;m.u();){k=m.d
 if(k==null)k=o.a(k)
 j=$.bhG().i(0,k)
 j.toString
-d.m(0,k,j)}}i=b.i(0,B.e4)!=null&&!J.c(b.i(0,B.e4),B.hc)
+d.m(0,k,j)}}i=b.i(0,B.e5)!=null&&!J.c(b.i(0,B.e5),B.hc)
 for(e=$.b6n(),e=new A.hG(e,e.r,e.e);e.u();){a=e.d
-h=i&&a.k(0,B.e4)
+h=i&&a.k(0,B.e5)
 if(!c.n(0,a)&&!h)b.F(0,a)}b.F(0,B.hr)
 b.H(0,d)
 if(a0&&r!=null&&!b.am(g.gma())){e=g.gma().k(0,B.f4)
@@ -86390,7 +86390,7 @@ n=A.hQ(n.i(o,2))
 m.a.d.ho()
 k=m.gaw()
 if(k!=null)k.hO(B.hy,new A.l(l,n))
-m.a.aO4()}s=1
+m.a.aO3()}s=1
 break $async$outer
 case"TextInputClient.requestElementsInRect":n=J.fP(t.j.a(a.b),t.Ci)
 m=n.$ti.h("U<a0.E,Q>")
@@ -86431,7 +86431,7 @@ case u.s:l=t.a
 g=l.a(m.i(o,1))
 m=A.b([],t.sD)
 for(n=J.aS(n.a(g.i(0,"deltas")));n.u();)m.push(A.bsj(l.a(n.gK())))
-t.Je.a(p.d.r).aP_(m)
+t.Je.a(p.d.r).aOZ(m)
 break
 case"TextInputClient.performAction":if(A.aE(m.i(o,1))==="TextInputAction.commitContent"){n=t.a.a(m.i(o,2))
 A.aE(n.i(0,"mimeType"))
@@ -86547,7 +86547,7 @@ if(this.d==null)return
 for(s=$.d8().b,s=A.cJ(s,s.r,A.j(s).c),r=s.$ti.c,q=t.H;s.u();){p=s.d
 if((p==null?r.a(p):p)!==b){p=$.d8().c
 p===$&&A.a()
-p.dc("TextInput.setEditingState",a.Sh(),q)}}$.d8().d.r.aNU(a)}}
+p.dc("TextInput.setEditingState",a.Sh(),q)}}$.d8().d.r.aNT(a)}}
 A.aGW.prototype={
 $0(){var s=null
 return A.b([A.lY("call",this.a,!0,B.bY,s,s,s,B.bi,!1,!0,!0,B.cs,s)],t.D)},
@@ -87047,7 +87047,7 @@ A.aOH.prototype={
 $1(a){this.a.aug(this.b)},
 $S:3}
 A.a3k.prototype={
-ev(a){a.aOI()
+ev(a){a.aOH()
 return null}}
 A.HG.prototype={
 vt(a){return this.c},
@@ -87216,7 +87216,7 @@ A.aK_.prototype={
 $0(){},
 $S:0}
 A.T9.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -87247,14 +87247,14 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.uA.prototype={
 j(a){return"Entry#"+A.bF(this)+"("+this.d.j(0)+")"}}
 A.vl.prototype={
 a7(){return new A.Op(A.aN(t.mj),B.SJ,null,null)},
-aNH(a,b){return this.w.$2(a,b)},
+aNG(a,b){return this.w.$2(a,b)},
 aJx(a,b){return this.x.$2(a,b)}}
 A.Op.prototype={
 au(){this.aL()
@@ -87293,7 +87293,7 @@ s=new A.uA(d,a,new A.nK(r,new A.cv(q,t.V1)),c)
 a.a.ha(new A.aKl(this,s,d,a))
 return s},
 NI(a){var s=a.c
-a.c=new A.nK(this.a.aNH(a.d,a.b),s.a)},
+a.c=new A.nK(this.a.aNG(a.d,a.b),s.a)},
 ax5(){if(this.f==null){var s=this.e
 this.f=A.fB(new A.iS(s,new A.aKm(),A.j(s).h("iS<1,e>")),t.l)}},
 l(){var s,r,q,p,o=this,n=o.d
@@ -87347,7 +87347,7 @@ s=s==null?null:s.c.a
 return!J.c(a.a,s)},
 $S:469}
 A.Tb.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -87370,7 +87370,7 @@ if(s.gG2()!=="/"){$.af.toString
 s=s.gG2()}else{this.a.toString
 $.af.toString
 s=s.gG2()}return s},
-ame(a){switch(this.d){case null:case void 0:case B.dG:return!0
+ame(a){switch(this.d){case null:case void 0:case B.dH:return!0
 case B.i3:case B.cN:case B.i4:case B.kD:A.b3Y(a.a)
 return!0}},
 vF(a){this.d=a
@@ -87822,7 +87822,7 @@ aO(a){var s=new A.a07(this.e,this.f,null,new A.aR(),A.an())
 s.aN()
 s.sb4(null)
 return s},
-aS(a,b){b.saNI(this.e)
+aS(a,b){b.saNH(this.e)
 b.p=this.f}}
 A.aA.prototype={
 aO(a){var s=new A.LA(this.e,A.ep(a),null,new A.aR(),A.an())
@@ -87837,7 +87837,7 @@ s.aN()
 s.sb4(null)
 return s},
 aS(a,b){b.seG(this.e)
-b.saOl(this.f)
+b.saOk(this.f)
 b.saIn(this.r)
 b.sc0(A.ep(a))}}
 A.ec.prototype={}
@@ -87970,7 +87970,7 @@ return A.bqp(s.f,s.x,null,null,s.c,a.ak(t.I).w,s.d,s.r)}}
 A.AY.prototype={
 gauH(){switch(this.e.a){case 0:return!0
 case 1:var s=this.w
-return s===B.u||s===B.cV}},
+return s===B.v||s===B.cV}},
 T_(a){var s=this.x
 if(s==null)s=this.gauH()?A.ep(a):null
 return s},
@@ -88194,7 +88194,7 @@ n.hC(new A.G(r,q,r+s.a,q+s.b),p)}n=o.p$
 if(n!=null)a.en(n,b)}}
 A.aXr.prototype={
 $0(){var s=$.c2,r=this.a
-if(s.x1$===B.e8)s.rx$.push(new A.aXq(r))
+if(s.x1$===B.e9)s.rx$.push(new A.aXq(r))
 else r.GK()},
 $S:0}
 A.aXq.prototype={
@@ -88528,7 +88528,7 @@ r=o.fy$
 r===$&&A.a()
 q=o.dx$
 if(q===$){p=new A.OA(o,$.ap())
-o.gr5().Y(p.gcY())
+o.gr5().Y(p.gcZ())
 o.dx$!==$&&A.aG()
 o.dx$=p
 q=p}r.aA(q)},
@@ -88725,7 +88725,7 @@ oG(a,b){return A.aka(b,this.w,null,this.y,this.x)},
 cw(a){return!J.c(this.w,a.w)||!J.c(this.x,a.x)||!J.c(this.y,a.y)}}
 A.akb.prototype={
 $1(a){var s=a.ak(t.Uf)
-if(s==null)s=B.dQ
+if(s==null)s=B.dR
 return A.aka(this.e,s.w,this.a,this.d,s.x)},
 $S:479}
 A.a86.prototype={
@@ -88941,7 +88941,7 @@ A.aNV.prototype={
 $0(){this.a.Ny()},
 $S:0}
 A.To.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -89457,7 +89457,7 @@ r.b.im(r)
 $.af.a4$.d.L(s.gyT())
 s.L1()
 s.agE()},
-aNU(a){var s,r,q,p,o,n,m=this,l=m.a,k=l.c.a
+aNT(a){var s,r,q,p,o,n,m=this,l=m.a,k=l.c.a
 if(a.a===k.a){s=a.b
 r=s.a
 q=k.b
@@ -89599,7 +89599,7 @@ if(k.a.k2===1){s=a.c
 q=a.a
 p=r.a
 o=s-q>=p?p/2-a.gb7().a:A.M(0,s-p,q)
-n=B.dl}else{m=A.bbf(a.gb7(),Math.max(a.d-a.b,s.aa.d1().gbt()),a.c-a.a)
+n=B.dm}else{m=A.bbf(a.gb7(),Math.max(a.d-a.b,s.aa.d1().gbt()),a.c-a.a)
 s=m.d
 q=m.b
 p=r.b
@@ -89739,7 +89739,7 @@ h.NH()
 r=h.gaoM()
 q=q.A3
 h.e!==$&&A.br()
-h.e=new A.a1k(s,new A.dd(B.Vg,l),new A.wT(),p,B.d6,0,k,h.gas7(),h.gas9(),r,B.d6,0,j,h.gas1(),h.gas3(),r,i,B.SC,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Wq(),new A.Wq())
+h.e=new A.a1k(s,new A.dd(B.Vg,l),new A.wT(),p,B.d7,0,k,h.gas7(),h.gas9(),r,B.d7,0,j,h.gas1(),h.gas3(),r,i,B.SC,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Wq(),new A.Wq())
 return h},
 Dc(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -89791,7 +89791,7 @@ i.toString
 g=m
 g.toString
 s=7
-return A.m(i.aOL(g,a),$async$E2)
+return A.m(i.aOK(g,a),$async$E2)
 case 7:l=c
 if(l==null){s=1
 break}n.fx=new A.a27(a,l)
@@ -90475,7 +90475,7 @@ p=h.a.bf.d
 r=h.Q
 if((r==null?null:r.c)!=null){o=r.c.x9(q).b
 n=Math.max(o,48)
-p=Math.max(o/2-h.Q.c.x8(B.d6,q).b+n/2,p)}m=h.a.bf.FI(p)
+p=Math.max(o/2-h.Q.c.x8(B.d7,q).b+n/2,p)}m=h.a.bf.FI(p)
 l=h.Y_(s.lm(s.C.gej()))
 k=h.a.c.a.b
 if(k.a===k.b)j=l.b
@@ -90728,7 +90728,7 @@ mM(a){return new A.a81(this.lF(a))},
 gO4(){return!1}}
 A.aUb.prototype={
 aD3(a){var s,r,q=this
-if(a===q)return B.ds
+if(a===q)return B.dt
 s=!0
 if(q.a===a.a)if(q.b===a.b){if(q.c.k(0,a.c))r=!B.DO.k(0,B.DO)||!q.f.k(0,a.f)||q.r!==a.r||!q.w.k(0,a.w)
 else r=s
@@ -90737,7 +90737,7 @@ A.RH.prototype={
 a7(){var s=$.bdu
 $.bdu=s+1
 return new A.aao(B.e.j(s))},
-aO4(){return this.f.$0()}}
+aO3(){return this.f.$0()}}
 A.aao.prototype={
 au(){var s=this
 s.aL()
@@ -90946,7 +90946,7 @@ s.dB()
 this.i7$=null}this.oU()}}
 A.a62.prototype={}
 A.Py.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -90959,7 +90959,7 @@ A.I7.prototype={
 a7(){return new A.a6h(A.kx(B.p9),A.kx(B.p9))}}
 A.a6h.prototype={
 Z2(a,b,c,d,e,f,g,h){var s=this.a
-return new A.t4(g,f,c,s.z,s.ay,a,h,d,b,e,B.v,B.c0,!1,!0,!0,null)},
+return new A.t4(g,f,c,s.z,s.ay,a,h,d,b,e,B.u,B.c0,!1,!0,!0,null)},
 atg(a,b,c,d,e,f,g){return this.Z2(a,b,c,d,e,null,f,g)},
 J(a){var s=this,r=null,q=s.a,p=q.e,o=s.Z2(r,r,r,B.bE,q.ch,new A.aOd(s),p,s.e)
 o=A.bL(r,r,o,!1,r,r,r,!1,!1,r,r,r,r,!0,r,r,r,"",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.F,r)
@@ -90972,7 +90972,7 @@ r=s.a
 q=r.c
 p=s.f
 r=r.ch
-return new A.yO(b,s.e,s.atg(o,o,o,B.bE,r,q,p),p,s.d,B.Ni,B.ct,B.df,B.cW,d,B.a3,new A.bc(1e6),o,o)},
+return new A.yO(b,s.e,s.atg(o,o,o,B.bE,r,q,p),p,s.d,B.Ni,B.ct,B.dg,B.cW,d,B.a3,new A.bc(1e6),o,o)},
 $C:"$4",
 $R:4,
 $S:504}
@@ -91910,7 +91910,7 @@ if(a.c!==s.a.c)s.gdj().fr=s.a.c},
 J(a){var s=null,r=this.gdj()
 return A.pl(!1,!1,this.a.f,s,!0,!0,r,!1,s,s,s,s,s,!0)}}
 A.a0z.prototype={
-ev(a){a.aOU(a.gdj())}}
+ev(a){a.aOT(a.gdj())}}
 A.nR.prototype={}
 A.Zz.prototype={
 ev(a){var s=$.af.a4$.d.c,r=s.e
@@ -92002,7 +92002,7 @@ A.aoA.prototype={
 $0(){var s=0,r=A.r(t.H),q=this
 var $async$$0=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:s=2
-return A.m(A.pq(B.dR,null,t.H),$async$$0)
+return A.m(A.pq(B.dS,null,t.H),$async$$0)
 case 2:A.u3(q.b,q.a.a,q.c,B.oU)
 return A.p(null,r)}})
 return A.q($async$$0,r)},
@@ -92055,7 +92055,7 @@ s.toString
 s=A.XF(s)
 switch(s==null?null:s.a.x){case B.eq:$.af.rx$.push(new A.aov(this))
 break
-case B.i5:case B.oW:case B.dH:case null:case void 0:break}},
+case B.i5:case B.oW:case B.dI:case null:case void 0:break}},
 l(){var s=this,r=s.e
 r===$&&A.a()
 r.l()
@@ -92913,7 +92913,7 @@ this.b_(a)
 s=this.a
 this.Nd(s.d)},
 aMV(a){if(this.a.f)return
-t.ym.a(this.c.ga2()).saOb(a)},
+t.ym.a(this.c.ga2()).saOa(a)},
 l(){for(var s=this.d.gir(),s=s.ga5(s);s.u();)s.gK().l()
 this.d=null
 this.aE()},
@@ -93002,7 +93002,7 @@ if(s!=null)s.$1(new A.Bx(p,q))
 s=r.p2
 if(s!=null)s.$0()
 s=r.RG
-if(s!=null)s.$1(new A.Bw(p,q,B.dx))
+if(s!=null)s.$1(new A.Bw(p,q,B.dy))
 r=r.R8
 if(r!=null)r.$0()},
 $S:0}
@@ -93016,7 +93016,7 @@ if(s!=null)s.$1(new A.kb(o,p,r,r))
 s=q.CW
 if(s!=null)s.$1(a)
 q=q.cx
-if(q!=null)q.$1(new A.jt(m,n,B.dx,0))},
+if(q!=null)q.$1(new A.jt(m,n,B.dy,0))},
 $S:21}
 A.aNo.prototype={
 $1(a){var s,r=null,q=this.a,p=A.Pi(q).gb7(),o=A.bR(q.b0(r),p),n=p.X(0,a.d),m=A.bR(q.b0(r),n)
@@ -93028,7 +93028,7 @@ if(s!=null)s.$1(new A.kb(o,p,r,r))
 s=q.CW
 if(s!=null)s.$1(a)
 q=q.cx
-if(q!=null)q.$1(new A.jt(m,n,B.dx,r))},
+if(q!=null)q.$1(new A.jt(m,n,B.dy,r))},
 $S:21}
 A.aNp.prototype={
 $1(a){var s=this.a
@@ -93046,7 +93046,7 @@ if(s!=null)s.$1(new A.kb(o,p,r,r))
 s=q.CW
 if(s!=null)s.$1(a)
 q=q.cx
-if(q!=null)q.$1(new A.jt(m,n,B.dx,0))},
+if(q!=null)q.$1(new A.jt(m,n,B.dy,0))},
 $S:21}
 A.aNt.prototype={
 $1(a){var s,r=null,q=this.a,p=A.Pi(q).gb7(),o=A.bR(q.b0(r),p),n=p.X(0,a.d),m=A.bR(q.b0(r),n)
@@ -93058,7 +93058,7 @@ if(s!=null)s.$1(new A.kb(o,p,r,r))
 s=q.CW
 if(s!=null)s.$1(a)
 q=q.cx
-if(q!=null)q.$1(new A.jt(m,n,B.dx,r))},
+if(q!=null)q.$1(new A.jt(m,n,B.dy,r))},
 $S:21}
 A.aNu.prototype={
 $1(a){var s=this.a
@@ -93443,7 +93443,7 @@ k=A.kA(i,i,i,B.a2C,i,i,!0,i,A.bw(i,i,i,A.fI(i,i,l,i,i,i,i,i,n.b,i,i,s,i,f,i,i,1,
 if(n.d)switch(h.a){case 0:f=new A.bi(new Float64Array(16))
 f.dn()
 f.jF(-1,1,1,1)
-k=A.a2O(B.v,k,i,f,!1)
+k=A.a2O(B.u,k,i,f,!1)
 break
 case 1:break}return A.bL(i,i,new A.io(!0,A.bT(A.ct(k,i,i),s,s),i),!1,i,i,i,!1,!1,i,i,i,i,i,i,i,i,j.z,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.F,i)}}
 A.hC.prototype={
@@ -93917,7 +93917,7 @@ r.toString
 this.Q=new A.aB(t.C.a(s),r,A.j(r).h("aB<aF.T>"))},
 J(a){var s=this.Q
 s===$&&A.a()
-return A.aBT(B.v,this.a.r,null,s)}}
+return A.aBT(B.u,this.a.r,null,s)}}
 A.aKi.prototype={
 $1(a){return new A.aK(A.cK(a),null,t.Y)},
 $S:32}
@@ -93984,7 +93984,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.jA.prototype={
@@ -94066,8 +94066,8 @@ axW(){var s,r,q,p=this
 if(p.p3)return
 s=$.c2
 r=s.x1$
-$label0$0:{if(B.e7===r||B.nc===r){q=!0
-break $label0$0}if(B.nb===r||B.Ck===r||B.e8===r){q=!1
+$label0$0:{if(B.e8===r||B.nc===r){q=!0
+break $label0$0}if(B.nb===r||B.Ck===r||B.e9===r){q=!1
 break $label0$0}q=null}if(!q){p.$ti.h("fE<1,C>").a(A.bj.prototype.ga2.call(p)).qs()
 return}p.p3=!0
 s.BS(p.ganN())},
@@ -94342,11 +94342,11 @@ s=s==null?null:A.bn(s)
 return A.L(this.a,this.c,s,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.a_Q.prototype={
 J(a){var s=this,r=null,q=s.d,p=q.c,o=q.a,n=s.w
-return A.el(B.v,A.b([A.blT(A.Kk(new A.a7C(s.f,s.r,A.u8(s.c,n),r),o),p),A.ki(A.Kk(A.aj4(A.Hv(A.u8(r,n),new A.j7(r,r,r,q.b,p),B.eF),s.e,new A.a80(p,r)),o),!0,r)],t.p),B.q,B.aw,r)}}
+return A.el(B.u,A.b([A.blT(A.Kk(new A.a7C(s.f,s.r,A.u8(s.c,n),r),o),p),A.ki(A.Kk(A.aj4(A.Hv(A.u8(r,n),new A.j7(r,r,r,q.b,p),B.eF),s.e,new A.a80(p,r)),o),!0,r)],t.p),B.q,B.aw,r)}}
 A.a80.prototype={
 J7(a){var s=A.cr($.a4().w)
 s.sA4(B.yz)
-s.a3(new A.iN(B.dr))
+s.a3(new A.iN(B.ds))
 s.a3(new A.UD(this.b.aby(new A.G(0,0,0+a.a,0+a.b)),B.h,null))
 return s},
 JE(a){return!a.b.k(0,this.b)}}
@@ -94365,7 +94365,7 @@ saJY(a){if(this.p===a)return
 this.p=a
 this.aC()},
 gjf(){return!0},
-aD(a,b){var s,r,q,p,o,n=this,m=B.v.Fb(n.gv()).X(0,b),l=new Float64Array(16),k=new A.bi(l)
+aD(a,b){var s,r,q,p,o,n=this,m=B.u.Fb(n.gv()).X(0,b),l=new Float64Array(16),k=new A.bi(l)
 k.dn()
 s=n.p
 r=n.C
@@ -94390,7 +94390,7 @@ gc9(){var s=this.d
 if(B.I8!==s)return s
 return B.S},
 ghk(){var s=this.a
-return s.a>s.b?B.dm:B.bt},
+return s.a>s.b?B.dn:B.bt},
 zp(a,b,c,d,e){var s=this,r=c==null?s.gc9():c,q=b==null?s.r:b,p=e==null?s.w:e,o=d==null?s.f:d,n=a==null?s.cy:a
 return new A.JL(s.a,s.b,r,s.e,o,q,p,s.x,!1,s.z,s.Q,s.as,s.at,s.ax,s.ay,s.ch,s.CW,s.cx,n,!1)},
 OW(a){var s=null
@@ -94538,18 +94538,18 @@ s=A.cc(s,null)
 r.d=s
 r.e=null},
 v1(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=f.a.c,c=f.d,b=d.gtq(),a=$.eA(),a0=a.d,a1=a0==null
-b=b.ep(0,a1?a.gcW():a0)
-s=a1?a.gcW():a0
+b=b.ep(0,a1?a.gcX():a0)
+s=a1?a.gcX():a0
 r=c==null
 q=r?e:c.gc9()
 if(q==null){q=d.b
 q=new A.Ng(q,q.d.e)}p=r?e:c.e
 if(p==null)p=d.b.d.d
-o=A.ali(B.fj,a1?a.gcW():a0)
-n=A.ali(B.fj,a1?a.gcW():a0)
+o=A.ali(B.fj,a1?a.gcX():a0)
+n=A.ali(B.fj,a1?a.gcX():a0)
 m=d.ay
-m=A.ali(m,a1?a.gcW():a0)
-a=A.ali(B.fj,a1?a.gcW():a0)
+m=A.ali(m,a1?a.gcX():a0)
+a=A.ali(B.fj,a1?a.gcX():a0)
 a0=r?e:c.z
 if(a0==null)a0=(d.b.d.a.a&1)!==0
 a1=r?e:c.Q
@@ -94638,7 +94638,7 @@ if(s!=null)this.dt("onAnyTapUp",s)},
 GV(a,b,c){}}
 A.a48.prototype={
 OM(){var s=t.S
-return new A.DX(B.br,-1,-1,B.dV,A.w(s,t.SP),A.ee(s),null,null,A.FC(),A.w(s,t.F))},
+return new A.DX(B.br,-1,-1,B.dW,A.w(s,t.SP),A.ee(s),null,null,A.FC(),A.w(s,t.F))},
 a6R(a){a.A=this.a}}
 A.a7Q.prototype={
 J(a){return new A.lg(this.c,A.u([B.a9u,new A.a48(this.d)],t.u,t.xR),B.aH,!1,null)}}
@@ -94823,7 +94823,7 @@ n.t_()
 s=p.d
 if(s===B.oz||s===B.ET){r=n.rz()
 p.d=B.EU
-r.aOi(new A.aTX(p,b))}else{if(c instanceof A.f6){s=n.CW
+r.aOh(new A.aTX(p,b))}else{if(c instanceof A.f6){s=n.CW
 s.toString
 q=c.CW.x
 q===$&&A.a()
@@ -95370,7 +95370,7 @@ s=J.aS(s)
 while(s.u())s.gK().pF()}},
 aro(a){this.db.B(0,a.gbI())},
 arx(a){this.db.F(0,a.gbI())},
-VS(){if($.c2.x1$===B.e7){var s=this.d
+VS(){if($.c2.x1$===B.e8){var s=this.d
 s===$&&A.a()
 s=$.af.a4$.x.i(0,s)
 this.T(new A.axk(s==null?null:s.w4(t.CZ)))}s=this.db
@@ -95528,7 +95528,7 @@ A.aQZ.prototype={
 $2(a,b){if(!a.a)a.L(b)},
 $S:33}
 A.QF.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -95770,7 +95770,7 @@ b=A.bV()
 a=a3.A
 switch(a3.O){case null:case void 0:b.b=k?a3.gv().a-d:0
 break
-case B.j:b.b=k?a3.gv().a-d:0
+case B.k:b.b=k?a3.gv().a-d:0
 break
 case B.cg:a0=(a3.gv().a-j)/2
 b.b=k?a3.gv().a-a0-d:a0
@@ -95780,7 +95780,7 @@ break
 case B.b1:a=(a3.gv().a-o)/(a3.cu$-1)
 b.b=k?a3.gv().a-d:0
 break
-case B.dk:a=a3.cu$>0?(a3.gv().a-o)/a3.cu$:0
+case B.dl:a=a3.cu$>0?(a3.gv().a-o)/a3.cu$:0
 s=a/2
 b.b=k?a3.gv().a-s-d:s
 break
@@ -95848,7 +95848,7 @@ this.f=null
 if(r.c==null)return
 B.b.F(r.d,this)
 s=$.c2
-if(s.x1$===B.e8)s.rx$.push(new A.axV(r))
+if(s.x1$===B.e9)s.rx$.push(new A.axV(r))
 else r.ZA()},
 cT(){var s=this.r.gN()
 if(s!=null)s.DN()},
@@ -96259,7 +96259,7 @@ s=a.c
 r=q.a.c
 if(s!==r){s.a=null
 q.a12(r)}},
-c7(){this.cV()},
+c7(){this.cW()},
 l(){this.a.c.a=null
 this.f=null
 this.aE()},
@@ -96492,7 +96492,7 @@ A.aT5.prototype={
 $1(a){return this.a},
 $S:219}
 A.a8h.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -96797,7 +96797,7 @@ o.a.push(q.gKA())
 q.a!==$&&A.br()
 q.a=p
 p=A.dy(B.ex,p,m)
-p.a.Y(q.gcY())
+p.a.Y(q.gcZ())
 q.c!==$&&A.br()
 q.c=p
 t.C.a(p)
@@ -96920,7 +96920,7 @@ s=this.iN$
 r=s===0?"local":"remote"
 a.push("depth: "+s+" ("+r+")")}}
 A.Tr.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -96928,7 +96928,7 @@ if(r!=null)r.L(s.geX())
 s.bc$=null
 s.aE()}}
 A.TG.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -97215,12 +97215,12 @@ if(!m.am(n)){s=1
 break}m=m.i(0,n)
 m.toString
 o=a.a
-if(o==="Menu.selectedCallback"){m.gaOT().$0()
+if(o==="Menu.selectedCallback"){m.gaOS().$0()
 m.gaL6()
 o=$.af.a4$.d.c.e
 o.toString
-A.b7b(o,m.gaL6(),t.vz)}else if(o==="Menu.opened")m.gaOS().$0()
-else if(o==="Menu.closed")m.gaOR().$0()
+A.b7b(o,m.gaL6(),t.vz)}else if(o==="Menu.opened")m.gaOR().$0()
+else if(o==="Menu.closed")m.gaOQ().$0()
 case 1:return A.p(q,r)}})
 return A.q($async$Mm,r)}}
 A.Y_.prototype={
@@ -97519,12 +97519,12 @@ if(s==null)s=A.j(this).h("aj.T").a(s)
 return s==null?null:s.a}}
 A.xO.prototype={
 An(a){var s=this,r=s.y
-if(r!=null)r.L(s.gcY())
+if(r!=null)r.L(s.gcZ())
 s.y=a
-a.Y(s.gcY())},
+a.Y(s.gcZ())},
 l(){this.afx()
 var s=this.y
-if(s!=null)s.L(this.gcY())}}
+if(s!=null)s.L(this.gcZ())}}
 A.Cz.prototype={
 An(a){this.xZ()
 this.afw(a)},
@@ -97977,7 +97977,7 @@ s=B.b.F(q,a)&&a.c&&--r.o9$===0
 a.b=null
 a.ZR()
 if(r.hF$.length===0||s){q=$.c2
-if(q.x1$===B.e8)q.rx$.push(new A.asB(r))
+if(q.x1$===B.e9)q.rx$.push(new A.asB(r))
 else r.k6()}}}
 A.asB.prototype={
 $1(a){var s=this.a
@@ -98187,7 +98187,7 @@ s.k6()
 s.DR()},
 k6(){var s,r=this
 r.afz()
-if($.c2.x1$!==B.e8){r.T(new A.awH())
+if($.c2.x1$!==B.e9){r.T(new A.awH())
 s=r.x1
 s===$&&A.a()
 s.cT()}s=r.xr
@@ -98442,8 +98442,8 @@ return this.OZ(a,s,s,b,s,s,s,c)},
 mn(a){return A.b1()},
 grA(){return B.CJ},
 ql(a){switch(this.mn(a).a){case 4:case 2:return B.mW
-case 3:case 5:case 0:case 1:return B.e3}},
-gI_(){return A.cT([B.dj,B.dY],t.bd)},
+case 3:case 5:case 0:case 1:return B.e4}},
+gI_(){return A.cT([B.dk,B.dZ],t.bd)},
 Ft(a,b,c){var s=null
 switch(this.mn(a).a){case 3:case 4:case 5:return A.bqK(b,c.b,B.ct,s,s,0,A.U7(),B.O,s,s,s,s,B.fY,s)
 case 0:case 1:case 2:return b}},
@@ -98470,7 +98470,7 @@ A.aXu.prototype={
 grA(){var s=this.r
 return s==null?B.CJ:s},
 gI_(){var s=this.x
-return s==null?A.cT([B.dj,B.dY],t.bd):s},
+return s==null?A.cT([B.dk,B.dZ],t.bd):s},
 ql(a){var s=this.a.ql(a)
 return s},
 Fr(a,b,c){if(this.c)return this.a.Fr(a,b,c)
@@ -98497,11 +98497,11 @@ return A.q($async$lD,r)},
 fm(a){var s=A.R(this.f,t.gt),r=s.length,q=0
 for(;q<s.length;s.length===r||(0,A.H)(s),++q)s[q].fm(a)},
 aA(a){this.f.push(a)
-a.Y(this.gcY())},
-zE(a){a.L(this.gcY())
+a.Y(this.gcZ())},
+zE(a){a.L(this.gcZ())
 B.b.F(this.f,a)},
 l(){var s,r,q,p
-for(s=this.f,r=s.length,q=this.gcY(),p=0;p<s.length;s.length===r||(0,A.H)(s),++p)s[p].L(q)
+for(s=this.f,r=s.length,q=this.gcZ(),p=0;p<s.length;s.length===r||(0,A.H)(s),++p)s[p].L(q)
 this.dB()},
 a4O(a,b,c){return A.brk(b,null,this.a,!0,c,a)},
 j(a){var s,r=A.b([],t.s),q=this.a
@@ -98594,7 +98594,7 @@ B(a,b){var s,r=this,q=r.aJI(b)
 b.Y(q)
 s=r.e;(s==null?r.e=A.w(t.x9,t.M):s).m(0,b,q)
 r.f.B(0,b)
-if(b.gq().c!==B.du)r.EI(b,!0)},
+if(b.gq().c!==B.dv)r.EI(b,!0)},
 F(a,b){var s=this.e
 if(s==null)return
 s=s.F(0,b)
@@ -98615,7 +98615,7 @@ if(s.f==null)return s.a.c
 return A.bbA(s.a.c,s)}}
 A.aUo.prototype={
 $0(){var s=this.b,r=this.a
-if(s.gq().c!==B.du)r.EI(s,!0)
+if(s.gq().c!==B.dv)r.EI(s,!0)
 else r.EI(s,!1)},
 $S:0}
 A.adz.prototype={
@@ -99401,7 +99401,7 @@ $S:33}
 A.M7.prototype={
 a7(){var s=null,r=t.B
 return new A.xY(new A.aa4($.ap()),new A.bs(s,r),new A.bs(s,t.LZ),new A.bs(s,r),B.y7,s,A.w(t.yb,t.M),s,!0,s,s,s)},
-aOe(a,b){return this.f.$2(a,b)}}
+aOd(a,b){return this.f.$2(a,b)}}
 A.aD3.prototype={
 $1(a){return null},
 $S:591}
@@ -99480,7 +99480,7 @@ q.toString
 A.kI(q).toString
 q=$.eA()
 s=q.d
-q=s==null?q.gcW():s}r.f=q
+q=s==null?q.gcX():s}r.f=q
 r.a2z()
 r.ahn()},
 ayJ(a){var s,r,q=this,p=null,o=q.a.as,n=o==null,m=a.as,l=m==null
@@ -99633,7 +99633,7 @@ r=k.a
 q=r.x
 p=r.w
 o=k.ax
-n=new A.RL(k,i,A.Jw(B.cx,new A.lg(A.bL(j,j,A.ki(r.aOe(a,i),o,k.as),!1,j,j,j,!1,!p,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,B.F,j),s,q,p,k.Q),j,j,j,k.gax7(),j),j)
+n=new A.RL(k,i,A.Jw(B.cx,new A.lg(A.bL(j,j,A.ki(r.aOd(a,i),o,k.as),!1,j,j,j,!1,!p,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,B.F,j),s,q,p,k.Q),j,j,j,k.gax7(),j),j)
 i=k.a
 if(!i.w){i=k.d
 i.toString
@@ -99765,7 +99765,7 @@ r=a.b
 q=a.c
 p=-s.a
 o=-s.b
-if(a.a===B.dt){r=m.fy=m.Z5(r)
+if(a.a===B.du){r=m.fy=m.Z5(r)
 a=A.aD6(new A.l(r.a+p,r.b+o),q)}else{r=m.fx=m.Z5(r)
 a=A.aD7(new A.l(r.a+p,r.b+o),q)}n=m.Uw(a)
 if(n===B.ni){m.dy.e=!1
@@ -100028,7 +100028,7 @@ return s==null?A.j(this).h("aj.T").a(s):s},
 gmV(){var s=this.y
 return(s==null?A.j(this).h("aj.T").a(s):s)!=null}}
 A.RO.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -100217,7 +100217,7 @@ this.ar()},
 sa9I(a){if(this.c.k(0,a))return
 this.c=a
 this.ar()},
-saNF(a){return},
+saNE(a){return},
 sc0(a){var s=this
 if(s.e===a)return
 s.e=a
@@ -100481,7 +100481,7 @@ return r},
 JD(a){return!1},
 gC_(){return null},
 j(a){return"<optimized out>#"+A.bF(this)},
-l(){this.r.a.L(this.gcY())
+l(){this.r.a.L(this.gcZ())
 this.dB()}}
 A.Cq.prototype={
 a7(){return A.bqL(t.jU)},
@@ -100512,7 +100512,7 @@ p=r.r
 o=r.db
 r=r.dx
 r=new A.CL(B.l5,B.G,B.G,m,q,s,r,0,p,m,B.aL,18,18,o,B.aL,$.ap())
-s.a.Y(r.gcY())
+s.a.Y(r.gcZ())
 n.CW!==$&&A.br()
 n.CW=r},
 b5(){this.ck()},
@@ -100529,7 +100529,7 @@ p===$&&A.a()
 r.a.toString
 p.sdr(B.l5)
 r.a.toString
-p.saNF(null)
+p.saNE(null)
 if(r.ga1a()){r.a.toString
 s=B.Lc}else s=B.G
 p.sa9J(s)
@@ -100690,7 +100690,7 @@ r.toString
 q=s.mn(r)
 $label0$0:{if(B.U===q||B.ax===q){s=b.a
 s=new A.kG(new A.l(-s.a,-s.b))
-break $label0$0}s=B.dx
+break $label0$0}s=B.dy
 break $label0$0}r=$.af.a4$.x.i(0,n.z).ga2()
 r.toString
 r=A.bR(t.x.a(r).b0(null),a)
@@ -100864,7 +100864,7 @@ r=s.w
 if(r!=null)r.aX()
 r=s.CW
 r===$&&A.a()
-r.r.a.L(r.gcY())
+r.r.a.L(r.gcZ())
 r.dB()
 r=s.y
 r===$&&A.a()
@@ -100891,15 +100891,15 @@ s.at=!s.at},
 $S:0}
 A.aAc.prototype={
 $0(){var s=this.a,r=t.S
-return new A.uG(s.z,B.D,B.e3,A.TZ(),B.cJ,A.w(r,t.GY),A.w(r,t.o),B.h,A.b([],t.t),A.w(r,t.SP),A.ee(r),s,null,A.U_(),A.w(r,t.F))},
+return new A.uG(s.z,B.D,B.e4,A.TZ(),B.cJ,A.w(r,t.GY),A.w(r,t.o),B.h,A.b([],t.t),A.w(r,t.SP),A.ee(r),s,null,A.U_(),A.w(r,t.F))},
 $S:597}
 A.aAd.prototype={
 $0(){var s=this.a,r=t.S
-return new A.v_(s.z,B.D,B.e3,A.TZ(),B.cJ,A.w(r,t.GY),A.w(r,t.o),B.h,A.b([],t.t),A.w(r,t.SP),A.ee(r),s,null,A.U_(),A.w(r,t.F))},
+return new A.v_(s.z,B.D,B.e4,A.TZ(),B.cJ,A.w(r,t.GY),A.w(r,t.o),B.h,A.b([],t.t),A.w(r,t.SP),A.ee(r),s,null,A.U_(),A.w(r,t.F))},
 $S:598}
 A.aAe.prototype={
 $0(){var s=this.a,r=t.S
-return new A.oI(s.z,B.br,-1,-1,B.dV,A.w(r,t.SP),A.ee(r),s,null,A.FC(),A.w(r,t.F))},
+return new A.oI(s.z,B.br,-1,-1,B.dW,A.w(r,t.SP),A.ee(r),s,null,A.FC(),A.w(r,t.F))},
 $S:599}
 A.aAf.prototype={
 $1(a){a.A=this.a.ga6v()},
@@ -100927,7 +100927,7 @@ A.uG.prototype={
 QY(a){return!1},
 iT(a){return A.bex(this.cS,a)&&this.Uf(a)}}
 A.EK.prototype={
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.fd()},
 l(){var s=this,r=s.bc$
@@ -100951,10 +100951,10 @@ r=Math.min(l,s)
 q=Math.max(l,s)
 for(p=r;p<=q;++p)m.a5a(m.b[p])
 l=m.d
-if(l!==-1&&m.b[l].gq().c!==B.du){r=m.b[m.d]
+if(l!==-1&&m.b[l].gq().c!==B.dv){r=m.b[m.d]
 o=r.gq().a.a.X(0,new A.l(0,-r.gq().a.b/2))
 m.fr=A.bR(r.b0(null),o)}l=m.c
-if(l!==-1&&m.b[l].gq().c!==B.du){q=m.b[m.c]
+if(l!==-1&&m.b[l].gq().c!==B.dv){q=m.b[m.c]
 n=q.gq().b.a.X(0,new A.l(0,-q.gq().b.b/2))
 m.fx=A.bR(q.b0(null),n)}},
 OA(){var s=this
@@ -100977,7 +100977,7 @@ GN(a){var s=this.Ut(a)
 this.OA()
 return s},
 n4(a){var s=a.b
-if(a.a===B.dt)this.fx=s
+if(a.a===B.du)this.fx=s
 else this.fr=s
 return this.Uw(a)},
 l(){this.OA()
@@ -101071,7 +101071,7 @@ gzi(){return A.bBg()},
 arZ(){if(this.x)return
 this.EJ()},
 abU(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=c.c
-if(a===-1||c.d===-1||c.b.length===0)return new A.u_(b,b,B.du,B.ms,c.b.length!==0)
+if(a===-1||c.d===-1||c.b.length===0)return new A.u_(b,b,B.dv,B.ms,c.b.length!==0)
 if(!c.as){a=c.Vl(c.d,a)
 c.d=a
 c.c=c.Vl(c.c,a)}s=c.b[c.d].gq()
@@ -101190,7 +101190,7 @@ case B.jD:case B.jE:break}if(a.gm3())p.c=s
 else p.d=s
 return r},
 n4(a){var s=this
-if(a.a===B.dt)return s.c===-1?s.a0I(a,!0):s.a0G(a,!0)
+if(a.a===B.du)return s.c===-1?s.a0I(a,!0):s.a0G(a,!0)
 return s.d===-1?s.a0I(a,!1):s.a0G(a,!1)},
 pG(a){var s,r=this,q=!(a instanceof A.GW)
 if(!r.z&&q)B.b.hr(r.b,r.gzi())
@@ -102199,7 +102199,7 @@ if(r.bA!==B.a11&&!q.CC()){q.l()
 if(r.bA===B.a10)throw A.f(A.iV("SnapshotWidget used with a child that contains a PlatformView."))
 r.bY=!0
 return null}p=r.gv()
-s=q.aNu(new A.G(0,0,0+p.a,0+p.b),r.C)
+s=q.aNt(new A.G(0,0,0+p.a,0+p.b),r.C)
 q.l()
 r.f4=r.gv()
 return s},
@@ -102228,15 +102228,15 @@ p.toString
 r.a8o(a,b,s,q,p,o.C)}}}
 A.a1Z.prototype={}
 A.Pj.prototype={
-gfb(){return A.a1(A.nS(this,A.tg(B.a1X,"gaOD",1,[],[],0)))},
-sfb(a){A.a1(A.nS(this,A.tg(B.a1U,"saOx",2,[a],[],0)))},
-gdS(){return A.a1(A.nS(this,A.tg(B.a1Y,"gaOE",1,[],[],0)))},
-sdS(a){A.a1(A.nS(this,A.tg(B.a22,"saOz",2,[a],[],0)))},
-gnO(){return A.a1(A.nS(this,A.tg(B.a1Z,"gaOF",1,[],[],0)))},
-snO(a){A.a1(A.nS(this,A.tg(B.a1W,"saOA",2,[a],[],0)))},
-gph(){return A.a1(A.nS(this,A.tg(B.a2_,"gaOG",1,[],[],0)))},
-sph(a){A.a1(A.nS(this,A.tg(B.a1V,"saOC",2,[a],[],0)))},
-a_S(a){return A.a1(A.nS(this,A.tg(B.a20,"aOH",0,[a],[],0)))},
+gfb(){return A.a1(A.nS(this,A.tg(B.a1X,"gaOC",1,[],[],0)))},
+sfb(a){A.a1(A.nS(this,A.tg(B.a1U,"saOw",2,[a],[],0)))},
+gdS(){return A.a1(A.nS(this,A.tg(B.a1Y,"gaOD",1,[],[],0)))},
+sdS(a){A.a1(A.nS(this,A.tg(B.a22,"saOy",2,[a],[],0)))},
+gnO(){return A.a1(A.nS(this,A.tg(B.a1Z,"gaOE",1,[],[],0)))},
+snO(a){A.a1(A.nS(this,A.tg(B.a1W,"saOz",2,[a],[],0)))},
+gph(){return A.a1(A.nS(this,A.tg(B.a2_,"gaOF",1,[],[],0)))},
+sph(a){A.a1(A.nS(this,A.tg(B.a1V,"saOB",2,[a],[],0)))},
+a_S(a){return A.a1(A.nS(this,A.tg(B.a20,"aOG",0,[a],[],0)))},
 Y(a){},
 l(){},
 L(a){},
@@ -102449,7 +102449,7 @@ if(r==null)r=B.S
 break $label0$0}r=d}n=A.bV()
 if(q!=null){m=t.Uf
 l=a.ak(m)
-l=(l==null?B.dQ:l).y
+l=(l==null?B.dR:l).y
 if(l==null)l=B.nT
 k=e.r
 if(k==null)k=c.x
@@ -102462,7 +102462,7 @@ h=e.at
 if(h==null)h=c.Q
 g=A.akf(a)
 m=a.ak(m)
-m=(m==null?B.dQ:m).x
+m=(m==null?B.dR:m).x
 if(m==null)m=B.pV
 f=e.d
 f=f!=null?A.b([f],t.VO):d
@@ -102478,7 +102478,7 @@ j=e.at
 if(j==null)j=c.Q
 i=A.akf(a)
 h=a.ak(t.Uf)
-h=(h==null?B.dQ:h).x
+h=(h==null?B.dR:h).x
 if(h==null)h=B.pV
 g=e.d
 g=g!=null?A.b([g],t.VO):d
@@ -102709,7 +102709,7 @@ p.fi(n[q],B.fI)}},
 n4(a){var s,r,q=this
 if(a.c!==B.DN)return q.agd(a)
 s=a.b
-r=a.a===B.dt
+r=a.a===B.du
 if(r)q.fx=s
 else q.fr=s
 if(r)return q.c===-1?q.Za(a,!0):q.Vk(a,!0)
@@ -102810,7 +102810,7 @@ k=s.xf(new A.cM(o-q.length,o))}else k=i
 q=k==null?i:k.d-k.b
 h.saJA(q==null?r.d1().gbt():q)
 h.saci(s.BC(j.r.b))
-h.saNC(s.A3)},
+h.saNB(s.A3)},
 l(){var s,r,q,p=this,o=p.e
 o===$&&A.a()
 o.lZ()
@@ -102946,7 +102946,7 @@ q=p.r.b
 if(q.a!==q.b)s.JG(o,p.f)}},
 uA(a){this.d.iq(this.r.iI(a),B.aJ)},
 W6(a,b,c){var s=this.r.b
-if(s.a===s.b)return B.d6
+if(s.a===s.b)return B.d7
 switch(a.a){case 1:s=b
 break
 case 0:s=c
@@ -103031,7 +103031,7 @@ if(!A.ds(s.dx,a)){s.cT()
 if(s.ay||s.w)switch(A.b1().a){case 0:A.aq1()
 break
 case 1:case 2:case 3:case 4:case 5:break}}s.dx=a},
-saNC(a){if(J.c(this.k4,a))return
+saNB(a){if(J.c(this.k4,a))return
 this.k4=a
 this.cT()},
 TQ(){var s,r,q,p,o=this
@@ -103067,7 +103067,7 @@ jJ(){return this.JG(null,null)},
 cT(){var s,r=this,q=r.ok,p=q==null
 if(p&&r.p1==null)return
 s=$.c2
-if(s.x1$===B.e8){if(r.p4)return
+if(s.x1$===B.e9){if(r.p4)return
 r.p4=!0
 s.rx$.push(new A.aDa(r))}else{if(!p){q.b.cT()
 r.ok.a.cT()}q=r.p1
@@ -103108,7 +103108,7 @@ $1(a){return this.a},
 $S:15}
 A.aDb.prototype={
 $1(a){var s,r,q=null,p=this.a,o=p.go
-if(o!=null)s=p.e===B.d6&&p.ay
+if(o!=null)s=p.e===B.d7&&p.ay
 else s=!0
 if(s)r=B.aC
 else{s=p.e
@@ -103116,7 +103116,7 @@ r=A.bdv(p.k1,p.fx,p.gasl(),p.gasn(),p.gasp(),p.k2,p.f,o,s,p.x)}return new A.uz(t
 $S:15}
 A.aDc.prototype={
 $1(a){var s,r,q=null,p=this.a,o=p.go,n=!0
-if(o!=null){s=p.as===B.d6
+if(o!=null){s=p.as===B.d7
 if(!(s&&p.w))n=s&&!p.w&&!p.ay}if(n)r=B.aC
 else{n=p.as
 r=A.bdv(p.k1,p.fy,p.gapL(),p.gapN(),p.gapP(),p.k2,p.at,o,n,p.ch)}return new A.uz(this.b.a,A.a2z(new A.io(!0,r,q),q,B.a9,q,q),q)},
@@ -103217,7 +103217,7 @@ f=Math.max((p-f)/2,0)
 o=h.a
 n=o.w.x8(o.z,o.y)
 o=h.a
-m=o.z===B.d6&&A.b1()===B.U
+m=o.z===B.d7&&A.b1()===B.U
 o=o.c
 l=new A.l(-n.a,-n.b).a1(0,new A.l(e,f))
 k=h.d
@@ -103285,7 +103285,7 @@ aLn(){var s,r=$.eU.d3$
 r===$&&A.a()
 r=r.a
 s=A.j(r).h("bl<2>")
-s=A.fp(new A.bl(r,s),s.h("B.E")).kX(A.cT([B.dj,B.dY],t.bd))
+s=A.fp(new A.bl(r,s),s.h("B.E")).kX(A.cT([B.dk,B.dZ],t.bd))
 this.d=s.gbZ(s)},
 aLl(){this.d=!1},
 aLj(a){var s,r,q,p=this,o=p.a
@@ -103694,7 +103694,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.TF.prototype={
@@ -103702,7 +103702,7 @@ l(){var s=this,r=s.bX$
 if(r!=null)r.L(s.giB())
 s.bX$=null
 s.aE()},
-c7(){this.cV()
+c7(){this.cW()
 this.cB()
 this.iC()}}
 A.NB.prototype={}
@@ -103860,26 +103860,26 @@ $S:0}
 A.NK.prototype={
 sbS(a){var s=this,r=s.a
 if(a===r)return
-if(r!=null)r.a.L(s.gcY())
-a.a.Y(s.gcY())
+if(r!=null)r.a.L(s.gcZ())
+a.a.Y(s.gcZ())
 s.a=a
 s.ar()},
 saMm(a){var s=this,r=s.b
 if(a===r)return
-if(r!=null)r.a.L(s.gcY())
-a.a.Y(s.gcY())
+if(r!=null)r.a.L(s.gcZ())
+a.a.Y(s.gcZ())
 s.b=a
 s.ar()},
 saMo(a){var s=this,r=s.c
 if(a===r)return
-if(r!=null)r.a.L(s.gcY())
-a.a.Y(s.gcY())
+if(r!=null)r.a.L(s.gcZ())
+a.a.Y(s.gcZ())
 s.c=a
 s.ar()},
 saMp(a){var s=this,r=s.d
 if(a===r)return
-if(r!=null)r.a.L(s.gcY())
-a.a.Y(s.gcY())
+if(r!=null)r.a.L(s.gcZ())
+a.a.Y(s.gcZ())
 s.d=a
 s.ar()},
 saBd(a){if(J.c(this.e,a))return
@@ -103913,13 +103913,13 @@ saJa(a){if(a===this.at)return
 this.at=a
 this.ar()},
 l(){var s=this,r=s.a
-if(r!=null)r.a.L(s.gcY())
+if(r!=null)r.a.L(s.gcZ())
 r=s.b
-if(r!=null)r.a.L(s.gcY())
+if(r!=null)r.a.L(s.gcZ())
 r=s.c
-if(r!=null)r.a.L(s.gcY())
+if(r!=null)r.a.L(s.gcZ())
 r=s.d
-if(r!=null)r.a.L(s.gcY())
+if(r!=null)r.a.L(s.gcZ())
 s.dB()},
 eV(a){return!0},
 wa(a){return null},
@@ -104389,7 +104389,7 @@ a4c(a,b){var s=b.a
 b.a=s+1
 return a-s===0?65532:null},
 bl(a,b){var s,r,q,p,o,n=this
-if(n===b)return B.ds
+if(n===b)return B.dt
 if(A.A(b)!==A.A(n))return B.bJ
 s=n.a
 r=s==null
@@ -104399,8 +104399,8 @@ t.a7.a(b)
 if(!n.e.qI(0,b.e)||n.b!==b.b)return B.bJ
 if(!r){q.toString
 p=s.bl(0,q)
-o=p.a>0?p:B.ds
-if(o===B.bJ)return o}else o=B.ds
+o=p.a>0?p:B.dt
+if(o===B.bJ)return o}else o=B.dt
 return o},
 k(a,b){var s,r=this
 if(b==null)return!1
@@ -104720,7 +104720,7 @@ a7(){return new A.a4V()}}
 A.a4V.prototype={
 J(a){var s=this.a
 s.toString
-return s.d8(a,this.gcZ())}}
+return s.d8(a,this.gcU())}}
 A.Wo.prototype={
 bW(){var s=A.b([],t.ha),r=this.a7()
 s=new A.Wn(A.w(t.o8,t.I0),s,r,this,B.ar)
@@ -104728,7 +104728,7 @@ r.c=s
 r.a=this
 return s}}
 A.Hc.prototype={
-gcZ(){var s,r=this.d
+gcU(){var s,r=this.d
 if(r===$){s=this.c
 s.toString
 r=this.d=t.jA.a(s)}return r}}
@@ -104793,7 +104793,7 @@ if(r.f){r.f=!1
 s=r.d
 s===$&&A.a()
 r.a.toString
-s.aO0(B.t_)}s=r.d
+s.aO_(B.t_)}s=r.d
 s===$&&A.a()
 return new A.DD(s,r.a.d,null)},
 l(){var s=this.d
@@ -104953,7 +104953,7 @@ j(a){return"SvgAssetLoader("+this.c+")"}}
 A.aFT.prototype={}
 A.a2l.prototype={
 J(a){var s=this,r=null
-return new A.O7(s.r,s.c,s.d,s.e,B.v,!1,r,!1,B.t,r,r,r,s.ax,r,B.Zb,!0,r)}}
+return new A.O7(s.r,s.c,s.d,s.e,B.u,!1,r,!1,B.t,r,r,r,s.ax,r,B.Zb,!0,r)}}
 A.a_X.prototype={
 GP(a,b,c){return this.aHt(a,b,c)},
 aHt(a,b,c){var s=0,r=A.r(t.H),q=1,p=[],o=[],n=this,m,l,k,j,i,h,g
@@ -105023,7 +105023,7 @@ o.push(r)
 m.m(0,r,s)
 q=p.a
 l.m(0,r,s.pt(q.r,q.f))}p.r=o
-p.f.aO3(l)
+p.f.aO2(l)
 p.e=m},
 akb(a,b){if(b instanceof A.hI){if(b instanceof A.is&&b.d.e!=null)return this.VJ(a,b.d)
 return this.akc(a,b)}if(b instanceof A.fF)return this.akd(a,b)
@@ -105415,7 +105415,7 @@ L(a){this.U8(a)
 if(this.a_$<=0)$.af.im(this)},
 l(){var s=this
 if(s.a_$>0)$.af.im(s)
-s.a.L(s.gcY())
+s.a.L(s.gcZ())
 s.dB()},
 vH(a){this.awR(a)
 return new A.c6(!0,t.d9)}}
@@ -105567,7 +105567,7 @@ A.aaj.prototype={}
 A.AP.prototype={
 J(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
-return A.xQ(!0,A.ct(A.ax(A.b([B.a7e,B.hN,A.ai(r==null?"page not found":r,s,s,s,s,s,s,s),B.hN,new A.OE(new A.amJ(a),B.a77,s)],t.p),B.l,s,B.cg,B.k,0,B.o),s,s),B.aL,!0)}}
+return A.xQ(!0,A.ct(A.ax(A.b([B.a7e,B.hN,A.ai(r==null?"page not found":r,s,s,s,s,s,s,s),B.hN,new A.OE(new A.amJ(a),B.a77,s)],t.p),B.j,s,B.cg,B.l,0,B.o),s,s),B.aL,!0)}}
 A.amJ.prototype={
 $0(){return A.b7(this.a).df("/",null)},
 $S:0}
@@ -105616,7 +105616,7 @@ A.pT.prototype={}
 A.BD.prototype={
 J(a){var s=null,r=A.b1S(s,s,s,s,s,B.a7J,s,s),q=this.c
 q=q==null?s:"GoException: "+q.a
-return A.bbt(r,A.ct(A.ax(A.b([A.b3J(q==null?"page not found":q,s,s),A.d2(B.a7j,new A.avs(a),s)],t.p),B.l,s,B.cg,B.k,0,B.o),s,s),s,s,s)}}
+return A.bbt(r,A.ct(A.ax(A.b([A.b3J(q==null?"page not found":q,s,s),A.d2(B.a7j,new A.avs(a),s)],t.p),B.j,s,B.cg,B.l,0,B.o),s,s),s,s,s)}}
 A.avs.prototype={
 $0(){return A.b7(this.a).df("/",null)},
 $S:0}
@@ -105747,7 +105747,7 @@ A.aRG.prototype={
 $1(a){return this.aaO(a)},
 aaO(a){var s=0,r=A.r(t.LQ),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$$1=A.n(function(b,c){if(b===1){o.push(c)
-s=p}for(;;)switch(s){case 0:j=a.gaOY()
+s=p}for(;;)switch(s){case 0:j=a.gaOX()
 s=3
 return A.m(n.b.$0(),$async$$1)
 case 3:i=c
@@ -105825,7 +105825,7 @@ r=A.d_(o.an2(f),0,n)
 q=$.b17()
 p=$.ap()
 q=new A.IG(k,!1,new A.jK(r,new A.mA(e,n,n,B.jk)),q,p)
-k.Y(q.gcY())
+k.Y(q.gcZ())
 o.d!==$&&A.br()
 o.d=q
 r=A.b([],t.tc)
@@ -105883,7 +105883,7 @@ gt(a){var s=this
 return A.L(s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.XR.prototype={}
 A.B4.prototype={
-aO3(a){var s,r,q,p,o,n,m,l={}
+aO2(a){var s,r,q,p,o,n,m,l={}
 l.a=!1
 s=this.b
 r=A.j(s).h("bl<2>")
@@ -105913,7 +105913,7 @@ A.iY.prototype={
 a9y(){var s,r=$.bjd(),q=r.i(0,this.a)
 if(q==null){r=r.i(0,B.x)
 r.toString
-q=r}s=this.b===B.dU?"Italic":""
+q=r}s=this.b===B.dV?"Italic":""
 if(q==="Regular")return s===""?q:s
 return q+s},
 j(a){var s,r=this.a,q=r===B.x,p=q?"":r.b
@@ -106248,7 +106248,7 @@ o=s.d
 n=s.e
 m=a8.e.$1(b1).xh(b1)
 l=!0
-if(o!==B.d9)if(!(o===B.eh&&!b1.d)){b0=o===B.a8k&&b1.d
+if(o!==B.da)if(!(o===B.eh&&!b1.d)){b0=o===B.a8k&&b1.d
 l=b0}k=l?r:q
 j=l?q:r
 i=b1.d?1:-1
@@ -106437,7 +106437,7 @@ A.aux.prototype={
 $1(a){return a.d?$.hx():$.hy()},
 $S:7}
 A.auA.prototype={
-$1(a){return new A.hL($.Ud(),$.Uc(),10,B.d9,!1)},
+$1(a){return new A.hL($.Ud(),$.Uc(),10,B.da,!1)},
 $S:27}
 A.atG.prototype={
 $1(a){return a.f},
@@ -106463,7 +106463,7 @@ A.aul.prototype={
 $1(a){return a.d?$.hx():$.hy()},
 $S:7}
 A.auo.prototype={
-$1(a){return new A.hL($.Ud(),$.Uc(),10,B.d9,!1)},
+$1(a){return new A.hL($.Ud(),$.Uc(),10,B.da,!1)},
 $S:27}
 A.atv.prototype={
 $1(a){return a.f},
@@ -106496,7 +106496,7 @@ A.auP.prototype={
 $1(a){return a.d?$.hx():$.hy()},
 $S:7}
 A.auS.prototype={
-$1(a){return new A.hL($.Ug(),$.aeC(),10,B.d9,!1)},
+$1(a){return new A.hL($.Ug(),$.aeC(),10,B.da,!1)},
 $S:27}
 A.atU.prototype={
 $1(a){return a.r},
@@ -106522,7 +106522,7 @@ A.auD.prototype={
 $1(a){return a.d?$.hx():$.hy()},
 $S:7}
 A.auG.prototype={
-$1(a){return new A.hL($.Ug(),$.aeC(),10,B.d9,!1)},
+$1(a){return new A.hL($.Ug(),$.aeC(),10,B.da,!1)},
 $S:27}
 A.atJ.prototype={
 $1(a){return a.r},
@@ -106546,7 +106546,7 @@ A.avo.prototype={
 $1(a){return a.d?$.hx():$.hy()},
 $S:7}
 A.avr.prototype={
-$1(a){return new A.hL($.Uj(),$.aeD(),10,B.d9,!1)},
+$1(a){return new A.hL($.Uj(),$.aeD(),10,B.da,!1)},
 $S:27}
 A.aud.prototype={
 $1(a){return a.w},
@@ -106575,7 +106575,7 @@ A.avc.prototype={
 $1(a){return a.d?$.hx():$.hy()},
 $S:7}
 A.avf.prototype={
-$1(a){return new A.hL($.Uj(),$.aeD(),10,B.d9,!1)},
+$1(a){return new A.hL($.Uj(),$.aeD(),10,B.da,!1)},
 $S:27}
 A.au2.prototype={
 $1(a){return a.w},
@@ -106599,7 +106599,7 @@ A.at9.prototype={
 $1(a){return a.d?$.hx():$.hy()},
 $S:7}
 A.atc.prototype={
-$1(a){return new A.hL($.aeB(),$.aeA(),10,B.d9,!1)},
+$1(a){return new A.hL($.aeB(),$.aeA(),10,B.da,!1)},
 $S:27}
 A.ats.prototype={
 $1(a){return a.z},
@@ -106620,7 +106620,7 @@ A.at5.prototype={
 $1(a){return a.d?$.hx():$.hy()},
 $S:7}
 A.at8.prototype={
-$1(a){return new A.hL($.aeB(),$.aeA(),10,B.d9,!1)},
+$1(a){return new A.hL($.aeB(),$.aeA(),10,B.da,!1)},
 $S:27}
 A.atp.prototype={
 $1(a){return a.z},
@@ -107007,7 +107007,7 @@ return B.c.gt(s.a)^B.c.gt(s.b)^B.c.gt(s.c)^B.c.gt(s.d)^B.c.gt(s.e)^J.P(s.f)^J.P(
 j(a){var s=this
 return"PackageInfo(appName: "+s.a+", buildNumber: "+s.d+", packageName: "+s.b+", version: "+s.c+", buildSignature: "+s.e+", installerStore: "+A.i(s.f)+", installTime: "+A.i(s.r)+", updateTime: "+A.i(s.w)+")"}}
 A.ay3.prototype={
-aOd(a,b){var s=A.d_(a,0,null),r=A.b_("[^/]+\\.html.*",!0,!1,!1),q=A.buV(s),p=s.gc_(),o=A.d_(q+A.d7(p,r,""),0,null).S3().a9e("")
+aOc(a,b){var s=A.d_(a,0,null),r=A.b_("[^/]+\\.html.*",!0,!1,!1),q=A.buV(s),p=s.gc_(),o=A.d_(q+A.d7(p,r,""),0,null).S3().a9e("")
 q=o.e
 p=!1
 if(q.length>1)if(!B.c.fj(q,"/"))p=o.wj("http")||o.wj("https")
@@ -107060,7 +107060,7 @@ for(;;)switch(s){case 0:s=(a==null?null:a.length!==0)===!0?3:4
 break
 case 3:a.toString
 s=5
-return A.m(p.Dn(p.aOd(a,b)),$async$uz)
+return A.m(p.Dn(p.aOc(a,b)),$async$uz)
 case 5:q=p.am9(d)
 s=1
 break
@@ -107573,7 +107573,7 @@ case 11:case 10:s=8
 break
 default:s=9
 break}c$3:for(;;)switch(s){case 1:r=l.b=a.b
-b.a.push(new A.ko(r.a,r.b,B.dn))
+b.a.push(new A.ko(r.a,r.b,B.dp))
 break c$3
 case 2:r=a.b
 b.a.push(new A.hF(r.a,r.b,B.bS))
@@ -108247,7 +108247,7 @@ o=r.b
 o=isFinite(o)?o:l
 r=r.d
 s=s.rn(isFinite(r)?r:l,o,p,q)}r=k.e
-r=r===B.dp||r===B.c3
+r=r===B.dq||r===B.c3
 n=s.d+k.y
 m.e=r?s.FJ(n):s.aEc(n,s.b+k.x)
 $.af.rx$.push(new A.aSw(m))
@@ -108285,7 +108285,7 @@ return s.T(s.galn())},
 $S:3}
 A.a_s.prototype={
 a5o(a,b,c){var s,r,q,p,o,n,m,l,k,j,i,h,g=A.cr($.a4().w)
-if(a===B.dp){s=b.a
+if(a===B.dq){s=b.a
 r=b.b
 g.a3(new A.f7(s,r))
 q=b.c
@@ -108380,7 +108380,7 @@ aCx(a){var s,r,q,p,o,n=this,m=n.C
 m===$&&A.a()
 s=n.p
 r=A.b3x(m,a,s,n.bA)
-if(r===B.dp||r===B.c3){m=n.C
+if(r===B.dq||r===B.c3){m=n.C
 q=a.a
 p=q/2
 if(m.a>p){m=A.KZ()
@@ -108492,12 +108492,12 @@ r=h.bY
 r.toString
 h.ax0(a,b,new A.a_s(r).a5o(q,k.av(),n),g)},
 bC(){var s,r,q,p,o=this,n=o.bA
-n=n===B.dp||n===B.c3
+n=n===B.dq||n===B.c3
 s=t.k
 r=n?new A.ae(0,1/0,0,s.a(A.C.prototype.gV.call(o)).d-o.ae).kR(s.a(A.C.prototype.gV.call(o))):new A.ae(0,s.a(A.C.prototype.gV.call(o)).b-o.ae,0,1/0).kR(s.a(A.C.prototype.gV.call(o)))
 o.p$.cm(r,!0)
 n=o.bA
-n=n===B.dp||n===B.c3
+n=n===B.dq||n===B.c3
 s=o.p$
 if(n)o.fy=new A.I(s.gv().a,o.p$.gv().b+o.ae)
 else o.fy=new A.I(s.gv().a+o.ae,o.p$.gv().b)
@@ -108512,7 +108512,7 @@ aw3(a,b,c,d,e,f){var s,r,q,p,o,n,m,l=this,k=l.a4
 if(k==null)return
 for(s=0;s<1;++s){r=k[s]
 $.a4()
-q=new A.rB(B.bV,B.ci,B.hP,B.hQ,B.dh)
+q=new A.rB(B.bV,B.ci,B.hP,B.hQ,B.di)
 q.r=r.a.gq()
 p=r.c
 p=p>0?p*0.57735+0.5:0
@@ -108563,7 +108563,7 @@ I(){return"PopoverTransition."+this.b}}
 A.agp.prototype={
 I(){return"AppEnv."+this.b}}
 A.UR.prototype={
-d8(a,b){return new A.BC(b.bG($.bkm(),t.aq),"Quer Valer (Beta)",$.bkn(),this.e===B.dF,null)}}
+d8(a,b){return new A.BC(b.bG($.bkm(),t.aq),"Quer Valer (Beta)",$.bkn(),this.e===B.dG,null)}}
 A.a2L.prototype={
 I(){return"TextStyles."+this.b}}
 A.b0O.prototype={
@@ -109067,8 +109067,8 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$tQ,r)},
-wY(a,b){return this.aNS(a,b)},
-aNS(a,b){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h
+wY(a,b){return this.aNR(a,b)},
+aNR(a,b){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$wY=A.n(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:if(a.aK$==null){s=1
 break}p=4
@@ -109137,8 +109137,8 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$xo,r)},
-IR(a,b,c){return this.aNT(a,b,c)},
-aNT(a,b,c){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h
+IR(a,b,c){return this.aNS(a,b,c)},
+aNS(a,b,c){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$IR=A.n(function(d,e){if(d===1){o.push(e)
 s=p}for(;;)switch(s){case 0:if(a.aK$==null){s=1
 break}m=A.w(t.N,t.z)
@@ -109395,7 +109395,7 @@ case 2:return A.o(o.at(-1),r)}})
 return A.q($async$$1,r)},
 $S:726}
 A.tq.prototype={
-aBe(){var s=this.b.aOj(0,"date",new A.ck(Date.now(),0,!1).Ve(0-A.eN(0,5,0,0,0).a)).J3(0,"finish",!1).wx("date",!1).xt()
+aBe(){var s=this.b.aOi(0,"date",new A.ck(Date.now(),0,!1).Ve(0-A.eN(0,5,0,0,0).a)).J3(0,"finish",!1).wx("date",!1).xt()
 return new A.fb(new A.asU(),s,s.$ti.h("fb<bb.T,x<cb>>"))},
 aIF(){var s=this.b.SP(0,"date",new A.ck(Date.now(),0,!1)).wx("date",!0).xt()
 return new A.fb(new A.asW(),s,s.$ti.h("fb<bb.T,x<cb>>"))},
@@ -109425,8 +109425,8 @@ s=1
 break
 case 1:return A.p(q,r)}})
 return A.q($async$FO,r)},
-nu(a){return this.aNX(a)},
-aNX(a){var s=0,r=A.r(t.H),q,p=this,o,n
+nu(a){return this.aNW(a)},
+aNW(a){var s=0,r=A.r(t.H),q,p=this,o,n
 var $async$nu=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:if(a.gcf()==null){s=1
 break}o=p.b.bQ(a.gcf())
@@ -109548,8 +109548,8 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$FP,r)},
-IV(a){return this.aNZ(a)},
-aNZ(a){var s=0,r=A.r(t.Cs),q,p=2,o=[],n=this,m,l,k,j,i
+IV(a){return this.aNY(a)},
+aNY(a){var s=0,r=A.r(t.Cs),q,p=2,o=[],n=this,m,l,k,j,i
 var $async$IV=A.n(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:j=a.aK$
 if(j==null){q=null
@@ -109674,8 +109674,8 @@ s=1
 break
 case 1:return A.p(q,r)}})
 return A.q($async$o3,r)},
-mj(a){return this.aO1(a)},
-aO1(a){var s=0,r=A.r(t.H),q=this,p,o
+mj(a){return this.aO0(a)},
+aO0(a){var s=0,r=A.r(t.H),q=this,p,o
 var $async$mj=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:if(a.gcf()==null)throw A.f(A.dz("Player sem docId, imposs\xedvel atualizar"))
 p=q.a.bQ(a.gcf())
@@ -109713,7 +109713,7 @@ A.ayK.prototype={
 $1(a){return A.a_o(a)},
 $S:261}
 A.ul.prototype={
-aNE(){var s=$.b3,r=(s==null?$.b3=$.cQ():s).cq("[DEFAULT]")
+aND(){var s=$.b3,r=(s==null?$.b3=$.cQ():s).cq("[DEFAULT]")
 A.bv(r,$.cP(),!0)
 s=A.ip(new A.cq(r)).cK("sports").bQ("football").cK("tournaments").xt()
 return new A.fb(new A.aHr(),s,s.$ti.h("fb<bb.T,x<d3>>"))},
@@ -109728,8 +109728,8 @@ s=1
 break
 case 1:return A.p(q,r)}})
 return A.q($async$FR,r)},
-oE(a){return this.aO6(a)},
-aO6(a){var s=0,r=A.r(t.H),q=this,p,o
+oE(a){return this.aO5(a)},
+aO5(a){var s=0,r=A.r(t.H),q=this,p,o
 var $async$oE=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:if(a.gcf()==null)throw A.f(A.dz("Tournament sem docId"))
 p=q.a.bQ(a.gcf())
@@ -109758,7 +109758,7 @@ b1=b1==null?null:b1.a.ll(!1)
 s=7
 return A.m(t.dU.b(b1)?b1:A.fL(b1,t.rI),$async$jB)
 case 7:l=b7
-if($.UT.b6()!==B.dF){b1=l
+if($.UT.b6()!==B.dG){b1=l
 if(b1==null)b1=null
 else{b1=b1.gFy()
 b1=b1==null?null:b1.i(0,"admin")}b2=J.c(b1,!0)}else b2=!0
@@ -109824,8 +109824,8 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$jB,r)},
-j2(a,b,c){return this.aO_(a,b,c)},
-aO_(a,b,c){var s=0,r=A.r(t.H)
+j2(a,b,c){return this.aNZ(a,b,c)},
+aNZ(a,b,c){var s=0,r=A.r(t.H)
 var $async$j2=A.n(function(d,e){if(d===1)return A.o(e,r)
 for(;;)switch(s){case 0:s=c!=null?2:4
 break
@@ -109915,7 +109915,7 @@ adJ(){var s,r=$.b3,q=(r==null?$.b3=$.cQ():r).cq("[DEFAULT]")
 A.bv(q,$.cP(),!0)
 s=A.nA(new A.cq(q)).gjm()
 if(s==null)return A.bbR(A.b([],t.Ij),t.Ni)
-return this.a.cK("users").aOk(0,"uid",s.a.c.a.a).xt().aBU(new A.aIe(this,s),t.Ni)},
+return this.a.cK("users").aOj(0,"uid",s.a.c.a.a).xt().aBU(new A.aIe(this,s),t.Ni)},
 qp(a){return this.abZ(a)},
 abZ(a1){var s=0,r=A.r(t.Ct),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
 var $async$qp=A.n(function(a2,a3){if(a2===1){o.push(a3)
@@ -109929,7 +109929,7 @@ e=e==null?null:e.a.ll(!1)
 s=7
 return A.m(t.dU.b(e)?e:A.fL(e,t.rI),$async$qp)
 case 7:l=a3
-if($.UT.b6()!==B.dF){e=l
+if($.UT.b6()!==B.dG){e=l
 if(e==null)e=null
 else{e=e.gFy()
 e=e==null?null:e.i(0,"admin")}c=J.c(e,!0)}else c=!0
@@ -109975,8 +109975,8 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$qp,r)},
-IY(a,b){return this.aO8(a,b)},
-aO8(a,b){var s=0,r=A.r(t.H),q=this,p,o
+IY(a,b){return this.aO7(a,b)},
+aO7(a,b){var s=0,r=A.r(t.H),q=this,p,o
 var $async$IY=A.n(function(c,d){if(c===1)return A.o(d,r)
 for(;;)switch(s){case 0:p=q.a.bQ(a)
 o=A.jR(A.u(["level",b],t.K,t.X))
@@ -109992,7 +109992,7 @@ var $async$$1=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:s=3
 return A.m(p.b.a.ll(!1),$async$$1)
 case 3:l=c
-if($.UT.b6()!==B.dF){o=l.gFy()
+if($.UT.b6()!==B.dG){o=l.gFy()
 n=J.c(o==null?null:o.i(0,"admin"),!0)}else n=!0
 if(!n){o=a.gfw()
 m=A.Y(o).h("U<1,bM>")
@@ -110090,9 +110090,9 @@ p===$&&A.a()
 p.cH()
 p.T(p.gcj().aEr(k,l,m,n))}return A.p(null,r)}})
 return A.q($async$B0,r)},
-tL(a,b){return this.aOa(a,b)},
+tL(a,b){return this.aO9(a,b)},
 a9V(a){return this.tL(a,"uploads")},
-aOa(a,b){var s=0,r=A.r(t.T),q,p=this,o,n,m,l,k,j,i,h
+aO9(a,b){var s=0,r=A.r(t.T),q,p=this,o,n,m,l,k,j,i,h
 var $async$tL=A.n(function(c,d){if(c===1)return A.o(d,r)
 for(;;)switch(s){case 0:h=p.a
 h===$&&A.a()
@@ -110272,7 +110272,7 @@ p=$.b7_()+"/challenge/"+A.i(n.gcf())
 o=n.x==null||n.y==null
 k=n.b
 if(o){k=k==null?m:k.f
-k="Acabei de te mandar um desafio l\xe1 no Quer Valer!\nJogo: "+r+", dia "+q+".\nAposta: uma "+A.i(k)+".\n\nO site \xe9 bem simples: a gente aposta entre a gente, quem perder paga, quem ganhar recebe a cerveja em casa!N\xe3o \xe9 uma bet, n\xe3o tem odds. \xc9 s\xf3 resenha e divers\xe3o. O site \xe9 feito para torcedor de verdade.\n\nEntra no link abaixo pra ver o site, faz o cadastro e aceita o desafio: "+p+l}else{k=k==null?m:k.f
+k="Acabei de te mandar um desafio l\xe1 no Quer Valer!\nJogo: "+r+", dia "+q+".\nDesafie: uma "+A.i(k)+".\n\nO site \xe9 bem simples: a gente desafie entre a gente, quem perder paga, quem ganhar recebe a cerveja em casa!N\xe3o \xe9 uma bet, n\xe3o tem odds. \xc9 s\xf3 resenha e divers\xe3o. O site \xe9 feito para torcedor de verdade.\n\nEntra no link abaixo pra ver o site, faz o cadastro e aceita o desafio: "+p+l}else{k=k==null?m:k.f
 k="Acabei de te mandar um desafio no Quer Valer!\n\nJogo: "+r+" \u2013 "+q+"\nValendo: "+A.i(k)+"\n\nResponde l\xe1 no link: "+p+l}return k},
 Tb(a,b){var s,r,q,p,o,n,m,l
 if(!a&&!b)return"Error sem vencerdor"
@@ -110387,7 +110387,7 @@ case 1:return A.p(q,r)}})
 return A.q($async$jB,r)}}
 A.vD.prototype={}
 A.zE.prototype={
-d8(a,b){return A.ax(A.b([B.ZE,B.Mb,B.eb,new A.dg(A.U8(a,b,"Veja nossos ",!0,!0,B.fd),500,null)],t.p),B.l,null,B.j,B.k,0,B.o)}}
+d8(a,b){return A.ax(A.b([B.ZE,B.Mb,B.eb,new A.dg(A.U8(a,b,"Veja nossos ",!0,!0,B.fd),500,null)],t.p),B.j,null,B.k,B.l,0,B.o)}}
 A.b_P.prototype={
 $1(a){return!1},
 $S:747}
@@ -110408,11 +110408,11 @@ i=q}else i=!1
 if(i){$.af.rx$.push(new A.aeX(a))
 return B.fH}else if(r.d.og(new A.ck(Date.now(),0,!1))){l.wY(j,B.ed)
 $.af.rx$.push(new A.aeY(a))}else if(B.b.n(j.Q,k.gcf()))$.af.rx$.push(new A.aeZ(n,l))}i=t.p
-j=A.b([B.Zw,new A.d0(B.Gr,A.kj("Assets/Logo/Logo.png",m,m,m,m),m),new A.aA(B.fZ,A.ax(A.b([B.a7c,B.a0P,A.b3U(!1,!1,r,m,j.x,j.y)],i),B.l,m,B.j,B.k,0,B.o),m)],i)
+j=A.b([B.Zw,new A.d0(B.Gr,A.kj("Assets/Logo/Logo.png",m,m,m,m),m),new A.aA(B.fZ,A.ax(A.b([B.a7c,B.a0P,A.b3U(!1,!1,r,m,j.x,j.y)],i),B.j,m,B.k,B.l,0,B.o),m)],i)
 r=o.b
-if(r!=null)j.push(new A.aA(B.fZ,A.ax(A.b([B.a7H,B.b3,A.BS(!1,120,r,!0,300)],i),B.l,m,B.j,B.k,0,B.o),m))
-j.push(new A.aA(B.fZ,A.ax(A.b([A.d2(B.Xq,new A.af_(s),m),B.b3,A.nU(new A.af0(s),m,m,"Recusar")],i),B.l,m,B.j,B.k,0,B.o),m))
-return A.ax(j,B.l,m,B.d1,B.k,0,B.o)}}
+if(r!=null)j.push(new A.aA(B.fZ,A.ax(A.b([B.a7H,B.b3,A.BS(!1,120,r,!0,300)],i),B.j,m,B.k,B.l,0,B.o),m))
+j.push(new A.aA(B.fZ,A.ax(A.b([A.d2(B.Xq,new A.af_(s),m),B.b3,A.nU(new A.af0(s),m,m,"Recusar")],i),B.j,m,B.k,B.l,0,B.o),m))
+return A.ax(j,B.j,m,B.d1,B.l,0,B.o)}}
 A.af1.prototype={
 aar(a){var s=0,r=A.r(t.H),q,p=this,o,n,m,l,k
 var $async$$1=A.n(function(b,c){if(b===1)return A.o(c,r)
@@ -110473,7 +110473,7 @@ A.af0.prototype={
 $0(){return this.a.$1(B.ed)},
 $S:0}
 A.UE.prototype={
-d8(a,b){return A.ax(A.b([B.Zq,new A.dg(A.f0(b.bG($.bks().$1(this.e),t.Vd),new A.afl(),new A.afm(),new A.afn(),t.BX,t.l),500,null)],t.p),B.l,null,B.j,B.k,0,B.o)}}
+d8(a,b){return A.ax(A.b([B.Zq,new A.dg(A.f0(b.bG($.bks().$1(this.e),t.Vd),new A.afl(),new A.afm(),new A.afn(),t.BX,t.l),500,null)],t.p),B.j,null,B.k,B.l,0,B.o)}}
 A.afl.prototype={
 $1(a){var s=J.ad(a)
 if(s.ga0(a))return B.Ip
@@ -110523,22 +110523,22 @@ if(m!=null)n.push(A.pw(A.i(m.b),p,80,p))
 m=q.y
 if(m!=null)n.push(A.ai(A.i(m.c),p,p,p,p,p,p,p))
 n.push(A.d2(B.o2,new A.aJJ(q),p))
-n=A.ax(A.b([B.a71,A.bA(n,B.l,B.dk,B.k,0,p)],o),B.l,p,B.j,B.k,0,B.o)
+n=A.ax(A.b([B.a71,A.bA(n,B.j,B.dl,B.l,0,p)],o),B.j,p,B.k,B.l,0,B.o)
 m=A.b([],o)
 s=q.w
 if(s!=null)m.push(A.wQ(B.mz,B.t7,s))
 m.push(A.d2(B.o2,new A.aJK(q),p))
-m=A.ax(A.b([B.a78,A.bA(m,B.l,B.dk,B.k,0,p)],o),B.l,p,B.j,B.k,0,B.o)
+m=A.ax(A.b([B.a78,A.bA(m,B.j,B.dl,B.l,0,p)],o),B.j,p,B.k,B.l,0,B.o)
 s=A.b([],o)
 r=q.x
 if(r!=null)s.push(A.wQ(B.mz,B.t7,r))
 s.push(A.d2(B.o2,new A.aJL(q),p))
-return A.lk(A.ax(A.b([B.Zv,n,m,A.ax(A.b([B.a79,A.bA(s,B.l,B.dk,B.k,0,p)],o),B.l,p,B.j,B.k,0,B.o),new A.Hu(q.z,new A.aJM(q),p),A.d2(B.DY,new A.aJN(q,a),p)],o),B.l,p,B.j,B.k,0,B.o),p,p,p,B.aa)}}
+return A.lk(A.ax(A.b([B.Zv,n,m,A.ax(A.b([B.a79,A.bA(s,B.j,B.dl,B.l,0,p)],o),B.j,p,B.k,B.l,0,B.o),new A.Hu(q.z,new A.aJM(q),p),A.d2(B.DY,new A.aJN(q,a),p)],o),B.j,p,B.k,B.l,0,B.o),p,p,p,B.aa)}}
 A.aJR.prototype={
 $0(){var s=0,r=A.r(t.P),q,p=this,o,n,m,l,k
 var $async$$0=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:n=p.a
-m=n.gcZ()
+m=n.gcU()
 l=$.b6Z()
 k=p.b.c.a
 k.toString
@@ -110567,7 +110567,7 @@ break}if(i===j.x){A.h9(p.b,"Times iguais",null,"OK",null,"")
 s=1
 break}i=p.b
 A.oO(i)
-o=j.gcZ().aY($.rj().gcn(),t.dZ)
+o=j.gcU().aY($.rj().gcn(),t.dZ)
 n=j.a.d
 m=j.w
 l=j.x
@@ -110628,7 +110628,7 @@ A.zL.prototype={
 d8(a,b){return B.Yf}}
 A.zM.prototype={
 d8(a,b){var s=b.bG($.bkK().$1(this.e),t.Sq),r=A.V(a),q=new A.afv(this,a,b)
-return A.ax(A.b([B.Zz,A.d2(B.a7w,new A.afr(q),null),B.eb,$.vd(),new A.dg(A.f0(s,new A.afs(a,q,r.ax),new A.aft(),new A.afu(),t.aw,t.l),500,null)],t.p),B.l,null,B.j,B.k,0,B.o)}}
+return A.ax(A.b([B.Zz,A.d2(B.a7w,new A.afr(q),null),B.eb,$.vd(),new A.dg(A.f0(s,new A.afs(a,q,r.ax),new A.aft(),new A.afu(),t.aw,t.l),500,null)],t.p),B.j,null,B.k,B.l,0,B.o)}}
 A.afv.prototype={
 aas(a){var s=0,r=A.r(t.H),q,p=this,o,n,m,l,k,j,i,h
 var $async$$1$player=A.n(function(b,c){if(b===1)return A.o(c,r)
@@ -110728,7 +110728,7 @@ $S:19}
 A.afs.prototype={
 $1(a){var s=J.ad(a)
 if(s.ga0(a))return B.Im
-return A.ax(A.nM(s.gD(a),new A.afq(a,this.a,this.b,this.c),!0,t.l),B.l,null,B.j,B.k,0,B.o)},
+return A.ax(A.nM(s.gD(a),new A.afq(a,this.a,this.b,this.c),!0,t.l),B.j,null,B.k,B.l,0,B.o)},
 $S:755}
 A.afq.prototype={
 $1(a){var s,r=this,q=null,p=r.a,o=J.co(p,a),n=o.d
@@ -110745,7 +110745,7 @@ $0(){return this.a.$1$player(this.b)},
 $S:0}
 A.zN.prototype={
 d8(a,b){var s=b.bG($.b1z(),t.T_),r=new A.afK(a,b)
-return A.ax(A.b([B.ZA,A.d2(B.a7y,new A.afG(r),null),B.eb,$.vd(),new A.dg(A.f0(s,new A.afH(a,r),new A.afI(),new A.afJ(),t.Mh,t.l),500,null)],t.p),B.l,null,B.j,B.k,0,B.o)}}
+return A.ax(A.b([B.ZA,A.d2(B.a7y,new A.afG(r),null),B.eb,$.vd(),new A.dg(A.f0(s,new A.afH(a,r),new A.afI(),new A.afJ(),t.Mh,t.l),500,null)],t.p),B.j,null,B.k,B.l,0,B.o)}}
 A.afK.prototype={
 aat(a){var s=0,r=A.r(t.H),q,p=this,o,n,m,l,k,j
 var $async$$1$tournament=A.n(function(b,c){if(b===1)return A.o(c,r)
@@ -110832,13 +110832,13 @@ $S:19}
 A.afH.prototype={
 $1(a){var s=J.ad(a)
 if(s.ga0(a))return B.In
-return A.ax(A.nM(s.gD(a),new A.afF(a,this.a,this.b),!0,t.l),B.l,null,B.j,B.k,0,B.o)},
+return A.ax(A.nM(s.gD(a),new A.afF(a,this.a,this.b),!0,t.l),B.j,null,B.k,B.l,0,B.o)},
 $S:758}
 A.afF.prototype={
 $1(a){var s,r=null,q="Assets/Icons/shield.svg",p=this.a,o=J.co(p,a),n=this.b,m=o.b
 m=m.length!==0?A.pw(m,r,40,40):A.cV(q,new A.d9(B.m,B.ai,r,B.aj),B.W,r,r)
 s=A.ai(o.c,r,r,r,r,r,r,r)
-return A.b9M(m,new A.afC(n,p,a),A.ai(B.b.aB(o.a,", "),r,r,r,r,r,r,r),s,A.bA(A.b([A.hB(r,r,A.cV(q,new A.d9(B.m,B.ai,r,B.aj),B.W,r,r),r,r,new A.afD(n,o),r,r,r,r),A.hB(r,r,A.cV("Assets/Icons/edit.svg",r,B.W,r,r),r,r,new A.afE(this.c,o),r,r,r,r)],t.p),B.l,B.j,B.a0,0,r))},
+return A.b9M(m,new A.afC(n,p,a),A.ai(B.b.aB(o.a,", "),r,r,r,r,r,r,r),s,A.bA(A.b([A.hB(r,r,A.cV(q,new A.d9(B.m,B.ai,r,B.aj),B.W,r,r),r,r,new A.afD(n,o),r,r,r,r),A.hB(r,r,A.cV("Assets/Icons/edit.svg",r,B.W,r,r),r,r,new A.afE(this.c,o),r,r,r,r)],t.p),B.j,B.k,B.a0,0,r))},
 $S:268}
 A.afC.prototype={
 $0(){var s=J.co(this.b,this.c)
@@ -110875,7 +110875,7 @@ m=h.aY($.lI(),t.O3)
 l=h.bG($.FO().$1(i.a),t.Vd)
 s=k.c
 r=t.p
-return A.ax(A.b([B.Zu,A.apc(i.a),B.nC,A.bA(A.b([A.d2(B.a72,new A.afU(i,s),j),A.d2(B.a7o,new A.afV(i,s,h,m),j)],r),B.l,B.cg,B.k,0,j),new A.aA(B.ND,$.vd(),j),new A.dg(new A.eB(B.kz,j,j,A.ai("Desafios",j,j,j,k.d.e,j,j,j),j),500,j),A.f0(l,new A.afW(i,m,h),new A.afX(),new A.afY(),t.BX,t.l)],r),B.l,j,B.j,B.k,0,B.o)},
+return A.ax(A.b([B.Zu,A.apc(i.a),B.nC,A.bA(A.b([A.d2(B.a72,new A.afU(i,s),j),A.d2(B.a7o,new A.afV(i,s,h,m),j)],r),B.j,B.cg,B.l,0,j),new A.aA(B.ND,$.vd(),j),new A.dg(new A.eB(B.kz,j,j,A.ai("Desafios",j,j,j,k.d.e,j,j,j),j),500,j),A.f0(l,new A.afW(i,m,h),new A.afX(),new A.afY(),t.BX,t.l)],r),B.j,j,B.k,B.l,0,B.o)},
 $S:269}
 A.afU.prototype={
 $0(){var s=this.a.a
@@ -110912,7 +110912,7 @@ $S:760}
 A.afW.prototype={
 $1(a){var s,r,q,p,o=J.ad(a),n=o.gD(a),m=J.pD(n,t.l)
 for(s=this.a,r=this.b,q=this.c,p=0;p<n;++p)m[p]=new A.VB(o.i(a,p),new A.afQ(s,r,a,p,q),new A.afR(s,r,a,p,q),new A.afS(s,r,a,p,q),null)
-return A.ax(m,B.l,null,B.j,B.k,0,B.o)},
+return A.ax(m,B.j,null,B.k,B.l,0,B.o)},
 $S:761}
 A.afQ.prototype={
 $1(a){return this.aaw(a)},
@@ -110977,10 +110977,10 @@ A.ap7(new A.aJC(this),t.P)},
 a7H(a){var s=J.ad(a)
 if(s.ga0(a))return B.Ih
 return A.ast(new A.aJE(this,a),s.gD(a),B.jm,B.aa,!0)},
-J(a){var s=A.V(a),r=this.gcZ(),q=$.rj()
+J(a){var s=A.V(a),r=this.gcU(),q=$.rj()
 return A.f0(r.bG(q,t.HA),new A.aJz(this,a,s.ok,r.aY(q.gcn(),t.dZ)),new A.aJA(),new A.aJB(),t.uK,t.l)}}
 A.aJC.prototype={
-$0(){this.a.gcZ().aY($.rj().gcn(),t.dZ).Hj()},
+$0(){this.a.gcU().aY($.rj().gcn(),t.dZ).Hj()},
 $S:13}
 A.aJE.prototype={
 $2(a,b){var s=null,r=this.b
@@ -110988,7 +110988,7 @@ return A.fo(!1,!0,new A.aA(B.fZ,A.apc(J.co(r,b)),s),s,!0,s,s,s,s,s,s,s,s,s,s,new
 $S:271}
 A.aJD.prototype={
 $0(){var s=this
-return A.TX(s.b,s.a.gcZ(),"/adm/match/"+A.i(J.co(s.c,s.d).gcf()))},
+return A.TX(s.b,s.a.gcU(),"/adm/match/"+A.i(J.co(s.c,s.d).gcf()))},
 $S:0}
 A.aJB.prototype={
 $0(){return B.aY},
@@ -111001,7 +111001,7 @@ A.aJz.prototype={
 $1(a){var s=this,r=null,q=A.ct(A.d2(B.a76,new A.aJx(s.b),r),r,r),p=$.vd(),o=s.c.e,n=s.a
 n=A.b([B.ZG,q,B.eb,p,B.nC,new A.aA(B.qG,A.ai("Em aberto",r,r,r,o,r,r,r),r),n.a7H(a.a),B.eb,p,B.nC,new A.aA(B.qG,A.ai("Anteriores",r,r,r,o,r,r,r),r),n.a7H(a.b)],t.p)
 if(a.d)n.push(A.ct(A.d2(B.a7l,new A.aJy(s.d),r),r,r))
-return new A.d0(B.GF,A.ax(n,B.u,r,B.j,B.k,0,B.o),r)},
+return new A.d0(B.GF,A.ax(n,B.v,r,B.k,B.l,0,B.o),r)},
 $S:765}
 A.aJx.prototype={
 $0(){return A.b7(this.a).tr("/adm/get-match",null,t.X)},
@@ -111011,7 +111011,7 @@ $0(){return this.a.Hk()},
 $S:0}
 A.zO.prototype={
 d8(a,b){var s=b.bG($.b1o(),t.sG),r=b.aY($.b1u().gcn(),t.sN),q=new A.aga(a,r,b)
-return A.ax(A.b([B.ZJ,A.d2(B.a7v,new A.ag6(q),null),B.eb,$.vd(),A.f0(s,new A.ag7(r,b,q),new A.ag8(),new A.ag9(),t.uM,t.l)],t.p),B.l,null,B.j,B.k,0,B.o)}}
+return A.ax(A.b([B.ZJ,A.d2(B.a7v,new A.ag6(q),null),B.eb,$.vd(),A.f0(s,new A.ag7(r,b,q),new A.ag8(),new A.ag9(),t.uM,t.l)],t.p),B.j,null,B.k,B.l,0,B.o)}}
 A.aga.prototype={
 aay(a){var s=0,r=A.r(t.H),q=this,p,o,n,m,l,k,j
 var $async$$1$offer=A.n(function(b,c){if(b===1)return A.o(c,r)
@@ -111040,7 +111040,7 @@ A.agc.prototype={
 $0(){return"offers"},
 $S:23}
 A.agd.prototype={
-$0(){return new A.ck(Date.now(),0,!1).aNv()},
+$0(){return new A.ck(Date.now(),0,!1).aNu()},
 $S:23}
 A.agb.prototype={
 $1(a){var s=0,r=A.r(t.P),q=this,p,o,n,m,l,k,j,i
@@ -111096,7 +111096,7 @@ return A.mV(B.aP,A.nM(s.gD(a),new A.ag5(a,this.a,this.b,this.c),!0,t.l),B.cl,B.a
 $S:767}
 A.ag5.prototype={
 $1(a){var s=this,r=null,q=s.a,p=J.ad(q),o=p.i(q,a),n=t.p
-return new A.aA(B.fZ,A.bA(A.b([A.BS(!1,150,p.i(q,a),!0,300),A.ax(A.b([A.VG(new A.ag3(s.b,q,a,s.c),p.i(q,a).a),A.hB(r,r,A.cV("Assets/Icons/edit.svg",r,B.W,r,r),r,r,new A.ag4(s.d,o),r,r,r,r)],n),B.l,r,B.j,B.a0,0,B.o)],n),B.l,B.j,B.a0,0,r),r)},
+return new A.aA(B.fZ,A.bA(A.b([A.BS(!1,150,p.i(q,a),!0,300),A.ax(A.b([A.VG(new A.ag3(s.b,q,a,s.c),p.i(q,a).a),A.hB(r,r,A.cV("Assets/Icons/edit.svg",r,B.W,r,r),r,r,new A.ag4(s.d,o),r,r,r,r)],n),B.j,r,B.k,B.a0,0,B.o)],n),B.j,B.k,B.a0,0,r),r)},
 $S:768}
 A.ag3.prototype={
 $1(a){var s=this,r=s.a,q=s.b,p=s.c,o=J.ad(q)
@@ -111115,7 +111115,7 @@ a7(){return new A.abU()}}
 A.abU.prototype={
 au(){this.aL()
 A.ap7(new A.aWC(this),t.P)},
-J(a){return A.f0(this.gcZ().bG($.vc(),t.Sq),new A.aWz(this,a),new A.aWA(),new A.aWB(),t.aw,t.l)},
+J(a){return A.f0(this.gcU().bG($.vc(),t.Sq),new A.aWz(this,a),new A.aWA(),new A.aWB(),t.aw,t.l)},
 E8(a,b){return this.axl(a,b)},
 axl(a,b){var s=0,r=A.r(t.H),q=this,p,o,n
 var $async$E8=A.n(function(c,d){if(c===1)return A.o(d,r)
@@ -111145,7 +111145,7 @@ return A.m(o.mj(b.a4y(n)),$async$CJ)
 case 3:case 1:return A.p(q,r)}})
 return A.q($async$CJ,r)}}
 A.aWC.prototype={
-$0(){var s=this.a,r=s.gcZ().aY($.vc().gcn(),t._b)
+$0(){var s=this.a,r=s.gcU().aY($.vc().gcn(),t._b)
 s=s.a.d.gcf()
 r.BI(s==null?"":s)},
 $S:13}
@@ -111167,7 +111167,7 @@ q=A.ai("Pa\xedses da Liga",n,n,n,A.V(l).ok.r,n,n,n)
 p=m.a.d.a
 o=A.Y(p).h("U<1,yj>")
 m=A.R(new A.U(p,new A.aWy(m,l),o),o.h("a6.E"))
-return A.lk(A.ax(A.b([B.Zr,s,B.cF,r,B.nD,q,B.cF,A.mV(B.aP,m,B.cl,B.a4,B.aP,0,12)],t.p),B.u,n,B.j,B.k,0,B.o),n,B.af,n,B.aa)},
+return A.lk(A.ax(A.b([B.Zr,s,B.cF,r,B.nD,q,B.cF,A.mV(B.aP,m,B.cl,B.a4,B.aP,0,12)],t.p),B.v,n,B.k,B.l,0,B.o),n,B.af,n,B.aa)},
 $S:770}
 A.aWw.prototype={
 $1(a){return B.b.n(a.f,this.a.a.d.gcf())},
@@ -111181,7 +111181,7 @@ $0(){var s=0,r=A.r(t.H),q=this,p
 var $async$$0=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:p=q.a
 s=2
-return A.m(p.E8(p.gcZ(),q.b),$async$$0)
+return A.m(p.E8(p.gcU(),q.b),$async$$0)
 case 2:return A.p(null,r)}})
 return A.q($async$$0,r)},
 $S:9}
@@ -111191,7 +111191,7 @@ return A.d2(A.ai(a,s,s,s,s,s,s,s),new A.aWu(this.a,this.b,a),s)},
 $S:773}
 A.aWu.prototype={
 $0(){var s=this.a
-return s.ayK(this.b,s.gcZ(),this.c)},
+return s.ayK(this.b,s.gcU(),this.c)},
 $S:0}
 A.aWp.prototype={
 $1(a){return a!=this.a.a.d.gcf()},
@@ -111245,7 +111245,7 @@ TL(a){this.T(new A.aLH(this,a))},
 DI(){var s=0,r=A.r(t.H),q=this
 var $async$DI=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:s=2
-return A.m(q.uy(q.gcZ().aY($.lI(),t.O3),null),$async$DI)
+return A.m(q.uy(q.gcU().aY($.lI(),t.O3),null),$async$DI)
 case 2:q.TL(b)
 return A.p(null,r)}})
 return A.q($async$DI,r)},
@@ -111254,12 +111254,12 @@ var $async$DJ=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:if(!p.z||p.y){s=1
 break}p.T(new A.aLE(p))
 s=3
-return A.m(p.uy(p.gcZ().aY($.lI(),t.O3),p.x),$async$DJ)
+return A.m(p.uy(p.gcU().aY($.lI(),t.O3),p.x),$async$DJ)
 case 3:p.TL(b)
 case 1:return A.p(q,r)}})
 return A.q($async$DJ,r)},
-J(a){var s,r,q,p=this,o=null,n="Nenhum desafio encontrado.",m=p.gcZ().bG($.f_(),t.d),l=p.w
-if(l.length===0)return A.by(B.v,p.y?A.aiN():A.ai(n,o,o,o,o,o,o,o),B.q,o,o,o,o,500,o,o,o,o,o)
+J(a){var s,r,q,p=this,o=null,n="Nenhum desafio encontrado.",m=p.gcU().bG($.f_(),t.d),l=p.w
+if(l.length===0)return A.by(B.u,p.y?A.aiN():A.ai(n,o,o,o,o,o,o,o),B.q,o,o,o,o,500,o,o,o,o,o)
 s=A.bbz(!0,p.a.d===B.kQ?"Meus desafios":"\xdaltimos desafios")
 r=t.p
 q=A.b([],r)
@@ -111268,7 +111268,7 @@ q.push(A.mV(B.aP,A.nM(l.length,new A.aLG(p,m,a),!0,t.l),B.cl,B.a4,B.aP,16,32))
 q.push(B.a0O)
 if(p.y)q.push(B.fH)
 if(p.z&&!p.y)q.push(new A.Xc(p.gau2(),o,o,o,o,o,o,!1,o,!0,o,B.a7m,o))
-return A.ax(A.b([s,new A.dg(A.ax(q,B.l,o,B.j,B.k,0,B.o),900,o)],r),B.l,o,B.j,B.k,0,B.o)},
+return A.ax(A.b([s,new A.dg(A.ax(q,B.j,o,B.k,B.l,0,B.o),900,o)],r),B.j,o,B.k,B.l,0,B.o)},
 akz(a,b,c){var s,r=null
 switch(a.z.a){case 0:if(b!=null&&a.Jm(b))return A.d2(B.Xl,c,r)
 else return A.nU(c,B.cZ,r,"Desafio pendente")
@@ -111294,14 +111294,14 @@ $0(){return this.a.y=!0},
 $S:0}
 A.aLG.prototype={
 $1(a){var s=null,r=this.a,q=r.w[a]
-return A.ax(A.b([A.bT(new A.lV(q,s),s,220),B.a0S,A.bT(r.akz(q,this.b,new A.aLF(r,this.c,q)),s,220)],t.p),B.l,s,B.j,B.k,0,B.o)},
+return A.ax(A.b([A.bT(new A.lV(q,s),s,220),B.a0S,A.bT(r.akz(q,this.b,new A.aLF(r,this.c,q)),s,220)],t.p),B.j,s,B.k,B.l,0,B.o)},
 $S:777}
 A.aLF.prototype={
-$0(){return A.TX(this.b,this.a.gcZ(),"/challenge/"+A.i(this.c.gcf()))},
+$0(){return A.TX(this.b,this.a.gcU(),"/challenge/"+A.i(this.c.gcf()))},
 $S:0}
 A.B7.prototype={
 d8(a,a0){var s=this,r=null,q=a0.bG($.b1u(),t.sG),p=a0.bG($.rj(),t.HA),o=a0.bG($.oR(),t.Ex),n=a0.bG($.f_(),t.d),m=A.V(a),l=m.ok,k=m.ax,j=s.ata(a,k),i=s.auc(a,l,p),h=s.atL(a,l,k,o,n),g=l.f,f=A.ai("Como funciona",r,r,r,g,r,r,r),e=A.bT(s.ayc(A.cV("Assets/tutorial.svg",r,B.fz,200,r)),200,r),d=l.Q,c=t.p,b=l.r
-return A.ax(A.b([j,i,h,A.by(r,A.ax(A.b([new A.dg(new A.eB(B.ep,r,r,f,r),900,r),e,new A.dg(new A.eB(B.Fk,r,r,A.U8(a,a0,"*",!1,!0,d==null?r:d.aDo(B.hT)),r),900,r)],c),B.l,r,B.dk,B.k,0,B.o),B.q,k.b,r,r,r,r,r,B.qC,r,r,1/0),A.mV(B.k6,A.b([new A.d0(new A.ae(0,320,0,1/0),A.kj("Assets/impact_text.jpg",r,r,r,r),r),new A.of(A.b([new A.cE(r,r,r,r,"Ao vencedor, **a gl\xf3ria.**\nAo perdedor, **a palavra.**",b,B.l,B.c4),new A.cE(r,r,r,r,"O **Quer Valer** organiza.",b,B.l,B.c4),new A.cE(r,r,r,r,"E a **resenha** fica melhor\ndo que nunca.",b,B.l,B.c4)],t.YV),B.l,0,r)],c),B.on,B.a4,B.k6,30,30),s.alD(l,q),s.azf(a,l,k),new A.dg(A.bT(A.ax(A.b([A.ai("D\xfavidas frequentes",r,r,r,g,r,r,r),B.cF,new A.m2(A.ai("O Quer Valer \xe9 uma bet?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("N\xe3o. O Quer Valer n\xe3o \xe9 uma casa de apostas. \xc9 uma plataforma de desafios entre torcedores, criada para deixar a rivalidade esportiva mais divertida.",r,r,r,r,r,r,r),r),new A.m2(A.ai("Como funciona o desafio?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("Voc\xea escolhe uma partida, define um valor simb\xf3lico para o desafio e convida outra pessoa para aceitar. Se ela aceitar, o desafio passa a valer.",r,r,r,r,r,r,r),r),new A.m2(A.ai("Onde o vale-presente pode ser usado?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("O vale-presente pode ser gerado em uma das lojas dispon\xedveis na plataforma no momento da emiss\xe3o.\nA disponibilidade das lojas pode variar no momento da gera\xe7\xe3o do vale-presente",r,r,r,r,r,r,r),r),new A.m2(A.ai("O pagamento do pr\xeamio \xe9 obrigat\xf3rio?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("N\xe3o. O pagamento depende de o advers\xe1rio honrar o combinado feito no desafio. O Quer Valer organiza a din\xe2mica da disputa, mas n\xe3o garante o pagamento.",r,r,r,r,r,r,r),r),new A.m2(A.ai("O desafio \xe9 s\xf3 entre amigos?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("N\xe3o necessariamente. Voc\xea pode desafiar amigos e, dependendo da din\xe2mica da plataforma, tamb\xe9m participar com pessoas da comunidade.",r,r,r,r,r,r,r),r),new A.m2(A.ai("O que acontece se a outra pessoa n\xe3o aceitar?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("Se o desafio n\xe3o for aceito, ele n\xe3o entra em jogo.",r,r,r,r,r,r,r),r),new A.m2(A.ai("Quanto custa para criar um desafio?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("Criar um desafio \xe9 gr\xe1tis.",r,r,r,r,r,r,r),r)],c),B.u,r,B.j,B.k,0,B.o),r,1/0),900,r)],c),B.l,r,B.j,B.k,50,B.o)},
+return A.ax(A.b([j,i,h,A.by(r,A.ax(A.b([new A.dg(new A.eB(B.ep,r,r,f,r),900,r),e,new A.dg(new A.eB(B.Fk,r,r,A.U8(a,a0,"*",!1,!0,d==null?r:d.aDo(B.hT)),r),900,r)],c),B.j,r,B.dl,B.l,0,B.o),B.q,k.b,r,r,r,r,r,B.qC,r,r,1/0),A.mV(B.k6,A.b([new A.d0(new A.ae(0,320,0,1/0),A.kj("Assets/impact_text.jpg",r,r,r,r),r),new A.of(A.b([new A.cE(r,r,r,r,"Ao vencedor, **a gl\xf3ria.**\nAo perdedor, **a palavra.**",b,B.j,B.c4),new A.cE(r,r,r,r,"O **Quer Valer** organiza.",b,B.j,B.c4),new A.cE(r,r,r,r,"E a **resenha** fica melhor\ndo que nunca.",b,B.j,B.c4)],t.YV),B.j,0,r)],c),B.on,B.a4,B.k6,30,30),s.alD(l,q),s.azf(a,l,k),new A.dg(A.bT(A.ax(A.b([A.ai("D\xfavidas frequentes",r,r,r,g,r,r,r),B.cF,new A.m2(A.ai("O Quer Valer \xe9 uma bet?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("N\xe3o. O Quer Valer n\xe3o \xe9 uma casa de apostas. \xc9 uma plataforma de desafios entre torcedores, criada para deixar a rivalidade esportiva mais divertida.",r,r,r,r,r,r,r),r),new A.m2(A.ai("Como funciona o desafio?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("Voc\xea escolhe uma partida, define um valor simb\xf3lico para o desafio e convida outra pessoa para aceitar. Se ela aceitar, o desafio passa a valer.",r,r,r,r,r,r,r),r),new A.m2(A.ai("Onde o vale-presente pode ser usado?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("O vale-presente pode ser gerado em uma das lojas dispon\xedveis na plataforma no momento da emiss\xe3o.\nA disponibilidade das lojas pode variar no momento da gera\xe7\xe3o do vale-presente",r,r,r,r,r,r,r),r),new A.m2(A.ai("O pagamento do pr\xeamio \xe9 obrigat\xf3rio?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("N\xe3o. O pagamento depende de o advers\xe1rio honrar o combinado feito no desafio. O Quer Valer organiza a din\xe2mica da disputa, mas n\xe3o garante o pagamento.",r,r,r,r,r,r,r),r),new A.m2(A.ai("O desafio \xe9 s\xf3 entre amigos?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("N\xe3o necessariamente. Voc\xea pode desafiar amigos e, dependendo da din\xe2mica da plataforma, tamb\xe9m participar com pessoas da comunidade.",r,r,r,r,r,r,r),r),new A.m2(A.ai("O que acontece se a outra pessoa n\xe3o aceitar?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("Se o desafio n\xe3o for aceito, ele n\xe3o entra em jogo.",r,r,r,r,r,r,r),r),new A.m2(A.ai("Quanto custa para criar um desafio?",r,r,r,A.fI(r,r,r,r,r,r,r,r,r,r,r,18,r,r,B.aG,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),A.ai("Criar um desafio \xe9 gr\xe1tis.",r,r,r,r,r,r,r),r)],c),B.v,r,B.k,B.l,0,B.o),r,1/0),900,r)],c),B.j,r,B.k,B.l,50,B.o)},
 ata(a,b){var s,r,q,p=null,o=A.V(a).ok,n=A.al(a,p,t.w).w.a,m=n.b,l=B.d.dT((n.a/m-0.75)/1.25,0,1),k=b.y,j=A.L1(0,A.by(p,p,B.q,k,p,p,p,p,p,p,p,p,p))
 m=A.kj("Assets/hero.jpg",B.GI,B.d.dT(m*(0.75+0*l),200,1/0),1.5,1/0)
 k=A.L1(0,A.by(p,p,B.q,k.dv(120),p,p,p,p,p,p,p,p,p))
@@ -111309,20 +111309,20 @@ s=o.e
 s=s==null?p:s.bd(B.n)
 r=o.Q
 q=t.p
-return A.el(B.v,A.b([j,m,k,A.ax(A.b([A.kA(p,p,p,B.aV,p,p,!0,p,A.bw(A.b([A.bw(p,p,p,r==null?p:r.FK(B.n,B.d_),"\n\nDesafie um amigo. Quem perder cumpre o combinado.\nO resto vira resenha.")],t.VO),p,p,s,"Ganhar \xe9 bom.\nGanhar do seu amigo\n\xe9 melhor ainda!"),B.c4,p,p,B.S,B.a6),B.cF,A.d2(new A.aA(B.lD,A.ai("Criar desafio gr\xe1tis >",p,p,p,o.r,p,p,p),p),new A.aqJ(a),p)],q),B.l,p,B.j,B.k,0,B.o)],q),B.t,B.aw,p)},
+return A.el(B.u,A.b([j,m,k,A.ax(A.b([A.kA(p,p,p,B.aV,p,p,!0,p,A.bw(A.b([A.bw(p,p,p,r==null?p:r.FK(B.n,B.d_),"\n\nDesafie um amigo. Quem perder cumpre o combinado.\nO resto vira resenha.")],t.VO),p,p,s,"Ganhar \xe9 bom.\nGanhar do seu amigo\n\xe9 melhor ainda!"),B.c4,p,p,B.S,B.a6),B.cF,A.d2(new A.aA(B.lD,A.ai("Criar desafio gr\xe1tis >",p,p,p,o.r,p,p,p),p),new A.aqJ(a),p)],q),B.j,p,B.k,B.l,0,B.o)],q),B.t,B.aw,p)},
 a0D(a,b,c,d){var s=null,r=A.b([A.bw(s,s,s,a.Q,"\n"+d)],t.VO)
 r=A.b([A.kA(s,s,s,B.aV,s,s,!0,s,A.bw(r,s,s,a.f,b),B.r,s,s,B.S,B.a6)],t.p)
 r.push(A.fo(!1,!0,A.ai("ver mais",s,s,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,s,c,s,s,s,s))
-return A.bA(r,B.cV,B.b1,B.k,0,s)},
+return A.bA(r,B.cV,B.b1,B.l,0,s)},
 auc(a,b,c){return A.f0(c,new A.aqS(this,b,a),new A.aqT(),new A.aqU(),t.uK,t.l)},
-atL(a,b,c,d,e){return new A.dg(A.ax(A.b([this.a0D(b,"\xdaltimos desafios",new A.aqL(a),"Confira os desafios recentes entre torcedores."),A.f0(d,new A.aqM(),new A.aqN(),new A.aqO(),t.Wf,t.l)],t.p),B.u,null,B.j,B.k,10,B.o),900,null)},
+atL(a,b,c,d,e){return new A.dg(A.ax(A.b([this.a0D(b,"\xdaltimos desafios",new A.aqL(a),"Confira os desafios recentes entre torcedores."),A.f0(d,new A.aqM(),new A.aqN(),new A.aqO(),t.Wf,t.l)],t.p),B.v,null,B.k,B.l,10,B.o),900,null)},
 ayc(a){var s=null,r=A.M4(0,s,s)
 return A.bby(A.lk(a,r,s,s,B.a4),r,new A.aqV(),4,!0,!0)},
 alD(a,b){var s,r,q,p=null,o=a.f,n=a.Q,m=t.VO,l=A.kA(p,p,p,B.aV,p,p,!0,p,A.bw(A.b([A.bw(p,p,p,n,"\nOs cupons representam o valor combinado entre os participantes do desafio.")],m),p,p,o,"Cupons em destaque"),B.r,p,p,B.S,B.a6),k=t.l,j=A.f0(b,new A.aqG(),new A.aqH(),new A.aqI(),t.uM,k)
 o=A.kA(p,p,p,B.aV,p,p,!0,p,A.bw(A.b([A.bw(p,p,p,n,"\nCumprido o combinado, o vencedor pode escolher em qual loja gerar o vale-presente.")],m),p,p,o,"Lojas mais populares"),B.r,p,p,B.S,B.a6)
 s=J.pD(14,k)
 for(r=0;r<14;r=q){q=r+1
-s[r]=A.kj("Assets/lojas/"+q+".png",p,100,p,100)}return new A.dg(A.bT(A.ax(A.b([l,j,B.ea,o,this.ak0(s,8,2),new A.eB(B.ky,p,p,A.ai("* A disponibilidade das lojas pode variar no momento da emiss\xe3o do vale-presente.",p,p,p,n,p,p,p),p)],t.p),B.u,p,B.j,B.k,10,B.o),p,1/0),900,p)},
+s[r]=A.kj("Assets/lojas/"+q+".png",p,100,p,100)}return new A.dg(A.bT(A.ax(A.b([l,j,B.d6,o,this.ak0(s,8,2),new A.eB(B.ky,p,p,A.ai("* A disponibilidade das lojas pode variar no momento da emiss\xe3o do vale-presente.",p,p,p,n,p,p,p),p)],t.p),B.v,p,B.k,B.l,10,B.o),p,1/0),900,p)},
 azf(a,b,c){var s,r,q,p,o,n,m,l=null,k=t.p,j=A.b([],k),i=t.N,h=[A.u(["body","O Quer Valer \xe9 muito top. Pessoal de confian\xe7a, recebi meu vale-presente r\xe1pido. Resolveram tudo pelo Whatsapp.Valeu demais, galera! Vida longa!!","name","Ricardo Prado"],i,i),A.u(["body","O Quer Valer \xe9 divers\xe3o pura! Meu time ganhou o jogo, zoei meu amigo fregu\xeas e ainda levei cinquent\xe3o em cupom.","name","Lucas Oliveira"],i,i),A.u(["body","Entrei s\xf3 pra provocar, meu time fez a parte dele e agora meu amigo vai ter que aguentar a resenha. Melhor p\xf3s-jogo poss\xedvel.","name","Beatriz Cavalcanti"],i,i),A.u(["body","O jogo j\xe1 era importante, mas com desafio ficou outro n\xedvel. Ganhei, zoei no grupo e ainda fiquei com cupom pra usar depois.","name","Gabriel Santos"],i,i),A.u(["body","Quer Valer \xe9 isso: rivalidade, zoeira e aquele gostinho de ganhar do amigo no campo e na resenha.","name","Thiago Almeida"],i,i)]
 for(i=b.Q,s=b.y,r=i==null,q=s==null,p=0;p<5;++p){o=h[p]
 n=o.i(0,"body")
@@ -111330,10 +111330,10 @@ m=q?l:s.py(B.d_)
 m=A.ai("\u201d"+A.i(n)+"\u201d",l,l,l,m,l,l,l)
 o=o.i(0,"name")
 n=r?l:i.py(B.aG)
-j.push(new A.ec(B.v,l,l,new A.d0(new A.ae(0,400,100,1/0),A.ax(A.b([m,A.ai(A.i(o),l,l,l,n,l,l,l)],k),B.u,l,B.b1,B.k,5,B.o),l),l))}return A.by(l,A.ct(new A.dg(A.ax(A.b([A.ai("Depoimentos",l,l,l,b.f,l,l,l),new A.d0(new A.ae(0,600,0,1/0),new A.Kb(j,l),l)],k),B.u,l,B.j,B.k,20,B.o),900,l),l,l),B.q,c.z,l,l,l,l,l,B.NE,l,l,1/0)},
+j.push(new A.ec(B.u,l,l,new A.d0(new A.ae(0,400,100,1/0),A.ax(A.b([m,A.ai(A.i(o),l,l,l,n,l,l,l)],k),B.v,l,B.b1,B.l,5,B.o),l),l))}return A.by(l,A.ct(new A.dg(A.ax(A.b([A.ai("Depoimentos",l,l,l,b.f,l,l,l),new A.d0(new A.ae(0,600,0,1/0),new A.Kb(j,l),l)],k),B.v,l,B.k,B.l,20,B.o),900,l),l,l),B.q,c.z,l,l,l,l,l,B.NE,l,l,1/0)},
 ak0(a,b,c){var s,r=null,q=t.l,p=J.pD(b,q)
-for(s=0;s<b;++s)p[s]=new A.aA(new A.ac(0,0,8,0),A.ax(A.nM(c,new A.aqD(s,c,a,8),!0,q),B.l,r,B.j,B.k,0,B.o),r)
-return A.lk(A.bA(p,B.l,B.j,B.k,0,r),r,r,r,B.a4)}}
+for(s=0;s<b;++s)p[s]=new A.aA(new A.ac(0,0,8,0),A.ax(A.nM(c,new A.aqD(s,c,a,8),!0,q),B.j,r,B.k,B.l,0,B.o),r)
+return A.lk(A.bA(p,B.j,B.k,B.l,0,r),r,r,r,B.a4)}}
 A.aqJ.prototype={
 $0(){return A.b7(this.a).df("/matches",null)},
 $S:0}
@@ -111348,7 +111348,7 @@ A.aqS.prototype={
 $1(a){var s=a.a,r=this.c,q=A.b([this.a.a0D(this.b,"Pr\xf3ximos jogos",new A.aqQ(r),"Escolha uma partida e desafie um amigo.")],t.p),p=J.ad(s)
 if(p.ga0(s))q.push(B.DX)
 q.push(A.bT(A.mV(B.Et,A.nM(B.e.dT(p.gD(s),0,3),new A.aqR(s,r),!0,t.l),B.cl,B.a4,B.aP,10,10),null,1/0))
-return new A.dg(A.ax(q,B.l,null,B.j,B.k,10,B.o),900,null)},
+return new A.dg(A.ax(q,B.j,null,B.k,B.l,10,B.o),900,null)},
 $S:778}
 A.aqQ.prototype={
 $0(){return A.b7(this.a).df("/matches",null)},
@@ -111369,7 +111369,7 @@ $1(a){var s=null,r=a.b,q=J.ad(r)
 if(q.ga0(r))return A.ct(A.ai("Crie um novo desafio para aparecer aqui",s,s,s,s,s,s,s),s,s)
 r=q.ek(r,new A.aqK(),t.Q_)
 r=A.R(r,r.$ti.h("a6.E"))
-return A.lk(A.bA(r,B.l,B.j,B.k,16,s),s,s,s,B.a4)},
+return A.lk(A.bA(r,B.j,B.k,B.l,16,s),s,s,s,B.a4)},
 $S:780}
 A.aqK.prototype={
 $1(a){return new A.lV(a,null)},
@@ -111387,7 +111387,7 @@ $S:45}
 A.aqG.prototype={
 $1(a){var s=null,r=J.vf(a,new A.aqE()),q=r.$ti.h("eg<1,tw>")
 r=A.R(new A.eg(r,new A.aqF(),q),q.h("B.E"))
-return A.lk(A.bA(r,B.l,B.j,B.k,20,s),s,s,s,B.a4)},
+return A.lk(A.bA(r,B.j,B.k,B.l,20,s),s,s,s,B.a4)},
 $S:783}
 A.aqE.prototype={
 $1(a){return a.a},
@@ -111436,9 +111436,9 @@ q=r.z
 q===$&&A.a()
 q.l()
 r.aE()},
-J(a){var s,r,q,p,o,n,m=this,l=null,k=m.gcZ(),j=k.aY($.b1p(),t.b0),i=k.aY($.aeO(),t.A9),h=k.aY($.f_().gcn(),t.sv)
+J(a){var s,r,q,p,o,n,m=this,l=null,k=m.gcU(),j=k.aY($.b1p(),t.b0),i=k.aY($.aeO(),t.A9),h=k.aY($.f_().gcn(),t.sv)
 k=t.p
-s=A.ax(A.b([A.by(B.v,A.kj("Assets/Logo/Logo.png",l,l,l,l),B.q,l,B.Gs,l,l,l,l,l,l,l,l),B.a7M],k),B.l,l,B.j,B.k,0,B.o)
+s=A.ax(A.b([A.by(B.u,A.kj("Assets/Logo/Logo.png",l,l,l,l),B.q,l,B.Gs,l,l,l,l,l,l,l,l),B.a7M],k),B.j,l,B.k,B.l,0,B.o)
 r=m.w
 r===$&&A.a()
 q=m.y
@@ -111453,7 +111453,7 @@ n=o?$.b72():$.b71()
 o=A.em(l,B.ag,!1,l,!0,B.t,l,A.ez(),r,l,l,l,l,l,2,A.J3(!1,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,"Senha",!0,!0,l,l,l,l,l,l,l,l,A.hB(l,l,n,l,l,new A.aQp(m),l,l,l,l),l,l,l,l,l),B.D,!0,l,!0,l,!1,p,B.a9,l,l,l,l,l,l,l,l,1,l,l,o,"\u2022",l,l,l,l,l,!1,l,l,!1,l,!0,l,B.af,l,l,l,l,l,l,l,l,l,l,l,l,!0,B.r,l,B.an,l,l,l,l)
 p=A.Dl(l,-1,l)
 p.S=new A.aQq(new A.aQs(m,a,j))
-return A.ax(A.b([s,new A.dg(new A.aA(B.qD,A.ax(A.b([q,B.b3,o,B.b3,A.kA(l,l,l,B.aV,l,l,!0,l,A.bw(l,l,p,B.fd,"Esqueci minha senha"),B.r,l,l,B.S,B.a6)],k),B.l,l,B.j,B.k,0,B.o),l),500,l),new A.aA(B.qE,A.ax(A.b([A.d2(A.by(B.v,B.a7z,B.q,l,B.p3,l,l,l,l,l,l,l,l),new A.aQt(m,a,j,h,i),l),B.ec,A.fo(!1,!0,B.a74,l,!0,l,l,l,l,l,l,l,l,l,l,new A.aQr(m,a),l,l,l,l)],k),B.l,l,B.j,B.k,0,B.o),l)],k),B.l,l,B.d1,B.k,0,B.o)}}
+return A.ax(A.b([s,new A.dg(new A.aA(B.qD,A.ax(A.b([q,B.b3,o,B.b3,A.kA(l,l,l,B.aV,l,l,!0,l,A.bw(l,l,p,B.fd,"Esqueci minha senha"),B.r,l,l,B.S,B.a6)],k),B.j,l,B.k,B.l,0,B.o),l),500,l),new A.aA(B.qE,A.ax(A.b([A.d2(A.by(B.u,B.a7z,B.q,l,B.p3,l,l,l,l,l,l,l,l),new A.aQt(m,a,j,h,i),l),B.ec,A.fo(!1,!0,B.a74,l,!0,l,l,l,l,l,l,l,l,l,l,new A.aQr(m,a),l,l,l,l)],k),B.j,l,B.k,B.l,0,B.o),l)],k),B.j,l,B.d1,B.l,0,B.o)}}
 A.aQt.prototype={
 $0(){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$$0=A.n(function(a,b){if(a===1){o.push(b)
@@ -111556,10 +111556,10 @@ A.aQq.prototype={
 $0(){return this.a.$0()},
 $S:0}
 A.aQr.prototype={
-$0(){return A.TX(this.b,this.a.gcZ(),"/sing_up")},
+$0(){return A.TX(this.b,this.a.gcU(),"/sing_up")},
 $S:0}
 A.BB.prototype={
-d8(a,b){return A.ax(A.b([B.Zs,new A.dg(A.f0(b.bG($.rj(),t.HA),new A.at_(a),new A.at0(),new A.at1(),t.uK,t.l),900,null)],t.p),B.l,null,B.j,B.k,0,B.o)}}
+d8(a,b){return A.ax(A.b([B.Zs,new A.dg(A.f0(b.bG($.rj(),t.HA),new A.at_(a),new A.at0(),new A.at1(),t.uK,t.l),900,null)],t.p),B.j,null,B.k,B.l,0,B.o)}}
 A.at1.prototype={
 $0(){return B.aY},
 $S:24}
@@ -111587,23 +111587,23 @@ switch(this.e.a){case 1:i=A.ct(A.fo(!1,!0,new A.d0(B.Gv,A.kj("Assets/Logo/Logo.p
 j=j.$0()
 s=$.bkO()
 r=t.p
-h=A.b([new A.aA(new A.ac(30,0,0,0),j,q),s,new A.aA(new A.ac(30,0,0,0),A.ax(h.$0(),B.u,q,B.j,B.k,5,B.o),q)],r)
+h=A.b([new A.aA(new A.ac(30,0,0,0),j,q),s,new A.aA(new A.ac(30,0,0,0),A.ax(h.$0(),B.v,q,B.k,B.l,5,B.o),q)],r)
 if(l)h.push(s)
-if(l)h.push(new A.aA(new A.ac(30,0,0,0),A.ax(k.$0(),B.u,q,B.j,B.k,5,B.o),q))
-return A.ax(A.b([A.ax(A.b([i,A.ax(h,B.u,q,B.j,B.k,10,B.o)],r),B.l,q,B.j,B.k,40,B.o),A.ax(A.b([new A.aA(B.NX,A.b4p(!0,new A.avO(),"Participe do nosso grupo"),q),new A.u7(A.by(q,B.a7h,B.q,q,q,new A.cX(p.ax.z,q,q,A.eo(8),q,q,B.au),q,q,q,B.O_,q,q,q),0.2,5,B.m,B.h,q)],r),B.l,q,B.j,B.k,0,B.o)],r),B.l,q,B.dk,B.k,0,B.o)
+if(l)h.push(new A.aA(new A.ac(30,0,0,0),A.ax(k.$0(),B.v,q,B.k,B.l,5,B.o),q))
+return A.ax(A.b([A.ax(A.b([i,A.ax(h,B.v,q,B.k,B.l,10,B.o)],r),B.j,q,B.k,B.l,40,B.o),A.ax(A.b([new A.aA(B.NX,A.b4p(!0,new A.avO(),"Participe do nosso grupo"),q),new A.u7(A.by(q,B.a7h,B.q,q,q,new A.cX(p.ax.z,q,q,A.eo(8),q,q,B.au),q,q,q,B.O_,q,q,q),0.2,5,B.m,B.h,q)],r),B.j,q,B.k,B.l,0,B.o)],r),B.j,q,B.dl,B.l,0,B.o)
 case 0:j=j.$0()
 s=t.p
 r=A.b([],s)
 if(this.r)r.push(new A.eb(new A.avP(i),q))
-else{i=A.b([A.bA(h.$0(),B.l,B.j,B.k,5,q)],s)
-if(l)i.push(A.bA(k.$0(),B.l,B.j,B.k,5,q))
-r.push(A.bA(i,B.l,B.j,B.k,5,q))}return A.bA(A.b([j,A.bA(r,B.l,B.j,B.k,0,q)],s),B.l,B.b1,B.k,0,q)}}}
+else{i=A.b([A.bA(h.$0(),B.j,B.k,B.l,5,q)],s)
+if(l)i.push(A.bA(k.$0(),B.j,B.k,B.l,5,q))
+r.push(A.bA(i,B.j,B.k,B.l,5,q))}return A.bA(A.b([j,A.bA(r,B.j,B.k,B.l,0,q)],s),B.j,B.b1,B.l,0,q)}}}
 A.avX.prototype={
 $3$onTap(a,b,c){var s=null,r=this.a,q=A.b([],t.p)
 if(r.f)q.push(A.bT(a,s,30))
 q.push(B.hM)
 q.push(A.ai(b,s,s,s,A.fI(s,s,B.n,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s))
-return A.fo(!1,!0,A.bA(q,B.l,B.j,B.a0,0,s),s,!0,s,s,s,s,s,s,s,s,s,s,new A.avY(r,c),s,s,s,s)},
+return A.fo(!1,!0,A.bA(q,B.j,B.k,B.a0,0,s),s,!0,s,s,s,s,s,s,s,s,s,s,new A.avY(r,c),s,s,s,s)},
 $2(a,b){return this.$3$onTap(a,b,null)},
 $S:787}
 A.avY.prototype={
@@ -111688,7 +111688,7 @@ return new A.a82(A.a34(s,s,s,s,"",s,"",!1,s,"Compartilhar Via Link","",s,s,s,s),
 A.a82.prototype={
 J(a){var s,r,q,p,o=this,n=A.V(a)
 if(!o.as){o.as=!0
-A.pq(B.fW,new A.aRg(o,a),t.P)}s=o.gcZ()
+A.pq(B.fW,new A.aRg(o,a),t.P)}s=o.gcU()
 s.ta($.f_(),new A.aRh(o,a))
 r=s.bG($.bkD().$1(o.a.d),t.NX)
 q=r==null
@@ -111698,7 +111698,7 @@ return A.f0(p,new A.aRk(o,a,n.ax,n.ok),new A.aRl(),new A.aRm(),t.z,t.l)}}
 A.aRg.prototype={
 $0(){var s=this.a
 if(s.c==null)return
-if(s.gcZ().aY($.f_(),t.d)==null&&this.b.e!=null)A.b5U(this.b,null,null)},
+if(s.gcU().aY($.f_(),t.d)==null&&this.b.e!=null)A.b5U(this.b,null,null)},
 $S:13}
 A.aRh.prototype={
 $2(a,b){var s=!1
@@ -111740,7 +111740,7 @@ A.aRk.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null
 if(a==null)return B.aY
 s=h.a
-r=s.gcZ()
+r=s.gcU()
 q=r.bG($.f_(),t.d)
 p=r.bG($.bkH(),t.sG)
 o=h.b
@@ -111752,14 +111752,14 @@ l=A.vv(B.m,-1,1)
 k=A.eo(2)
 j=h.d
 i=t.p
-j=A.ax(A.b([B.a0M,A.by(g,A.ai(""+(n.a+1)+"/3",g,g,g,g,g,g,g),B.q,g,g,new A.cX(h.c.b,g,l,k,g,g,B.au),g,g,B.Nx,B.O4,g,g,g),A.ai(m.a,g,g,g,j.d,g,g,g),A.ai(m.b,g,g,g,j.z,g,g,g)],i),B.u,g,B.j,B.a0,0,B.o)
+j=A.ax(A.b([B.a0M,A.by(g,A.ai(""+(n.a+1)+"/3",g,g,g,g,g,g,g),B.q,g,g,new A.cX(h.c.b,g,l,k,g,g,B.au),g,g,B.Nx,B.O4,g,g,g),A.ai(m.a,g,g,g,j.d,g,g,g),A.ai(m.b,g,g,g,j.z,g,g,g)],i),B.v,g,B.k,B.a0,0,B.o)
 k=A.b([m.c],i)
 n=m.e
-if(n)k.push(B.ea)
+if(n)k.push(B.d6)
 if(n)k.push(new A.Zw("Avan\xe7ar",s.ax?new A.aR8(s,r):g,g))
 r=m.d
 if(r!=null)k.push(new A.dg(r,500,g))
-return new A.Yy(A.ax(A.b([B.ZF,new A.f4(1,B.b0,new A.aRn(s).$1$child(A.ax(A.b([new A.dg(j,500,g),new A.f4(1,B.b0,A.by(g,A.ax(k,B.l,g,B.j,B.k,0,B.o),B.q,g,g,g,g,1/0,new A.ac(0,20,0,0),g,g,g,g),g)],i),B.l,new A.cv(o,t.Aj),B.j,B.k,0,B.o)),g)],i),B.l,g,B.b1,B.k,0,B.o),g)},
+return new A.Yy(A.ax(A.b([B.ZF,new A.f4(1,B.b0,new A.aRn(s).$1$child(A.ax(A.b([new A.dg(j,500,g),new A.f4(1,B.b0,A.by(g,A.ax(k,B.j,g,B.k,B.l,0,B.o),B.q,g,g,g,g,1/0,new A.ac(0,20,0,0),g,g,g,g),g)],i),B.j,new A.cv(o,t.Aj),B.k,B.l,0,B.o)),g)],i),B.j,g,B.b1,B.l,0,B.o),g)},
 $S:793}
 A.aRq.prototype={
 $1(a){var s
@@ -111842,11 +111842,11 @@ $S:0}
 A.aRo.prototype={
 $0(){var s,r,q=this,p=null,o=q.a
 switch(o.ch.a){case 0:return new A.vD("Escolha seu time","Selecione o time que voc\xea acredita que vai vencer.",A.b3U(p,p,q.b,new A.aR4(o,q.c),o.w,o.x),p,!0)
-case 1:return new A.vD("Escolha um cupom","Quem perder paga. O vencedor leva o valor em vale-presente.*",new A.a2d(q.d,new A.aR5(o),p),new A.dg(A.by(p,A.U8(q.e,o.gcZ(),"*",!1,!0,B.fd),B.q,p,p,p,p,p,B.qD,p,p,p,1/0),500,p),!0)
+case 1:return new A.vD("Escolha um cupom","Quem perder paga. O vencedor leva o valor em vale-presente.*",new A.a2d(q.d,new A.aR5(o),p),new A.dg(A.by(p,A.U8(q.e,o.gcU(),"*",!1,!0,B.fd),B.q,p,p,p,p,p,B.qD,p,p,p,1/0),500,p),!0)
 case 2:s=o.ay
 r=o.w
 r=r!=q.f?r:o.x
-return new A.vD("Escolha um advers\xe1rio","Desafie um amigo pelo WhatsApp.",new A.f4(1,B.b0,new A.a2e(s,r,q.r,new A.aR6(o),new A.aR7(q.w),o.gcZ().bG($.b1A(),t.Ul),p),p),p,o.ay)}},
+return new A.vD("Escolha um advers\xe1rio","Desafie um amigo pelo WhatsApp.",new A.f4(1,B.b0,new A.a2e(s,r,q.r,new A.aR6(o),new A.aR7(q.w),o.gcU().bG($.b1A(),t.Ul),p),p),p,o.ay)}},
 $S:796}
 A.aR4.prototype={
 $1(a){var s=this.a
@@ -111874,10 +111874,10 @@ A.aR7.prototype={
 $1(a){this.a.$1(a)},
 $S:798}
 A.aRn.prototype={
-$1$child(a){return A.b1R(a,B.dR,A.b5l(),B.qi,B.Md,new A.aR1(this.a))},
+$1$child(a){return A.b1R(a,B.dS,A.b5l(),B.qi,B.Md,new A.aR1(this.a))},
 $S:799}
 A.aR1.prototype={
-$2(a,b){var s=t.Y,r=t.Ly,q=r.h("aB<aF.T>"),p=new A.aB(b,new A.aK(B.dl,B.h,r),q),o=new A.aB(b,new A.aK(B.mY,B.h,r),q)
+$2(a,b){var s=t.Y,r=t.Ly,q=r.h("aB<aF.T>"),p=new A.aB(b,new A.aK(B.dm,B.h,r),q),o=new A.aB(b,new A.aK(B.mY,B.h,r),q)
 return new A.dV(new A.aB(b,new A.aK(0,1,s),s.h("aB<aF.T>")),!1,A.u9(a,J.c(a.a,new A.cv(this.a.ch,t.Aj))?p:o,null,!0),null)},
 $S:800}
 A.aR8.prototype={
@@ -111893,7 +111893,7 @@ A.xj.prototype={
 a7(){var s=$.ap()
 return new A.a8n(new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),"[#"+A.bF(new A.ls())+"]")}}
 A.a8n.prototype={
-J(a){var s,r,q,p=this,o=null,n=p.gcZ(),m=n.bG($.f_(),t.d),l=$.aeP(),k=p.ch,j=n.bG(l.$1(k),t.er),i=n.aY(l.$1(k).gcn(),t._I),h=n.aY($.Uw(),t.Zo),g=n.aY($.aeO(),t.A9),f=n.aY($.b1p(),t.b0),e=A.V(a)
+J(a){var s,r,q,p=this,o=null,n=p.gcU(),m=n.bG($.f_(),t.d),l=$.aeP(),k=p.ch,j=n.bG(l.$1(k),t.er),i=n.aY(l.$1(k).gcn(),t._I),h=n.aY($.Uw(),t.Zo),g=n.aY($.aeO(),t.A9),f=n.aY($.b1p(),t.b0),e=A.V(a)
 n=new A.aSc()
 l=m==null
 if(!l){n.$2(p.w,m.c)
@@ -111908,10 +111908,10 @@ n=A.baF(k,50,m)
 l=A.ai(m.a,o,o,o,e.ok.r,o,o,o)
 k=p.x
 k=A.em(o,B.ag,!1,o,!0,B.t,o,A.ez(),k,o,o,o,o,o,2,A.J3(o,o,o,o,o,o,"",o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"Time de cora\xe7\xe3o",!0,!0,o,o,o,o,o,o,o,new A.qH(k,new A.aS6(25),o,o,t.ue),o,o,o,o,o,o),B.D,!0,o,!0,o,!1,o,B.a9,o,o,o,o,o,o,25,o,1,o,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.af,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.r,o,B.an,o,o,o,o)
-s=A.em(o,B.ag,!1,o,!0,B.t,o,A.ez(),p.w,o,o,o,o,o,2,B.rA,B.D,!0,o,!0,o,!1,o,B.a9,o,o,A.b([new A.KC(!1,"BR")],t.VS),o,B.dw,o,o,o,1,o,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.af,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.r,o,B.an,o,o,o,o)
+s=A.em(o,B.ag,!1,o,!0,B.t,o,A.ez(),p.w,o,o,o,o,o,2,B.rA,B.D,!0,o,!0,o,!1,o,B.a9,o,o,A.b([new A.KC(!1,"BR")],t.VS),o,B.dx,o,o,o,1,o,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.af,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.r,o,B.an,o,o,o,o)
 r=p.ay?new A.aS9(p).$0():new A.eb(new A.aS7(p,m,e.ax),o)
 q=t.p
-return A.ax(A.b([A.ax(A.b([B.ZI,new A.dg(A.ax(A.b([n,B.b3,l,B.cF,B.a7L,B.b3,k,B.cF,B.DZ,B.b3,s,B.cF,B.a7t,B.b3,r,B.cF],q),B.l,o,B.j,B.k,0,B.o),500,o)],q),B.l,o,B.j,B.k,0,B.o),A.ax(A.b([A.d2(A.by(B.v,B.a7I,B.q,o,B.p3,o,o,o,o,o,o,o,o),new A.aSa(p,m,a,j,new A.aSd(),i,h,g),o),B.b3,A.nU(new A.aS8(p,f,g),o,o,"Sair")],q),B.l,o,B.j,B.k,0,B.o)],q),B.l,o,B.b1,B.k,0,B.o)}}
+return A.ax(A.b([A.ax(A.b([B.ZI,new A.dg(A.ax(A.b([n,B.b3,l,B.cF,B.a7L,B.b3,k,B.cF,B.DZ,B.b3,s,B.cF,B.a7t,B.b3,r,B.cF],q),B.j,o,B.k,B.l,0,B.o),500,o)],q),B.j,o,B.k,B.l,0,B.o),A.ax(A.b([A.d2(A.by(B.u,B.a7I,B.q,o,B.p3,o,o,o,o,o,o,o,o),new A.aSa(p,m,a,j,new A.aSd(),i,h,g),o),B.b3,A.nU(new A.aS8(p,f,g),o,o,"Sair")],q),B.j,o,B.k,B.l,0,B.o)],q),B.j,o,B.b1,B.l,0,B.o)}}
 A.aSc.prototype={
 $2(a,b){if(a.a.a.length!==0||b==null||b.length===0)return
 a.sde(b)},
@@ -111979,7 +111979,7 @@ case 8:j=A.O4(m,null,!1)
 s=10
 return A.m(n.r.qr(j),$async$$0)
 case 10:s=11
-return A.m(a4.gcZ().aY($.f_().gcn(),t.sv).pW(n.w),$async$$0)
+return A.m(a4.gcU().aY($.f_().gcn(),t.sv).pW(n.w),$async$$0)
 case 11:if(h.e==null){s=1
 break}A.b7(h).c2(null)
 a4.T(new A.aSb(a4))
@@ -112004,7 +112004,7 @@ $0(){this.a.ay=!1},
 $S:0}
 A.aS9.prototype={
 $0(){var s=null,r="\u2022",q=this.a
-return A.ax(A.b([A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.y,s,s,s,s,s,2,B.PC,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,s,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.z,s,s,s,s,s,2,B.PG,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,B.dw,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.Q,s,s,s,s,s,2,B.Pz,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,s,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.as,s,s,s,s,s,2,B.PD,B.D,!0,s,!0,s,!1,s,B.a9,s,s,A.b([new A.JD("00000-00",A.b([],t.dE))],t.VS),s,B.dw,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.at,s,s,s,s,s,2,B.PK,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,s,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.ax,s,s,s,s,s,2,B.PF,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,s,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s)],t.p),B.l,s,B.j,B.k,0,B.o)},
+return A.ax(A.b([A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.y,s,s,s,s,s,2,B.PC,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,s,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.z,s,s,s,s,s,2,B.PG,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,B.dx,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.Q,s,s,s,s,s,2,B.Pz,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,s,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.as,s,s,s,s,s,2,B.PD,B.D,!0,s,!0,s,!1,s,B.a9,s,s,A.b([new A.JD("00000-00",A.b([],t.dE))],t.VS),s,B.dx,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.at,s,s,s,s,s,2,B.PK,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,s,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.ec,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),q.ax,s,s,s,s,s,2,B.PF,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,s,s,s,s,1,s,s,!1,r,s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s)],t.p),B.j,s,B.k,B.l,0,B.o)},
 $S:115}
 A.aS6.prototype={
 $3(a,b,c){var s=null
@@ -112043,13 +112043,13 @@ A.aS8.prototype={
 $0(){return this.b.Cj().aW(new A.aS3(this.a,this.c),t.H)},
 $S:0}
 A.aS3.prototype={
-$1(a){return this.a.gcZ().aY($.f_().gcn(),t.sv).pW(this.b)},
+$1(a){return this.a.gcU().aY($.f_().gcn(),t.sv).pW(this.b)},
 $S:265}
 A.Cc.prototype={
 J(a){return B.M6}}
 A.CF.prototype={
 J(a){var s=null
-return new A.dg(A.ax(A.b([B.ZD,B.aa5,B.a1K,A.by(s,s,B.q,B.d3,s,s,s,1,B.qE,s,s,s,1/0),B.a1H],t.p),B.l,s,B.j,B.k,0,B.o),500,s)}}
+return new A.dg(A.ax(A.b([B.ZD,B.aa5,B.a1K,A.by(s,s,B.q,B.d3,s,s,s,1,B.qE,s,s,s,1/0),B.a1H],t.p),B.j,s,B.k,B.l,0,B.o),500,s)}}
 A.yb.prototype={
 a7(){var s=$.ap()
 return new A.S1(new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.cH(B.ao,s),new A.ahE())}}
@@ -112090,25 +112090,28 @@ a7t(){var s,r,q,p=this
 switch(p.ch){case 0:s=A.b_("^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$",!0,!1,!1)
 r=p.w.a.a
 q=!1
-if(r.length!==0)if(p.x.a.a.length>=6)if(p.y.a.a.length!==0)r=s.b.test(r)
-else r=q
+if(r.length!==0)if(p.x.a.a.length>=6)r=s.b.test(r)&&p.ax&&p.ay
 else r=q
 else r=q
 return r
-case 1:r=p.z.a.a
-return r.length!==0&&p.cx.a7x(r)
-case 2:return p.Q.a.a.length>=10&&p.ax&&p.ay
-case 3:return!0}return!1},
-adF(a){return A.bT(A.bp4(new A.aUN(this,A.V(a)),4,B.a4,new A.aUO()),8,260)},
-aH3(){var s=this,r=null,q=A.em(r,B.ag,!1,r,!0,B.t,r,A.ez(),s.w,r,r,r,r,r,2,B.rz,B.D,!0,r,!0,r,!1,r,B.a9,r,r,r,r,B.DS,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.af,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.r,r,B.an,r,r,r,r),p=s.at,o=p?$.b72():$.b71()
-return A.ax(A.b([B.a75,B.b3,q,B.b3,A.em(r,B.ag,!1,r,!0,B.t,r,A.ez(),s.x,r,r,r,r,r,2,A.J3(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Senha",!0,!0,r,r,r,r,r,r,r,r,A.hB(r,r,o,r,r,new A.aUK(s),r,r,r,r),r,r,r,r,r),B.D,!0,r,!0,r,!1,r,B.a9,r,r,r,r,r,r,r,r,1,r,r,p,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.af,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.r,r,B.an,r,r,r,r),B.ea,B.a7O,B.b3,A.em(r,B.ag,!1,r,!0,B.t,r,A.ez(),s.y,r,r,r,r,r,2,B.PB,B.D,!0,r,!0,r,!1,r,B.a9,r,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.af,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.r,r,B.an,r,r,r,r)],t.p),B.u,r,B.j,B.k,0,B.o)},
-aNl(a,b){var s=this,r=null,q=t.p
-return A.ax(A.b([B.DZ,B.b3,A.em(r,B.ag,!1,r,!0,B.t,r,A.ez(),s.Q,r,r,r,r,r,2,B.rA,B.D,!0,r,!0,r,!1,r,B.a9,r,r,A.b([new A.KC(!1,"BR")],t.VS),r,B.dw,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.af,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.r,r,B.an,r,r,r,r),B.b3,B.a7r,B.b3,A.bA(A.b([A.VG(new A.aUR(s),s.ax),B.Oe],q),B.l,B.j,B.k,0,r),A.bA(A.b([A.VG(new A.aUS(s),s.ay),A.ed(A.U8(a,b,"Declaro que li o ",!0,!0,B.fd),1)],q),B.l,B.j,B.k,0,r)],q),B.u,r,B.j,B.k,0,B.o)},
-abo(a,b){var s=this,r=null
-switch(s.ch){case 0:return s.aH3()
-case 1:return A.ax(A.b([B.a7p,B.b3,A.em(r,B.ag,!1,r,!0,B.t,r,A.ez(),s.z,r,r,r,r,r,2,B.PL,B.D,!0,r,!0,r,!1,r,B.a9,r,r,A.b([new A.JD("000.000.000-00",A.b([],t.dE))],t.VS),r,B.dw,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.af,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.r,r,B.an,r,r,r,r)],t.p),B.u,r,B.j,B.k,0,B.o)
-case 2:return s.aNl(a,b)
-default:return A.ax(A.b([A.baF("signup_photo",50,r),B.b3,A.em(r,B.ag,!1,r,!0,B.t,r,A.ez(),s.as,r,r,r,r,r,2,B.PI,B.D,!0,r,!0,r,!1,r,B.a9,r,r,r,r,r,r,25,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.af,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.r,r,B.an,r,r,r,r)],t.p),B.l,r,B.j,B.k,0,B.o)}},
+case 1:if(p.y.a.a.length!==0){r=p.z.a.a
+r=r.length!==0&&p.cx.a7x(r)&&p.Q.a.a.length>=10}else r=!1
+return r
+case 2:return!0}return!1},
+adF(a){return A.bT(A.bp4(new A.aUR(this,A.V(a)),3,B.a4,new A.aUS()),8,195)},
+aH3(){var s,r,q,p=this,o=null,n=A.em(o,B.ag,!1,o,!0,B.t,o,A.ez(),p.w,o,o,o,o,o,2,B.rz,B.D,!0,o,!0,o,!1,o,B.a9,o,o,o,o,B.DS,o,o,o,1,o,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.af,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.r,o,B.an,o,o,o,o),m=p.at,l=m?$.b72():$.b71()
+m=A.em(o,B.ag,!1,o,!0,B.t,o,A.ez(),p.x,o,o,o,o,o,2,A.J3(o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"Senha",!0,!0,o,o,o,o,o,o,o,o,A.hB(o,o,l,o,o,new A.aUM(p),o,o,o,o),o,o,o,o,o),B.D,!0,o,!0,o,!1,o,B.a9,o,o,o,o,o,o,o,o,1,o,o,m,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.af,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.r,o,B.an,o,o,o,o)
+l=t.p
+s=A.bA(A.b([A.VG(new A.aUN(p),p.ax),B.Oe],l),B.j,B.k,B.l,0,o)
+r=A.VG(new A.aUO(p),p.ay)
+q=p.c
+q.toString
+return A.ax(A.b([B.a75,B.b3,n,B.b3,m,B.b3,s,A.bA(A.b([r,A.ed(A.U8(q,p.gcU(),"Declaro que li o ",!0,!0,B.fd),1)],l),B.j,B.k,B.l,0,o)],l),B.v,o,B.k,B.l,0,B.o)},
+abo(a,b){var s,r=this,q=null
+switch(r.ch){case 0:return r.aH3()
+case 1:s=t.VS
+return A.ax(A.b([B.a7O,B.b3,A.em(q,B.ag,!1,q,!0,B.t,q,A.ez(),r.y,q,q,q,q,q,2,B.PB,B.D,!0,q,!0,q,!1,q,B.a9,q,q,q,q,q,q,q,q,1,q,q,!1,"\u2022",q,q,q,q,q,!1,q,q,!1,q,!0,q,B.af,q,q,q,q,q,q,q,q,q,q,q,q,!0,B.r,q,B.an,q,q,q,q),B.d6,B.a7p,B.b3,A.em(q,B.ag,!1,q,!0,B.t,q,A.ez(),r.z,q,q,q,q,q,2,B.PL,B.D,!0,q,!0,q,!1,q,B.a9,q,q,A.b([new A.JD("000.000.000-00",A.b([],t.dE))],s),q,B.dx,q,q,q,1,q,q,!1,"\u2022",q,q,q,q,q,!1,q,q,!1,q,!0,q,B.af,q,q,q,q,q,q,q,q,q,q,q,q,!0,B.r,q,B.an,q,q,q,q),B.d6,B.DZ,B.b3,A.em(q,B.ag,!1,q,!0,B.t,q,A.ez(),r.Q,q,q,q,q,q,2,B.rA,B.D,!0,q,!0,q,!1,q,B.a9,q,q,A.b([new A.KC(!1,"BR")],s),q,B.dx,q,q,q,1,q,q,!1,"\u2022",q,q,q,q,q,!1,q,q,!1,q,!0,q,B.af,q,q,q,q,q,q,q,q,q,q,q,q,!0,B.r,q,B.an,q,q,q,q),B.b3,B.a7r],t.p),B.v,q,B.k,B.l,0,B.o)
+default:return A.ax(A.b([A.baF("signup_photo",50,q),B.b3,A.em(q,B.ag,!1,q,!0,B.t,q,A.ez(),r.as,q,q,q,q,q,2,B.PI,B.D,!0,q,!0,q,!1,q,B.a9,q,q,q,q,q,q,25,q,1,q,q,!1,"\u2022",q,q,q,q,q,!1,q,q,!1,q,!0,q,B.af,q,q,q,q,q,q,q,q,q,q,q,q,!0,B.r,q,B.an,q,q,q,q)],t.p),B.j,q,B.k,B.l,0,B.o)}},
 EO(){var s=0,r=A.r(t.H),q,p=this,o,n
 var $async$EO=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:s=p.ch===1?3:4
@@ -112135,7 +112138,7 @@ var $async$r8=A.n(function(a6,a7){if(a6===1){o.push(a7)
 s=p}for(;;)switch(s){case 0:a4=n.c
 a4.toString
 A.oO(a4)
-a4=n.gcZ()
+a4=n.gcU()
 m=a4.aY($.b1p(),t.b0)
 l=a4.aY($.Uw(),t.Zo)
 k=a4.aY($.aeO(),t.A9)
@@ -112200,52 +112203,52 @@ break
 case 6:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$r8,r)},
-J(a){var s=this,r=null,q=s.a7t(),p=t.p,o=A.ax(A.b([A.by(B.v,A.kj("Assets/Logo/Logo.png",r,r,r,r),B.q,r,B.Gx,r,r,r,r,r,r,r,r),B.nD,s.adF(a),B.nD,new A.dg(s.abo(a,s.gcZ()),500,r)],p),B.l,r,B.j,B.k,0,B.o),n=q?s.gaAI():r
-n=A.b([A.d2(A.by(B.v,A.ai("Continuar",r,r,r,A.fI(r,r,q?B.m:B.d3,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),B.q,r,B.GA,r,r,r,r,r,r,r,r),n,r),B.ec],p)
+J(a){var s=this,r=null,q=s.a7t(),p=t.p,o=A.ax(A.b([A.by(B.u,A.kj("Assets/Logo/Logo.png",r,r,r,r),B.q,r,B.Gx,r,r,r,r,r,r,r,r),B.nD,s.adF(a),B.nD,new A.dg(s.abo(a,s.gcU()),500,r)],p),B.j,r,B.k,B.l,0,B.o),n=q?s.gaAI():r
+n=A.b([B.d6,A.d2(A.by(B.u,A.ai("Continuar",r,r,r,A.fI(r,r,q?B.m:B.d3,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),B.q,r,B.GA,r,r,r,r,r,r,r,r),n,r),B.ec],p)
 if(s.ch>0)n.push(A.nU(new A.aUI(s),r,r,"Voltar"))
-return A.ax(A.b([B.ZB,o,A.ax(n,B.l,r,B.j,B.k,0,B.o)],p),B.l,r,B.b1,B.k,0,B.o)}}
+return A.ax(A.b([B.ZB,o,A.ax(n,B.j,r,B.k,B.l,0,B.o)],p),B.j,r,B.b1,B.l,0,B.o)}}
 A.aUF.prototype={
 $0(){},
 $S:0}
-A.aUO.prototype={
+A.aUS.prototype={
 $2(a,b){return B.a0K},
 $S:806}
-A.aUN.prototype={
-$2(a,b){var s,r=null,q=this.a,p=b<=q.CW&&q.a7t(),o=p?new A.aUM(q,b):r,n=this.b.ax
+A.aUR.prototype={
+$2(a,b){var s,r=null,q=this.a,p=b<=q.CW&&q.a7t(),o=p?new A.aUQ(q,b):r,n=this.b.ax
 if(b===q.ch)q=n.z
 else{q=p?255:100
 q=n.y.dv(q)}s=A.eo(30)
 return A.fo(!1,!0,A.agf(r,r,B.a3,new A.cX(q,r,A.vv(n.y,-1,1),s,r,r,B.au),B.N,r,8,50),r,!0,r,r,r,r,r,r,r,r,r,r,o,r,r,r,r)},
 $S:271}
-A.aUM.prototype={
+A.aUQ.prototype={
 $0(){var s=this.a
-return s.T(new A.aUL(s,this.b))},
+return s.T(new A.aUP(s,this.b))},
 $S:0}
-A.aUL.prototype={
+A.aUP.prototype={
 $0(){return this.a.ch=this.b},
 $S:0}
-A.aUK.prototype={
+A.aUM.prototype={
 $0(){var s=this.a
-return s.T(new A.aUJ(s))},
+return s.T(new A.aUL(s))},
 $S:0}
-A.aUJ.prototype={
+A.aUL.prototype={
 $0(){var s=this.a
 s.at=!s.at},
 $S:0}
-A.aUR.prototype={
+A.aUN.prototype={
 $1(a){var s=this.a
-return s.T(new A.aUQ(s,a))},
+return s.T(new A.aUK(s,a))},
 $S:67}
-A.aUQ.prototype={
+A.aUK.prototype={
 $0(){var s=this.b
 s.toString
 return this.a.ax=s},
 $S:0}
-A.aUS.prototype={
+A.aUO.prototype={
 $1(a){var s=this.a
-return s.T(new A.aUP(s,a))},
+return s.T(new A.aUJ(s,a))},
 $S:67}
-A.aUP.prototype={
+A.aUJ.prototype={
 $0(){var s=this.b
 s.toString
 return this.a.ay=s},
@@ -112265,8 +112268,8 @@ a7(){return new A.abb()}}
 A.abb.prototype={
 au(){this.aL()
 $.af.rx$.push(new A.aVh(this))},
-J(a){var s=this,r=s.gcZ(),q=r.bG($.f_(),t.d),p=r.aY($.lI(),t.O3),o=new A.bs(null,t.d5),n=s.a.d,m=s.aoC(n.z,q)
-return A.ax(A.b([A.bbz(!0,"Desafio"),s.ajY(a,n,m.a,m.b,o),s.ajX(a,n,o,p,q)],t.p),B.l,null,B.b1,B.k,0,B.o)},
+J(a){var s=this,r=s.gcU(),q=r.bG($.f_(),t.d),p=r.aY($.lI(),t.O3),o=new A.bs(null,t.d5),n=s.a.d,m=s.aoC(n.z,q)
+return A.ax(A.b([A.bbz(!0,"Desafio"),s.ajY(a,n,m.a,m.b,o),s.ajX(a,n,o,p,q)],t.p),B.j,null,B.b1,B.l,0,B.o)},
 ajY(a,b,c,d,e){return A.ash(new A.aVa(this,b,c,d,e))},
 ajZ(a,b){var s,r=null,q=A.V(a),p=new A.aVb(),o=b.a,n=b.x,m=b.e,l=new A.qG(o.a,n,m==="a",B.m,r)
 if(m==="b")l=p.$1(l)
@@ -112275,7 +112278,7 @@ m=b.e
 s=new A.qG(o.b,n,m==="b",q.ax.z,r)
 if(m==="a")s=p.$1(s)
 q=t.p
-return A.ax(A.b([A.bA(A.b([l,this.akg(a,b),s],q),B.l,B.j,B.a0,0,r)],q),B.l,r,B.j,B.k,0,B.o)},
+return A.ax(A.b([A.bA(A.b([l,this.akg(a,b),s],q),B.j,B.k,B.a0,0,r)],q),B.j,r,B.k,B.l,0,B.o)},
 akg(a,b){var s,r,q,p=null,o="Assets/Icons/X.svg",n=b.a,m=n.f
 if(!(m!=null&&n.r!=null))return new A.aA(B.qF,A.cV(o,new A.d9(B.n,B.ai,p,B.aj),B.W,50,p),p)
 s=A.V(a).ok.d
@@ -112284,7 +112287,7 @@ q=r?p:s.bd(B.n)
 q=A.ai(A.i(m),p,p,p,q,p,p,p)
 m=A.cV(o,new A.d9(B.n,B.ai,p,B.aj),B.W,12,p)
 s=r?p:s.bd(B.n)
-return new A.aA(B.ly,A.bA(A.b([q,new A.aA(B.O5,m,p),A.ai(A.i(n.r),p,p,p,s,p,p,p)],t.p),B.l,B.d1,B.k,0,p),p)},
+return new A.aA(B.ly,A.bA(A.b([q,new A.aA(B.O5,m,p),A.ai(A.i(n.r),p,p,p,s,p,p,p)],t.p),B.j,B.d1,B.l,0,p),p)},
 ajX(a,b,c,d,e){var s,r,q=null,p=b.z,o=b.d==="a"?b.x:b.y
 o=o==null?q:o.gcf()
 s=o==(e==null?q:e.gcf())
@@ -112292,17 +112295,17 @@ r=p===B.ck&&s
 p=A.b([this.aki(a,b,c)],t.p)
 if(r)p.push(this.akf(a,b,d))
 p.push(A.nU(new A.aV9(a),B.NW,A.cV("Assets/Icons/home.svg",new A.d9(B.m,B.ai,q,B.aj),B.W,q,q),"Voltar para o in\xedcio"))
-return new A.aA(B.NC,A.ax(p,B.l,q,B.j,B.k,10,B.o),q)},
+return new A.aA(B.NC,A.ax(p,B.j,q,B.k,B.l,10,B.o),q)},
 aki(a,b,c){var s=null
 if(b.z===B.ck)return new A.d0(new A.ae(0,200,0,1/0),A.b4p(!0,new A.aVd(b),"Compartilhar"),s)
-return A.d2(new A.aA(B.qH,A.bA(A.b([A.cV("Assets/Icons/link.svg",s,B.W,20,20),B.Df,B.a7b],t.p),B.l,B.j,B.a0,0,s),s),new A.aVe(c,a),s)},
+return A.d2(new A.aA(B.qH,A.bA(A.b([A.cV("Assets/Icons/link.svg",s,B.W,20,20),B.Df,B.a7b],t.p),B.j,B.k,B.a0,0,s),s),new A.aVe(c,a),s)},
 akf(a,b,c){return A.nU(new A.aVc(a,c,b),null,null,"Cancelar")},
 aoC(a,b){switch(a.a){case 0:return B.YD
 case 1:return B.YL
 case 3:return B.YE
 default:return B.YC}}}
 A.aVh.prototype={
-$1(a){var s,r,q,p,o,n=this.a,m=n.gcZ(),l=m.bG($.f_(),t.d)
+$1(a){var s,r,q,p,o,n=this.a,m=n.gcU(),l=m.bG($.f_(),t.d)
 if(l==null)return
 s=n.a.d
 r=m.aY($.lI(),t.O3)
@@ -112340,28 +112343,28 @@ A.aVa.prototype={
 $2(a,b){var s,r,q,p,o,n,m=this,l=null,k=m.b,j=k.Ji(),i=A.kj(k.z===B.ck?"Assets/card2.png":"Assets/card.png",B.es,l,l,l),h=k.a,g=t.p
 h=A.el(B.b5,A.b([A.mv(l,A.Kk(A.wQ(new A.tn(250,250),l,h.a),0.3),l,l,-61.111111111111114,l,125,l),A.mv(l,A.Kk(A.wQ(new A.tn(250,250),l,h.b),0.3),l,l,l,-61.111111111111114,125,l)],g),B.t,B.aw,l)
 s=k.z===B.ck?B.Te:B.SO
-r=A.b([A.ax(A.b([new A.II(m.c,B.DV,s,l),new A.II(m.d,B.DV,s,l)],g),B.l,l,B.j,B.k,0,B.o),m.a.ajZ(a,k)],g)
+r=A.b([A.ax(A.b([new A.II(m.c,B.DV,s,l),new A.II(m.d,B.DV,s,l)],g),B.j,l,B.k,B.l,0,B.o),m.a.ajZ(a,k)],g)
 q=k.b
 if(q!=null){p=A.V(a)
 o=k.z
 p=p.ok.Q
 if(p==null)p=l
 else p=p.bd(o===B.ck?B.m:B.n)
-r.push(A.ax(A.b([A.ai("Cupom escolhido",l,l,l,p,l,l,l),B.b3,A.BS(!0,117,q,!0,221)],g),B.l,l,B.j,B.k,0,B.o))}q=A.V(a)
+r.push(A.ax(A.b([A.ai("Cupom escolhido",l,l,l,p,l,l,l),B.b3,A.BS(!0,117,q,!0,221)],g),B.j,l,B.k,B.l,0,B.o))}q=A.V(a)
 n=k.z===B.ck
 q=q.ok.Q
 p=q==null
 if(p)o=l
 else o=q.vv(n?B.m:B.n,6)
 if(p)q=l
-else q=q.aEk(n?B.m:B.n,6,B.dU)
-r.push(new A.aA(B.ly,A.bA(A.b([A.kA(l,l,l,B.aV,l,l,!0,l,A.bw(A.b([A.bw(l,l,l,q,"Quer Valer?"),A.bw(l,l,l,l,"  \xe9 o mediador confi\xe1vel desse acordo. *Leia o nosso Termos de Uso.")],t.VO),l,l,o,"O "),B.r,l,l,B.S,B.a6),new A.d0(B.Gu,A.kj("Assets/Logo/Logo.png",l,l,l,l),l)],g),B.cV,B.b1,B.k,0,l),l))
-j=A.b([new A.Mz(A.el(B.v,A.b([i,h,A.ax(r,B.l,l,B.d1,B.k,0,B.o)],g),B.t,B.a18,l),j,m.e)],g)
+else q=q.aEk(n?B.m:B.n,6,B.dV)
+r.push(new A.aA(B.ly,A.bA(A.b([A.kA(l,l,l,B.aV,l,l,!0,l,A.bw(A.b([A.bw(l,l,l,q,"Quer Valer?"),A.bw(l,l,l,l,"  \xe9 o mediador confi\xe1vel desse acordo. *Leia o nosso Termos de Uso.")],t.VO),l,l,o,"O "),B.r,l,l,B.S,B.a6),new A.d0(B.Gu,A.kj("Assets/Logo/Logo.png",l,l,l,l),l)],g),B.cV,B.b1,B.l,0,l),l))
+j=A.b([new A.Mz(A.el(B.u,A.b([i,h,A.ax(r,B.j,l,B.d1,B.l,0,B.o)],g),B.t,B.a18,l),j,m.e)],g)
 if(k.z===B.ed){k=A.V(a)
 i=A.aM(180,B.m.G()>>>16&255,B.m.G()>>>8&255,B.m.G()&255)
 h=A.cV("Assets/Icons/block.svg",new A.d9(B.n,B.ai,l,B.aj),B.W,100,100)
 k=k.ok.e
-j.push(A.L1(0,A.by(B.v,A.ax(A.b([h,B.hN,A.ai("DESAFIO RECUSADO",l,l,l,k==null?l:k.FK(B.n,B.aG),l,l,l)],g),B.l,l,B.j,B.a0,0,B.o),B.q,i,l,l,l,l,l,B.qC,l,l,l)))}return A.Il(B.v,A.bT(A.el(B.b5,j,B.t,B.aw,l),550,425),B.q,B.et)},
+j.push(A.L1(0,A.by(B.u,A.ax(A.b([h,B.hN,A.ai("DESAFIO RECUSADO",l,l,l,k==null?l:k.FK(B.n,B.aG),l,l,l)],g),B.j,l,B.k,B.a0,0,B.o),B.q,i,l,l,l,l,l,B.qC,l,l,l)))}return A.Il(B.u,A.bT(A.el(B.b5,j,B.t,B.aw,l),550,425),B.q,B.et)},
 $S:807}
 A.aVb.prototype={
 $1(a){return new A.H5(new A.d9(A.aM(50,B.m.G()>>>16&255,B.m.G()>>>8&255,B.m.G()&255),B.kG,null,B.aj),a,null)},
@@ -112391,9 +112394,9 @@ return A.q($async$$0,r)},
 $S:9}
 A.Dn.prototype={
 J(a){var s=null,r=A.V(a).ok.e,q=r==null?s:r.a4r(18)
-return A.ax(A.b([B.Zx,new A.dg(new A.of(A.b([B.a1x,new A.cE("1. OBJETO",q,s,s,"1.1. O Quer Valer \xe9 uma plataforma social digital de desafios esportivos entre usu\xe1rios, criada para promover intera\xe7\xe3o, entretenimento, rivalidade saud\xe1vel e engajamento entre torcedores.\n\n1.2. A plataforma permite que usu\xe1rios criem, aceitem e participem de desafios amistosos relacionados a eventos esportivos, indicando seus palpites sobre o resultado de partidas, jogos, atletas ou equipes, conforme as funcionalidades dispon\xedveis.\n\n1.3. Os desafios realizados na plataforma t\xeam car\xe1ter exclusivamente social, simb\xf3lico e recreativo. O Quer Valer n\xe3o \xe9 casa de apostas, n\xe3o explora apostas de quota fixa, n\xe3o oferece aposta financeira, n\xe3o fixa odds, n\xe3o promete ganho em dinheiro e n\xe3o garante qualquer retorno econ\xf4mico ao usu\xe1rio.\n\n1.4. O eventual envio de cupom vale-presente, gift card, brinde ou presente entre usu\xe1rios decorre exclusivamente de liberalidade, combinado social e decis\xe3o volunt\xe1ria dos participantes, sem constituir obriga\xe7\xe3o financeira, d\xedvida, pr\xeamio exig\xedvel, contrato de aposta ou garantia de pagamento.\n\n1.5. O Quer Valer poder\xe1 disponibilizar meios t\xe9cnicos para facilitar a intera\xe7\xe3o entre usu\xe1rios e, quando aplic\xe1vel, o acesso a solu\xe7\xf5es de pagamento ou emiss\xe3o de cupons vale-presente fornecidas por parceiros ou terceiros, sem assumir a obriga\xe7\xe3o de exigir, garantir ou executar qualquer pagamento entre usu\xe1rios.",s,B.u,B.r),new A.cE("2. ELEGIBILIDADE E CADASTRO",q,s,s,"2.1. A plataforma \xe9 destinada exclusivamente a usu\xe1rios maiores de 18 (dezoito) anos. Ao se cadastrar, o usu\xe1rio declara ser maior de idade e possuir capacidade civil para aceitar estes Termos.\n\n2.2. Para utilizar determinadas funcionalidades da plataforma, o usu\xe1rio dever\xe1 realizar cadastro, informando dados verdadeiros, completos e atualizados.\n\n2.3. O usu\xe1rio \xe9 respons\xe1vel pela veracidade das informa\xe7\xf5es fornecidas, pela guarda de suas credenciais de acesso e por todas as atividades realizadas em sua conta.\n\n2.4. O Quer Valer poder\xe1 recusar, suspender ou cancelar cadastros que contenham informa\xe7\xf5es falsas, incompletas, inconsistentes, fraudulentas ou que violem estes Termos, a legisla\xe7\xe3o aplic\xe1vel ou os valores da plataforma.\n\n2.5. O usu\xe1rio n\xe3o poder\xe1 ceder, vender, transferir, emprestar ou permitir o uso de sua conta por terceiros sem autoriza\xe7\xe3o do Quer Valer.",s,B.u,B.r),new A.cE("3. FUNCIONAMENTO DOS DESAFIOS",q,s,s,"3.1. Os eventos esportivos dispon\xedveis para desafios poder\xe3o ser cadastrados e liberados na plataforma at\xe9 7 (sete) dias antes da partida, salvo exce\xe7\xf5es, limita\xe7\xf5es t\xe9cnicas, disponibilidade de dados ou decis\xf5es operacionais do Quer Valer.\n\n3.2. O usu\xe1rio poder\xe1 criar desafios at\xe9 1 (uma) hora antes do in\xedcio do evento esportivo, salvo regra espec\xedfica exibida na plataforma.\n\n3.3. Para criar um desafio, o usu\xe1rio dever\xe1 selecionar um evento esportivo dispon\xedvel, escolher outro usu\xe1rio participante, indicar seu palpite quanto ao vencedor ou resultado aplic\xe1vel e, quando dispon\xedvel, selecionar um valor de refer\xeancia vinculado a cupom vale-presente ou gift card.\n\n3.4. A efetiva\xe7\xe3o do desafio depende exclusivamente do aceite do usu\xe1rio desafiado. Nenhum pagamento pr\xe9vio \xe9 exigido para cria\xe7\xe3o, envio ou aceite do desafio, salvo se a plataforma vier a oferecer servi\xe7os pagos adicionais devidamente informados.\n\n3.5. Caso o usu\xe1rio desafiado n\xe3o aceite nem recuse o desafio at\xe9 o in\xedcio do evento esportivo, o desafio ser\xe1 automaticamente cancelado, sem vencedor, perdedor ou qualquer consequ\xeancia financeira.\n\n3.6. Ap\xf3s aceito, o desafio poder\xe1 ser alterado ou cancelado apenas at\xe9 o in\xedcio do evento esportivo, conforme as regras e funcionalidades dispon\xedveis na plataforma. Ap\xf3s o in\xedcio do evento, o desafio n\xe3o poder\xe1 ser alterado ou cancelado.\n\n3.7. Cada usu\xe1rio poder\xe1 criar ou participar inicialmente de somente 1 (um) desafio para o mesmo evento esportivo, salvo se a plataforma liberar funcionalidade diversa no futuro.\n\n3.8. O Quer Valer poder\xe1 limitar, suspender ou cancelar desafios em caso de erro operacional, inconsist\xeancia de dados, ind\xedcio de fraude, uso indevido, instabilidade t\xe9cnica, evento cancelado ou situa\xe7\xe3o que comprometa o funcionamento regular da plataforma.",s,B.u,B.r),new A.cE("4. RESULTADOS DOS EVENTOS E DOS DESAFIOS",q,s,s,"4.1. Os resultados dos eventos esportivos ser\xe3o baseados em fontes p\xfablicas, oficiais ou reconhecidas pela plataforma, sendo inseridos ou atualizados no sistema ap\xf3s o t\xe9rmino do evento.\n\n4.2. Salvo regra espec\xedfica informada no desafio, a plataforma considerar\xe1 o resultado oficial do evento conforme a fonte utilizada. A plataforma poder\xe1 adotar crit\xe9rios espec\xedficos por modalidade esportiva, campeonato ou tipo de evento.\n\n4.3. Em caso de empate, quando n\xe3o houver vencedor definido para fins do desafio, o desafio ser\xe1 automaticamente encerrado sem vencedor ou perdedor.\n\n4.4. Caso exista time, atleta ou participante declarado vencedor do evento, o usu\xe1rio que tiver indicado corretamente esse vencedor ser\xe1 declarado vencedor do desafio na plataforma.\n\n4.5. O usu\xe1rio que tiver indicado time, atleta ou participante derrotado ser\xe1 declarado perdedor do desafio na plataforma.\n\n4.6. Eventuais atrasos na atualiza\xe7\xe3o dos resultados, diverg\xeancias entre fontes p\xfablicas ou corre\xe7\xf5es posteriores poder\xe3o gerar revis\xe3o manual pela equipe do Quer Valer, sem que isso gere direito a indeniza\xe7\xe3o, pagamento ou compensa\xe7\xe3o ao usu\xe1rio.",s,B.u,B.r),new A.cE("5. ENVIO VOLUNT\xc1RIO DE CUPOM VALE-PRESENTE",q,s,s,"5.1. O usu\xe1rio declarado perdedor do desafio poder\xe1, de forma volunt\xe1ria e espont\xe2nea, optar por enviar um cupom vale-presente ou gift card ao usu\xe1rio declarado vencedor.\n\n5.2. O envio do cupom vale-presente n\xe3o constitui obriga\xe7\xe3o legal, contratual ou financeira; n\xe3o \xe9 exig\xedvel judicialmente; n\xe3o representa aposta; n\xe3o configura pr\xeamio obrigat\xf3rio; e decorre exclusivamente da liberalidade do usu\xe1rio perdedor e do combinado social realizado entre os participantes.\n\n5.3. O n\xe3o envio do cupom vale-presente n\xe3o gera multa, cobran\xe7a, d\xedvida, penalidade financeira ou obriga\xe7\xe3o de ressarcimento. Poder\xe1, contudo, impactar indicadores internos de reputa\xe7\xe3o do usu\xe1rio na plataforma, conforme previsto nestes Termos.\n\n5.4. Caso o usu\xe1rio perdedor decida voluntariamente enviar o cupom vale-presente, a plataforma poder\xe1 disponibilizar link, ambiente t\xe9cnico, redirecionamento ou solu\xe7\xe3o operacional para facilitar o envio, inclusive por meio de parceiros de pagamento, emissores de gift cards ou fornecedores terceirizados.\n\n5.5. A disponibiliza\xe7\xe3o de meios t\xe9cnicos para facilitar o envio volunt\xe1rio do cupom n\xe3o altera a natureza social do desafio e n\xe3o transforma o Quer Valer em intermediador de aposta, garantidor de pagamento, institui\xe7\xe3o financeira, credor do usu\xe1rio vencedor ou devedor do usu\xe1rio perdedor.\n\n5.6. O prazo sugerido para o envio volunt\xe1rio do cupom vale-presente \xe9 de at\xe9 48 (quarenta e oito) horas ap\xf3s a defini\xe7\xe3o do resultado do desafio, sem preju\xedzo de prazos diferentes praticados por fornecedores, parceiros, processadores de pagamento ou sistemas de emiss\xe3o de gift cards.\n\n5.7. Caso o usu\xe1rio perdedor confirme voluntariamente o envio e o pagamento do cupom, o usu\xe1rio vencedor poder\xe1 receber um direito de escolha ou resgate de cupom vale-presente entre as op\xe7\xf5es dispon\xedveis na plataforma ou nos parceiros indicados, conforme disponibilidade no momento da emiss\xe3o.\n\n5.8. O Quer Valer poder\xe1 estabelecer fluxo operacional para que o usu\xe1rio vencedor escolha a loja, marca ou fornecedor dispon\xedvel para emiss\xe3o do cupom. A entrega do cupom poder\xe1 ocorrer por e-mail, WhatsApp, \xe1rea logada ou outro canal informado pela plataforma, observado o prazo de processamento dos parceiros envolvidos.",s,B.u,B.r),new A.cE("6. CUPONS VALE-PRESENTE, GIFT CARDS E TERCEIROS",q,s,s,"6.1. Cupom vale-presente ou gift card \xe9 um cr\xe9dito digital pr\xe9-pago, emitido por empresas terceiras, que permite ao usu\xe1rio adquirir bens ou servi\xe7os junto ao fornecedor emissor, site parceiro ou rede credenciada.\n\n6.2. Os cupons vale-presente n\xe3o podem ser convertidos em dinheiro pelo Quer Valer, n\xe3o representam saldo financeiro na plataforma e est\xe3o sujeitos \xe0s regras, prazos, condi\xe7\xf5es, validade, restri\xe7\xf5es e pol\xedticas definidas exclusivamente pelo fornecedor emissor.\n\n6.3. Ap\xf3s gerado o cupom vale-presente, o usu\xe1rio dever\xe1 observar as condi\xe7\xf5es de uso, validade, resgate, troca, cancelamento, reembolso, disponibilidade e atendimento do respectivo fornecedor emissor.\n\n6.4. Os cupons vale-presente disponibilizados ou indicados para os desafios podem ser fornecidos por varejistas, marketplaces, marcas, plataformas de gift card ou parceiros terceiros. Os valores exibidos na plataforma podem ser estimados e estar sujeitos a disponibilidade, atualiza\xe7\xe3o, regi\xe3o, estoque, taxas, pol\xedticas comerciais e altera\xe7\xf5es de pre\xe7o.\n\n6.5. O Quer Valer n\xe3o vende diretamente produtos ou servi\xe7os dos fornecedores finais, n\xe3o controla disponibilidade, qualidade, entrega, prazo, pol\xedtica de troca, cancelamento, estorno, reembolso ou atendimento de terceiros.\n\n6.6. Caso haja altera\xe7\xe3o de valor, indisponibilidade ou restri\xe7\xe3o no momento da emiss\xe3o ou compra do cupom, prevalecer\xe3o as condi\xe7\xf5es exibidas pelo fornecedor, emissor ou parceiro respons\xe1vel no momento da opera\xe7\xe3o.\n\n6.7. O Quer Valer poder\xe1 receber comiss\xf5es, benef\xedcios comerciais, taxa de servi\xe7o, cashback ou outras remunera\xe7\xf5es decorrentes da facilita\xe7\xe3o t\xe9cnica, indica\xe7\xe3o, redirecionamento, emiss\xe3o ou contrata\xe7\xe3o de servi\xe7os de terceiros, sempre que aplic\xe1vel e permitido pela legisla\xe7\xe3o.",s,B.u,B.r),new A.cE("7. COMUNICA\xc7\xd5ES COM O USU\xc1RIO",q,s,s,"7.1. O usu\xe1rio autoriza o Quer Valer a enviar comunica\xe7\xf5es relacionadas \xe0 plataforma, aos desafios, \xe0 conta, \xe0 seguran\xe7a, aos resultados, \xe0 reputa\xe7\xe3o e \xe0s funcionalidades por e-mail, WhatsApp, aplicativos de mensagens, notifica\xe7\xf5es push ou outros canais informados no cadastro.\n\n7.2. A comunica\xe7\xe3o sobre novos desafios poder\xe1 ser feita dentro da plataforma, por e-mail e pelo WhatsApp oficial do Quer Valer, com o objetivo de tornar a intera\xe7\xe3o mais simples, r\xe1pida e din\xe2mica.\n\n7.3. Comunica\xe7\xf5es essenciais ao funcionamento da plataforma, seguran\xe7a da conta, altera\xe7\xf5es relevantes dos Termos, Pol\xedtica de Privacidade ou execu\xe7\xe3o dos servi\xe7os poder\xe3o ser enviadas independentemente de opt-out comercial, conforme permitido pela legisla\xe7\xe3o aplic\xe1vel.\n\n7.4. O usu\xe1rio poder\xe1 solicitar, a qualquer momento, o cancelamento do recebimento de comunica\xe7\xf5es promocionais ou comerciais, observados os canais e procedimentos disponibilizados pela plataforma.",s,B.u,B.r),new A.cE("8. SISTEMA DE REPUTA\xc7\xc3O",q,s,s,"8.1. A plataforma poder\xe1 exibir indicadores internos de reputa\xe7\xe3o, selos, n\xedveis, pontua\xe7\xf5es ou sinais de confian\xe7a, como o selo \u201cCamisa 10\u201d, relacionados ao hist\xf3rico de participa\xe7\xe3o, engajamento e comportamento do usu\xe1rio dentro da plataforma.\n\n8.2. Tais indicadores possuem car\xe1ter meramente informativo, recreativo e reputacional. Eles n\xe3o constituem garantia de comportamento futuro, garantia de pagamento, recomenda\xe7\xe3o financeira, certifica\xe7\xe3o formal ou responsabilidade do Quer Valer sobre a conduta de qualquer usu\xe1rio.\n\n8.3. O Quer Valer poder\xe1 alterar, suspender, remover ou atualizar crit\xe9rios de reputa\xe7\xe3o a qualquer momento, inclusive para prevenir fraudes, abusos, manipula\xe7\xf5es ou usos indevidos.",s,B.u,B.r),new A.cE("9. SERVI\xc7OS ADICIONAIS E FUNCIONALIDADES FUTURAS",q,s,s,"9.1. O Quer Valer poder\xe1 oferecer funcionalidades adicionais, produtos digitais, conte\xfados exclusivos, rankings, planos de assinatura, recursos premium, campanhas, experi\xeancias de marca ou outros servi\xe7os relacionados \xe0 experi\xeancia do torcedor.\n\n9.2. Eventuais servi\xe7os pagos ser\xe3o previamente informados ao usu\xe1rio, com indica\xe7\xe3o clara de valores, condi\xe7\xf5es, forma de contrata\xe7\xe3o, renova\xe7\xe3o, cancelamento e demais regras aplic\xe1veis.\n\n9.3. A inclus\xe3o de novas funcionalidades n\xe3o altera a natureza social, recreativa e n\xe3o financeira dos desafios entre usu\xe1rios, salvo se houver termos espec\xedficos pr\xf3prios devidamente apresentados e aceitos pelo usu\xe1rio.",s,B.u,B.r),new A.cE("10. CONDUTAS PROIBIDAS",q,s,s,"10.1. O usu\xe1rio compromete-se a utilizar a plataforma de forma \xe9tica, l\xedcita, respeitosa e compat\xedvel com estes Termos, sendo proibido:\n\n\u2022 criar cadastro falso, utilizar dados de terceiros ou tentar assumir a identidade de outro usu\xe1rio;\n\u2022 tentar invadir, acessar, copiar, modificar, danificar, sobrecarregar ou interferir nos sistemas, servidores, bancos de dados ou mecanismos de seguran\xe7a do Quer Valer;\n\u2022 utilizar rob\xf4s, scripts, automa\xe7\xf5es, scraping, engenharia reversa ou qualquer mecanismo n\xe3o autorizado para acessar, extrair ou manipular informa\xe7\xf5es da plataforma;\n\u2022 fraudar resultados, manipular desafios, combinar condutas abusivas, simular pagamentos ou usar a plataforma para obter vantagem indevida;\n\u2022 publicar, transmitir ou compartilhar conte\xfado ofensivo, discriminat\xf3rio, pornogr\xe1fico, violento, amea\xe7ador, difamat\xf3rio, il\xedcito, que viole direitos de terceiros ou que fa\xe7a apologia a condutas ilegais;\n\u2022 enviar spam, mensagens coletivas n\xe3o autorizadas, v\xedrus, malware, spyware ou qualquer elemento que possa prejudicar usu\xe1rios, sistemas ou terceiros;\n\u2022 utilizar a plataforma para fins comerciais n\xe3o autorizados, propaganda eleitoral irregular, promo\xe7\xe3o de produtos il\xedcitos ou atividades contr\xe1rias \xe0 legisla\xe7\xe3o brasileira;\n\u2022 violar direitos de propriedade intelectual, marcas, nomes, imagens, conte\xfados, layouts, c\xf3digos, textos, designs ou materiais do Quer Valer ou de terceiros;\n\u2022 praticar qualquer conduta que prejudique a imagem, a seguran\xe7a, o funcionamento, a comunidade ou os valores do Quer Valer.\n\n10.2. A viola\xe7\xe3o das regras acima poder\xe1 resultar em advert\xeancia, remo\xe7\xe3o de conte\xfado, suspens\xe3o de funcionalidades, perda de reputa\xe7\xe3o, bloqueio tempor\xe1rio ou cancelamento definitivo da conta, sem preju\xedzo da ado\xe7\xe3o de medidas legais cab\xedveis.",s,B.u,B.r),new A.cE("11. PROPRIEDADE INTELECTUAL",q,s,s,"11.1. O Quer Valer \xe9 titular ou licenciado dos direitos relacionados \xe0 plataforma, marca, nome, logotipo, identidade visual, textos, interfaces, layouts, conte\xfados, funcionalidades, sistemas, c\xf3digos, bancos de dados e demais elementos disponibilizados ao usu\xe1rio.\n\n11.2. O acesso \xe0 plataforma confere ao usu\xe1rio apenas uma licen\xe7a limitada, pessoal, revog\xe1vel, n\xe3o exclusiva, intransfer\xedvel e sem fins comerciais para utilizar as funcionalidades disponibilizadas, de acordo com estes Termos.\n\n11.3. \xc9 proibido copiar, reproduzir, modificar, distribuir, publicar, transmitir, sublicenciar, vender, explorar comercialmente, criar obras derivadas ou utilizar qualquer elemento da plataforma sem autoriza\xe7\xe3o pr\xe9via e expressa do Quer Valer.\n\n11.4. O uso indevido da marca Quer Valer, de seus materiais, identidade visual ou funcionalidades poder\xe1 resultar em bloqueio do usu\xe1rio e ado\xe7\xe3o das medidas administrativas, c\xedveis e criminais cab\xedveis.",s,B.u,B.r),new A.cE("12. LINKS, PARCEIROS E SERVI\xc7OS DE TERCEIROS",q,s,s,"12.1. A plataforma poder\xe1 conter links, redirecionamentos, integra\xe7\xf5es, an\xfancios, ofertas ou servi\xe7os de terceiros, incluindo fornecedores de gift cards, meios de pagamento, varejistas, marcas, plataformas de comunica\xe7\xe3o e parceiros comerciais.\n\n12.2. O acesso a ambientes de terceiros \xe9 de responsabilidade do usu\xe1rio e estar\xe1 sujeito aos termos, pol\xedticas de privacidade, regras comerciais, condi\xe7\xf5es de uso e pr\xe1ticas desses terceiros.\n\n12.3. O Quer Valer n\xe3o se responsabiliza por disponibilidade, conte\xfado, seguran\xe7a, atendimento, qualidade, entrega, troca, cancelamento, estorno, reembolso, pre\xe7o, prazo, funcionamento ou falhas de servi\xe7os prestados por terceiros.",s,B.u,B.r),new A.cE("13. PROTE\xc7\xc3O DE DADOS PESSOAIS",q,s,s,"13.1. O Quer Valer tratar\xe1 os dados pessoais dos usu\xe1rios conforme a legisla\xe7\xe3o aplic\xe1vel e sua Pol\xedtica de Privacidade, para fins de cadastro, autentica\xe7\xe3o, funcionamento da plataforma, comunica\xe7\xe3o com usu\xe1rios, preven\xe7\xe3o a fraudes, seguran\xe7a, cumprimento de obriga\xe7\xf5es legais, suporte, melhoria dos servi\xe7os e envio de comunica\xe7\xf5es autorizadas.\n\n13.2. O usu\xe1rio declara estar ciente de que determinados dados poder\xe3o ser necess\xe1rios para cria\xe7\xe3o de conta, participa\xe7\xe3o em desafios, comunica\xe7\xe3o, confirma\xe7\xe3o de identidade, registro de hist\xf3rico, funcionamento do sistema de reputa\xe7\xe3o e eventual emiss\xe3o ou envio volunt\xe1rio de cupons vale-presente por meio de parceiros.\n\n13.3. O Quer Valer poder\xe1 compartilhar dados pessoais com fornecedores, operadores, processadores de pagamento, plataformas de comunica\xe7\xe3o, emissores de gift cards, prestadores de tecnologia, autoridades competentes ou parceiros estritamente necess\xe1rios ao funcionamento da plataforma, sempre conforme a Pol\xedtica de Privacidade e a legisla\xe7\xe3o aplic\xe1vel.\n\n13.4. O envio de comunica\xe7\xf5es comerciais, promocionais ou de marketing observar\xe1 as bases legais aplic\xe1veis e os meios de cancelamento disponibilizados ao usu\xe1rio.\n\n13.5. O usu\xe1rio poder\xe1 exercer seus direitos de titular de dados pessoais por meio dos canais indicados na Pol\xedtica de Privacidade ou neste documento.",s,B.u,B.r),new A.cE("14. LIMITA\xc7\xc3O DE RESPONSABILIDADE",q,s,s,"14.1. O Quer Valer n\xe3o garante o cumprimento de combinados sociais entre usu\xe1rios, a inten\xe7\xe3o futura dos participantes, o envio volunt\xe1rio de cupons, a aus\xeancia de conflitos entre usu\xe1rios ou a realiza\xe7\xe3o de qualquer pagamento espont\xe2neo.\n\n14.2. O Quer Valer n\xe3o se responsabiliza por danos, preju\xedzos, frustra\xe7\xf5es, desentendimentos, perdas, cobran\xe7as, ofensas, promessas, descumprimentos ou conflitos decorrentes da rela\xe7\xe3o direta entre usu\xe1rios.\n\n14.3. O Quer Valer envidar\xe1 esfor\xe7os razo\xe1veis para manter a plataforma dispon\xedvel e segura, mas n\xe3o garante funcionamento ininterrupto, livre de erros, falhas, ataques, indisponibilidades, v\xedrus, perda de dados, atrasos, diverg\xeancias de resultados ou instabilidades t\xe9cnicas.\n\n14.4. O Quer Valer n\xe3o ser\xe1 respons\xe1vel por indisponibilidades causadas por manuten\xe7\xe3o, falhas de provedores, servi\xe7os de telecomunica\xe7\xe3o, processadores de pagamento, parceiros de gift card, fornecedores externos, caso fortuito, for\xe7a maior, ataques de terceiros ou eventos fora de seu controle razo\xe1vel.\n\n14.5. O usu\xe1rio \xe9 integralmente respons\xe1vel pelo uso que fizer da plataforma, por suas decis\xf5es, intera\xe7\xf5es, mensagens, palpites, desafios, condutas e eventuais acordos sociais celebrados com outros usu\xe1rios.",s,B.u,B.r),new A.cE("15. SUSPENS\xc3O, BLOQUEIO E CANCELAMENTO",q,s,s,"15.1. O Quer Valer poder\xe1 suspender, limitar ou cancelar o acesso de usu\xe1rios que violem estes Termos, utilizem a plataforma de modo inadequado, pratiquem fraude, atentem contra a seguran\xe7a do sistema, prejudiquem outros usu\xe1rios ou adotem condutas incompat\xedveis com a proposta da plataforma.\n\n15.2. O bloqueio ou cancelamento de conta poder\xe1 ocorrer sem aviso pr\xe9vio em situa\xe7\xf5es graves, urgentes, fraudulentas, ilegais ou que representem risco \xe0 seguran\xe7a, \xe0 reputa\xe7\xe3o ou ao funcionamento da plataforma.\n\n15.3. O Quer Valer poder\xe1 preservar e fornecer informa\xe7\xf5es \xe0s autoridades competentes quando houver obriga\xe7\xe3o legal, ordem judicial, requisi\xe7\xe3o v\xe1lida ou necessidade de apura\xe7\xe3o de condutas il\xedcitas, nos termos da legisla\xe7\xe3o aplic\xe1vel.",s,B.u,B.r),new A.cE("16. ALTERA\xc7\xd5ES DA PLATAFORMA E DOS TERMOS",q,s,s,"16.1. O Quer Valer poder\xe1 alterar, incluir, remover, suspender, limitar ou descontinuar funcionalidades, conte\xfados, regras operacionais, parceiros, servi\xe7os ou partes da plataforma a qualquer momento, observada a legisla\xe7\xe3o aplic\xe1vel.\n\n16.2. Estes Termos poder\xe3o ser atualizados periodicamente. A vers\xe3o vigente estar\xe1 dispon\xedvel na plataforma, sendo recomendada sua revis\xe3o peri\xf3dica pelo usu\xe1rio.\n\n16.3. O uso cont\xednuo da plataforma ap\xf3s a publica\xe7\xe3o de nova vers\xe3o dos Termos indicar\xe1 concord\xe2ncia do usu\xe1rio com as altera\xe7\xf5es realizadas.",s,B.u,B.r),new A.cE("17. SUPORTE E CANAIS DE CONTATO",q,s,s,"17.1. Caso o usu\xe1rio deseje suporte, esclarecimentos, informa\xe7\xf5es, reclama\xe7\xf5es ou exerc\xedcio de direitos relacionados a dados pessoais, poder\xe1 entrar em contato pelo e-mail: quervaler@gmail.com.\n\n17.2. Encarregado de dados: Rodrigo Vaz de Lima.",s,B.u,B.r),new A.cE("18. LEGISLA\xc7\xc3O APLIC\xc1VEL E FORO",q,s,s,"18.1. Estes Termos ser\xe3o regidos e interpretados conforme a legisla\xe7\xe3o brasileira.\n\n18.2. Fica eleito o Foro da Comarca de S\xe3o Jos\xe9 dos Campos, Estado de S\xe3o Paulo, para dirimir controv\xe9rsias oriundas destes Termos, salvo disposi\xe7\xe3o legal obrigat\xf3ria em sentido diverso.",s,B.u,B.r),new A.cE("19. DISPOSI\xc7\xd5ES FINAIS",q,s,s,"19.1. A eventual toler\xe2ncia do Quer Valer quanto ao descumprimento de qualquer disposi\xe7\xe3o destes Termos n\xe3o constituir\xe1 ren\xfancia, nova\xe7\xe3o ou altera\xe7\xe3o das regras aqui previstas.\n\n19.2. Caso qualquer cl\xe1usula destes Termos seja considerada inv\xe1lida, nula ou inexequ\xedvel, as demais permanecer\xe3o v\xe1lidas e eficazes.\n\n19.3. O usu\xe1rio reconhece que a experi\xeancia do Quer Valer se baseia em entretenimento, rivalidade saud\xe1vel, confian\xe7a, responsabilidade individual e respeito entre participantes.",s,B.u,B.r)],t.YV),B.u,20,s),500,s)],t.p),B.l,s,B.j,B.k,0,B.o)}}
+return A.ax(A.b([B.Zx,new A.dg(new A.of(A.b([B.a1x,new A.cE("1. OBJETO",q,s,s,"1.1. O Quer Valer \xe9 uma plataforma social digital de desafios esportivos entre usu\xe1rios, criada para promover intera\xe7\xe3o, entretenimento, rivalidade saud\xe1vel e engajamento entre torcedores.\n\n1.2. A plataforma permite que usu\xe1rios criem, aceitem e participem de desafios amistosos relacionados a eventos esportivos, indicando seus palpites sobre o resultado de partidas, jogos, atletas ou equipes, conforme as funcionalidades dispon\xedveis.\n\n1.3. Os desafios realizados na plataforma t\xeam car\xe1ter exclusivamente social, simb\xf3lico e recreativo. O Quer Valer n\xe3o \xe9 casa de apostas, n\xe3o explora apostas de quota fixa, n\xe3o oferece aposta financeira, n\xe3o fixa odds, n\xe3o promete ganho em dinheiro e n\xe3o garante qualquer retorno econ\xf4mico ao usu\xe1rio.\n\n1.4. O eventual envio de cupom vale-presente, gift card, brinde ou presente entre usu\xe1rios decorre exclusivamente de liberalidade, combinado social e decis\xe3o volunt\xe1ria dos participantes, sem constituir obriga\xe7\xe3o financeira, d\xedvida, pr\xeamio exig\xedvel, contrato de aposta ou garantia de pagamento.\n\n1.5. O Quer Valer poder\xe1 disponibilizar meios t\xe9cnicos para facilitar a intera\xe7\xe3o entre usu\xe1rios e, quando aplic\xe1vel, o acesso a solu\xe7\xf5es de pagamento ou emiss\xe3o de cupons vale-presente fornecidas por parceiros ou terceiros, sem assumir a obriga\xe7\xe3o de exigir, garantir ou executar qualquer pagamento entre usu\xe1rios.",s,B.v,B.r),new A.cE("2. ELEGIBILIDADE E CADASTRO",q,s,s,"2.1. A plataforma \xe9 destinada exclusivamente a usu\xe1rios maiores de 18 (dezoito) anos. Ao se cadastrar, o usu\xe1rio declara ser maior de idade e possuir capacidade civil para aceitar estes Termos.\n\n2.2. Para utilizar determinadas funcionalidades da plataforma, o usu\xe1rio dever\xe1 realizar cadastro, informando dados verdadeiros, completos e atualizados.\n\n2.3. O usu\xe1rio \xe9 respons\xe1vel pela veracidade das informa\xe7\xf5es fornecidas, pela guarda de suas credenciais de acesso e por todas as atividades realizadas em sua conta.\n\n2.4. O Quer Valer poder\xe1 recusar, suspender ou cancelar cadastros que contenham informa\xe7\xf5es falsas, incompletas, inconsistentes, fraudulentas ou que violem estes Termos, a legisla\xe7\xe3o aplic\xe1vel ou os valores da plataforma.\n\n2.5. O usu\xe1rio n\xe3o poder\xe1 ceder, vender, transferir, emprestar ou permitir o uso de sua conta por terceiros sem autoriza\xe7\xe3o do Quer Valer.",s,B.v,B.r),new A.cE("3. FUNCIONAMENTO DOS DESAFIOS",q,s,s,"3.1. Os eventos esportivos dispon\xedveis para desafios poder\xe3o ser cadastrados e liberados na plataforma at\xe9 7 (sete) dias antes da partida, salvo exce\xe7\xf5es, limita\xe7\xf5es t\xe9cnicas, disponibilidade de dados ou decis\xf5es operacionais do Quer Valer.\n\n3.2. O usu\xe1rio poder\xe1 criar desafios at\xe9 1 (uma) hora antes do in\xedcio do evento esportivo, salvo regra espec\xedfica exibida na plataforma.\n\n3.3. Para criar um desafio, o usu\xe1rio dever\xe1 selecionar um evento esportivo dispon\xedvel, escolher outro usu\xe1rio participante, indicar seu palpite quanto ao vencedor ou resultado aplic\xe1vel e, quando dispon\xedvel, selecionar um valor de refer\xeancia vinculado a cupom vale-presente ou gift card.\n\n3.4. A efetiva\xe7\xe3o do desafio depende exclusivamente do aceite do usu\xe1rio desafiado. Nenhum pagamento pr\xe9vio \xe9 exigido para cria\xe7\xe3o, envio ou aceite do desafio, salvo se a plataforma vier a oferecer servi\xe7os pagos adicionais devidamente informados.\n\n3.5. Caso o usu\xe1rio desafiado n\xe3o aceite nem recuse o desafio at\xe9 o in\xedcio do evento esportivo, o desafio ser\xe1 automaticamente cancelado, sem vencedor, perdedor ou qualquer consequ\xeancia financeira.\n\n3.6. Ap\xf3s aceito, o desafio poder\xe1 ser alterado ou cancelado apenas at\xe9 o in\xedcio do evento esportivo, conforme as regras e funcionalidades dispon\xedveis na plataforma. Ap\xf3s o in\xedcio do evento, o desafio n\xe3o poder\xe1 ser alterado ou cancelado.\n\n3.7. Cada usu\xe1rio poder\xe1 criar ou participar inicialmente de somente 1 (um) desafio para o mesmo evento esportivo, salvo se a plataforma liberar funcionalidade diversa no futuro.\n\n3.8. O Quer Valer poder\xe1 limitar, suspender ou cancelar desafios em caso de erro operacional, inconsist\xeancia de dados, ind\xedcio de fraude, uso indevido, instabilidade t\xe9cnica, evento cancelado ou situa\xe7\xe3o que comprometa o funcionamento regular da plataforma.",s,B.v,B.r),new A.cE("4. RESULTADOS DOS EVENTOS E DOS DESAFIOS",q,s,s,"4.1. Os resultados dos eventos esportivos ser\xe3o baseados em fontes p\xfablicas, oficiais ou reconhecidas pela plataforma, sendo inseridos ou atualizados no sistema ap\xf3s o t\xe9rmino do evento.\n\n4.2. Salvo regra espec\xedfica informada no desafio, a plataforma considerar\xe1 o resultado oficial do evento conforme a fonte utilizada. A plataforma poder\xe1 adotar crit\xe9rios espec\xedficos por modalidade esportiva, campeonato ou tipo de evento.\n\n4.3. Em caso de empate, quando n\xe3o houver vencedor definido para fins do desafio, o desafio ser\xe1 automaticamente encerrado sem vencedor ou perdedor.\n\n4.4. Caso exista time, atleta ou participante declarado vencedor do evento, o usu\xe1rio que tiver indicado corretamente esse vencedor ser\xe1 declarado vencedor do desafio na plataforma.\n\n4.5. O usu\xe1rio que tiver indicado time, atleta ou participante derrotado ser\xe1 declarado perdedor do desafio na plataforma.\n\n4.6. Eventuais atrasos na atualiza\xe7\xe3o dos resultados, diverg\xeancias entre fontes p\xfablicas ou corre\xe7\xf5es posteriores poder\xe3o gerar revis\xe3o manual pela equipe do Quer Valer, sem que isso gere direito a indeniza\xe7\xe3o, pagamento ou compensa\xe7\xe3o ao usu\xe1rio.",s,B.v,B.r),new A.cE("5. ENVIO VOLUNT\xc1RIO DE CUPOM VALE-PRESENTE",q,s,s,"5.1. O usu\xe1rio declarado perdedor do desafio poder\xe1, de forma volunt\xe1ria e espont\xe2nea, optar por enviar um cupom vale-presente ou gift card ao usu\xe1rio declarado vencedor.\n\n5.2. O envio do cupom vale-presente n\xe3o constitui obriga\xe7\xe3o legal, contratual ou financeira; n\xe3o \xe9 exig\xedvel judicialmente; n\xe3o representa aposta; n\xe3o configura pr\xeamio obrigat\xf3rio; e decorre exclusivamente da liberalidade do usu\xe1rio perdedor e do combinado social realizado entre os participantes.\n\n5.3. O n\xe3o envio do cupom vale-presente n\xe3o gera multa, cobran\xe7a, d\xedvida, penalidade financeira ou obriga\xe7\xe3o de ressarcimento. Poder\xe1, contudo, impactar indicadores internos de reputa\xe7\xe3o do usu\xe1rio na plataforma, conforme previsto nestes Termos.\n\n5.4. Caso o usu\xe1rio perdedor decida voluntariamente enviar o cupom vale-presente, a plataforma poder\xe1 disponibilizar link, ambiente t\xe9cnico, redirecionamento ou solu\xe7\xe3o operacional para facilitar o envio, inclusive por meio de parceiros de pagamento, emissores de gift cards ou fornecedores terceirizados.\n\n5.5. A disponibiliza\xe7\xe3o de meios t\xe9cnicos para facilitar o envio volunt\xe1rio do cupom n\xe3o altera a natureza social do desafio e n\xe3o transforma o Quer Valer em intermediador de aposta, garantidor de pagamento, institui\xe7\xe3o financeira, credor do usu\xe1rio vencedor ou devedor do usu\xe1rio perdedor.\n\n5.6. O prazo sugerido para o envio volunt\xe1rio do cupom vale-presente \xe9 de at\xe9 48 (quarenta e oito) horas ap\xf3s a defini\xe7\xe3o do resultado do desafio, sem preju\xedzo de prazos diferentes praticados por fornecedores, parceiros, processadores de pagamento ou sistemas de emiss\xe3o de gift cards.\n\n5.7. Caso o usu\xe1rio perdedor confirme voluntariamente o envio e o pagamento do cupom, o usu\xe1rio vencedor poder\xe1 receber um direito de escolha ou resgate de cupom vale-presente entre as op\xe7\xf5es dispon\xedveis na plataforma ou nos parceiros indicados, conforme disponibilidade no momento da emiss\xe3o.\n\n5.8. O Quer Valer poder\xe1 estabelecer fluxo operacional para que o usu\xe1rio vencedor escolha a loja, marca ou fornecedor dispon\xedvel para emiss\xe3o do cupom. A entrega do cupom poder\xe1 ocorrer por e-mail, WhatsApp, \xe1rea logada ou outro canal informado pela plataforma, observado o prazo de processamento dos parceiros envolvidos.",s,B.v,B.r),new A.cE("6. CUPONS VALE-PRESENTE, GIFT CARDS E TERCEIROS",q,s,s,"6.1. Cupom vale-presente ou gift card \xe9 um cr\xe9dito digital pr\xe9-pago, emitido por empresas terceiras, que permite ao usu\xe1rio adquirir bens ou servi\xe7os junto ao fornecedor emissor, site parceiro ou rede credenciada.\n\n6.2. Os cupons vale-presente n\xe3o podem ser convertidos em dinheiro pelo Quer Valer, n\xe3o representam saldo financeiro na plataforma e est\xe3o sujeitos \xe0s regras, prazos, condi\xe7\xf5es, validade, restri\xe7\xf5es e pol\xedticas definidas exclusivamente pelo fornecedor emissor.\n\n6.3. Ap\xf3s gerado o cupom vale-presente, o usu\xe1rio dever\xe1 observar as condi\xe7\xf5es de uso, validade, resgate, troca, cancelamento, reembolso, disponibilidade e atendimento do respectivo fornecedor emissor.\n\n6.4. Os cupons vale-presente disponibilizados ou indicados para os desafios podem ser fornecidos por varejistas, marketplaces, marcas, plataformas de gift card ou parceiros terceiros. Os valores exibidos na plataforma podem ser estimados e estar sujeitos a disponibilidade, atualiza\xe7\xe3o, regi\xe3o, estoque, taxas, pol\xedticas comerciais e altera\xe7\xf5es de pre\xe7o.\n\n6.5. O Quer Valer n\xe3o vende diretamente produtos ou servi\xe7os dos fornecedores finais, n\xe3o controla disponibilidade, qualidade, entrega, prazo, pol\xedtica de troca, cancelamento, estorno, reembolso ou atendimento de terceiros.\n\n6.6. Caso haja altera\xe7\xe3o de valor, indisponibilidade ou restri\xe7\xe3o no momento da emiss\xe3o ou compra do cupom, prevalecer\xe3o as condi\xe7\xf5es exibidas pelo fornecedor, emissor ou parceiro respons\xe1vel no momento da opera\xe7\xe3o.\n\n6.7. O Quer Valer poder\xe1 receber comiss\xf5es, benef\xedcios comerciais, taxa de servi\xe7o, cashback ou outras remunera\xe7\xf5es decorrentes da facilita\xe7\xe3o t\xe9cnica, indica\xe7\xe3o, redirecionamento, emiss\xe3o ou contrata\xe7\xe3o de servi\xe7os de terceiros, sempre que aplic\xe1vel e permitido pela legisla\xe7\xe3o.",s,B.v,B.r),new A.cE("7. COMUNICA\xc7\xd5ES COM O USU\xc1RIO",q,s,s,"7.1. O usu\xe1rio autoriza o Quer Valer a enviar comunica\xe7\xf5es relacionadas \xe0 plataforma, aos desafios, \xe0 conta, \xe0 seguran\xe7a, aos resultados, \xe0 reputa\xe7\xe3o e \xe0s funcionalidades por e-mail, WhatsApp, aplicativos de mensagens, notifica\xe7\xf5es push ou outros canais informados no cadastro.\n\n7.2. A comunica\xe7\xe3o sobre novos desafios poder\xe1 ser feita dentro da plataforma, por e-mail e pelo WhatsApp oficial do Quer Valer, com o objetivo de tornar a intera\xe7\xe3o mais simples, r\xe1pida e din\xe2mica.\n\n7.3. Comunica\xe7\xf5es essenciais ao funcionamento da plataforma, seguran\xe7a da conta, altera\xe7\xf5es relevantes dos Termos, Pol\xedtica de Privacidade ou execu\xe7\xe3o dos servi\xe7os poder\xe3o ser enviadas independentemente de opt-out comercial, conforme permitido pela legisla\xe7\xe3o aplic\xe1vel.\n\n7.4. O usu\xe1rio poder\xe1 solicitar, a qualquer momento, o cancelamento do recebimento de comunica\xe7\xf5es promocionais ou comerciais, observados os canais e procedimentos disponibilizados pela plataforma.",s,B.v,B.r),new A.cE("8. SISTEMA DE REPUTA\xc7\xc3O",q,s,s,"8.1. A plataforma poder\xe1 exibir indicadores internos de reputa\xe7\xe3o, selos, n\xedveis, pontua\xe7\xf5es ou sinais de confian\xe7a, como o selo \u201cCamisa 10\u201d, relacionados ao hist\xf3rico de participa\xe7\xe3o, engajamento e comportamento do usu\xe1rio dentro da plataforma.\n\n8.2. Tais indicadores possuem car\xe1ter meramente informativo, recreativo e reputacional. Eles n\xe3o constituem garantia de comportamento futuro, garantia de pagamento, recomenda\xe7\xe3o financeira, certifica\xe7\xe3o formal ou responsabilidade do Quer Valer sobre a conduta de qualquer usu\xe1rio.\n\n8.3. O Quer Valer poder\xe1 alterar, suspender, remover ou atualizar crit\xe9rios de reputa\xe7\xe3o a qualquer momento, inclusive para prevenir fraudes, abusos, manipula\xe7\xf5es ou usos indevidos.",s,B.v,B.r),new A.cE("9. SERVI\xc7OS ADICIONAIS E FUNCIONALIDADES FUTURAS",q,s,s,"9.1. O Quer Valer poder\xe1 oferecer funcionalidades adicionais, produtos digitais, conte\xfados exclusivos, rankings, planos de assinatura, recursos premium, campanhas, experi\xeancias de marca ou outros servi\xe7os relacionados \xe0 experi\xeancia do torcedor.\n\n9.2. Eventuais servi\xe7os pagos ser\xe3o previamente informados ao usu\xe1rio, com indica\xe7\xe3o clara de valores, condi\xe7\xf5es, forma de contrata\xe7\xe3o, renova\xe7\xe3o, cancelamento e demais regras aplic\xe1veis.\n\n9.3. A inclus\xe3o de novas funcionalidades n\xe3o altera a natureza social, recreativa e n\xe3o financeira dos desafios entre usu\xe1rios, salvo se houver termos espec\xedficos pr\xf3prios devidamente apresentados e aceitos pelo usu\xe1rio.",s,B.v,B.r),new A.cE("10. CONDUTAS PROIBIDAS",q,s,s,"10.1. O usu\xe1rio compromete-se a utilizar a plataforma de forma \xe9tica, l\xedcita, respeitosa e compat\xedvel com estes Termos, sendo proibido:\n\n\u2022 criar cadastro falso, utilizar dados de terceiros ou tentar assumir a identidade de outro usu\xe1rio;\n\u2022 tentar invadir, acessar, copiar, modificar, danificar, sobrecarregar ou interferir nos sistemas, servidores, bancos de dados ou mecanismos de seguran\xe7a do Quer Valer;\n\u2022 utilizar rob\xf4s, scripts, automa\xe7\xf5es, scraping, engenharia reversa ou qualquer mecanismo n\xe3o autorizado para acessar, extrair ou manipular informa\xe7\xf5es da plataforma;\n\u2022 fraudar resultados, manipular desafios, combinar condutas abusivas, simular pagamentos ou usar a plataforma para obter vantagem indevida;\n\u2022 publicar, transmitir ou compartilhar conte\xfado ofensivo, discriminat\xf3rio, pornogr\xe1fico, violento, amea\xe7ador, difamat\xf3rio, il\xedcito, que viole direitos de terceiros ou que fa\xe7a apologia a condutas ilegais;\n\u2022 enviar spam, mensagens coletivas n\xe3o autorizadas, v\xedrus, malware, spyware ou qualquer elemento que possa prejudicar usu\xe1rios, sistemas ou terceiros;\n\u2022 utilizar a plataforma para fins comerciais n\xe3o autorizados, propaganda eleitoral irregular, promo\xe7\xe3o de produtos il\xedcitos ou atividades contr\xe1rias \xe0 legisla\xe7\xe3o brasileira;\n\u2022 violar direitos de propriedade intelectual, marcas, nomes, imagens, conte\xfados, layouts, c\xf3digos, textos, designs ou materiais do Quer Valer ou de terceiros;\n\u2022 praticar qualquer conduta que prejudique a imagem, a seguran\xe7a, o funcionamento, a comunidade ou os valores do Quer Valer.\n\n10.2. A viola\xe7\xe3o das regras acima poder\xe1 resultar em advert\xeancia, remo\xe7\xe3o de conte\xfado, suspens\xe3o de funcionalidades, perda de reputa\xe7\xe3o, bloqueio tempor\xe1rio ou cancelamento definitivo da conta, sem preju\xedzo da ado\xe7\xe3o de medidas legais cab\xedveis.",s,B.v,B.r),new A.cE("11. PROPRIEDADE INTELECTUAL",q,s,s,"11.1. O Quer Valer \xe9 titular ou licenciado dos direitos relacionados \xe0 plataforma, marca, nome, logotipo, identidade visual, textos, interfaces, layouts, conte\xfados, funcionalidades, sistemas, c\xf3digos, bancos de dados e demais elementos disponibilizados ao usu\xe1rio.\n\n11.2. O acesso \xe0 plataforma confere ao usu\xe1rio apenas uma licen\xe7a limitada, pessoal, revog\xe1vel, n\xe3o exclusiva, intransfer\xedvel e sem fins comerciais para utilizar as funcionalidades disponibilizadas, de acordo com estes Termos.\n\n11.3. \xc9 proibido copiar, reproduzir, modificar, distribuir, publicar, transmitir, sublicenciar, vender, explorar comercialmente, criar obras derivadas ou utilizar qualquer elemento da plataforma sem autoriza\xe7\xe3o pr\xe9via e expressa do Quer Valer.\n\n11.4. O uso indevido da marca Quer Valer, de seus materiais, identidade visual ou funcionalidades poder\xe1 resultar em bloqueio do usu\xe1rio e ado\xe7\xe3o das medidas administrativas, c\xedveis e criminais cab\xedveis.",s,B.v,B.r),new A.cE("12. LINKS, PARCEIROS E SERVI\xc7OS DE TERCEIROS",q,s,s,"12.1. A plataforma poder\xe1 conter links, redirecionamentos, integra\xe7\xf5es, an\xfancios, ofertas ou servi\xe7os de terceiros, incluindo fornecedores de gift cards, meios de pagamento, varejistas, marcas, plataformas de comunica\xe7\xe3o e parceiros comerciais.\n\n12.2. O acesso a ambientes de terceiros \xe9 de responsabilidade do usu\xe1rio e estar\xe1 sujeito aos termos, pol\xedticas de privacidade, regras comerciais, condi\xe7\xf5es de uso e pr\xe1ticas desses terceiros.\n\n12.3. O Quer Valer n\xe3o se responsabiliza por disponibilidade, conte\xfado, seguran\xe7a, atendimento, qualidade, entrega, troca, cancelamento, estorno, reembolso, pre\xe7o, prazo, funcionamento ou falhas de servi\xe7os prestados por terceiros.",s,B.v,B.r),new A.cE("13. PROTE\xc7\xc3O DE DADOS PESSOAIS",q,s,s,"13.1. O Quer Valer tratar\xe1 os dados pessoais dos usu\xe1rios conforme a legisla\xe7\xe3o aplic\xe1vel e sua Pol\xedtica de Privacidade, para fins de cadastro, autentica\xe7\xe3o, funcionamento da plataforma, comunica\xe7\xe3o com usu\xe1rios, preven\xe7\xe3o a fraudes, seguran\xe7a, cumprimento de obriga\xe7\xf5es legais, suporte, melhoria dos servi\xe7os e envio de comunica\xe7\xf5es autorizadas.\n\n13.2. O usu\xe1rio declara estar ciente de que determinados dados poder\xe3o ser necess\xe1rios para cria\xe7\xe3o de conta, participa\xe7\xe3o em desafios, comunica\xe7\xe3o, confirma\xe7\xe3o de identidade, registro de hist\xf3rico, funcionamento do sistema de reputa\xe7\xe3o e eventual emiss\xe3o ou envio volunt\xe1rio de cupons vale-presente por meio de parceiros.\n\n13.3. O Quer Valer poder\xe1 compartilhar dados pessoais com fornecedores, operadores, processadores de pagamento, plataformas de comunica\xe7\xe3o, emissores de gift cards, prestadores de tecnologia, autoridades competentes ou parceiros estritamente necess\xe1rios ao funcionamento da plataforma, sempre conforme a Pol\xedtica de Privacidade e a legisla\xe7\xe3o aplic\xe1vel.\n\n13.4. O envio de comunica\xe7\xf5es comerciais, promocionais ou de marketing observar\xe1 as bases legais aplic\xe1veis e os meios de cancelamento disponibilizados ao usu\xe1rio.\n\n13.5. O usu\xe1rio poder\xe1 exercer seus direitos de titular de dados pessoais por meio dos canais indicados na Pol\xedtica de Privacidade ou neste documento.",s,B.v,B.r),new A.cE("14. LIMITA\xc7\xc3O DE RESPONSABILIDADE",q,s,s,"14.1. O Quer Valer n\xe3o garante o cumprimento de combinados sociais entre usu\xe1rios, a inten\xe7\xe3o futura dos participantes, o envio volunt\xe1rio de cupons, a aus\xeancia de conflitos entre usu\xe1rios ou a realiza\xe7\xe3o de qualquer pagamento espont\xe2neo.\n\n14.2. O Quer Valer n\xe3o se responsabiliza por danos, preju\xedzos, frustra\xe7\xf5es, desentendimentos, perdas, cobran\xe7as, ofensas, promessas, descumprimentos ou conflitos decorrentes da rela\xe7\xe3o direta entre usu\xe1rios.\n\n14.3. O Quer Valer envidar\xe1 esfor\xe7os razo\xe1veis para manter a plataforma dispon\xedvel e segura, mas n\xe3o garante funcionamento ininterrupto, livre de erros, falhas, ataques, indisponibilidades, v\xedrus, perda de dados, atrasos, diverg\xeancias de resultados ou instabilidades t\xe9cnicas.\n\n14.4. O Quer Valer n\xe3o ser\xe1 respons\xe1vel por indisponibilidades causadas por manuten\xe7\xe3o, falhas de provedores, servi\xe7os de telecomunica\xe7\xe3o, processadores de pagamento, parceiros de gift card, fornecedores externos, caso fortuito, for\xe7a maior, ataques de terceiros ou eventos fora de seu controle razo\xe1vel.\n\n14.5. O usu\xe1rio \xe9 integralmente respons\xe1vel pelo uso que fizer da plataforma, por suas decis\xf5es, intera\xe7\xf5es, mensagens, palpites, desafios, condutas e eventuais acordos sociais celebrados com outros usu\xe1rios.",s,B.v,B.r),new A.cE("15. SUSPENS\xc3O, BLOQUEIO E CANCELAMENTO",q,s,s,"15.1. O Quer Valer poder\xe1 suspender, limitar ou cancelar o acesso de usu\xe1rios que violem estes Termos, utilizem a plataforma de modo inadequado, pratiquem fraude, atentem contra a seguran\xe7a do sistema, prejudiquem outros usu\xe1rios ou adotem condutas incompat\xedveis com a proposta da plataforma.\n\n15.2. O bloqueio ou cancelamento de conta poder\xe1 ocorrer sem aviso pr\xe9vio em situa\xe7\xf5es graves, urgentes, fraudulentas, ilegais ou que representem risco \xe0 seguran\xe7a, \xe0 reputa\xe7\xe3o ou ao funcionamento da plataforma.\n\n15.3. O Quer Valer poder\xe1 preservar e fornecer informa\xe7\xf5es \xe0s autoridades competentes quando houver obriga\xe7\xe3o legal, ordem judicial, requisi\xe7\xe3o v\xe1lida ou necessidade de apura\xe7\xe3o de condutas il\xedcitas, nos termos da legisla\xe7\xe3o aplic\xe1vel.",s,B.v,B.r),new A.cE("16. ALTERA\xc7\xd5ES DA PLATAFORMA E DOS TERMOS",q,s,s,"16.1. O Quer Valer poder\xe1 alterar, incluir, remover, suspender, limitar ou descontinuar funcionalidades, conte\xfados, regras operacionais, parceiros, servi\xe7os ou partes da plataforma a qualquer momento, observada a legisla\xe7\xe3o aplic\xe1vel.\n\n16.2. Estes Termos poder\xe3o ser atualizados periodicamente. A vers\xe3o vigente estar\xe1 dispon\xedvel na plataforma, sendo recomendada sua revis\xe3o peri\xf3dica pelo usu\xe1rio.\n\n16.3. O uso cont\xednuo da plataforma ap\xf3s a publica\xe7\xe3o de nova vers\xe3o dos Termos indicar\xe1 concord\xe2ncia do usu\xe1rio com as altera\xe7\xf5es realizadas.",s,B.v,B.r),new A.cE("17. SUPORTE E CANAIS DE CONTATO",q,s,s,"17.1. Caso o usu\xe1rio deseje suporte, esclarecimentos, informa\xe7\xf5es, reclama\xe7\xf5es ou exerc\xedcio de direitos relacionados a dados pessoais, poder\xe1 entrar em contato pelo e-mail: quervaler@gmail.com.\n\n17.2. Encarregado de dados: Rodrigo Vaz de Lima.",s,B.v,B.r),new A.cE("18. LEGISLA\xc7\xc3O APLIC\xc1VEL E FORO",q,s,s,"18.1. Estes Termos ser\xe3o regidos e interpretados conforme a legisla\xe7\xe3o brasileira.\n\n18.2. Fica eleito o Foro da Comarca de S\xe3o Jos\xe9 dos Campos, Estado de S\xe3o Paulo, para dirimir controv\xe9rsias oriundas destes Termos, salvo disposi\xe7\xe3o legal obrigat\xf3ria em sentido diverso.",s,B.v,B.r),new A.cE("19. DISPOSI\xc7\xd5ES FINAIS",q,s,s,"19.1. A eventual toler\xe2ncia do Quer Valer quanto ao descumprimento de qualquer disposi\xe7\xe3o destes Termos n\xe3o constituir\xe1 ren\xfancia, nova\xe7\xe3o ou altera\xe7\xe3o das regras aqui previstas.\n\n19.2. Caso qualquer cl\xe1usula destes Termos seja considerada inv\xe1lida, nula ou inexequ\xedvel, as demais permanecer\xe3o v\xe1lidas e eficazes.\n\n19.3. O usu\xe1rio reconhece que a experi\xeancia do Quer Valer se baseia em entretenimento, rivalidade saud\xe1vel, confian\xe7a, responsabilidade individual e respeito entre participantes.",s,B.v,B.r)],t.YV),B.v,20,s),500,s)],t.p),B.j,s,B.k,B.l,0,B.o)}}
 A.DN.prototype={
-d8(a,b){return new A.dg(A.ax(A.b([B.Zt,new A.dg(A.f0(b.bG($.b1A(),t.Ul),new A.aI9(),new A.aIa(),new A.aIb(),t.Ni,t.l),500,null)],t.p),B.l,null,B.j,B.k,0,B.o),500,null)}}
+d8(a,b){return new A.dg(A.ax(A.b([B.Zt,new A.dg(A.f0(b.bG($.b1A(),t.Ul),new A.aI9(),new A.aIa(),new A.aIb(),t.Ni,t.l),500,null)],t.p),B.j,null,B.k,B.l,0,B.o),500,null)}}
 A.aI9.prototype={
 $1(a){var s=J.ad(a)
 if(s.ga0(a))return B.pw
@@ -112421,7 +112424,7 @@ $2(a,b){var s=null
 return A.ct(A.ai("Erro ao carregar us\xe1rios: "+A.i(a),s,s,s,s,s,s,s),s,s)},
 $S:19}
 A.DO.prototype={
-d8(a,b){return A.ax(A.b([B.ZH,B.ea,new A.dg(A.f0(b.bG($.b1A(),t.Ul),new A.aIl(),new A.aIm(),new A.aIn(),t.Ni,t.l),500,null)],t.p),B.l,null,B.j,B.k,0,B.o)}}
+d8(a,b){return A.ax(A.b([B.ZH,B.d6,new A.dg(A.f0(b.bG($.b1A(),t.Ul),new A.aIl(),new A.aIm(),new A.aIn(),t.Ni,t.l),500,null)],t.p),B.j,null,B.k,B.l,0,B.o)}}
 A.aIl.prototype={
 $1(a){var s=J.ad(a)
 if(s.ga0(a))return B.pw
@@ -112572,8 +112575,8 @@ s=1
 break
 case 1:return A.p(q,r)}})
 return A.q($async$iJ,r)},
-nu(a){return this.aNY(a)},
-aNY(a){var s=0,r=A.r(t.H),q=this,p
+nu(a){return this.aNX(a)},
+aNX(a){var s=0,r=A.r(t.H),q=this,p
 var $async$nu=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:p=q.a
 p===$&&A.a()
@@ -112763,8 +112766,8 @@ s=1
 break
 case 1:return A.p(q,r)}})
 return A.q($async$o3,r)},
-mj(a){return this.aO2(a)},
-aO2(a){var s=0,r=A.r(t.ev),q,p=this,o,n,m,l
+mj(a){return this.aO1(a)},
+aO1(a){var s=0,r=A.r(t.ev),q,p=this,o,n,m,l
 var $async$mj=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:l=p.c
 l===$&&A.a()
@@ -112832,7 +112835,7 @@ $S:48}
 A.yy.prototype={
 dE(){var s=this.a
 s===$&&A.a()
-return s.aY($.b1y(),t.w2).aNE()},
+return s.aY($.b1y(),t.w2).aND()},
 iJ(a){return this.aEE(a)},
 aEE(a){var s=0,r=A.r(t.jv),q,p=this,o,n,m,l
 var $async$iJ=A.n(function(b,c){if(b===1)return A.o(c,r)
@@ -112863,8 +112866,8 @@ if(!J.FP(s,new A.aHs(a))){r=A.R(s,t.jv)
 r.push(a)
 r=A.hV(r,t.Mh)
 this.gbw().sdg(r)}},
-oE(a){return this.aO7(a)},
-aO7(a){var s=0,r=A.r(t.jv),q,p=this,o,n,m
+oE(a){return this.aO6(a)},
+aO6(a){var s=0,r=A.r(t.jv),q,p=this,o,n,m
 var $async$oE=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:m=p.a
 m===$&&A.a()
@@ -112937,8 +112940,8 @@ if(!J.FP(s,new A.aIo(a))){r=A.R(s,t.Ct)
 r.push(a)
 r=A.hV(r,t.Ni)
 this.gbw().sdg(r)}},
-IU(a,b){return this.aNW(a,b)},
-aNW(a,b){var s=0,r=A.r(t.H),q=this,p,o,n,m,l
+IU(a,b){return this.aNV(a,b)},
+aNV(a,b){var s=0,r=A.r(t.H),q=this,p,o,n,m,l
 var $async$IU=A.n(function(c,d){if(c===1)return A.o(d,r)
 for(;;)switch(s){case 0:l=q.c
 l===$&&A.a()
@@ -112972,7 +112975,7 @@ q=A.eo(30)
 p=new A.aiv(m).$0()
 o=k.ok.z
 n=t.p
-n=A.b([new A.VC(s,!0,35,l),A.bT(A.by(B.v,A.ai(p,l,l,l,o==null?l:o.py(B.mg),l,l,l),B.q,l,l,new A.cX(r,l,l,q,l,l,B.au),l,l,l,B.lD,l,l,l),l,120),A.ax(A.b([i.$3$onChanged$text$value(new A.air(m),"pago:",s.f),i.$3$onChanged$text$value(new A.ais(m),"n\xe3o pago:",s.r),i.$3$onChanged$text$value(new A.ait(m),"entregue:",s.w)],n),B.cV,l,B.j,B.k,0,B.o)],n)
+n=A.b([new A.VC(s,!0,35,l),A.bT(A.by(B.u,A.ai(p,l,l,l,o==null?l:o.py(B.mg),l,l,l),B.q,l,l,new A.cX(r,l,l,q,l,l,B.au),l,l,l,B.lD,l,l,l),l,120),A.ax(A.b([i.$3$onChanged$text$value(new A.air(m),"pago:",s.f),i.$3$onChanged$text$value(new A.ais(m),"n\xe3o pago:",s.r),i.$3$onChanged$text$value(new A.ait(m),"entregue:",s.w)],n),B.cV,l,B.k,B.l,0,B.o)],n)
 i=s.b
 if(i!=null)n.push(A.BS(!1,120,i,!0,250))
 return A.by(l,A.mV(B.k6,n,B.on,B.a4,B.aP,0,10),B.q,l,l,new A.cX(l,l,new A.eL(B.B,B.B,new A.aY(h,1,B.y,-1),B.B),l,l,l,B.au),l,l,l,B.NI,l,l,l)}}
@@ -112990,7 +112993,7 @@ case 3:return B.M2}},
 $S:820}
 A.aiq.prototype={
 $3$onChanged$text$value(a,b,c){var s=null
-return A.bA(A.b([A.ai(b,s,s,s,this.a.ok.Q,s,s,s),A.VG(a,c)],t.p),B.l,B.j,B.a0,0,s)},
+return A.bA(A.b([A.ai(b,s,s,s,this.a.ok.Q,s,s,s),A.VG(a,c)],t.p),B.j,B.k,B.a0,0,s)},
 $S:821}
 A.air.prototype={
 $1(a){if(a!=null)this.a.f.$1(a)},
@@ -113006,13 +113009,13 @@ J(a){var s,r,q=$.ap(),p=new A.cH(B.ao,q),o=new A.cH(B.ao,q)
 q=new A.ag2()
 s=this.c
 r=t.p
-return A.ax(A.b([A.bA(A.b([q.$2$controller$player(p,s.a),B.Xo,q.$3$controller$inverse$player(o,!0,s.b)],r),B.l,B.cg,B.k,0,null),A.d2(B.a7k,new A.ag1(this,p,o,a),null)],r),B.l,null,B.j,B.a0,0,B.o)}}
+return A.ax(A.b([A.bA(A.b([q.$2$controller$player(p,s.a),B.Xo,q.$3$controller$inverse$player(o,!0,s.b)],r),B.j,B.cg,B.l,0,null),A.d2(B.a7k,new A.ag1(this,p,o,a),null)],r),B.j,null,B.k,B.a0,0,B.o)}}
 A.ag2.prototype={
 $3$controller$inverse$player(a,b,c){var s=null,r=A.b([],t.p)
-if(b)r.push(A.by(s,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),a,s,s,s,s,s,2,B.ry,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,B.dw,s,2,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.q,s,s,s,s,s,B.Ny,s,s,s,50))
+if(b)r.push(A.by(s,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),a,s,s,s,s,s,2,B.ry,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,B.dx,s,2,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.q,s,s,s,s,s,B.Ny,s,s,s,50))
 r.push(A.aj6(A.eo(8),A.wQ(B.Tk,s,c)))
-if(!b)r.push(A.by(s,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),a,s,s,s,s,s,2,B.ry,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,B.dw,s,2,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.q,s,s,s,s,s,B.NK,s,s,s,50))
-return A.bA(r,B.l,B.j,B.k,0,s)},
+if(!b)r.push(A.by(s,A.em(s,B.ag,!1,s,!0,B.t,s,A.ez(),a,s,s,s,s,s,2,B.ry,B.D,!0,s,!0,s,!1,s,B.a9,s,s,s,s,B.dx,s,2,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.r,s,B.an,s,s,s,s),B.q,s,s,s,s,s,B.NK,s,s,s,50))
+return A.bA(r,B.j,B.k,B.l,0,s)},
 $2$controller$player(a,b){return this.$3$controller$inverse$player(a,!1,b)},
 $S:822}
 A.ag1.prototype={
@@ -113027,7 +113030,7 @@ if(p.e==null){s=o.cx
 if(s==null)s=o.z
 r=s}else{s=o.z
 r=s}s=p.f
-q=A.Il(B.v,A.VK(r,null,new A.ah5(p,o,s*s).$0(),s),B.q,B.fz)
+q=A.Il(B.u,A.VK(r,null,new A.ah5(p,o,s*s).$0(),s),B.q,B.fz)
 s=p.e
 if(s!=null&&n!=null&&n.as&&s!==n)return new A.O3(q,s,null)
 return q}}
@@ -113042,14 +113045,14 @@ r=$.bkB()
 n=n.e
 n.toString
 q=this.c
-return A.el(B.v,A.b([s,A.aj6(o,new A.I7(A.a0B(p,p,new A.pO(r,1)),A.a0B(p,p,new A.tv(n,1,p,B.oj)),q,q,B.es,p))],t.p),B.t,B.aw,p)},
+return A.el(B.u,A.b([s,A.aj6(o,new A.I7(A.a0B(p,p,new A.pO(r,1)),A.a0B(p,p,new A.tv(n,1,p,B.oj)),q,q,B.es,p))],t.p),B.t,B.aw,p)},
 $S:115}
 A.lV.prototype={
 d8(a,b){var s=null,r=A.V(a),q=r.ax,p=A.vv(q.c,-1,1),o=A.eo(20),n=this.e,m=n.a,l=A.ai(A.b84(m.d),s,s,s,r.ok.y,s,s,s),k=t.p
-m=A.bA(A.b([new A.qG(m.a,n.x,!1,B.m,s),new A.aA(B.lB,A.cV("Assets/Icons/X.svg",s,B.W,s,s),s),new A.qG(m.b,n.y,!1,B.m,s)],k),B.l,B.b1,B.k,0,s)
+m=A.bA(A.b([new A.qG(m.a,n.x,!1,B.m,s),new A.aA(B.lB,A.cV("Assets/Icons/X.svg",s,B.W,s,s),s),new A.qG(m.b,n.y,!1,B.m,s)],k),B.j,B.b1,B.l,0,s)
 n=n.b
 n.toString
-return A.fo(!1,!0,A.by(s,A.Il(B.v,new A.d0(B.p4,A.ct(A.ax(A.b([l,m,A.BS(!1,170,n,!1,300)],k),B.l,s,B.j,B.a0,20,B.o),s,s),s),B.q,B.et),B.q,s,s,new A.cX(q.b,s,p,o,s,s,B.au),s,250,s,B.NR,s,s,s),s,!0,B.G,s,s,B.G,s,s,s,s,s,s,new A.aip(this,a,b),s,s,s,s)}}
+return A.fo(!1,!0,A.by(s,A.Il(B.u,new A.d0(B.p4,A.ct(A.ax(A.b([l,m,A.BS(!1,170,n,!1,300)],k),B.j,s,B.k,B.a0,20,B.o),s,s),s),B.q,B.et),B.q,s,s,new A.cX(q.b,s,p,o,s,s,B.au),s,250,s,B.NR,s,s,s),s,!0,B.G,s,s,B.G,s,s,s,s,s,s,new A.aip(this,a,b),s,s,s,s)}}
 A.aip.prototype={
 $0(){return A.TX(this.b,this.c,"/challenge/"+A.i(this.a.e.gcf()))},
 $S:0}
@@ -113066,7 +113069,7 @@ i=q.r
 r=i*0.5
 i*=0.25
 r=A.by(p,A.cV("Assets/Icons/challenge.svg",p,B.W,p,p),B.q,p,B.Gt,p,p,r,new A.ac(i,i,i,i),p,p,p,r)
-return A.bA(A.b([j,r,A.f0(s,new A.aiz(q,m),new A.aiA(),new A.aiB(q),l,k)],t.p),B.l,B.j,B.a0,0,p)}}
+return A.bA(A.b([j,r,A.f0(s,new A.aiz(q,m),new A.aiA(),new A.aiB(q),l,k)],t.p),B.j,B.k,B.a0,0,p)}}
 A.aiC.prototype={
 $3(a,b,c){var s,r,q,p,o,n=null,m=this.a.r,l=m*0.25
 if(b==null)return A.bT(B.ic,m,m*2)
@@ -113076,7 +113079,7 @@ r=this.c
 q=A.eo(m)
 p=l/2
 o=a==null?n:a.a
-s=A.by(n,A.bA(A.b([A.by(n,A.b1R(A.ah4(new A.cv(o,t.W_),20,a),B.iF,A.b5l(),B.a3,B.a3,new A.aiD()),B.q,n,n,new A.cX(r.b,n,n,n,n,n,B.ca),n,m,new A.ac(l,l,p,l),n,n,n,n),A.by(n,A.pw(b.d,n,n,n),B.q,n,n,n,n,m,new A.ac(p,l,l,l),n,n,n,n)],t.p),B.l,B.j,B.k,0,n),B.q,n,n,new A.cX(r.k2,n,n,q,n,s,B.au),n,n,n,n,n,n,n)
+s=A.by(n,A.bA(A.b([A.by(n,A.b1R(A.ah4(new A.cv(o,t.W_),20,a),B.iF,A.b5l(),B.a3,B.a3,new A.aiD()),B.q,n,n,new A.cX(r.b,n,n,n,n,n,B.ca),n,m,new A.ac(l,l,p,l),n,n,n,n),A.by(n,A.pw(b.d,n,n,n),B.q,n,n,n,n,m,new A.ac(p,l,l,l),n,n,n,n)],t.p),B.j,B.k,B.l,0,n),B.q,n,n,new A.cX(r.k2,n,n,q,n,s,B.au),n,n,n,n,n,n,n)
 return new A.u7(s,0.2,5,B.m,B.h,n)},
 $S:823}
 A.aiD.prototype={
@@ -113149,10 +113152,10 @@ A.m2.prototype={
 a7(){return new A.a6k()}}
 A.a6k.prototype={
 J(a){var s,r=this,q=null,p=A.ed(r.a.c,1),o=r.d?0.5:0,n=t.p
-o=A.fo(!1,!0,A.bA(A.b([p,new A.G3(A.cV("Assets/Icons/arrow_down.svg",new A.d9(B.m,B.ai,q,B.aj),B.W,q,30),o,B.a3,B.N,q,q)],n),B.l,B.b1,B.k,0,q),q,!0,q,q,q,q,q,q,q,q,q,q,new A.aOg(r),q,q,q,q)
+o=A.fo(!1,!0,A.bA(A.b([p,new A.G3(A.cV("Assets/Icons/arrow_down.svg",new A.d9(B.m,B.ai,q,B.aj),B.W,q,30),o,B.a3,B.N,q,q)],n),B.j,B.b1,B.l,0,q),q,!0,q,q,q,q,q,q,q,q,q,q,new A.aOg(r),q,q,q,q)
 p=A.bT(r.a.d,q,1/0)
 s=r.d?B.lg:B.qh
-return A.ax(A.b([o,new A.FX(B.Ii,new A.aA(B.NG,p,q),s,B.lt,q),$.vd(),B.cF],n),B.u,q,B.j,B.k,0,B.o)}}
+return A.ax(A.b([o,new A.FX(B.Ii,new A.aA(B.NG,p,q),s,B.lt,q),$.vd(),B.cF],n),B.v,q,B.k,B.l,0,B.o)}}
 A.aOg.prototype={
 $0(){var s=this.a
 return s.T(new A.aOf(s))},
@@ -113173,7 +113176,7 @@ p=g.z
 o=p==null
 n=t.l
 m=t.p
-q=A.bA(A.b([B.Df,A.ai(q,i,i,i,o?i:p.py(B.aG),i,i,i),A.by(i,i,B.q,i,i,new A.cX(B.m,i,i,i,i,i,B.ca),i,5,B.ly,i,i,i,5),A.f0(a,new A.apd(g),new A.ape(),new A.apf(),t.ro,n)],m),B.l,B.j,B.k,0,i)
+q=A.bA(A.b([B.Df,A.ai(q,i,i,i,o?i:p.py(B.aG),i,i,i),A.by(i,i,B.q,i,i,new A.cX(B.m,i,i,i,i,i,B.ca),i,5,B.ly,i,i,i,5),A.f0(a,new A.apd(g),new A.ape(),new A.apf(),t.ro,n)],m),B.j,B.k,B.l,0,i)
 l=d.w
 if(l)e="Finalizado"
 else e=s?"Em andamento":A.b84(e)
@@ -113188,7 +113191,7 @@ e=A.el(B.b5,k,B.t,B.aw,i)
 l=o?i:p.py(B.cv)
 l=A.wQ(new A.tn(30,30),new A.Bt(B.o1,B.lA,B.yk,l),d.a)
 p=o?i:p.py(B.cv)
-return A.by(i,A.ax(A.b([q,new A.aA(B.O3,e,i),l,A.wQ(new A.tn(30,30),new A.Bt(B.o1,B.lA,B.yk,p),d.b),new A.aA(B.qK,A.by(i,i,B.q,c,i,i,i,1,i,i,i,i,1/0),i),A.f0(a0,new A.apg(f,g),new A.aph(),new A.api(),t.BX,n)],m),B.u,i,B.j,B.k,0,B.o),B.q,i,i,new A.cX(f.b,i,b,r,i,i,B.au),i,i,i,B.NL,i,i,300)}}
+return A.by(i,A.ax(A.b([q,new A.aA(B.O3,e,i),l,A.wQ(new A.tn(30,30),new A.Bt(B.o1,B.lA,B.yk,p),d.b),new A.aA(B.qK,A.by(i,i,B.q,c,i,i,i,1,i,i,i,i,1/0),i),A.f0(a0,new A.apg(f,g),new A.aph(),new A.api(),t.BX,n)],m),B.v,i,B.k,B.l,0,B.o),B.q,i,i,new A.cX(f.b,i,b,r,i,i,B.au),i,i,i,B.NL,i,i,300)}}
 A.apj.prototype={
 $0(){var s=this.a.e.e
 switch(s){case"football":return"Futebol"
@@ -113218,8 +113221,8 @@ r=r.y
 if(r!=null)m.push(new A.A1(r,10,o))}s=A.eo(60)
 r=this.b.Q
 p=A.by(o,A.ai("Criar desafio >",o,o,o,r,o,o,o),B.q,o,o,new A.cX(this.a.z,o,o,s,o,o,B.au),o,o,o,new A.ac(8,2,8,2),o,o,o)
-if(m.length===0)return A.bA(A.b([A.ai("Seja o primeiro a desafiar",o,o,o,r,o,o,o),p],n),B.l,B.b1,B.k,0,o)
-return A.el(B.ky,A.b([A.by(o,A.lk(A.bA(m,B.l,B.j,B.k,3,o),o,o,o,B.a4),B.q,o,o,o,o,o,o,B.Nz,o,o,1/0),p],n),B.t,B.aw,o)},
+if(m.length===0)return A.bA(A.b([A.ai("Seja o primeiro a desafiar",o,o,o,r,o,o,o),p],n),B.j,B.b1,B.l,0,o)
+return A.el(B.ky,A.b([A.by(o,A.lk(A.bA(m,B.j,B.k,B.l,3,o),o,o,o,B.a4),B.q,o,o,o,o,o,o,B.Nz,o,o,1/0),p],n),B.t,B.aw,o)},
 $S:829}
 A.api.prototype={
 $0(){return B.Ij},
@@ -113231,7 +113234,7 @@ A.II.prototype={
 J(a){var s,r=null,q=this.c,p=this.d,o=A.yo(r,r,r,r,A.bw(r,r,r,p,q),B.r,B.a2,r,B.cS,B.a6)
 o.oj()
 s=o.b
-return A.iQ(r,r,r,new A.a6N(q,p,new A.wM(B.i2,B.kx,B.d7,this.e,r,r),r),new A.I(s.c,s.a.c.gbt()))}}
+return A.iQ(r,r,r,new A.a6N(q,p,new A.wM(B.i2,B.kx,B.d8,this.e,r,r),r),new A.I(s.c,s.a.c.gbt()))}}
 A.a6N.prototype={
 aD(a,b){var s,r,q=null
 $.a4()
@@ -113248,7 +113251,7 @@ s=n.ok.z
 r=s==null
 q=r?o:s.bd(B.n)
 p=t.p
-return new A.eB(B.kx,o,o,new A.d0(B.GE,A.by(o,A.el(B.v,A.b([l,new A.aA(B.h_,A.bA(A.b([k,B.hM,new A.f4(1,B.b0,new A.d0(new A.ae(0,210,0,1/0),A.kA(o,o,o,B.aV,o,o,!0,o,A.bw(A.b([A.bw(o,o,o,r?o:s.vv(B.n,10),"\nEnvie um link exclusivo para ele criar a conta e aceitar seu desafio.")],t.VO),o,o,q,"Seu rival ainda n\xe3o est\xe1 aqui?"),B.r,o,o,B.S,B.a6),o),o)],p),B.l,B.cg,B.k,0,o),o)],p),B.t,B.aw,o),B.bD,o,o,new A.cX(o,o,o,m,o,o,B.au),o,o,o,o,o,o,o),o),o)}}
+return new A.eB(B.kx,o,o,new A.d0(B.GE,A.by(o,A.el(B.u,A.b([l,new A.aA(B.h_,A.bA(A.b([k,B.hM,new A.f4(1,B.b0,new A.d0(new A.ae(0,210,0,1/0),A.kA(o,o,o,B.aV,o,o,!0,o,A.bw(A.b([A.bw(o,o,o,r?o:s.vv(B.n,10),"\nEnvie um link exclusivo para ele criar a conta e aceitar seu desafio.")],t.VO),o,o,q,"Seu rival ainda n\xe3o est\xe1 aqui?"),B.r,o,o,B.S,B.a6),o),o)],p),B.j,B.cg,B.l,0,o),o)],p),B.t,B.aw,o),B.bD,o,o,new A.cX(o,o,o,m,o,o,B.au),o,o,o,o,o,o,o),o),o)}}
 A.Z_.prototype={
 d8(a,b){var s=this,r=A.V(a),q=$.b1x(),p=s.e,o=p.b
 return A.f0(b.bG(q.$1(o==null?p.a:o),t.HN),new A.asx(s,new A.asA(s),a),new A.asy(s,r.ok),new A.asz(s),t.Ip,t.l)}}
@@ -113260,7 +113263,7 @@ r=A.b([],t.p)
 q=s!==B.W2
 if(!q||s===B.W3){r.push(b)
 r.push(a)}else{r.push(a)
-r.push(b)}return!q||s===B.mX?A.ax(r,B.l,null,B.j,B.a0,0,B.o):A.bA(r,B.l,B.j,B.a0,0,null)},
+r.push(b)}return!q||s===B.mX?A.ax(r,B.j,null,B.k,B.a0,0,B.o):A.bA(r,B.j,B.k,B.a0,0,null)},
 $S:830}
 A.asx.prototype={
 $1(a){var s,r,q,p,o,n=this,m=null
@@ -113314,7 +113317,7 @@ I(){return"NameAlign."+this.b}}
 A.Zw.prototype={
 J(a){var s=null,r=A.V(a),q=A.eo(30),p=r.ax.y
 q=A.yk(s,s,p,p.dv(180),s,s,s,s,s,B.n,s,s,B.qJ,s,new A.dQ(q,B.B),s,s,s,s,s)
-return A.d2(A.by(B.v,A.ai(this.c,s,s,s,s,s,s,s),B.q,s,B.GC,s,s,s,s,s,s,s,s),this.d,q)}}
+return A.d2(A.by(B.u,A.ai(this.c,s,s,s,s,s,s,s),B.q,s,B.GC,s,s,s,s,s,s,s,s),this.d,q)}}
 A.Kb.prototype={
 a7(){return new A.a83()}}
 A.a83.prototype={
@@ -113322,7 +113325,7 @@ J(a){var s,r=this,q=null,p="Assets/Icons/arrow_right.svg"
 if(r.d<0){r.a.toString
 r.d=0}s=r.a.d
 if(s.length===0)s.push(A.bT(q,q,q))
-return A.bA(A.b([A.fo(!1,!0,A.b4b(B.v,A.cV(p,new A.d9(B.m,B.ai,q,B.aj),B.W,q,30),q,-1),q,!0,q,q,q,q,q,q,q,q,q,q,new A.aRw(r),q,q,q,q),A.ed(r.a.d[r.d],1),A.fo(!1,!0,A.cV(p,new A.d9(B.m,B.ai,q,B.aj),B.W,q,30),q,!0,q,q,q,q,q,q,q,q,q,q,new A.aRx(r),q,q,q,q)],t.p),B.l,B.dk,B.k,0,q)}}
+return A.bA(A.b([A.fo(!1,!0,A.b4b(B.u,A.cV(p,new A.d9(B.m,B.ai,q,B.aj),B.W,q,30),q,-1),q,!0,q,q,q,q,q,q,q,q,q,q,new A.aRw(r),q,q,q,q),A.ed(r.a.d[r.d],1),A.fo(!1,!0,A.cV(p,new A.d9(B.m,B.ai,q,B.aj),B.W,q,30),q,!0,q,q,q,q,q,q,q,q,q,q,new A.aRx(r),q,q,q,q)],t.p),B.j,B.dl,B.l,0,q)}}
 A.aRw.prototype={
 $0(){var s=this.a
 return s.T(new A.aRv(s))},
@@ -113364,7 +113367,7 @@ p=q.e
 q=q.f
 o=s.d
 o===$&&A.a()
-k[r]=A.h_(n,new A.wf(B.GH,B.v,B.q,new A.tw(m.i(a,r),p,q,!1,o===r,n),n),B.D,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.aRD(s,r),n,n,n,n,n,n)}return k},
+k[r]=A.h_(n,new A.wf(B.GH,B.u,B.q,new A.tw(m.i(a,r),p,q,!1,o===r,n),n),B.D,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.aRD(s,r),n,n,n,n,n,n)}return k},
 $S:832}
 A.aRD.prototype={
 $0(){var s,r=this.a,q=r.d
@@ -113395,7 +113398,7 @@ q=A.ed(new A.Gh(1.3333333333333333,q.length===0?A.cV("Assets/Icons/camera.svg",n
 h=A.ed(A.ai(A.i(h.f)+"\n",3,m,m,i,m,m,m),1)
 p=A.eo(8)
 o=t.p
-return A.by(m,A.bA(A.b([q,A.ed(A.by(m,A.ax(A.b([h,A.by(m,A.ai("R$ "+s,m,m,m,i,m,m,m),B.q,m,m,new A.cX(k.z,m,m,p,m,m,B.au),m,m,m,B.NH,m,m,m)],o),B.cV,m,B.cg,B.k,0,B.o),B.q,k.b,m,m,m,m,m,B.h_,m,m,m),10)],o),B.l,B.j,B.k,0,m),B.t,m,m,new A.cX(B.n,m,r,g,m,m,B.au),m,n.f,m,m,m,m,n.e)}}
+return A.by(m,A.bA(A.b([q,A.ed(A.by(m,A.ax(A.b([h,A.by(m,A.ai("R$ "+s,m,m,m,i,m,m,m),B.q,m,m,new A.cX(k.z,m,m,p,m,m,B.au),m,m,m,B.NH,m,m,m)],o),B.cV,m,B.cg,B.l,0,B.o),B.q,k.b,m,m,m,m,m,B.h_,m,m,m),10)],o),B.j,B.k,B.l,0,m),B.t,m,m,new A.cX(B.n,m,r,g,m,m,B.au),m,n.f,m,m,m,m,n.e)}}
 A.ZH.prototype={
 J(a){var s=this,r=new A.axJ(s)
 r=s.f?new A.axK(s,r).$0():r.$0()
@@ -113407,7 +113410,7 @@ return A.pw(r,B.W,s,s)},
 $S:115}
 A.axK.prototype={
 $0(){var s=null,r=this.a
-return new A.u7(A.el(B.v,A.b([A.iQ(s,s,s,new A.Kl(B.mP,B.mP,r.r,15,3,s),new A.I(r.d,r.e)),this.b.$0()],t.p),B.q,B.aw,s),0.7,5,B.m,B.h,s)},
+return new A.u7(A.el(B.u,A.b([A.iQ(s,s,s,new A.Kl(B.mP,B.mP,r.r,15,3,s),new A.I(r.d,r.e)),this.b.$0()],t.p),B.q,B.aw,s),0.7,5,B.m,B.h,s)},
 $S:115}
 A.Kn.prototype={
 J(a){var s,r,q,p=this,o=null,n=A.V(a),m=A.fI(o,o,B.m,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),l=p.d,k=p.e
@@ -113419,20 +113422,20 @@ k=A.bpW(o,o,n.ax.b,B.n,o,o,o,o,o,B.m,o,o,k,o,new A.dQ(q,B.B),new A.aY(r,1,B.y,-1
 r=p.z
 if(r==null)r=A.bT(o,o,o)
 s=s?m:B.a68
-return new A.ZO(l,o,o,o,k,o,o,!1,o,!0,o,A.bA(A.b([r,A.ai(p.c,o,o,o,s,o,o,o)],t.p),B.l,B.j,B.a0,8,o),o)}}
+return new A.ZO(l,o,o,o,k,o,o,!1,o,!0,o,A.bA(A.b([r,A.ai(p.c,o,o,o,s,o,o,o)],t.p),B.j,B.k,B.a0,8,o),o)}}
 A.a_5.prototype={
 d8(a,b){var s,r,q=this,p=null,o=$.aeP(),n=q.e,m=b.bG(o.$1(n),t.er),l=b.aY(o.$1(n).gcn(),t._I)
 o=m.a
 if(o!=null){n=q.r
 s=n*2
-r=A.Il(B.v,A.VK(p,p,A.aj6(A.eo(n),A.b99(o,B.es,s,s)),n),B.q,B.fz)}else{o=m.c
+r=A.Il(B.u,A.VK(p,p,A.aj6(A.eo(n),A.b99(o,B.es,s,s)),n),B.q,B.fz)}else{o=m.c
 if(o!=null)r=A.VK(p,new A.tv(o,1,p,B.oj),p,q.r)
 else{o=q.f
 if(o!=null){n=o.e
 n=n!=null&&n.length!==0}else n=!1
 s=q.r
 r=n?A.ah4(p,s,o):A.VK(p,B.Fp,p,s)}}o=A.aM(150,B.m.G()>>>16&255,B.m.G()>>>8&255,B.m.G()&255)
-return A.el(B.b5,A.b([r,A.L1(0,A.by(B.v,A.hB(p,p,A.cV("Assets/Icons/camera.svg",B.qN,B.W,p,p),p,p,new A.ayn(l,a),p,p,p,p),B.q,p,p,new A.cX(o,p,p,p,p,p,B.ca),p,p,p,p,p,p,p))],t.p),B.t,B.aw,p)}}
+return A.el(B.b5,A.b([r,A.L1(0,A.by(B.u,A.hB(p,p,A.cV("Assets/Icons/camera.svg",B.qN,B.W,p,p),p,p,new A.ayn(l,a),p,p,p,p),B.q,p,p,new A.cX(o,p,p,p,p,p,B.ca),p,p,p,p,p,p,p))],t.p),B.t,B.aw,p)}}
 A.ayn.prototype={
 $0(){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j
 var $async$$0=A.n(function(a,b){if(a===1){o.push(b)
@@ -113488,7 +113491,7 @@ A.b0A.prototype={
 $1(a){return B.aY},
 $S:835}
 A.b0y.prototype={
-$1(a){var s=null,r=A.ai(this.a?"O desafio est\xe1 valendo":"Desafio enviado",s,s,s,s,s,s,s),q=t.p,p=A.lk(new A.d0(B.GB,A.ax(A.b([B.a7i],q),B.u,s,B.j,B.k,0,B.o),s),s,s,s,B.aa)
+$1(a){var s=null,r=A.ai(this.a?"O desafio est\xe1 valendo":"Desafio enviado",s,s,s,s,s,s,s),q=t.p,p=A.lk(new A.d0(B.GB,A.ax(A.b([B.a7i],q),B.v,s,B.k,B.l,0,B.o),s),s,s,s,B.aa)
 return A.zR(A.b([A.b5a(this.b,"OK")],q),s,s,s,p,r)},
 $S:57}
 A.b0D.prototype={
@@ -113515,7 +113518,7 @@ r=A.b3U(o,o,s.a,o,s.x,s.y)
 q=s.b
 q.toString
 p=t.p
-q=A.by(o,A.Il(B.v,new A.d0(B.p4,A.ct(A.ax(A.b([r,B.eb,A.BS(!0,170,q,!1,330)],p),B.l,o,B.j,B.a0,0,B.o),o,o),o),B.q,B.et),B.q,o,o,o,o,o,o,B.NZ,o,o,o)
+q=A.by(o,A.Il(B.u,new A.d0(B.p4,A.ct(A.ax(A.b([r,B.eb,A.BS(!0,170,q,!1,330)],p),B.j,o,B.k,B.a0,0,B.o),o,o),o),B.q,B.et),B.q,o,o,o,o,o,o,B.NZ,o,o,o)
 s=s.x==null||s.y==null
 r=this.c
 r=A.b([new A.aA(B.qH,A.bT(s?A.b4p(!1,r,"Mandar desafio"):A.d2(B.a7g,r,o),o,1/0),o)],p)
@@ -113529,10 +113532,10 @@ return new A.aA(B.O0,A.fo(!1,!0,A.cV("Assets/Icons/"+a+".svg",new A.d9(B.n,B.ai,
 TZ(a,b){return this.JI(a,b,15)},
 anF(a,b){var s=this,r=null,q=A.V(a),p=q.ok.Q,o=p==null?r:p.bd(B.n)
 p=t.p
-return A.by(r,A.ct(new A.d0(new A.ae(0,1000,0,1/0),A.ax(A.b([A.ed(A.bA(A.b([new A.f4(1,B.b0,A.ax(A.b([new A.aA(B.Nw,A.kj("Assets/Logo/Logo.png",r,50,r,r),r),A.fo(!1,!0,A.ai("Sobre n\xf3s",r,r,r,o,r,r,r),r,!0,r,r,r,r,r,r,r,r,r,r,new A.aBD(a),r,r,r,r),A.U8(a,b,"",!1,!0,o),A.U8(a,b,"",!0,!1,o)],p),B.u,r,B.d1,B.k,0,B.o),r),new A.f4(1,B.b0,A.mV(B.Es,A.b([A.ai("Nossas redes sociais",r,r,r,o,r,r,r),A.bA(A.b([s.TZ("instagram","https://www.instagram.com/quervaler?igsh=YWRsNmgwMmd4czkw"),s.JI("facebook","https://www.facebook.com/quervaler/",8),s.TZ("twitter","https://x.com/quervaler"),s.JI("youtube","https://www.youtube.com/@quervaler6196",18)],p),B.l,B.j,B.a0,0,r)],p),B.cl,B.a4,B.aP,5,5),r)],p),B.l,B.b1,B.k,0,r),1),A.ai("\xa92026 - Quer Valer LTDA",r,r,r,o,r,r,r),new A.B1(A.ay5(),new A.aBE(),r,t.nQ)],p),B.l,r,B.b1,B.k,0,B.o),r),r,r),B.q,q.ax.y,r,r,r,250,new A.ac(0,20,0,0),new A.ac(20,20,20,5),r,r,1/0)}}
+return A.by(r,A.ct(new A.d0(new A.ae(0,1000,0,1/0),A.ax(A.b([A.ed(A.bA(A.b([new A.f4(1,B.b0,A.ax(A.b([new A.aA(B.Nw,A.kj("Assets/Logo/Logo.png",r,50,r,r),r),A.fo(!1,!0,A.ai("Sobre n\xf3s",r,r,r,o,r,r,r),r,!0,r,r,r,r,r,r,r,r,r,r,new A.aBD(a),r,r,r,r),A.U8(a,b,"",!1,!0,o),A.U8(a,b,"",!0,!1,o)],p),B.v,r,B.d1,B.l,0,B.o),r),new A.f4(1,B.b0,A.mV(B.Es,A.b([A.ai("Nossas redes sociais",r,r,r,o,r,r,r),A.bA(A.b([s.TZ("instagram","https://www.instagram.com/quervaler?igsh=YWRsNmgwMmd4czkw"),s.JI("facebook","https://www.facebook.com/quervaler/",8),s.TZ("twitter","https://x.com/quervaler"),s.JI("youtube","https://www.youtube.com/@quervaler6196",18)],p),B.j,B.k,B.a0,0,r)],p),B.cl,B.a4,B.aP,5,5),r)],p),B.j,B.b1,B.l,0,r),1),A.ai("\xa92026 - Quer Valer LTDA",r,r,r,o,r,r,r),new A.B1(A.ay5(),new A.aBE(),r,t.nQ)],p),B.j,r,B.b1,B.l,0,B.o),r),r,r),B.q,q.ax.y,r,r,r,250,new A.ac(0,20,0,0),new A.ac(20,20,20,5),r,r,1/0)}}
 A.aBF.prototype={
 $2(a,b){var s=null,r=b.d,q=r<600?600:r,p=this.a
-return A.lk(new A.d0(new A.ae(0,1/0,q,1/0),A.ax(A.b([p.e,p.anF(a,this.b)],t.p),B.l,s,B.b1,B.k,0,B.o),s),s,s,s,B.aa)},
+return A.lk(new A.d0(new A.ae(0,1/0,q,1/0),A.ax(A.b([p.e,p.anF(a,this.b)],t.p),B.j,s,B.b1,B.l,0,B.o),s),s,s,s,B.aa)},
 $S:199}
 A.aBG.prototype={
 $0(){return A.Fy(this.a,B.j2)},
@@ -113557,7 +113560,7 @@ return s==null?null:s.a4b()},
 $S:0}
 A.eT.prototype={
 d8(a,b){var s=null,r=A.V(a),q=this.e?A.hB(s,s,A.cV("Assets/Icons/arrow_back.svg",s,B.W,s,20),s,s,new A.aD5(b,a),s,s,s,s):B.fa
-return A.ax(A.b([A.b1S(s,s,!0,0,q,A.ai(this.f,s,s,s,r.ok.f,s,s,s),0,s),B.ea],t.p),B.l,s,B.j,B.k,0,B.o)}}
+return A.ax(A.b([A.b1S(s,s,!0,0,q,A.ai(this.f,s,s,s,r.ok.f,s,s,s),0,s),B.d6],t.p),B.j,s,B.k,B.l,0,B.o)}}
 A.aD5.prototype={
 $0(){var s=this.a,r=$.b6Y(),q=s.aY(r,t.T),p=this.b
 if(q!=null){s.aY(r.gcn(),t.lR).xJ(null)
@@ -113568,7 +113571,7 @@ a7(){return new A.aaK("[#"+A.bF(new A.ls())+"]")},
 aKZ(a){return this.e.$1(a)}}
 A.aaK.prototype={
 J(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=h.a.f.length,e=J.pD(f,t.pB)
-for(s=h.w,r=t.er,q=0;q<f;++q){p=h.gcZ()
+for(s=h.w,r=t.er,q=0;q<f;++q){p=h.gcU()
 o=s+q
 n=new A.a8o(p,h.a.f[q],o)
 m=$.aeP()
@@ -113586,11 +113589,11 @@ p===$&&A.a()
 p=p.a
 if(p==null){p=j.b.c
 p=p==null?B.a70:A.pw(p,g,g,g)}else p=A.b99(p,B.es,g,g)
-l.push(A.h_(g,A.by(B.v,p,B.q,g,g,new A.cX(g,g,new A.eL(i,i,i,i),g,g,g,B.au),g,150,g,g,g,g,g),B.D,!1,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,new A.aUw(j,a),g,g,g,g,g,g))
+l.push(A.h_(g,A.by(B.u,p,B.q,g,g,new A.cX(g,g,new A.eL(i,i,i,i),g,g,g,B.au),g,150,g,g,g,g,g),B.D,!1,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,new A.aUw(j,a),g,g,g,g,g,g))
 p=j.b.d
-if(p!=null)l.push(A.ai(p,g,g,g,B.a52,g,g,g))}l.push(B.ea)}for(r=h.a.d,p=r.length,k=0;k<r.length;r.length===p||(0,A.H)(r),++k){l.push(r[k])
-l.push(B.cF)}l.push(A.bA(A.b([A.d2(B.DY,new A.aUx(h,e,a),g),A.d2(B.a7K,new A.aUy(a),g)],s),B.l,B.d1,B.k,0,g))
-return A.lk(A.ax(l,B.l,g,B.j,B.a0,0,B.o),g,g,g,B.aa)}}
+if(p!=null)l.push(A.ai(p,g,g,g,B.a52,g,g,g))}l.push(B.d6)}for(r=h.a.d,p=r.length,k=0;k<r.length;r.length===p||(0,A.H)(r),++k){l.push(r[k])
+l.push(B.cF)}l.push(A.bA(A.b([A.d2(B.DY,new A.aUx(h,e,a),g),A.d2(B.a7K,new A.aUy(a),g)],s),B.j,B.d1,B.l,0,g))
+return A.lk(A.ax(l,B.j,g,B.k,B.a0,0,B.o),g,g,g,B.aa)}}
 A.aUw.prototype={
 $0(){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j
 var $async$$0=A.n(function(a,b){if(a===1){o.push(b)
@@ -113722,18 +113725,18 @@ return A.ct(A.ai("Erro ao carregar ofertas: "+A.i(a),s,s,s,s,s,s,s),s,s)},
 $S:19}
 A.a2e.prototype={
 J(a){var s=this,r=null,q=A.V(a),p=A.eo(5),o=A.vv(B.m,-1,1),n=A.kj("Assets/Icons/whatsapp.png",r,30,r,30),m=q.ok.z,l=m==null,k=l?r:m.FK(B.n,B.aG),j=t.VO,i=t.p
-p=A.h_(r,A.by(r,A.bA(A.b([n,B.a0L,new A.f4(1,B.b0,A.kA(r,r,r,B.aV,r,r,!0,r,A.bw(A.b([A.bw(r,r,r,l?r:m.FK(B.n,B.h5),"\nClique aqui e compartilhe o desafio.")],j),r,r,k,"Enviar o link do desafio!"),B.r,r,r,B.S,B.a6),r)],i),B.l,B.j,B.a0,0,r),B.q,r,r,new A.cX(B.mQ,r,o,p,r,r,B.au),r,r,r,B.NY,r,r,r),B.D,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s.e,r,r,r,r,r,r)
+p=A.h_(r,A.by(r,A.bA(A.b([n,B.a0L,new A.f4(1,B.b0,A.kA(r,r,r,B.aV,r,r,!0,r,A.bw(A.b([A.bw(r,r,r,l?r:m.FK(B.n,B.h5),"\nClique aqui e compartilhe o desafio.")],j),r,r,k,"Enviar o link do desafio!"),B.r,r,r,B.S,B.a6),r)],i),B.j,B.k,B.a0,0,r),B.q,r,r,new A.cX(B.mQ,r,o,p,r,r,B.au),r,r,r,B.NY,r,r,r),B.D,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s.e,r,r,r,r,r,r)
 q=A.V(a)
 o=q.ok.z
-p=A.b([p,B.ea,A.h_(r,A.mV(B.aP,A.b([A.kA(r,r,r,B.aV,r,r,!0,r,A.bw(A.b([A.bw(r,r,r,o==null?r:o.aE6(B.hT,B.aG),"nossa comunidade.")],j),r,r,o,"Ou escolha algu\xe9m da "),B.r,r,r,B.S,B.a6),A.by(r,A.cV("Assets/Icons/user_add.svg",r,B.W,r,r),B.q,r,r,new A.cX(q.ax.b,r,r,r,r,r,B.ca),r,r,B.lA,B.qK,r,r,r)],i),B.cl,B.a4,B.aP,0,0),B.D,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s.f,r,r,r,r,r,r)],i)
+p=A.b([p,B.d6,A.h_(r,A.mV(B.aP,A.b([A.kA(r,r,r,B.aV,r,r,!0,r,A.bw(A.b([A.bw(r,r,r,o==null?r:o.aE6(B.hT,B.aG),"nossa comunidade.")],j),r,r,o,"Ou escolha algu\xe9m da "),B.r,r,r,B.S,B.a6),A.by(r,A.cV("Assets/Icons/user_add.svg",r,B.W,r,r),B.q,r,r,new A.cX(q.ax.b,r,r,r,r,r,B.ca),r,r,B.lA,B.qK,r,r,r)],i),B.cl,B.a4,B.aP,0,0),B.D,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s.f,r,r,r,r,r,r)],i)
 o=s.c
 if(o)p.push($.vd())
 if(o)p.push(A.f0(s.w,new A.aFs(s),new A.aFt(),new A.aFu(),t.Ni,t.l))
 if(o)p.push($.vd())
-return new A.dg(A.ax(p,B.u,r,B.j,B.a0,0,B.o),500,r)}}
+return new A.dg(A.ax(p,B.v,r,B.k,B.a0,0,B.o),500,r)}}
 A.aFs.prototype={
 $1(a){var s=null
-return new A.d0(new A.ae(0,1/0,100,160),A.lk(A.ax(A.nM(J.cs(a),new A.aFr(this.a,a),!0,t.l),B.u,s,B.j,B.a0,0,B.o),s,s,s,B.aa),s)},
+return new A.d0(new A.ae(0,1/0,100,160),A.lk(A.ax(A.nM(J.cs(a),new A.aFr(this.a,a),!0,t.l),B.v,s,B.k,B.a0,0,B.o),s,s,s,B.aa),s)},
 $S:838}
 A.aFr.prototype={
 $1(a){var s,r=null,q=this.b,p=J.ad(q),o=p.i(q,a<p.gD(q)?a:a-p.gD(q))
@@ -113760,7 +113763,7 @@ n=A.cV("Assets/Icons/X.svg",p,B.W,p,p)
 s=q.d
 r=q.r
 if(r==null)r=s!=null
-return A.by(p,A.bA(A.b([m,new A.f4(1,B.b0,new A.aA(B.lB,n,p),p),A.h_(p,new A.qG(o.b,s,r,B.m,p),B.D,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aFw(q),p,p,p,p,p,p)],t.p),B.l,B.b1,B.k,0,p),B.q,p,new A.ae(0,320,0,1/0),p,p,p,p,new A.ac(5,0,5,0),p,p,p)}}
+return A.by(p,A.bA(A.b([m,new A.f4(1,B.b0,new A.aA(B.lB,n,p),p),A.h_(p,new A.qG(o.b,s,r,B.m,p),B.D,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aFw(q),p,p,p,p,p,p)],t.p),B.j,B.b1,B.l,0,p),B.q,p,new A.ae(0,320,0,1/0),p,p,p,p,new A.ac(5,0,5,0),p,p,p)}}
 A.aFv.prototype={
 $0(){var s=this.a.w
 return s==null?null:s.$1(!0)},
@@ -113787,7 +113790,7 @@ l.push(A.b3J(k,i,m.w))}if(j)l.push(B.Dh)
 k=m.f
 if(k==null)k=s
 l.push(new A.CM(h,A.bw(m.aLB(m.e,k),h,h,s,h),h,m.w,h))
-d[o]=new A.aA(new A.ac(0,n,0,0),A.ax(l,m.r,h,B.j,B.k,0,B.o),h)}return A.ax(d,this.d,h,B.j,B.k,this.e,B.o)}}
+d[o]=new A.aA(new A.ac(0,n,0,0),A.ax(l,m.r,h,B.k,B.l,0,B.o),h)}return A.ax(d,this.d,h,B.k,B.l,this.e,B.o)}}
 A.cE.prototype={
 aLB(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=A.b([],t.VO)
 for(s=A.b_("\\*\\*(.*?)\\*\\*",!0,!1,!1).mK(0,a),s=new A.qL(s.a,s.b,s.c),r=b==null,q=t.Qz,p=0;s.u();){o=s.d
@@ -113803,7 +113806,7 @@ A.DM.prototype={
 d8(a,b){var s,r,q=null,p=b.bG($.f_(),t.d),o=A.V(a)
 if(p==null){s=A.VK(o.ax.b,q,new A.aA(B.qI,A.kj("Assets/Logo/Logo.png",q,q,q,q),q),20)
 r=o.ok.z
-return A.fo(!1,!0,A.bA(A.b([s,B.hM,A.ai("Entrar/ Criar conta",q,q,q,r==null?q:r.bd(B.n),q,q,q)],t.p),B.l,B.j,B.a0,0,q),q,!0,q,q,q,q,q,q,q,q,q,q,new A.aI_(a),q,q,q,q)}return A.aI0(q,B.aL,20,B.n,p)}}
+return A.fo(!1,!0,A.bA(A.b([s,B.hM,A.ai("Entrar/ Criar conta",q,q,q,r==null?q:r.bd(B.n),q,q,q)],t.p),B.j,B.k,B.a0,0,q),q,!0,q,q,q,q,q,q,q,q,q,q,new A.aI_(a),q,q,q,q)}return A.aI0(q,B.aL,20,B.n,p)}}
 A.aI_.prototype={
 $0(){return A.b7(this.a).df("/login",null)},
 $S:0}
@@ -113815,7 +113818,7 @@ s.toString
 A.bgi(10,20,B.n,B.G,new A.aX0(this),s,B.c3,B.eG,260,t.X)},
 awT(){return A.b28(new A.aX_(this))},
 uC(a,b){var s=null
-return new A.aA(B.qB,A.bA(A.b([new A.f4(1,B.b0,A.ai(a+": "+A.i(b),s,s,s,B.o0,s,s,s),s),A.hB(s,s,A.cV("Assets/Icons/copy.svg",new A.d9(B.m,B.ai,s,B.aj),B.W,18,18),s,s,new A.aWY(this,b,a),s,s,s,s)],t.p),B.l,B.j,B.k,0,s),s)},
+return new A.aA(B.qB,A.bA(A.b([new A.f4(1,B.b0,A.ai(a+": "+A.i(b),s,s,s,B.o0,s,s,s),s),A.hB(s,s,A.cV("Assets/Icons/copy.svg",new A.d9(B.m,B.ai,s,B.aj),B.W,18,18),s,s,new A.aWY(this,b,a),s,s,s,s)],t.p),B.j,B.k,B.l,0,s),s)},
 J(a){var s=null
 return new A.vK(this.w,A.h_(s,this.a.d,B.D,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,this.gayN(),s,s,s,s,s,s),s)}}
 A.aX0.prototype={
@@ -113837,7 +113840,7 @@ l=l.uC("Endere\xe7o",A.bf0(q,p,r,s,o==null?"":o,e))
 e=k.at
 if(e==null)e=0
 s=t.p
-return new A.aA(B.lz,A.ax(A.b([j,i,h,g,f,l,new A.aA(B.qB,A.bA(A.b([new A.f4(1,B.b0,A.ai("Camisa 10: ",n,n,n,B.o0,n,n,n),n),A.VG(new A.aWZ(m,k),e>0)],s),B.l,B.j,B.k,0,n),n)],s),B.u,n,B.j,B.a0,0,B.o),n)},
+return new A.aA(B.lz,A.ax(A.b([j,i,h,g,f,l,new A.aA(B.qB,A.bA(A.b([new A.f4(1,B.b0,A.ai("Camisa 10: ",n,n,n,B.o0,n,n,n),n),A.VG(new A.aWZ(m,k),e>0)],s),B.j,B.k,B.l,0,n),n)],s),B.v,n,B.k,B.a0,0,B.o),n)},
 $C:"$3",
 $R:3,
 $S:840}
@@ -113869,10 +113872,10 @@ p=s.f
 if(p==null)p="eae, Quer Valer?"
 o=k.Q
 n=t.p
-o=A.bA(A.b([r,B.hM,new A.f4(1,B.b0,A.ax(A.b([q,A.ai(p,1,B.aE,l,o==null?l:o.bd(m.x),l,l,l)],n),B.u,l,B.j,B.k,0,B.o),l)],n),B.l,B.j,B.a0,0,l)
+o=A.bA(A.b([r,B.hM,new A.f4(1,B.b0,A.ax(A.b([q,A.ai(p,1,B.aE,l,o==null?l:o.bd(m.x),l,l,l)],n),B.v,l,B.k,B.l,0,B.o),l)],n),B.j,B.k,B.a0,0,l)
 s=s.at
 if(s==null)s=0
-return A.fo(!1,!0,new A.aA(m.w,A.bA(A.b([new A.f4(1,B.b0,o,l),new A.a35(s,l)],n),B.l,B.b1,B.a0,0,l),l),l,!0,l,l,l,l,l,l,l,l,l,l,h,l,l,l,l)}}
+return A.fo(!1,!0,new A.aA(m.w,A.bA(A.b([new A.f4(1,B.b0,o,l),new A.a35(s,l)],n),B.j,B.b1,B.a0,0,l),l),l,!0,l,l,l,l,l,l,l,l,l,l,h,l,l,l,l)}}
 A.aI1.prototype={
 $0(){return A.b7(this.a).df("/perfil",null)},
 $S:0}
@@ -113893,7 +113896,7 @@ s=A.vv(m.c,-1,1)
 r=o.d
 q=r==null?n:r.a
 p=t.p
-return new A.u7(A.iQ(A.el(B.v,A.b([A.mv(n,A.by(n,A.b1R(A.ah4(new A.cv(q,t.W_),25,r),B.iF,A.b5l(),B.a3,B.a3,new A.aIf()),B.q,n,n,new A.cX(m.b,n,s,n,n,n,B.ca),n,50,n,n,n,n,50),n,n,n,n,-12.5,n),A.bT(A.ax(A.b([A.wQ(B.mz,new A.Bt(B.a6J,n,B.mX,n),o.c),B.b3],p),B.l,n,B.hm,B.k,0,B.o),150,130)],p),B.q,B.aw,n),n,n,new A.Kl(i,l,1,20,3,n),B.R),k,5,j,B.h,n)}}
+return new A.u7(A.iQ(A.el(B.u,A.b([A.mv(n,A.by(n,A.b1R(A.ah4(new A.cv(q,t.W_),25,r),B.iF,A.b5l(),B.a3,B.a3,new A.aIf()),B.q,n,n,new A.cX(m.b,n,s,n,n,n,B.ca),n,50,n,n,n,n,50),n,n,n,n,-12.5,n),A.bT(A.ax(A.b([A.wQ(B.mz,new A.Bt(B.a6J,n,B.mX,n),o.c),B.b3],p),B.j,n,B.hm,B.l,0,B.o),150,130)],p),B.q,B.aw,n),n,n,new A.Kl(i,l,1,20,3,n),B.R),k,5,j,B.h,n)}}
 A.aIf.prototype={
 $2(a,b){return A.aCB(a,b)},
 $S:283}
@@ -113913,10 +113916,10 @@ r=s}q=j.d4.a
 q=q==null?k:q.aDl(A.lF(new A.aIY()))
 p=l.r
 if(p==null)p=B.aL
-o=l.f?B.k:B.a0
+o=l.f?B.l:B.a0
 n=A.kj("Assets/Icons/whatsapp.png",k,r,k,r)
 m=s==null?k:s.bd(B.n)
-return A.d2(new A.aA(p,A.bA(A.b([n,B.hM,A.ai(l.c,k,k,k,m,k,k,k)],t.p),B.l,B.cg,o,0,k),k),l.e,q)}}
+return A.d2(new A.aA(p,A.bA(A.b([n,B.hM,A.ai(l.c,k,k,k,m,k,k,k)],t.p),B.j,B.cg,o,0,k),k),l.e,q)}}
 A.aIY.prototype={
 $1(a){return B.Lj},
 $S:6}
@@ -114469,7 +114472,7 @@ s=r.e
 if(s!=null)s.l()
 if(r.d)new A.azk(a,r).$1(this)
 else r.e=null},
-aO0(a){var s,r,q,p,o,n
+aO_(a){var s,r,q,p,o,n
 if(this.as)throw A.f(A.aa("Called updateOverrides on a ProviderContainer that was already disposed"))
 for(s=this.y,r=this.w,q=0;!1;++q){p=a[q]
 o=s.i(0,p)
@@ -114478,7 +114481,7 @@ r.m(0,p,p)
 o.b=p
 n=o.e
 if(n==null)continue
-A.bB8(n.gaNN(),p)}},
+A.bB8(n.gaNM(),p)}},
 tw(a,b){var s,r
 if(this.as)throw A.f(A.aa("Tried to read a provider from a ProviderContainer that was already disposed"))
 s=this.ax1(a)
@@ -114676,7 +114679,7 @@ k===$&&A.a()
 s=k.z
 p=s.length
 o=0
-for(;o<s.length;s.length===p||(0,A.H)(s),++o){n=s[o].gaOK()
+for(;o<s.length;s.length===p||(0,A.H)(s),++o){n=s[o].gaOJ()
 m=l.c
 m===$&&A.a()
 A.b0p(n,m,j,a.goO(),k)}for(k=k.z,s=k.length,o=0;o<k.length;k.length===s||(0,A.H)(k),++o)a.tf(0,new A.azC(l),new A.azD(l,k[o]))},
@@ -114732,7 +114735,7 @@ r===$&&A.a()
 q=r.z
 p=q.length
 o=0
-for(;o<q.length;q.length===p||(0,A.H)(q),++o){n=q[o].gaOJ()
+for(;o<q.length;q.length===p||(0,A.H)(q),++o){n=q[o].gaOI()
 m=l.c
 m===$&&A.a()
 A.bB6(n,m,r)}l.CW=l.ch=l.ay=l.ax=l.as=l.at=l.Q=null
@@ -114929,7 +114932,7 @@ return A.bzB()},
 a0q(){var s=this
 if(s.e!=null||s.a)return
 s.e=new A.b5(new A.ag($.a3,t.c),t.h)
-s.aOg(s.gazc())},
+s.aOf(s.gazc())},
 azd(){var s=this,r=s.e
 if(r==null)return
 r.eJ()
@@ -114958,7 +114961,7 @@ p===$&&A.a()
 o=q.c
 o===$&&A.a()
 p.amC(o)}},
-aOg(a){return this.gSN().$1(a)}}
+aOf(a){return this.gSN().$1(a)}}
 A.azP.prototype={
 $1(a){var s,r,q,p,o={}
 o.a=!1
@@ -115770,10 +115773,10 @@ gdR(){return this.a.a},
 gD(a){return this.c-this.b},
 gbV(){return A.b2w(this.a,this.b)},
 gbF(){return A.b2w(this.a,this.c)},
-gde(){return A.jb(B.jj.cU(this.a.c,this.b,this.c),0,null)},
+gde(){return A.jb(B.jj.cV(this.a.c,this.b,this.c),0,null)},
 gi_(){var s=this,r=s.a,q=s.c,p=r.xb(q)
-if(r.J9(q)===0&&p!==0){if(q-s.b===0)return p===r.b.length-1?"":A.jb(B.jj.cU(r.c,r.qm(p),r.qm(p+1)),0,null)}else q=p===r.b.length-1?r.c.length:r.qm(p+1)
-return A.jb(B.jj.cU(r.c,r.qm(r.xb(s.b)),q),0,null)},
+if(r.J9(q)===0&&p!==0){if(q-s.b===0)return p===r.b.length-1?"":A.jb(B.jj.cV(r.c,r.qm(p),r.qm(p+1)),0,null)}else q=p===r.b.length-1?r.c.length:r.qm(p+1)
+return A.jb(B.jj.cV(r.c,r.qm(r.xb(s.b)),q),0,null)},
 bl(a,b){var s
 if(!(b instanceof A.Ed))return this.ag7(0,b)
 s=B.e.bl(this.b,b.b)
@@ -117149,7 +117152,7 @@ c0=b9.a.tF(B.d.aH(b7),B.d.aH(b6))
 c=c.d
 $.a4()
 c1=new A.VU(B.o4,B.o4,c,d9,c0)
-c1.Zd(B.dh)
+c1.Zd(B.di)
 p.i(0,b5).b=c1
 c0.l()}else k.restore()
 continue $label0$1
@@ -117252,7 +117255,7 @@ d3.toString
 e2.dy=new A.aS_(a,a2,a3,d3)
 $.a4()
 d4=new A.k9()
-d5=d4.Fk(B.dr)
+d5=d4.Fk(B.ds)
 d5.a.clipRect(A.dv(new A.G(a0,a1,a0+a2,a1+a3)),$.kP()[1],!0)
 c=new A.a8l()
 c.c=d4
@@ -117355,7 +117358,7 @@ this.a.push(48)
 this.Q=!0},
 h5(a){var s,r=this.as
 if(r.a>a.a){s=a.b
-throw A.f(A.aa(B.c.aNy(s[0])+B.c.bv(s,1)+" must be encoded together (current phase is "+r.b+")."))}this.as=a},
+throw A.f(A.aa(B.c.aNx(s[0])+B.c.bv(s,1)+" must be encoded together (current phase is "+r.b+")."))}this.as=a},
 aB4(a){var s,r=this.a
 if(a!=null){s=a.length
 r.push(s)
@@ -117511,7 +117514,7 @@ return b instanceof A.hF&&b.b===this.b&&b.c===this.c},
 j(a){return"LineToCommand("+A.i(this.b)+", "+A.i(this.c)+")"}}
 A.ko.prototype={
 bB(a){var s=a.oD(new A.cG(this.b,this.c))
-return new A.ko(s.a,s.b,B.dn)},
+return new A.ko(s.a,s.b,B.dp)},
 gt(a){return A.L(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a,b){if(b==null)return!1
 return b instanceof A.ko&&b.b===this.b&&b.c===this.c},
@@ -117549,7 +117552,7 @@ s=0.551915024494*k
 r=0.551915024494*i
 q=j-i
 p=this.a
-p.push(new A.ko(l,q,B.dn))
+p.push(new A.ko(l,q,B.dp))
 o=l+s
 n=l+k
 m=j-r
@@ -117564,7 +117567,7 @@ p.push(new A.hf(k,m,s,q,l,q,B.bI))
 p.push(B.ie)
 return this},
 nW(a){var s,r=a.a,q=a.b,p=this.a
-p.push(new A.ko(r,q,B.dn))
+p.push(new A.ko(r,q,B.dp))
 s=a.c
 p.push(new A.hF(s,q,B.bS))
 q=a.d
@@ -117579,7 +117582,7 @@ r=a.a
 q=r+b
 p=a.b
 o=this.a
-o.push(new A.ko(q,p,B.dn))
+o.push(new A.ko(q,p,B.dp))
 n=r+(a.c-r)
 m=n-b
 o.push(new A.hF(m,p,B.bS))
@@ -117608,7 +117611,7 @@ if(a)B.b.R(r)
 return s},
 tH(){return this.a9C(!0)}}
 A.i5.prototype={
-aOm(a){if(a===this.b)return this
+aOl(a){if(a===this.b)return this
 return A.a_1(this.a,a)},
 bB(a){var s,r,q,p=A.b([],t.H9)
 for(s=this.a,r=s.length,q=0;q<s.length;s.length===r||(0,A.H)(s),++q)p.push(s[q].bB(a))
@@ -117683,7 +117686,7 @@ m=k.c
 l=m.a
 m=m.b
 if(o)s.push(new A.hF(l,m,B.bS))
-else s.push(new A.ko(l,m,B.dn))
+else s.push(new A.ko(l,m,B.dp))
 j=A.a_p(k.c,a)
 k.e=!k.e}if(j>0){k.b=o-j
 p=k.e
@@ -117704,7 +117707,7 @@ p=q.jw(0,3).eB(0)
 q=p[0]
 s=p[1]
 o=p[2]
-j.push(new A.hf(q.a,q.b,s.a,s.b,o.a,o.b,B.bI))}else j.push(new A.ko(s.a,s.b,B.dn))
+j.push(new A.hf(q.a,q.b,s.a,s.b,o.a,o.b,B.bI))}else j.push(new A.ko(s.a,s.b,B.dp))
 s=A.Y(r)
 q=new A.at(r,4,m,s.h("at<1>"))
 q.bD(r,4,m,s.c)
@@ -117950,7 +117953,7 @@ p=p.z
 s=p==null
 if(s)r=m!=null&&m!==1&&m!==0
 else r=!0
-if(r){o=n?q:o.aNr(B.Z5,this.a)
+if(r){o=n?q:o.aNq(B.Z5,this.a)
 if(o==null){o=A.Ao(0,0,0,m==null?1:m)
 o=new A.wa(o,q)}return new A.nX(s?B.i6:p,q,o)}return q},
 cC(a,b){return a.aa4(this,b)},
@@ -117985,7 +117988,7 @@ jY(a){return this.f_(a,!1)}}
 A.C1.prototype={
 OI(a,b){var s,r=this.b,q=r.e,p=q==null?null:q.a9F(a,b)
 q=r.f
-s=q==null?null:q.Sf(a,b,B.dd)
+s=q==null?null:q.Sf(a,b,B.de)
 if(s==null&&p==null)return null
 r=r.z
 return new A.nX(r==null?B.i6:r,p,s)},
@@ -118005,7 +118008,7 @@ cC(a,b){return a.a9Z(this,b)},
 cp(a,b){var s=t.z
 return this.cC(a,b,s,s)}}
 A.a2F.prototype={
-OI(a,b){var s,r=this.b,q=r.f,p=q==null?null:q.Sf(a,b,B.dd)
+OI(a,b){var s,r=this.b,q=r.f,p=q==null?null:q.Sf(a,b,B.de)
 q=r.e
 s=q==null?null:q.a9F(a,b)
 if(p==null&&s==null)return null
@@ -118231,7 +118234,7 @@ B_(a,b,c){var s,r=this,q=r.awa(a,null)
 if(q==null||r.b==null)return q
 s=r.b
 if(s==null)s=t.AS.a(s)
-return new A.a7(s.a.aOw(c,r.at.gR7(),b,A.bP(q.a)).G())},
+return new A.a7(s.a.aOv(c,r.at.gR7(),b,A.bP(q.a)).G())},
 awa(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f
 if(a==null||a.length===0)return null
 if(a==="none")return null
@@ -118519,7 +118522,7 @@ a9F(a,b){var s,r,q=this,p=null,o=q.b
 if(!o.a)s=o.b==null&&q.y==null&&q.c==null||q.r===0
 else s=!0
 if(s)return p
-if(q.y===!0)return new A.N5(B.dd,p,q.e,q.d,q.f,q.r)
+if(q.y===!0)return new A.N5(B.de,p,q.e,q.d,q.f,q.r)
 s=q.c
 if(s!=null){s=t.Mm.a(q.a.b.i(0,s))
 r=s==null?p:s.O7(a,b)
@@ -118529,7 +118532,7 @@ o=o.b
 if(!(s==null)){o=o.a
 s=A.Ao(o>>>16&255,o>>>8&255,o&255,s)
 o=s}s=b.ac7(q.r)
-if(o==null)o=B.dd
+if(o==null)o=B.de
 return new A.N5(o,r,q.e,q.d,q.f,s)}}
 A.Di.prototype={
 Sf(a,b,c){var s,r,q,p=this,o=null,n=p.b
@@ -118552,7 +118555,7 @@ if(n!=null){n=t.Mm.a(p.a.b.i(0,n))
 q=n==null?o:n.O7(a,b)
 if(q==null)return o}else q=o
 return new A.wa(s,q)},
-aNr(a,b){return this.Sf(a,b,null)},
+aNq(a,b){return this.Sf(a,b,null)},
 j(a){var s=this
 return"SvgFillAttributes(definitions: "+s.a.j(0)+", color: "+s.b.j(0)+", shaderId: "+A.i(s.d)+", hasPattern: "+A.i(s.e)+", oapctiy: "+A.i(s.c)+")"}}
 A.p0.prototype={
@@ -118582,7 +118585,7 @@ o=A.xi(B.ee,b3,B.bg)}else{b3=A.b([],b3)
 for(s=b4.d,r=s.length,q=b4.b,n=q.a,m=q.b,l=q.c,k=q.r,j=q.d,i=q.e,h=q.w,g=q.x,f=q.y,e=q.z,d=q.Q,c=q.as,b=q.at,a=q.ax,a0=q.ay,a1=q.ch,a2=q.cy,a3=q.db,a4=q.dx,a5=q.CW,a6=q.cx,q=q.f,a7=i==null,p=0;p<s.length;s.length===r||(0,A.H)(s),++p){a8=s[p]
 a9=a7?b0:new A.Na(i.a,i.b,i.c,i.d,i.e,i.f,i.r,i.w,i.x,i.y,b0)
 b3.push(a8.jY(new A.Dh(n,m,l,j,a9,q==null?b0:new A.Di(q.a,q.b,b0,q.d,q.e),k,h,g,f,e,d,c,b,a,a0,a1,a5,a6,a2,a3,a4,b0,b0)).cp(this,b1))}o=A.br9(B.ee,b3,b2)}return o},
-aa5(a,b){var s,r,q=null,p=a.b,o=b.hj(p.r),n=a.d,m=n.bB(o),l=p.w,k=m.aOm(l==null?n.b:l),j=n.a3O(),i=k.a3O(),h=a.OI(j,o)
+aa5(a,b){var s,r,q=null,p=a.b,o=b.hj(p.r),n=a.d,m=n.bB(o),l=p.w,k=m.aOl(l==null?n.b:l),j=n.a3O(),i=k.a3O(),h=a.OI(j,o)
 if(h!=null){n=p.e
 if((n==null?q:n.w)!=null){s=A.b([],t.f2)
 r=A.xi(p,s,q)
@@ -118634,7 +118637,7 @@ if(n==null)n=B.DM
 m=r.ay
 if(m==null)m=B.DK
 l=r.ch
-if(l==null)l=B.dd
+if(l==null)l=B.de
 if(s!=null&&B.c.eo(k).length!==0)return new A.a0G(new A.Nq(k,q,o,r.Q,p,n,m,l),s)
 return B.kO},
 J1(a,b){var s,r,q,p,o,n,m=a.r,l=a.w
@@ -119320,7 +119323,7 @@ s.$flags&2&&A.aD(s)
 s[0]=r
 s[1]=q
 s[2]=p},
-aNG(a){var s=a.a,r=this.a,q=r[0],p=s[0],o=r[4],n=s[1],m=r[8],l=s[2],k=r[12],j=r[1],i=r[5],h=r[9],g=r[13],f=r[2],e=r[6],d=r[10]
+aNF(a){var s=a.a,r=this.a,q=r[0],p=s[0],o=r[4],n=s[1],m=r[8],l=s[2],k=r[12],j=r[1],i=r[5],h=r[9],g=r[13],f=r[2],e=r[6],d=r[10]
 r=r[14]
 s.$flags&2&&A.aD(s)
 s[0]=q*p+o*n+m*l+k
@@ -119372,7 +119375,7 @@ s[2]=s[2]*a
 s[1]=s[1]*a
 s[0]=s[0]*a
 return r},
-a6(a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this.a,b=c[3],a=c[2],a0=c[1],a1=c[0],a2=a8.gaOB(),a3=a2[3],a4=a2[2],a5=a2[1],a6=a2[0]
+a6(a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this.a,b=c[3],a=c[2],a0=c[1],a1=c[0],a2=a8.gaOA(),a3=a2[3],a4=a2[2],a5=a2[1],a6=a2[0]
 c=B.d.a6(b,a6)
 s=B.d.a6(a1,a3)
 r=B.d.a6(a0,a4)
@@ -119663,7 +119666,7 @@ A.aJn.prototype={}
 A.aJo.prototype={}
 A.a3F.prototype={}
 A.a3A.prototype={
-cL(a){var s,r=new A.cZ(""),q=new A.Wr(r.gaOo())
+cL(a){var s,r=new A.cZ(""),q=new A.Wr(r.gaOn())
 J.k2(a,new A.acL(q,this.a).ga9X())
 q.aq()
 s=r.a
@@ -119931,7 +119934,7 @@ A.Oi.prototype={
 gR7(){var s=B.c.ea(this.gjr(),":")
 return s>0?B.c.bv(this.gjr(),s+1):this.gjr()}}
 A.a3D.prototype={
-aOf(a){return a.eY(this)}}
+aOe(a){return a.eY(this)}}
 A.b_H.prototype={
 $0(){return A.TY()},
 $S:0}
@@ -120405,7 +120408,7 @@ s=A.a2.prototype
 s.aL=s.au
 s.b_=s.aI
 s.oU=s.eK
-s.cV=s.c7
+s.cW=s.c7
 s.aE=s.l
 s.ck=s.b5
 s=A.av.prototype
@@ -120789,7 +120792,7 @@ r(A,"byQ","bt6",25)
 p(A,"byR","bv0",972)
 s(A,"bfb","bxL",973)
 m(A.B.prototype,"gmQ","n",26)
-n(A.cZ.prototype,"gaOo","tN",10)
+n(A.cZ.prototype,"gaOn","tN",10)
 q(A,"bfL",2,null,["$1$2","$2"],["b5M",function(a,b){return A.b5M(a,b,t.Ci)}],974,1)
 q(A,"FI",3,null,["$3"],["aEN"],975,0)
 q(A,"FJ",3,null,["$3"],["a8"],976,0)
@@ -120833,7 +120836,7 @@ n(i=A.yz.prototype,"guW","Eq",8)
 o(i,"gNN","aAR",0)
 n(i=A.At.prototype,"gZG","aum",8)
 o(i,"gZF","aul",0)
-o(A.vm.prototype,"gcY","ar",0)
+o(A.vm.prototype,"gcZ","ar",0)
 n(A.rn.prototype,"ga83","AT",8)
 n(i=A.OZ.prototype,"gasB","asC",42)
 n(i,"gasK","asL",78)
@@ -120864,7 +120867,7 @@ r(A,"bxU","bmJ",987)
 n(i=A.i_.prototype,"gF1","Y",54)
 n(i,"ga96","L",54)
 o(i,"gcM","l",0)
-o(i,"gcY","ar",0)
+o(i,"gcZ","ar",0)
 r(A,"bBm","brU",988)
 n(i=A.ID.prototype,"garl","arm",619)
 n(i,"gamh","ami",620)
@@ -121039,7 +121042,7 @@ n(i,"gaoO","aoP",3)
 n(i,"gF1","Y",189)
 l(A.DU.prototype,"gayU","ayV",379)
 q(A,"FG",3,null,["$3"],["bZ"],998,0)
-n(i=A.XJ.prototype,"gaOq","fR",1)
+n(i=A.XJ.prototype,"gaOp","fR",1)
 n(i,"gPH","hD",1)
 n(A.Ll.prototype,"gVr","ajA",8)
 r(A,"byh","btB",188)
@@ -121511,7 +121514,7 @@ l(A.P8.prototype,"gary","arz",641)
 k(i=A.IH.prototype,"garA",0,3,null,["$3"],["arB"],656,0,0)
 n(i,"gaCj","J",15)
 n(i,"gTJ","JA",138)
-o(i=A.IG.prototype,"gcY","ar",0)
+o(i=A.IG.prototype,"gcZ","ar",0)
 o(i,"gcM","l",0)
 q(A,"bz0",4,null,["$4"],["bpP"],127,0)
 q(A,"bAm",0,null,["$5$arguments$child$key$name$restorationId"],["bAx"],1012,0)
@@ -121537,7 +121540,7 @@ k(i,"ga85",0,1,null,["$2$seamless","$1"],["ti","q_"],91,0,0)
 o(i,"gauv","auw",871)
 r(A,"bzB","bvM",54)
 n(i=A.bD.prototype,"gacL","T",10)
-n(i,"gaNN","bs",10)
+n(i,"gaNM","bs",10)
 o(i,"gau9","Mj",0)
 o(A.a_H.prototype,"gazc","azd",0)
 q(A,"bzI",1,function(){return{allTransitiveDependencies:B.b6,argument:null,debugGetCreateSourceHash:B.b6,dependencies:B.b6,from:null,name:B.b6}},["$1$7$allTransitiveDependencies$argument$debugGetCreateSourceHash$dependencies$from$name","$7$allTransitiveDependencies$argument$debugGetCreateSourceHash$dependencies$from$name","$7$allTransitiveDependencies$argument$debugGetCreateSourceHash$dependencies$from$name"],["b1V",function(a,b,c,d,e,f,g){return A.b1V(a,b,c,d,e,f,g,t.z)},function(a,b,c,d,e,f,g){return A.b1V(a,b,c,d,e,f,g,t.z)}],1023,1)
@@ -121615,7 +121618,7 @@ o(i,"gxv","adv",73)
 o(i,"gm6","aKp",73)
 o(i,"gaKn","aKo",73)
 o(i,"gaKl","aKm",73)
-n(A.a3D.prototype,"ga9X","aOf",955)
+n(A.a3D.prototype,"ga9X","aOe",955)
 r(A,"bAe","boZ",1032)
 s(A,"bze","aee",137)
 q(A,"bfn",2,null,["$3$fromPigeon","$2"],["Ft",function(a,b){return A.Ft(a,b,!0)}],1033,0)
@@ -121653,8 +121656,8 @@ s(A,"bAR","bx9",65)
 s(A,"bAQ","bx8",65)})();(function inheritance(){var s=hunkHelpers.mixin,r=hunkHelpers.mixinHard,q=hunkHelpers.inherit,p=hunkHelpers.inheritMany
 q(A.t,null)
 p(A.t,[A.UJ,A.agj,A.rC,A.ags,A.VN,A.Z5,A.VO,A.a1I,A.xI,A.O0,A.wl,A.aEO,A.a0C,A.Y0,A.vF,A.ars,A.VT,A.VM,A.Vt,A.aA5,A.DR,A.axg,A.jP,A.Ws,A.rB,A.Ah,A.VX,A.VY,A.k9,A.LK,A.a1A,A.VU,A.rL,A.W0,A.GT,A.Ai,A.GU,A.VW,A.GS,A.aiT,A.cC,A.aiW,A.H_,A.H1,A.aO7,A.d9,A.As,A.rF,A.WZ,A.a0j,A.anV,A.akG,A.aCJ,A.Y4,A.ar6,A.Y3,A.Y2,A.X4,A.HJ,A.yU,A.B,A.X3,A.aok,A.acj,A.a6j,A.AZ,A.wm,A.Iz,A.Gj,A.wp,A.aoH,A.XY,A.a1C,A.zT,A.Yn,A.aXk,A.aP9,A.YK,A.nC,A.arY,A.hk,A.asc,A.asd,A.ase,A.aoC,A.Wk,A.YS,A.JZ,A.f7,A.bJ,A.my,A.Hh,A.hd,A.UU,A.UV,A.iN,A.nf,A.rk,A.FS,A.fS,A.zK,A.UD,A.p_,A.wJ,A.ajC,A.awJ,A.ahw,A.pU,A.I8,A.ZF,A.xc,A.BR,A.ZE,A.ayx,A.aIC,A.a_i,A.axj,A.agq,A.a3e,A.ayF,A.a_j,A.DP,A.HV,A.la,A.CI,A.HW,A.ayH,A.aCn,A.ayW,A.W1,A.az4,A.YY,A.aKO,A.aXl,A.oE,A.DZ,A.EI,A.aPa,A.ayX,A.b3B,A.aA7,A.af3,A.Mh,A.jL,A.vg,A.asa,A.HY,A.a1v,A.a1t,A.y4,A.amC,A.amD,A.aEa,A.aE6,A.a5G,A.a0,A.l6,A.arK,A.arM,A.aF9,A.aFc,A.aJ_,A.a_T,A.wL,A.HZ,A.ahr,A.Wj,A.amn,A.amo,A.Np,A.amj,A.V3,A.Dr,A.m1,A.arF,A.aGF,A.aGy,A.ar7,A.am2,A.alj,A.Z2,A.lQ,A.jH,A.WW,A.X_,A.akX,A.ajU,A.aoS,A.XA,A.apH,A.vI,A.aIL,A.aGY,A.I6,A.Gs,A.a2D,A.Ob,A.yL,A.R3,A.a3m,A.a3l,A.aIP,A.aH8,A.pb,A.a3g,A.DQ,A.b2Z,A.Y1,J.J7,A.LW,J.e0,A.VA,A.c1,A.aEm,A.be,A.tp,A.qJ,A.ny,A.a2p,A.a1J,A.a1K,A.Xd,A.XD,A.lu,A.Kc,A.Be,A.Im,A.a2Y,A.h5,A.uQ,A.JB,A.Au,A.uI,A.lj,A.Bj,A.aHK,A.ZB,A.I2,A.Sa,A.aTE,A.aso,A.hG,A.dK,A.YX,A.pG,A.Ew,A.qL,A.Dc,A.aV5,A.a4G,A.aPB,A.aco,A.mB,A.a6G,A.SF,A.aV7,A.Jx,A.SC,A.Os,A.a4j,A.Qf,A.kL,A.dw,A.bb,A.hM,A.lw,A.E1,A.ly,A.ag,A.a4i,A.uU,A.abd,A.a4k,A.a3N,A.a5J,A.aNv,A.z8,A.Eb,A.uy,A.F1,A.ih,A.T6,A.Fh,A.acR,A.El,A.jT,A.aQi,A.uJ,A.Et,A.iw,A.a7D,A.acn,A.Pq,A.a5U,A.a7s,A.S6,A.uT,A.n6,A.mG,A.nn,A.c0,A.GD,A.a4q,A.a4o,A.VI,A.aaU,A.aQ9,A.a7i,A.aLX,A.aV6,A.acv,A.zj,A.v0,A.ck,A.bc,A.ZN,A.MT,A.PD,A.fm,A.aT,A.aQ,A.oH,A.MZ,A.a0V,A.cZ,A.SR,A.O1,A.lB,A.I4,A.u4,A.ZD,A.an7,A.w9,A.ZA,A.aPZ,A.aSF,A.aQ_,A.Xh,A.aLI,A.Se,A.qO,A.aiK,A.ZJ,A.G,A.aW,A.EJ,A.jC,A.K,A.BA,A.b2R,A.ob,A.nH,A.Yp,A.pp,A.pK,A.ql,A.yH,A.ld,A.q4,A.a9a,A.aSE,A.b4H,A.R2,A.aSB,A.dR,A.Mj,A.aEk,A.iW,A.nD,A.wv,A.mI,A.Nt,A.iD,A.aJ,A.cM,A.tB,A.ahL,A.IB,A.XO,A.agw,A.ahv,A.ahx,A.XW,A.ayI,A.aGw,A.ai_,A.ahZ,A.a5L,A.ab6,A.dW,A.aia,A.Db,A.lU,A.vr,A.Qh,A.kK,A.n2,A.amY,A.ayy,A.Er,A.vs,A.m3,A.wr,A.apF,A.a_q,A.JP,A.MU,A.KK,A.Ij,A.KP,A.ms,A.mr,A.C5,A.C4,A.KI,A.a_c,A.w0,A.KN,A.UH,A.UI,A.anC,A.aEp,A.Mu,A.aF2,A.mM,A.yG,A.Ia,A.YD,A.a6l,A.ca,A.WL,A.J9,A.nL,A.uY,A.Ev,A.nN,A.WJ,A.XX,A.E7,A.a2Z,A.a3x,A.vX,A.akn,A.aq4,A.Ib,A.xq,A.wc,A.jg,A.a31,A.FT,A.Gm,A.agR,A.t1,A.kM,A.KL,A.KM,A.mt,A.vp,A.C2,A.KG,A.C3,A.xl,A.tG,A.xp,A.xo,A.KH,A.KJ,A.KO,A.KS,A.tF,A.KR,A.KQ,A.Xs,A.anb,A.awZ,A.awU,A.kq,A.O2,A.aI2,A.cq,A.AW,A.vP,A.nq,A.anq,A.an9,A.pj,A.a2R,A.Lh,A.a2t,A.ud,A.aoR,A.ayV,A.C7,A.xm,A.a_9,A.a_a,A.C6,A.a_b,A.anH,A.Mt,A.aEq,A.ah,A.aEH,A.Ga,A.Ku,A.G8,A.G7,A.vm,A.rn,A.aF,A.mN,A.a7e,A.a5e,A.aH2,A.a7_,A.j_,A.WK,A.OY,A.a5D,A.Vo,A.a9M,A.a5m,A.Su,A.xa,A.a5p,A.a5n,A.fl,A.a6t,A.Vh,A.i_,A.aRy,A.ak,A.kZ,A.fz,A.b4N,A.l5,A.KB,A.aWI,A.aIZ,A.Lf,A.mE,A.c6,A.B3,A.Ej,A.apl,A.aTF,A.ID,A.a5W,A.a5Y,A.a5Z,A.a5X,A.a8E,A.fN,A.a3I,A.a4W,A.a55,A.a50,A.a4Z,A.a5_,A.a4Y,A.a51,A.a59,A.Rw,A.a57,A.a58,A.a56,A.a53,A.a54,A.a52,A.a4X,A.a6D,A.AE,A.kg,A.Fb,A.pt,A.a7B,A.a7A,A.a7z,A.r6,A.b4F,A.KW,A.YW,A.a5b,A.F5,A.az0,A.az3,A.hm,A.abl,A.abr,A.Nn,A.abm,A.abp,A.abo,A.abq,A.abn,A.Sm,A.a4R,A.apo,A.kG,A.uq,A.QT,A.mT,A.a3L,A.a1a,A.aEI,A.a4b,A.qR,A.a4n,A.a7F,A.a4u,A.a4v,A.a4w,A.a4y,A.a4A,A.a7S,A.a4B,A.aEU,A.a4E,A.a4F,A.a4K,A.a4L,A.a4Q,A.a5r,A.Vx,A.a5v,A.aak,A.a5P,A.a5T,A.a6_,A.a60,A.a69,A.qT,A.a6f,A.a6n,A.anS,A.amQ,A.amP,A.anR,A.a6r,A.a6Z,A.nI,A.te,A.cU,A.Xz,A.a5A,A.aSV,A.er,A.a78,A.cd,A.a7u,A.WM,A.a7O,A.a7M,A.a7N,A.a7Y,A.a7Z,A.a8_,A.a8d,A.JI,A.kB,A.nW,A.a8i,A.Fi,A.a91,A.a95,A.a9c,A.aCv,A.a0Z,A.p3,A.awR,A.a3M,A.LZ,A.aas,A.aat,A.aau,A.aav,A.Nz,A.aaY,A.ab5,A.abc,A.abk,A.abt,A.abA,A.abK,A.abM,A.b2a,A.En,A.a6m,A.acz,A.bU,A.lC,A.abP,A.abQ,A.abS,A.acf,A.hD,A.a70,A.yJ,A.jn,A.a2v,A.ZY,A.Gt,A.a4t,A.Xw,A.aj_,A.IL,A.AB,A.a5C,A.OB,A.aKS,A.e1,A.aM2,A.apY,A.arh,A.a4D,A.a8m,A.IS,A.k4,A.BP,A.i1,A.i3,A.a71,A.Bc,A.UA,A.pA,A.a99,A.aba,A.C8,A.jO,A.aVH,A.abx,A.Qj,A.ug,A.kF,A.iI,A.E0,A.abJ,A.aF6,A.aM7,A.aRS,A.aWM,A.NN,A.LL,A.a8p,A.dE,A.aNZ,A.aKQ,A.aR,A.eG,A.ak2,A.yp,A.aIy,A.aQg,A.Gd,A.UO,A.a7p,A.YR,A.Bp,A.a7T,A.ad6,A.aU,A.a0c,A.f2,A.ao,A.Cr,A.a1r,A.RX,A.aUp,A.fc,A.aaH,A.eH,A.a09,A.adv,A.aSg,A.h4,A.Lk,A.ho,A.a1l,A.aD8,A.aaC,A.aaD,A.a1R,A.ab0,A.aBb,A.aEV,A.aEW,A.mc,A.aBh,A.O9,A.tX,A.RC,A.Ei,A.ayg,A.o7,A.Dx,A.yt,A.NF,A.Mi,A.aE9,A.Ad,A.VH,A.dN,A.aaF,A.aaI,A.qM,A.n5,A.r4,A.fr,A.aaJ,A.aE7,A.V_,A.yP,A.rp,A.A_,A.ahm,A.Mr,A.aGc,A.ahu,A.vH,A.aoo,A.a7m,A.aq2,A.Ji,A.YJ,A.as8,A.a7n,A.mj,A.mu,A.JT,A.aFQ,A.arL,A.arN,A.a29,A.awK,A.JU,A.eK,A.l7,A.AQ,A.ayJ,A.xr,A.tL,A.Cj,A.ak9,A.a9d,A.a9e,A.aA9,A.ev,A.f8,A.Df,A.a27,A.agr,A.abj,A.abv,A.mJ,A.a7W,A.aVq,A.lo,A.a2B,A.Cn,A.c8,A.aH3,A.aGE,A.y1,A.aGG,A.a2A,A.Nu,A.ad8,A.abe,A.ir,A.a2U,A.aHP,A.aIV,A.a7d,A.a3K,A.EE,A.uA,A.a4f,A.kT,A.hl,A.rt,A.dT,A.a3t,A.eM,A.Wq,A.X1,A.Dz,A.jU,A.xV,A.aUb,A.a4m,A.aoa,A.a6x,A.a6v,A.a6O,A.Ef,A.a6C,A.E8,A.a5Q,A.ako,A.adc,A.adb,A.a72,A.Vu,A.ahA,A.Kd,A.aRz,A.aBQ,A.t7,A.wu,A.aE8,A.aPh,A.qW,A.nQ,A.hC,A.Vz,A.fE,A.EG,A.WQ,A.pL,A.a2E,A.wT,A.Bz,A.JL,A.acr,A.qh,A.a2Q,A.uM,A.aa5,A.ty,A.uR,A.axX,A.Sd,A.BY,A.a6q,A.aw_,A.ayz,A.KT,A.i8,A.jK,A.qN,A.a0R,A.Z0,A.Z1,A.a19,A.aCS,A.aXu,A.aES,A.a1d,A.jQ,A.a3h,A.a1j,A.a1g,A.alh,A.aaV,A.acV,A.aaQ,A.aaT,A.jN,A.od,A.Pj,A.MO,A.jz,A.a2H,A.a1k,A.mK,A.NB,A.ia,A.eI,A.OV,A.NL,A.DG,A.aci,A.a49,A.a7r,A.Qi,A.bt,A.acC,A.bN,A.EV,A.aoB,A.ayi,A.ahF,A.a2m,A.A8,A.a2k,A.a4h,A.aFT,A.aBU,A.aBV,A.mA,A.aag,A.aaj,A.eq,A.aRE,A.aaf,A.aEB,A.aCm,A.ps,A.bu,A.ajy,A.apW,A.kf,A.apX,A.iY,A.vG,A.Ve,A.Vf,A.ahc,A.JN,A.HP,A.fx,A.jq,A.hL,A.ahM,A.jx,A.aII,A.yv,A.aGu,A.dC,A.awA,A.tz,A.Kr,A.Wp,A.aFS,A.aye,A.a_2,A.dr,A.aG6,A.a_4,A.aG5,A.Zn,A.vM,A.a_0,A.aH,A.uj,A.Z7,A.VF,A.a_s,A.rr,A.rz,A.tq,A.tx,A.tI,A.ul,A.op,A.os,A.ahE,A.mn,A.ru,A.a4H,A.a7E,A.a8a,A.a8v,A.lc,A.abT,A.yx,A.acu,A.up,A.vD,A.ij,A.k8,A.fC,A.mF,A.tn,A.Bt,A.zG,A.xk,A.a8o,A.cE,A.c5,A.cu,A.bD,A.axG,A.azO,A.ap5,A.ah2,A.ah3,A.b9,A.UK,A.lM,A.V1,A.vk,A.vq,A.oG,A.i6,A.fy,A.id,A.eS,A.lf,A.ZT,A.QZ,A.a_H,A.fM,A.SU,A.ek,A.j4,A.aEu,A.aEs,A.y9,A.CT,A.a_y,A.apE,A.aiZ,A.aF3,A.a22,A.D4,A.aqf,A.iH,A.n3,A.mD,A.a25,A.hZ,A.dm,A.Jn,A.wK,A.dH,A.mQ,A.a39,A.aFR,A.aIR,A.aht,A.Yw,A.YP,A.aA3,A.kw,A.aS_,A.a8l,A.aNl,A.aIu,A.aby,A.abu,A.a3a,A.Ld,A.a_M,A.z9,A.EH,A.WF,A.aIt,A.aIs,A.aSG,A.al9,A.cG,A.jI,A.Yo,A.X6,A.lL,A.tE,A.kv,A.i5,A.aLR,A.aRZ,A.Kz,A.arr,A.a7,A.m9,A.nX,A.N5,A.wa,A.Nx,A.Nq,A.yl,A.dD,A.Sl,A.mH,A.aa0,A.acx,A.Dh,A.HK,A.Na,A.Di,A.p0,A.a3j,A.a2n,A.Xl,A.a3b,A.kc,A.x1,A.yF,A.x0,A.bi,A.qa,A.hs,A.mS,A.b2t,A.Ec,A.hh,A.us,A.a3E,A.aJm,A.a3y,A.aJ3,A.aJn,A.aJo,A.a3F,A.ae0,A.acM,A.aJ4,A.a3C,A.Wr,A.acJ,A.Oi,A.a3D])
-p(A.rC,[A.Wa,A.ago,A.agk,A.agl,A.agm,A.aiP,A.aY0,A.aiQ,A.aER,A.aiR,A.aLW,A.aLV,A.axd,A.aYn,A.aiS,A.aY2,A.aiX,A.ajb,A.ajc,A.aj7,A.aj8,A.aj9,A.aja,A.akV,A.aZX,A.akY,A.b05,A.akZ,A.aNX,A.akW,A.akU,A.Wb,A.aZ0,A.b0u,A.b0t,A.aol,A.aon,A.b_7,A.b_8,A.b_9,A.b_6,A.aoE,A.aqZ,A.ar_,A.anU,A.anW,A.anT,A.ajV,A.aYz,A.aYA,A.aYB,A.aYC,A.aYD,A.aYE,A.aYF,A.aYG,A.arU,A.arV,A.arW,A.arX,A.as3,A.as7,A.b00,A.awT,A.aEK,A.aEL,A.amy,A.amx,A.amt,A.amu,A.amv,A.amr,A.amw,A.amp,A.amB,A.ams,A.aKV,A.aKU,A.aKW,A.aIE,A.aIF,A.aIG,A.aIH,A.ayD,A.ayE,A.ayB,A.aCo,A.aKP,A.aXm,A.aSm,A.aSp,A.aSq,A.aSr,A.aSs,A.aSt,A.aSu,A.aAb,A.af6,A.af7,A.aDr,A.aDs,A.aY4,A.aDB,A.aDx,A.aDH,A.aDM,A.aDN,A.amE,A.akj,A.awD,A.aGp,A.aDU,A.aDV,A.aDW,A.amk,A.aml,A.akc,A.akd,A.ake,A.ard,A.arb,A.anM,A.ar8,A.alk,A.aZI,A.ajS,A.ajh,A.aID,A.ar4,A.ar0,A.ar2,A.aib,A.J5,A.a2u,A.arR,A.b_s,A.b_u,A.aV8,A.aKw,A.aKv,A.aXV,A.aXU,A.aVi,A.aVk,A.aVj,A.apa,A.aoT,A.aP_,A.aP6,A.aFG,A.aFE,A.aFM,A.aFI,A.aFK,A.aMM,A.aML,A.aTS,A.aTR,A.b0q,A.aPe,A.aMB,A.aQh,A.asO,A.aQ2,A.ak_,A.ak0,A.aWQ,A.aWX,A.aNS,A.aNQ,A.aNP,A.aNR,A.b_B,A.b03,A.b04,A.aZY,A.arS,A.aWE,A.aWH,A.aWF,A.aWD,A.aZG,A.ahz,A.aq7,A.aq5,A.amK,A.ai9,A.ai3,A.ai4,A.ai5,A.ai7,A.ai2,A.aQ6,A.aQ7,A.aQ5,A.aLY,A.az5,A.awj,A.awh,A.awi,A.awf,A.awg,A.anO,A.aZS,A.akO,A.akP,A.aA_,A.aA0,A.azU,A.azV,A.azW,A.azY,A.ak5,A.ak7,A.aZT,A.aZU,A.ahP,A.ahR,A.ahV,A.aJ1,A.aJ2,A.an3,A.an4,A.an5,A.an6,A.an1,A.an2,A.ano,A.anp,A.aw6,A.aw3,A.aw7,A.aw2,A.aw5,A.b_O,A.ank,A.and,A.ane,A.ang,A.anh,A.aIh,A.aIj,A.ah_,A.ah0,A.agS,A.agT,A.agW,A.agX,A.aYb,A.aYc,A.ans,A.anx,A.anz,A.ant,A.anw,A.aGt,A.awr,A.aws,A.awu,A.aHR,A.aHS,A.b_l,A.aMb,A.aMa,A.aMh,A.aM9,A.aM8,A.aMm,A.aMn,A.aMp,A.aMy,A.aMz,A.aSQ,A.aSR,A.aSP,A.aSS,A.aST,A.ajQ,A.axz,A.aMA,A.anZ,A.ao_,A.ao0,A.aZZ,A.aq8,A.aF7,A.aG7,A.aP8,A.ayY,A.ayZ,A.az6,A.ah7,A.ah8,A.ah9,A.aje,A.ajf,A.ajg,A.alb,A.alc,A.ald,A.amg,A.amh,A.ami,A.afg,A.afh,A.afi,A.avu,A.aLs,A.aLt,A.aLu,A.aL3,A.aL4,A.aL5,A.aLg,A.aLk,A.aLl,A.aLm,A.aLn,A.aLo,A.aLp,A.aLq,A.aL6,A.aL7,A.aLi,A.aL1,A.aLj,A.aL0,A.aL8,A.aL9,A.aLa,A.aLb,A.aLc,A.aLd,A.aLe,A.aLf,A.aLh,A.aNe,A.aNf,A.aNg,A.aN9,A.aNa,A.aNd,A.aN8,A.aNb,A.aXC,A.aXD,A.aXE,A.aXx,A.aXy,A.aXB,A.aXw,A.aXz,A.aLO,A.aLP,A.aLN,A.aLL,A.aLK,A.aLM,A.b0z,A.aMO,A.aMN,A.aMP,A.aMR,A.aMT,A.aMS,A.aMU,A.aMQ,A.akm,A.aO0,A.aO2,A.aO5,A.aO1,A.aO3,A.aO4,A.aPr,A.aPt,A.aPs,A.aOj,A.aOk,A.aOm,A.aOl,A.aOn,A.aOo,A.aOq,A.aOp,A.aRN,A.aRO,A.aRQ,A.aRR,A.aRP,A.aPH,A.aPE,A.aPK,A.aPf,A.aSZ,A.aSW,A.aPW,A.aPQ,A.aPN,A.aPL,A.aPS,A.aPT,A.aPU,A.aPR,A.aPO,A.aPP,A.aPM,A.ass,A.aT7,A.asr,A.aGZ,A.aQM,A.aQx,A.aQy,A.aQz,A.aQA,A.aRI,A.aRL,A.aRJ,A.aRM,A.aRK,A.aXH,A.aXI,A.aOb,A.aOc,A.amS,A.amT,A.aJr,A.aJp,A.aJq,A.ay8,A.azd,A.aCs,A.aQF,A.aQC,A.aQE,A.aQD,A.aQB,A.aUT,A.aUV,A.aUW,A.aUY,A.aVm,A.aVp,A.aVn,A.aVo,A.aVF,A.aVG,A.aYK,A.aGB,A.aGC,A.aTq,A.aTr,A.aTs,A.aTt,A.aTv,A.aTw,A.aKo,A.aHa,A.aHf,A.aNz,A.aNE,A.aNF,A.aNG,A.aNI,A.aWb,A.b0K,A.aW1,A.aW2,A.aW3,A.aW4,A.aW5,A.aW6,A.aW0,A.aW7,A.aHg,A.aHn,A.axu,A.axv,A.aOK,A.aON,A.aM5,A.aM4,A.aM6,A.aj0,A.aj1,A.aj2,A.aYX,A.aYx,A.asn,A.aLw,A.arq,A.arl,A.agu,A.aru,A.arv,A.arE,A.arD,A.aUB,A.aUC,A.aUD,A.aH1,A.aH0,A.aH_,A.aH5,A.aoQ,A.aBy,A.aBu,A.ahq,A.aAD,A.aAI,A.aAH,A.aAM,A.awN,A.awM,A.ayt,A.aAX,A.aAY,A.aAZ,A.aAV,A.aAA,A.aUq,A.aTg,A.aTh,A.aTi,A.aTj,A.aTk,A.aTa,A.aT8,A.aT9,A.aTd,A.aTe,A.aTb,A.aTc,A.aTf,A.aB3,A.aB5,A.aB4,A.aYm,A.aSh,A.aBc,A.aBe,A.aBg,A.aBf,A.aBa,A.aB9,A.aBl,A.aBj,A.aBk,A.aBi,A.aBo,A.aBn,A.aBt,A.aCD,A.aCC,A.aHe,A.aEb,A.aUv,A.aUu,A.aUs,A.aUt,A.aY1,A.aEe,A.aEd,A.aDY,A.aE3,A.aE1,A.aE_,A.aE2,A.aE0,A.aE4,A.aE5,A.ahJ,A.ayw,A.agy,A.aKs,A.aEo,A.aNi,A.aop,A.asD,A.ahl,A.awz,A.amL,A.aBM,A.aBN,A.aBL,A.an8,A.aGA,A.aGT,A.aGU,A.aGV,A.aSf,A.aGe,A.aqY,A.aqW,A.arw,A.aYt,A.afb,A.afe,A.afc,A.afd,A.aff,A.aOI,A.aOF,A.aOD,A.aOE,A.aOH,A.aK0,A.aKl,A.aKm,A.aKn,A.aXn,A.aOR,A.aKF,A.aKK,A.aWK,A.aWJ,A.aj5,A.aXq,A.aXs,A.aXt,A.aXp,A.ajD,A.akb,A.akI,A.akJ,A.alU,A.als,A.alV,A.alX,A.alY,A.alt,A.alW,A.alx,A.alr,A.alH,A.alA,A.alG,A.alD,A.alC,A.alE,A.aUc,A.aOd,A.aK4,A.aK5,A.aK3,A.aod,A.aoc,A.aYq,A.aog,A.aoi,A.aoh,A.aSM,A.akp,A.akq,A.akr,A.aks,A.aku,A.akv,A.akx,A.aky,A.akt,A.aSJ,A.aSK,A.aSH,A.aAq,A.aoy,A.aov,A.aou,A.aPA,A.am9,A.am7,A.am6,A.ama,A.amc,A.am4,A.am3,A.am8,A.am5,A.ayd,A.awS,A.apt,A.apw,A.apy,A.apA,A.apC,A.apv,A.aNn,A.aNo,A.aNp,A.aNs,A.aNt,A.aNu,A.aqe,A.aqc,A.aqb,A.arf,A.aPw,A.arA,A.arz,A.ary,A.aJS,A.aJT,A.aJU,A.aJV,A.aJW,A.aJX,A.aJY,A.aJZ,A.aK7,A.aKc,A.aKd,A.aKe,A.aKf,A.aKg,A.aKh,A.aKi,A.aK6,A.aK1,A.aK8,A.aK9,A.aKa,A.aKb,A.arC,A.aYH,A.aYI,A.aYJ,A.aQm,A.aQn,A.asJ,A.asM,A.avB,A.avE,A.avD,A.avC,A.aCk,A.aCj,A.axt,A.aTW,A.aTU,A.aTY,A.axm,A.axs,A.axl,A.axr,A.axV,A.aTC,A.aTA,A.aTB,A.aTz,A.axW,A.aTx,A.aT1,A.aT2,A.aT5,A.ay7,A.aRX,A.aSk,A.aYg,A.aTM,A.aU3,A.aU1,A.ah6,A.aHJ,A.aHG,A.aHF,A.asB,A.aQU,A.aQT,A.aQQ,A.awG,A.aCO,A.aCP,A.aCQ,A.aCR,A.aCU,A.aCV,A.aCW,A.aD3,A.aD0,A.aD2,A.aUd,A.aAf,A.aAj,A.aAk,A.aFh,A.aFi,A.ax8,A.ax9,A.axa,A.ax4,A.ax5,A.ax6,A.ax7,A.aF_,A.aVl,A.akg,A.aUh,A.aUi,A.aDd,A.aDb,A.aDc,A.aDe,A.aDa,A.aD9,A.aUn,A.aH4,A.aVN,A.aVP,A.aVR,A.aVT,A.aVV,A.aHO,A.aZ_,A.aIK,A.aIT,A.b0U,A.b0V,A.asQ,A.asS,A.asR,A.ayj,A.ayh,A.ahG,A.aFW,A.aFV,A.aMC,A.aMD,A.aME,A.aMG,A.aC6,A.aC9,A.aC7,A.aC8,A.aC5,A.aC4,A.aC0,A.aC_,A.aBX,A.aBW,A.aBY,A.apR,A.apS,A.apT,A.apU,A.aCf,A.aCh,A.aCg,A.aTZ,A.aU_,A.apN,A.apL,A.apM,A.aRG,A.aRF,A.aYf,A.aZQ,A.b_h,A.b_g,A.b0_,A.ahb,A.ahs,A.aXX,A.ahD,A.avH,A.b_5,A.at3,A.at4,A.atm,A.atn,A.atl,A.ava,A.avb,A.av6,A.av7,A.auV,A.auW,A.av2,A.av3,A.av0,A.av1,A.av4,A.av5,A.auX,A.auY,A.auZ,A.av_,A.au_,A.au0,A.atZ,A.av8,A.av9,A.atX,A.atY,A.atW,A.atj,A.atk,A.ate,A.atf,A.atd,A.auj,A.auk,A.aui,A.aug,A.auh,A.auf,A.auT,A.auU,A.auB,A.auC,A.auy,A.auz,A.aux,A.auA,A.atG,A.atH,A.atF,A.aum,A.aun,A.aul,A.auo,A.atv,A.atw,A.atu,A.ath,A.ati,A.atg,A.auQ,A.auR,A.auP,A.auS,A.atU,A.atV,A.atT,A.auE,A.auF,A.auD,A.auG,A.atJ,A.atK,A.atI,A.avp,A.avq,A.avo,A.avr,A.aud,A.aue,A.auc,A.avd,A.ave,A.avc,A.avf,A.au2,A.au3,A.au1,A.ata,A.atb,A.at9,A.atc,A.ats,A.att,A.atr,A.at6,A.at7,A.at5,A.at8,A.atp,A.atq,A.ato,A.auu,A.auv,A.aut,A.auw,A.auq,A.aur,A.aup,A.aus,A.atC,A.atE,A.atB,A.atD,A.aty,A.atA,A.atx,A.atz,A.auM,A.auN,A.auL,A.auO,A.auI,A.auJ,A.auH,A.auK,A.atQ,A.atS,A.atP,A.atR,A.atM,A.atO,A.atL,A.atN,A.avl,A.avm,A.avk,A.avn,A.avh,A.avi,A.avg,A.avj,A.au9,A.aub,A.au8,A.aua,A.au5,A.au7,A.au4,A.au6,A.ay4,A.ajE,A.ajF,A.aZ1,A.aIX,A.b_X,A.aY6,A.aY7,A.b0W,A.b_V,A.aAt,A.aAu,A.aAw,A.aAx,A.aAy,A.b0M,A.b0N,A.b0H,A.b0I,A.aSw,A.b0O,A.b0P,A.aZD,A.b_b,A.aZE,A.aZL,A.b_p,A.b_o,A.b_N,A.b_J,A.b_R,A.b_S,A.aZ4,A.b_Y,A.b07,A.b01,A.b0o,A.b0X,A.b0Z,A.b10,A.aiF,A.aiG,A.aiE,A.asU,A.asW,A.asV,A.axL,A.axM,A.axN,A.ayL,A.ayM,A.ayK,A.aHr,A.aIe,A.aIc,A.aId,A.b0h,A.b0i,A.b0e,A.b0f,A.b0g,A.b0c,A.b0d,A.b08,A.b09,A.b0a,A.b0b,A.aFj,A.b_P,A.af1,A.aeW,A.aeX,A.aeY,A.aeZ,A.afl,A.aJO,A.aJI,A.aJH,A.aJG,A.aJM,A.afv,A.afw,A.afx,A.afs,A.afq,A.afK,A.afN,A.afL,A.afM,A.afH,A.afF,A.afZ,A.afT,A.afW,A.afQ,A.afR,A.afS,A.aJz,A.aga,A.agb,A.ag7,A.ag5,A.ag3,A.aWz,A.aWw,A.aWx,A.aWy,A.aWp,A.aWs,A.aWt,A.aWr,A.aLG,A.aqS,A.aqR,A.aqM,A.aqK,A.aqV,A.aqG,A.aqE,A.aqF,A.aqD,A.at_,A.asZ,A.avX,A.avW,A.avP,A.aR9,A.aRk,A.aRq,A.aRr,A.aRs,A.aR4,A.aR5,A.aR7,A.aRn,A.aSd,A.aS6,A.aS7,A.aS3,A.aUR,A.aUS,A.aVh,A.aVb,A.aI9,A.aIl,A.aiH,A.aiI,A.axP,A.axO,A.ayO,A.ayS,A.ayR,A.ayN,A.ayQ,A.ayP,A.aHs,A.aHt,A.b0Y,A.b1_,A.aIo,A.aIp,A.aiq,A.air,A.ais,A.ait,A.ag2,A.aiC,A.aiw,A.aiz,A.apd,A.apg,A.asA,A.asx,A.aRC,A.b0x,A.b0L,A.b0F,A.b0E,A.b0A,A.b0y,A.b0D,A.b0J,A.aFn,A.aFl,A.aFs,A.aFr,A.aX0,A.aX_,A.aWZ,A.aI5,A.aIY,A.aZC,A.aZ8,A.aZt,A.aZ9,A.aZa,A.aZ5,A.aXS,A.ap3,A.ap2,A.ap0,A.aoZ,A.aoV,A.aKt,A.aKu,A.agH,A.aYj,A.aYh,A.aYi,A.aYY,A.aFB,A.agz,A.agA,A.agB,A.agC,A.agD,A.agE,A.agK,A.agL,A.agM,A.agN,A.agO,A.agP,A.aUZ,A.aV_,A.azk,A.azq,A.azm,A.azn,A.azs,A.azt,A.azr,A.azu,A.azI,A.azG,A.azH,A.azE,A.azF,A.azx,A.azy,A.azz,A.azA,A.azB,A.azC,A.azD,A.azv,A.azw,A.amU,A.ah1,A.aZP,A.azP,A.aOT,A.aOU,A.aYo,A.azS,A.aX9,A.aX8,A.aXb,A.aYN,A.b0T,A.aYO,A.aYM,A.aFg,A.aV2,A.aV3,A.ajt,A.ajm,A.awn,A.awo,A.aEx,A.aYp,A.aqh,A.aqg,A.aqi,A.aqk,A.aqm,A.aqj,A.aqA,A.aih,A.aii,A.aij,A.aio,A.ain,A.ail,A.aim,A.aik,A.aHB,A.aHy,A.aHx,A.aHv,A.aHw,A.aHD,A.aHC,A.aIr,A.aIq,A.aww,A.awx,A.b_1,A.ao2,A.ao3,A.aXg,A.aXh,A.ajI,A.aFY,A.aFZ,A.aG_,A.aG0,A.aG1,A.aG2,A.aG3,A.aG4,A.aTK,A.aTJ,A.aFU,A.ajv,A.aO9,A.aOa,A.aXR,A.aJb,A.aJl,A.aJ9,A.aJ5,A.aJ6,A.aJ8,A.aJ7,A.aJi,A.aJc,A.aJa,A.aJd,A.aJk,A.aJh,A.aJf,A.aJe,A.aJg,A.b_4])
-p(A.Wa,[A.agn,A.aEP,A.aEQ,A.axc,A.axe,A.axS,A.axT,A.ahY,A.aiV,A.aom,A.aOe,A.aoF,A.aoG,A.b_x,A.anX,A.aXZ,A.as4,A.as5,A.as6,A.as_,A.as0,A.as1,A.aoO,A.aoP,A.ay9,A.ask,A.asj,A.amz,A.amA,A.b_z,A.ayG,A.ayA,A.aSn,A.aSo,A.aPb,A.aA8,A.aAa,A.af4,A.af5,A.aDI,A.aCi,A.aDL,A.aDG,A.amH,A.amG,A.amF,A.awE,A.aDX,A.arc,A.aGz,A.ao8,A.ao9,A.aYu,A.aIM,A.amm,A.ar5,A.ar3,A.ar1,A.aid,A.b_Q,A.azh,A.aKx,A.aKy,A.aWl,A.aWk,A.aXT,A.aKA,A.aKB,A.aKD,A.aKE,A.aKC,A.aKz,A.ap9,A.ap8,A.ap6,A.aOV,A.aP2,A.aP1,A.aOZ,A.aOX,A.aOW,A.aP5,A.aP4,A.aP3,A.aFF,A.aFN,A.aFH,A.aFL,A.aV1,A.aV0,A.aJv,A.aL_,A.aKZ,A.aS0,A.aQY,A.aY_,A.aMK,A.aMJ,A.aYS,A.aTQ,A.aTP,A.aX4,A.aX3,A.WC,A.aiL,A.aiM,A.aZH,A.ahy,A.aq6,A.ai8,A.ai6,A.awk,A.awl,A.akL,A.akM,A.akK,A.aA1,A.aA2,A.azX,A.azZ,A.ahT,A.ann,A.aw8,A.anc,A.anf,A.ani,A.anj,A.anl,A.anm,A.aIi,A.agU,A.agV,A.agY,A.agZ,A.anB,A.anv,A.anu,A.awt,A.anJ,A.aAz,A.aGs,A.aMd,A.aMe,A.aMc,A.aMf,A.aMg,A.aMj,A.aMk,A.aMt,A.aMs,A.aMr,A.ajM,A.ajL,A.ajN,A.ajO,A.aMq,A.aMx,A.aMv,A.aMw,A.aMu,A.anY,A.ahn,A.aiJ,A.apn,A.apm,A.apq,A.apr,A.aos,A.aoq,A.aor,A.asH,A.asG,A.asF,A.al1,A.al6,A.al7,A.al2,A.al3,A.al4,A.al5,A.az2,A.azf,A.aGi,A.aGj,A.aGl,A.aGm,A.aGn,A.aGk,A.ahi,A.ahj,A.ahg,A.ahh,A.ahe,A.ahf,A.ahd,A.app,A.aIv,A.aIw,A.aJs,A.agi,A.aKq,A.avt,A.aLv,A.aLr,A.aL2,A.aLy,A.aLz,A.aLA,A.aLx,A.aLB,A.aQX,A.aQW,A.aQV,A.aNc,A.aXA,A.aMX,A.aMW,A.aMV,A.aMY,A.aN_,A.ale,A.aYs,A.aYr,A.aPD,A.aPG,A.aPI,A.aPC,A.aPF,A.aPJ,A.aPg,A.aSX,A.aPV,A.aVK,A.aVJ,A.aVL,A.aSy,A.aSz,A.aSx,A.aCt,A.aCu,A.aCp,A.aCq,A.aCr,A.aOv,A.aCw,A.aCy,A.aCx,A.aQL,A.aQK,A.aQJ,A.aQH,A.aQI,A.aQG,A.aUk,A.aUj,A.aUl,A.aUU,A.aVr,A.aVt,A.aVs,A.aVu,A.aVx,A.aVy,A.aVz,A.aVA,A.aVB,A.aVC,A.aVv,A.aVw,A.aVX,A.aVW,A.aHb,A.aHc,A.aNy,A.aNx,A.aNw,A.aNC,A.aNB,A.aNA,A.aN3,A.aN4,A.aN5,A.aN6,A.aNM,A.aNL,A.aNN,A.aNK,A.aNJ,A.aWd,A.aWe,A.aPq,A.aPp,A.aPo,A.aWa,A.aW8,A.aW9,A.aWj,A.aWg,A.aWf,A.aWi,A.aWh,A.aHo,A.axw,A.axx,A.arj,A.ari,A.aQk,A.arn,A.aro,A.ax2,A.aVI,A.aAB,A.aBw,A.aBx,A.aO_,A.aKR,A.aPY,A.aAE,A.asf,A.asg,A.awQ,A.awP,A.awO,A.ayc,A.ayb,A.aya,A.aAW,A.aB_,A.aB0,A.aBd,A.aCF,A.aCG,A.aCH,A.aCI,A.ahI,A.aEn,A.amM,A.amN,A.aA6,A.aBJ,A.aBK,A.aBI,A.aGb,A.aG9,A.aGW,A.aGX,A.aJt,A.aOG,A.aOB,A.aOC,A.aOA,A.aK_,A.aKk,A.aOQ,A.aOP,A.aKJ,A.aKH,A.aKI,A.aKG,A.aXr,A.aIU,A.aBR,A.aBS,A.aNU,A.aNV,A.alo,A.alI,A.alJ,A.alK,A.alL,A.alM,A.alN,A.alO,A.alP,A.alQ,A.alR,A.alS,A.alT,A.aly,A.alZ,A.alp,A.alq,A.all,A.aln,A.am_,A.am0,A.am1,A.alu,A.alv,A.alw,A.alz,A.aK2,A.aOw,A.aOx,A.aOy,A.aOz,A.aoz,A.aoA,A.aox,A.aow,A.aot,A.ahB,A.ajw,A.ajx,A.aps,A.apu,A.apx,A.apz,A.apB,A.apD,A.aNr,A.aNq,A.aPl,A.aPk,A.aPj,A.aPz,A.aPv,A.aPx,A.aPy,A.agg,A.aQd,A.aQe,A.aQf,A.aQl,A.aQN,A.awF,A.aTX,A.aTV,A.aTT,A.axn,A.axo,A.axp,A.axq,A.axk,A.aTl,A.aRT,A.ay0,A.ay_,A.ay1,A.axZ,A.axY,A.aRU,A.aRW,A.aRV,A.aPc,A.aSi,A.aTL,A.aBO,A.aU6,A.aU7,A.aU5,A.aU0,A.aU4,A.aU2,A.aLC,A.aHH,A.aHI,A.aQO,A.awI,A.awH,A.aCN,A.aUo,A.aCT,A.aD_,A.aD1,A.aAi,A.aAg,A.aAh,A.aAc,A.aAd,A.aAe,A.aEC,A.aEE,A.aEF,A.aEG,A.aEM,A.aEY,A.aEZ,A.aEX,A.aF0,A.aGf,A.aUm,A.aVM,A.aVO,A.aVQ,A.aVS,A.aVU,A.aHk,A.aHl,A.aHi,A.aHj,A.aKj,A.aYZ,A.aX7,A.ajB,A.aWL,A.aFX,A.aC3,A.aBZ,A.aC1,A.aCe,A.aCd,A.aCc,A.amJ,A.avs,A.apO,A.apP,A.aYP,A.aYQ,A.b_W,A.avG,A.b_L,A.b0R,A.b0S,A.b0j,A.aFk,A.af2,A.aeV,A.af_,A.af0,A.afn,A.aJR,A.aJQ,A.aJP,A.aJN,A.aJJ,A.aJK,A.aJL,A.aJF,A.afy,A.afz,A.afA,A.afB,A.afr,A.afu,A.afo,A.afp,A.afO,A.afP,A.afG,A.afJ,A.afC,A.afD,A.afE,A.ag0,A.afU,A.afV,A.afY,A.aJC,A.aJD,A.aJB,A.aJx,A.aJy,A.agc,A.agd,A.ag6,A.ag9,A.ag4,A.aWC,A.aWB,A.aWv,A.aWu,A.aWq,A.aLH,A.aLE,A.aLF,A.aqJ,A.aqU,A.aqQ,A.aqP,A.aqL,A.aqO,A.aqI,A.aQt,A.aQu,A.aQv,A.aQs,A.aQp,A.aQo,A.aQq,A.aQr,A.at1,A.asY,A.avY,A.avZ,A.avQ,A.avR,A.avS,A.avT,A.avU,A.avV,A.avK,A.avL,A.avM,A.avN,A.avO,A.avJ,A.aRg,A.aRi,A.aRa,A.aR0,A.aRm,A.aRd,A.aRe,A.aRt,A.aRf,A.aRp,A.aRb,A.aRc,A.aRo,A.aR3,A.aR6,A.aR2,A.aR8,A.aR_,A.aSa,A.aSb,A.aS9,A.aS4,A.aS2,A.aS5,A.aS1,A.aS8,A.aUF,A.aUM,A.aUL,A.aUK,A.aUJ,A.aUQ,A.aUP,A.aUG,A.aUI,A.aUH,A.aVf,A.aVg,A.aV9,A.aVd,A.aVe,A.aVc,A.aI6,A.aI7,A.aIb,A.aIn,A.axQ,A.aiv,A.aiu,A.ag1,A.ah5,A.aip,A.aiy,A.aiB,A.aN2,A.aN1,A.aN0,A.aOg,A.aOf,A.apj,A.apf,A.api,A.asz,A.aRw,A.aRv,A.aRx,A.aRu,A.aRD,A.aRA,A.axJ,A.axK,A.ayn,A.b0w,A.b0B,A.b0C,A.aBG,A.aBD,A.aBH,A.aD5,A.aUw,A.aUx,A.aUy,A.aFm,A.aFp,A.aFq,A.aFu,A.aFv,A.aFw,A.aI_,A.aWY,A.aI1,A.aI4,A.aZ7,A.ap1,A.aoW,A.agG,A.agF,A.aYk,A.aFA,A.aFz,A.azl,A.azp,A.azL,A.azN,A.azQ,A.ap4,A.aXa,A.axF,A.aFd,A.aFD,A.ajo,A.ajs,A.ajp,A.ajq,A.ajr,A.aqz,A.aqn,A.aqu,A.aqv,A.aqw,A.aqx,A.aqs,A.aqt,A.aqo,A.aqp,A.aqq,A.aqr,A.aqy,A.aPm,A.aig,A.aoN,A.aoL,A.aoI,A.aoJ,A.aoK,A.asl,A.aHz,A.aHA,A.aFf,A.b_0,A.ao4,A.aXi,A.aXc,A.aXe,A.aXf,A.ala,A.aTH,A.aTG,A.aTI,A.b_H,A.b_G])
+p(A.rC,[A.Wa,A.ago,A.agk,A.agl,A.agm,A.aiP,A.aY0,A.aiQ,A.aER,A.aiR,A.aLW,A.aLV,A.axd,A.aYn,A.aiS,A.aY2,A.aiX,A.ajb,A.ajc,A.aj7,A.aj8,A.aj9,A.aja,A.akV,A.aZX,A.akY,A.b05,A.akZ,A.aNX,A.akW,A.akU,A.Wb,A.aZ0,A.b0u,A.b0t,A.aol,A.aon,A.b_7,A.b_8,A.b_9,A.b_6,A.aoE,A.aqZ,A.ar_,A.anU,A.anW,A.anT,A.ajV,A.aYz,A.aYA,A.aYB,A.aYC,A.aYD,A.aYE,A.aYF,A.aYG,A.arU,A.arV,A.arW,A.arX,A.as3,A.as7,A.b00,A.awT,A.aEK,A.aEL,A.amy,A.amx,A.amt,A.amu,A.amv,A.amr,A.amw,A.amp,A.amB,A.ams,A.aKV,A.aKU,A.aKW,A.aIE,A.aIF,A.aIG,A.aIH,A.ayD,A.ayE,A.ayB,A.aCo,A.aKP,A.aXm,A.aSm,A.aSp,A.aSq,A.aSr,A.aSs,A.aSt,A.aSu,A.aAb,A.af6,A.af7,A.aDr,A.aDs,A.aY4,A.aDB,A.aDx,A.aDH,A.aDM,A.aDN,A.amE,A.akj,A.awD,A.aGp,A.aDU,A.aDV,A.aDW,A.amk,A.aml,A.akc,A.akd,A.ake,A.ard,A.arb,A.anM,A.ar8,A.alk,A.aZI,A.ajS,A.ajh,A.aID,A.ar4,A.ar0,A.ar2,A.aib,A.J5,A.a2u,A.arR,A.b_s,A.b_u,A.aV8,A.aKw,A.aKv,A.aXV,A.aXU,A.aVi,A.aVk,A.aVj,A.apa,A.aoT,A.aP_,A.aP6,A.aFG,A.aFE,A.aFM,A.aFI,A.aFK,A.aMM,A.aML,A.aTS,A.aTR,A.b0q,A.aPe,A.aMB,A.aQh,A.asO,A.aQ2,A.ak_,A.ak0,A.aWQ,A.aWX,A.aNS,A.aNQ,A.aNP,A.aNR,A.b_B,A.b03,A.b04,A.aZY,A.arS,A.aWE,A.aWH,A.aWF,A.aWD,A.aZG,A.ahz,A.aq7,A.aq5,A.amK,A.ai9,A.ai3,A.ai4,A.ai5,A.ai7,A.ai2,A.aQ6,A.aQ7,A.aQ5,A.aLY,A.az5,A.awj,A.awh,A.awi,A.awf,A.awg,A.anO,A.aZS,A.akO,A.akP,A.aA_,A.aA0,A.azU,A.azV,A.azW,A.azY,A.ak5,A.ak7,A.aZT,A.aZU,A.ahP,A.ahR,A.ahV,A.aJ1,A.aJ2,A.an3,A.an4,A.an5,A.an6,A.an1,A.an2,A.ano,A.anp,A.aw6,A.aw3,A.aw7,A.aw2,A.aw5,A.b_O,A.ank,A.and,A.ane,A.ang,A.anh,A.aIh,A.aIj,A.ah_,A.ah0,A.agS,A.agT,A.agW,A.agX,A.aYb,A.aYc,A.ans,A.anx,A.anz,A.ant,A.anw,A.aGt,A.awr,A.aws,A.awu,A.aHR,A.aHS,A.b_l,A.aMb,A.aMa,A.aMh,A.aM9,A.aM8,A.aMm,A.aMn,A.aMp,A.aMy,A.aMz,A.aSQ,A.aSR,A.aSP,A.aSS,A.aST,A.ajQ,A.axz,A.aMA,A.anZ,A.ao_,A.ao0,A.aZZ,A.aq8,A.aF7,A.aG7,A.aP8,A.ayY,A.ayZ,A.az6,A.ah7,A.ah8,A.ah9,A.aje,A.ajf,A.ajg,A.alb,A.alc,A.ald,A.amg,A.amh,A.ami,A.afg,A.afh,A.afi,A.avu,A.aLs,A.aLt,A.aLu,A.aL3,A.aL4,A.aL5,A.aLg,A.aLk,A.aLl,A.aLm,A.aLn,A.aLo,A.aLp,A.aLq,A.aL6,A.aL7,A.aLi,A.aL1,A.aLj,A.aL0,A.aL8,A.aL9,A.aLa,A.aLb,A.aLc,A.aLd,A.aLe,A.aLf,A.aLh,A.aNe,A.aNf,A.aNg,A.aN9,A.aNa,A.aNd,A.aN8,A.aNb,A.aXC,A.aXD,A.aXE,A.aXx,A.aXy,A.aXB,A.aXw,A.aXz,A.aLO,A.aLP,A.aLN,A.aLL,A.aLK,A.aLM,A.b0z,A.aMO,A.aMN,A.aMP,A.aMR,A.aMT,A.aMS,A.aMU,A.aMQ,A.akm,A.aO0,A.aO2,A.aO5,A.aO1,A.aO3,A.aO4,A.aPr,A.aPt,A.aPs,A.aOj,A.aOk,A.aOm,A.aOl,A.aOn,A.aOo,A.aOq,A.aOp,A.aRN,A.aRO,A.aRQ,A.aRR,A.aRP,A.aPH,A.aPE,A.aPK,A.aPf,A.aSZ,A.aSW,A.aPW,A.aPQ,A.aPN,A.aPL,A.aPS,A.aPT,A.aPU,A.aPR,A.aPO,A.aPP,A.aPM,A.ass,A.aT7,A.asr,A.aGZ,A.aQM,A.aQx,A.aQy,A.aQz,A.aQA,A.aRI,A.aRL,A.aRJ,A.aRM,A.aRK,A.aXH,A.aXI,A.aOb,A.aOc,A.amS,A.amT,A.aJr,A.aJp,A.aJq,A.ay8,A.azd,A.aCs,A.aQF,A.aQC,A.aQE,A.aQD,A.aQB,A.aUT,A.aUV,A.aUW,A.aUY,A.aVm,A.aVp,A.aVn,A.aVo,A.aVF,A.aVG,A.aYK,A.aGB,A.aGC,A.aTq,A.aTr,A.aTs,A.aTt,A.aTv,A.aTw,A.aKo,A.aHa,A.aHf,A.aNz,A.aNE,A.aNF,A.aNG,A.aNI,A.aWb,A.b0K,A.aW1,A.aW2,A.aW3,A.aW4,A.aW5,A.aW6,A.aW0,A.aW7,A.aHg,A.aHn,A.axu,A.axv,A.aOK,A.aON,A.aM5,A.aM4,A.aM6,A.aj0,A.aj1,A.aj2,A.aYX,A.aYx,A.asn,A.aLw,A.arq,A.arl,A.agu,A.aru,A.arv,A.arE,A.arD,A.aUB,A.aUC,A.aUD,A.aH1,A.aH0,A.aH_,A.aH5,A.aoQ,A.aBy,A.aBu,A.ahq,A.aAD,A.aAI,A.aAH,A.aAM,A.awN,A.awM,A.ayt,A.aAX,A.aAY,A.aAZ,A.aAV,A.aAA,A.aUq,A.aTg,A.aTh,A.aTi,A.aTj,A.aTk,A.aTa,A.aT8,A.aT9,A.aTd,A.aTe,A.aTb,A.aTc,A.aTf,A.aB3,A.aB5,A.aB4,A.aYm,A.aSh,A.aBc,A.aBe,A.aBg,A.aBf,A.aBa,A.aB9,A.aBl,A.aBj,A.aBk,A.aBi,A.aBo,A.aBn,A.aBt,A.aCD,A.aCC,A.aHe,A.aEb,A.aUv,A.aUu,A.aUs,A.aUt,A.aY1,A.aEe,A.aEd,A.aDY,A.aE3,A.aE1,A.aE_,A.aE2,A.aE0,A.aE4,A.aE5,A.ahJ,A.ayw,A.agy,A.aKs,A.aEo,A.aNi,A.aop,A.asD,A.ahl,A.awz,A.amL,A.aBM,A.aBN,A.aBL,A.an8,A.aGA,A.aGT,A.aGU,A.aGV,A.aSf,A.aGe,A.aqY,A.aqW,A.arw,A.aYt,A.afb,A.afe,A.afc,A.afd,A.aff,A.aOI,A.aOF,A.aOD,A.aOE,A.aOH,A.aK0,A.aKl,A.aKm,A.aKn,A.aXn,A.aOR,A.aKF,A.aKK,A.aWK,A.aWJ,A.aj5,A.aXq,A.aXs,A.aXt,A.aXp,A.ajD,A.akb,A.akI,A.akJ,A.alU,A.als,A.alV,A.alX,A.alY,A.alt,A.alW,A.alx,A.alr,A.alH,A.alA,A.alG,A.alD,A.alC,A.alE,A.aUc,A.aOd,A.aK4,A.aK5,A.aK3,A.aod,A.aoc,A.aYq,A.aog,A.aoi,A.aoh,A.aSM,A.akp,A.akq,A.akr,A.aks,A.aku,A.akv,A.akx,A.aky,A.akt,A.aSJ,A.aSK,A.aSH,A.aAq,A.aoy,A.aov,A.aou,A.aPA,A.am9,A.am7,A.am6,A.ama,A.amc,A.am4,A.am3,A.am8,A.am5,A.ayd,A.awS,A.apt,A.apw,A.apy,A.apA,A.apC,A.apv,A.aNn,A.aNo,A.aNp,A.aNs,A.aNt,A.aNu,A.aqe,A.aqc,A.aqb,A.arf,A.aPw,A.arA,A.arz,A.ary,A.aJS,A.aJT,A.aJU,A.aJV,A.aJW,A.aJX,A.aJY,A.aJZ,A.aK7,A.aKc,A.aKd,A.aKe,A.aKf,A.aKg,A.aKh,A.aKi,A.aK6,A.aK1,A.aK8,A.aK9,A.aKa,A.aKb,A.arC,A.aYH,A.aYI,A.aYJ,A.aQm,A.aQn,A.asJ,A.asM,A.avB,A.avE,A.avD,A.avC,A.aCk,A.aCj,A.axt,A.aTW,A.aTU,A.aTY,A.axm,A.axs,A.axl,A.axr,A.axV,A.aTC,A.aTA,A.aTB,A.aTz,A.axW,A.aTx,A.aT1,A.aT2,A.aT5,A.ay7,A.aRX,A.aSk,A.aYg,A.aTM,A.aU3,A.aU1,A.ah6,A.aHJ,A.aHG,A.aHF,A.asB,A.aQU,A.aQT,A.aQQ,A.awG,A.aCO,A.aCP,A.aCQ,A.aCR,A.aCU,A.aCV,A.aCW,A.aD3,A.aD0,A.aD2,A.aUd,A.aAf,A.aAj,A.aAk,A.aFh,A.aFi,A.ax8,A.ax9,A.axa,A.ax4,A.ax5,A.ax6,A.ax7,A.aF_,A.aVl,A.akg,A.aUh,A.aUi,A.aDd,A.aDb,A.aDc,A.aDe,A.aDa,A.aD9,A.aUn,A.aH4,A.aVN,A.aVP,A.aVR,A.aVT,A.aVV,A.aHO,A.aZ_,A.aIK,A.aIT,A.b0U,A.b0V,A.asQ,A.asS,A.asR,A.ayj,A.ayh,A.ahG,A.aFW,A.aFV,A.aMC,A.aMD,A.aME,A.aMG,A.aC6,A.aC9,A.aC7,A.aC8,A.aC5,A.aC4,A.aC0,A.aC_,A.aBX,A.aBW,A.aBY,A.apR,A.apS,A.apT,A.apU,A.aCf,A.aCh,A.aCg,A.aTZ,A.aU_,A.apN,A.apL,A.apM,A.aRG,A.aRF,A.aYf,A.aZQ,A.b_h,A.b_g,A.b0_,A.ahb,A.ahs,A.aXX,A.ahD,A.avH,A.b_5,A.at3,A.at4,A.atm,A.atn,A.atl,A.ava,A.avb,A.av6,A.av7,A.auV,A.auW,A.av2,A.av3,A.av0,A.av1,A.av4,A.av5,A.auX,A.auY,A.auZ,A.av_,A.au_,A.au0,A.atZ,A.av8,A.av9,A.atX,A.atY,A.atW,A.atj,A.atk,A.ate,A.atf,A.atd,A.auj,A.auk,A.aui,A.aug,A.auh,A.auf,A.auT,A.auU,A.auB,A.auC,A.auy,A.auz,A.aux,A.auA,A.atG,A.atH,A.atF,A.aum,A.aun,A.aul,A.auo,A.atv,A.atw,A.atu,A.ath,A.ati,A.atg,A.auQ,A.auR,A.auP,A.auS,A.atU,A.atV,A.atT,A.auE,A.auF,A.auD,A.auG,A.atJ,A.atK,A.atI,A.avp,A.avq,A.avo,A.avr,A.aud,A.aue,A.auc,A.avd,A.ave,A.avc,A.avf,A.au2,A.au3,A.au1,A.ata,A.atb,A.at9,A.atc,A.ats,A.att,A.atr,A.at6,A.at7,A.at5,A.at8,A.atp,A.atq,A.ato,A.auu,A.auv,A.aut,A.auw,A.auq,A.aur,A.aup,A.aus,A.atC,A.atE,A.atB,A.atD,A.aty,A.atA,A.atx,A.atz,A.auM,A.auN,A.auL,A.auO,A.auI,A.auJ,A.auH,A.auK,A.atQ,A.atS,A.atP,A.atR,A.atM,A.atO,A.atL,A.atN,A.avl,A.avm,A.avk,A.avn,A.avh,A.avi,A.avg,A.avj,A.au9,A.aub,A.au8,A.aua,A.au5,A.au7,A.au4,A.au6,A.ay4,A.ajE,A.ajF,A.aZ1,A.aIX,A.b_X,A.aY6,A.aY7,A.b0W,A.b_V,A.aAt,A.aAu,A.aAw,A.aAx,A.aAy,A.b0M,A.b0N,A.b0H,A.b0I,A.aSw,A.b0O,A.b0P,A.aZD,A.b_b,A.aZE,A.aZL,A.b_p,A.b_o,A.b_N,A.b_J,A.b_R,A.b_S,A.aZ4,A.b_Y,A.b07,A.b01,A.b0o,A.b0X,A.b0Z,A.b10,A.aiF,A.aiG,A.aiE,A.asU,A.asW,A.asV,A.axL,A.axM,A.axN,A.ayL,A.ayM,A.ayK,A.aHr,A.aIe,A.aIc,A.aId,A.b0h,A.b0i,A.b0e,A.b0f,A.b0g,A.b0c,A.b0d,A.b08,A.b09,A.b0a,A.b0b,A.aFj,A.b_P,A.af1,A.aeW,A.aeX,A.aeY,A.aeZ,A.afl,A.aJO,A.aJI,A.aJH,A.aJG,A.aJM,A.afv,A.afw,A.afx,A.afs,A.afq,A.afK,A.afN,A.afL,A.afM,A.afH,A.afF,A.afZ,A.afT,A.afW,A.afQ,A.afR,A.afS,A.aJz,A.aga,A.agb,A.ag7,A.ag5,A.ag3,A.aWz,A.aWw,A.aWx,A.aWy,A.aWp,A.aWs,A.aWt,A.aWr,A.aLG,A.aqS,A.aqR,A.aqM,A.aqK,A.aqV,A.aqG,A.aqE,A.aqF,A.aqD,A.at_,A.asZ,A.avX,A.avW,A.avP,A.aR9,A.aRk,A.aRq,A.aRr,A.aRs,A.aR4,A.aR5,A.aR7,A.aRn,A.aSd,A.aS6,A.aS7,A.aS3,A.aUN,A.aUO,A.aVh,A.aVb,A.aI9,A.aIl,A.aiH,A.aiI,A.axP,A.axO,A.ayO,A.ayS,A.ayR,A.ayN,A.ayQ,A.ayP,A.aHs,A.aHt,A.b0Y,A.b1_,A.aIo,A.aIp,A.aiq,A.air,A.ais,A.ait,A.ag2,A.aiC,A.aiw,A.aiz,A.apd,A.apg,A.asA,A.asx,A.aRC,A.b0x,A.b0L,A.b0F,A.b0E,A.b0A,A.b0y,A.b0D,A.b0J,A.aFn,A.aFl,A.aFs,A.aFr,A.aX0,A.aX_,A.aWZ,A.aI5,A.aIY,A.aZC,A.aZ8,A.aZt,A.aZ9,A.aZa,A.aZ5,A.aXS,A.ap3,A.ap2,A.ap0,A.aoZ,A.aoV,A.aKt,A.aKu,A.agH,A.aYj,A.aYh,A.aYi,A.aYY,A.aFB,A.agz,A.agA,A.agB,A.agC,A.agD,A.agE,A.agK,A.agL,A.agM,A.agN,A.agO,A.agP,A.aUZ,A.aV_,A.azk,A.azq,A.azm,A.azn,A.azs,A.azt,A.azr,A.azu,A.azI,A.azG,A.azH,A.azE,A.azF,A.azx,A.azy,A.azz,A.azA,A.azB,A.azC,A.azD,A.azv,A.azw,A.amU,A.ah1,A.aZP,A.azP,A.aOT,A.aOU,A.aYo,A.azS,A.aX9,A.aX8,A.aXb,A.aYN,A.b0T,A.aYO,A.aYM,A.aFg,A.aV2,A.aV3,A.ajt,A.ajm,A.awn,A.awo,A.aEx,A.aYp,A.aqh,A.aqg,A.aqi,A.aqk,A.aqm,A.aqj,A.aqA,A.aih,A.aii,A.aij,A.aio,A.ain,A.ail,A.aim,A.aik,A.aHB,A.aHy,A.aHx,A.aHv,A.aHw,A.aHD,A.aHC,A.aIr,A.aIq,A.aww,A.awx,A.b_1,A.ao2,A.ao3,A.aXg,A.aXh,A.ajI,A.aFY,A.aFZ,A.aG_,A.aG0,A.aG1,A.aG2,A.aG3,A.aG4,A.aTK,A.aTJ,A.aFU,A.ajv,A.aO9,A.aOa,A.aXR,A.aJb,A.aJl,A.aJ9,A.aJ5,A.aJ6,A.aJ8,A.aJ7,A.aJi,A.aJc,A.aJa,A.aJd,A.aJk,A.aJh,A.aJf,A.aJe,A.aJg,A.b_4])
+p(A.Wa,[A.agn,A.aEP,A.aEQ,A.axc,A.axe,A.axS,A.axT,A.ahY,A.aiV,A.aom,A.aOe,A.aoF,A.aoG,A.b_x,A.anX,A.aXZ,A.as4,A.as5,A.as6,A.as_,A.as0,A.as1,A.aoO,A.aoP,A.ay9,A.ask,A.asj,A.amz,A.amA,A.b_z,A.ayG,A.ayA,A.aSn,A.aSo,A.aPb,A.aA8,A.aAa,A.af4,A.af5,A.aDI,A.aCi,A.aDL,A.aDG,A.amH,A.amG,A.amF,A.awE,A.aDX,A.arc,A.aGz,A.ao8,A.ao9,A.aYu,A.aIM,A.amm,A.ar5,A.ar3,A.ar1,A.aid,A.b_Q,A.azh,A.aKx,A.aKy,A.aWl,A.aWk,A.aXT,A.aKA,A.aKB,A.aKD,A.aKE,A.aKC,A.aKz,A.ap9,A.ap8,A.ap6,A.aOV,A.aP2,A.aP1,A.aOZ,A.aOX,A.aOW,A.aP5,A.aP4,A.aP3,A.aFF,A.aFN,A.aFH,A.aFL,A.aV1,A.aV0,A.aJv,A.aL_,A.aKZ,A.aS0,A.aQY,A.aY_,A.aMK,A.aMJ,A.aYS,A.aTQ,A.aTP,A.aX4,A.aX3,A.WC,A.aiL,A.aiM,A.aZH,A.ahy,A.aq6,A.ai8,A.ai6,A.awk,A.awl,A.akL,A.akM,A.akK,A.aA1,A.aA2,A.azX,A.azZ,A.ahT,A.ann,A.aw8,A.anc,A.anf,A.ani,A.anj,A.anl,A.anm,A.aIi,A.agU,A.agV,A.agY,A.agZ,A.anB,A.anv,A.anu,A.awt,A.anJ,A.aAz,A.aGs,A.aMd,A.aMe,A.aMc,A.aMf,A.aMg,A.aMj,A.aMk,A.aMt,A.aMs,A.aMr,A.ajM,A.ajL,A.ajN,A.ajO,A.aMq,A.aMx,A.aMv,A.aMw,A.aMu,A.anY,A.ahn,A.aiJ,A.apn,A.apm,A.apq,A.apr,A.aos,A.aoq,A.aor,A.asH,A.asG,A.asF,A.al1,A.al6,A.al7,A.al2,A.al3,A.al4,A.al5,A.az2,A.azf,A.aGi,A.aGj,A.aGl,A.aGm,A.aGn,A.aGk,A.ahi,A.ahj,A.ahg,A.ahh,A.ahe,A.ahf,A.ahd,A.app,A.aIv,A.aIw,A.aJs,A.agi,A.aKq,A.avt,A.aLv,A.aLr,A.aL2,A.aLy,A.aLz,A.aLA,A.aLx,A.aLB,A.aQX,A.aQW,A.aQV,A.aNc,A.aXA,A.aMX,A.aMW,A.aMV,A.aMY,A.aN_,A.ale,A.aYs,A.aYr,A.aPD,A.aPG,A.aPI,A.aPC,A.aPF,A.aPJ,A.aPg,A.aSX,A.aPV,A.aVK,A.aVJ,A.aVL,A.aSy,A.aSz,A.aSx,A.aCt,A.aCu,A.aCp,A.aCq,A.aCr,A.aOv,A.aCw,A.aCy,A.aCx,A.aQL,A.aQK,A.aQJ,A.aQH,A.aQI,A.aQG,A.aUk,A.aUj,A.aUl,A.aUU,A.aVr,A.aVt,A.aVs,A.aVu,A.aVx,A.aVy,A.aVz,A.aVA,A.aVB,A.aVC,A.aVv,A.aVw,A.aVX,A.aVW,A.aHb,A.aHc,A.aNy,A.aNx,A.aNw,A.aNC,A.aNB,A.aNA,A.aN3,A.aN4,A.aN5,A.aN6,A.aNM,A.aNL,A.aNN,A.aNK,A.aNJ,A.aWd,A.aWe,A.aPq,A.aPp,A.aPo,A.aWa,A.aW8,A.aW9,A.aWj,A.aWg,A.aWf,A.aWi,A.aWh,A.aHo,A.axw,A.axx,A.arj,A.ari,A.aQk,A.arn,A.aro,A.ax2,A.aVI,A.aAB,A.aBw,A.aBx,A.aO_,A.aKR,A.aPY,A.aAE,A.asf,A.asg,A.awQ,A.awP,A.awO,A.ayc,A.ayb,A.aya,A.aAW,A.aB_,A.aB0,A.aBd,A.aCF,A.aCG,A.aCH,A.aCI,A.ahI,A.aEn,A.amM,A.amN,A.aA6,A.aBJ,A.aBK,A.aBI,A.aGb,A.aG9,A.aGW,A.aGX,A.aJt,A.aOG,A.aOB,A.aOC,A.aOA,A.aK_,A.aKk,A.aOQ,A.aOP,A.aKJ,A.aKH,A.aKI,A.aKG,A.aXr,A.aIU,A.aBR,A.aBS,A.aNU,A.aNV,A.alo,A.alI,A.alJ,A.alK,A.alL,A.alM,A.alN,A.alO,A.alP,A.alQ,A.alR,A.alS,A.alT,A.aly,A.alZ,A.alp,A.alq,A.all,A.aln,A.am_,A.am0,A.am1,A.alu,A.alv,A.alw,A.alz,A.aK2,A.aOw,A.aOx,A.aOy,A.aOz,A.aoz,A.aoA,A.aox,A.aow,A.aot,A.ahB,A.ajw,A.ajx,A.aps,A.apu,A.apx,A.apz,A.apB,A.apD,A.aNr,A.aNq,A.aPl,A.aPk,A.aPj,A.aPz,A.aPv,A.aPx,A.aPy,A.agg,A.aQd,A.aQe,A.aQf,A.aQl,A.aQN,A.awF,A.aTX,A.aTV,A.aTT,A.axn,A.axo,A.axp,A.axq,A.axk,A.aTl,A.aRT,A.ay0,A.ay_,A.ay1,A.axZ,A.axY,A.aRU,A.aRW,A.aRV,A.aPc,A.aSi,A.aTL,A.aBO,A.aU6,A.aU7,A.aU5,A.aU0,A.aU4,A.aU2,A.aLC,A.aHH,A.aHI,A.aQO,A.awI,A.awH,A.aCN,A.aUo,A.aCT,A.aD_,A.aD1,A.aAi,A.aAg,A.aAh,A.aAc,A.aAd,A.aAe,A.aEC,A.aEE,A.aEF,A.aEG,A.aEM,A.aEY,A.aEZ,A.aEX,A.aF0,A.aGf,A.aUm,A.aVM,A.aVO,A.aVQ,A.aVS,A.aVU,A.aHk,A.aHl,A.aHi,A.aHj,A.aKj,A.aYZ,A.aX7,A.ajB,A.aWL,A.aFX,A.aC3,A.aBZ,A.aC1,A.aCe,A.aCd,A.aCc,A.amJ,A.avs,A.apO,A.apP,A.aYP,A.aYQ,A.b_W,A.avG,A.b_L,A.b0R,A.b0S,A.b0j,A.aFk,A.af2,A.aeV,A.af_,A.af0,A.afn,A.aJR,A.aJQ,A.aJP,A.aJN,A.aJJ,A.aJK,A.aJL,A.aJF,A.afy,A.afz,A.afA,A.afB,A.afr,A.afu,A.afo,A.afp,A.afO,A.afP,A.afG,A.afJ,A.afC,A.afD,A.afE,A.ag0,A.afU,A.afV,A.afY,A.aJC,A.aJD,A.aJB,A.aJx,A.aJy,A.agc,A.agd,A.ag6,A.ag9,A.ag4,A.aWC,A.aWB,A.aWv,A.aWu,A.aWq,A.aLH,A.aLE,A.aLF,A.aqJ,A.aqU,A.aqQ,A.aqP,A.aqL,A.aqO,A.aqI,A.aQt,A.aQu,A.aQv,A.aQs,A.aQp,A.aQo,A.aQq,A.aQr,A.at1,A.asY,A.avY,A.avZ,A.avQ,A.avR,A.avS,A.avT,A.avU,A.avV,A.avK,A.avL,A.avM,A.avN,A.avO,A.avJ,A.aRg,A.aRi,A.aRa,A.aR0,A.aRm,A.aRd,A.aRe,A.aRt,A.aRf,A.aRp,A.aRb,A.aRc,A.aRo,A.aR3,A.aR6,A.aR2,A.aR8,A.aR_,A.aSa,A.aSb,A.aS9,A.aS4,A.aS2,A.aS5,A.aS1,A.aS8,A.aUF,A.aUQ,A.aUP,A.aUM,A.aUL,A.aUK,A.aUJ,A.aUG,A.aUI,A.aUH,A.aVf,A.aVg,A.aV9,A.aVd,A.aVe,A.aVc,A.aI6,A.aI7,A.aIb,A.aIn,A.axQ,A.aiv,A.aiu,A.ag1,A.ah5,A.aip,A.aiy,A.aiB,A.aN2,A.aN1,A.aN0,A.aOg,A.aOf,A.apj,A.apf,A.api,A.asz,A.aRw,A.aRv,A.aRx,A.aRu,A.aRD,A.aRA,A.axJ,A.axK,A.ayn,A.b0w,A.b0B,A.b0C,A.aBG,A.aBD,A.aBH,A.aD5,A.aUw,A.aUx,A.aUy,A.aFm,A.aFp,A.aFq,A.aFu,A.aFv,A.aFw,A.aI_,A.aWY,A.aI1,A.aI4,A.aZ7,A.ap1,A.aoW,A.agG,A.agF,A.aYk,A.aFA,A.aFz,A.azl,A.azp,A.azL,A.azN,A.azQ,A.ap4,A.aXa,A.axF,A.aFd,A.aFD,A.ajo,A.ajs,A.ajp,A.ajq,A.ajr,A.aqz,A.aqn,A.aqu,A.aqv,A.aqw,A.aqx,A.aqs,A.aqt,A.aqo,A.aqp,A.aqq,A.aqr,A.aqy,A.aPm,A.aig,A.aoN,A.aoL,A.aoI,A.aoJ,A.aoK,A.asl,A.aHz,A.aHA,A.aFf,A.b_0,A.ao4,A.aXi,A.aXc,A.aXe,A.aXf,A.ala,A.aTH,A.aTG,A.aTI,A.b_H,A.b_G])
 p(A.VO,[A.GN,A.Ag,A.VV,A.W_,A.Af])
 q(A.VZ,A.a0C)
 q(A.XZ,A.Y0)
@@ -121672,7 +121675,7 @@ p(A.cC,[A.Vy,A.iq,A.md,A.qD,A.YC,A.a2X,A.a0W,A.a6c,A.Bl,A.vn,A.k3,A.pS,A.uo,A.a2
 p(A.aO7,[A.Wf,A.vz,A.t5,A.nG,A.py,A.vT,A.x7,A.Gi,A.ON,A.zF,A.Jj,A.cS,A.af8,A.wt,A.HX,A.Jt,A.Dp,A.J8,A.NU,A.aj3,A.aIx,A.Kx,A.Jh,A.arT,A.Dd,A.De,A.ZZ,A.dx,A.Aj,A.Vj,A.wb,A.ajk,A.Ba,A.lO,A.Gg,A.ajY,A.a3f,A.Oa,A.q3,A.nY,A.Cb,A.Ac,A.NV,A.li,A.y3,A.Mm,A.B_,A.tH,A.qy,A.oj,A.ok,A.a2C,A.Nr,A.No,A.Gy,A.Vr,A.yu,A.Vs,A.GA,A.pV,A.ry,A.aif,A.I9,A.pi,A.AH,A.D2,A.asw,A.CR,A.xn,A.zP,A.Xq,A.ne,A.MV,A.qx,A.ue,A.kR,A.DW,A.UN,A.abY,A.Ay,A.aMi,A.Wz,A.yS,A.Hy,A.p8,A.iB,A.XN,A.yY,A.Pr,A.a5V,A.X5,A.Zr,A.IE,A.Ps,A.aHd,A.E3,A.ahC,A.aLQ,A.alf,A.nr,A.WB,A.X8,A.aPu,A.uF,A.Iq,A.hN,A.asq,A.wP,A.n4,A.wZ,A.r_,A.aJu,A.jW,A.oe,A.a1Y,A.F8,A.wY,A.WE,A.NH,A.IP,A.mL,A.oy,A.ig,A.Q1,A.aCL,A.Ct,A.V4,A.aIz,A.A2,A.Vl,A.Vq,A.rv,A.Bb,A.aIN,A.Nw,A.aH7,A.MR,A.Cs,A.z2,A.Xy,A.Z4,A.to,A.vQ,A.a_k,A.IO,A.WI,A.u0,A.y_,A.yn,A.CN,A.Me,A.NA,A.XT,A.MS,A.Vw,A.aF1,A.M5,A.ur,A.Oh,A.xS,A.ak3,A.UZ,A.Bn,A.YI,A.Nb,A.wI,A.kn,A.a2o,A.Zb,A.a1V,A.a1W,A.jc,A.aGx,A.Ip,A.lh,A.a2T,A.Hg,A.H8,A.kX,A.lZ,A.PH,A.nJ,A.a2V,A.rZ,A.aob,A.qC,A.DA,A.kU,A.yW,A.B6,A.xg,A.eX,A.Zu,A.SD,A.CB,A.hO,A.RB,A.ZQ,A.ZR,A.Ek,A.ab8,A.F4,A.aCa,A.uL,A.a1b,A.xW,A.a1c,A.CK,A.Jy,A.MN,A.yd,A.An,A.cN,A.jh,A.K6,A.NO,A.mR,A.fa,A.Ce,A.aza,A.agp,A.a2L,A.kD,A.VD,A.vC,A.BL,A.a3v,A.My,A.Bo,A.xD,A.a0w,A.ow,A.a_3,A.C0,A.t6,A.IJ,A.hc,A.a__,A.N6,A.N7,A.NG,A.m6,A.ym,A.m0,A.eu,A.qK])
 p(A.rF,[A.f1,A.p2])
 q(A.Xi,A.akG)
-p(A.Wb,[A.aZW,A.b_w,A.ajX,A.ajW,A.as2,A.arZ,A.amq,A.ayC,A.aFb,A.b0r,A.ar9,A.ajT,A.aLD,A.aic,A.aie,A.ajz,A.azg,A.arQ,A.b_t,A.aXW,A.aZ3,A.apb,A.aoU,A.aP0,A.aP7,A.aFJ,A.aJw,A.aMI,A.aTO,A.aPd,A.aq3,A.asp,A.asP,A.aF5,A.aQa,A.aQ3,A.axB,A.aWV,A.aHV,A.aHU,A.aWU,A.aWT,A.b_j,A.b_k,A.ai1,A.ai0,A.aM0,A.aM_,A.aLZ,A.akS,A.akR,A.aZR,A.b_C,A.ak6,A.amf,A.ame,A.ahO,A.ahQ,A.ahS,A.ahU,A.an0,A.b_i,A.any,A.b_m,A.ajK,A.aSU,A.aSO,A.az1,A.at2,A.aQw,A.aT3,A.aMZ,A.aXJ,A.aT0,A.aT_,A.aSY,A.aT6,A.aXF,A.aXG,A.aSA,A.aLU,A.aCA,A.aCz,A.aU9,A.aVD,A.aVE,A.aXN,A.aVY,A.aTu,A.aH9,A.aT4,A.aND,A.aNH,A.aWc,A.aXK,A.aXO,A.aXP,A.aXQ,A.aOL,A.aOM,A.aOO,A.aM3,A.ark,A.arp,A.arm,A.agv,A.axU,A.ax3,A.aBv,A.aAC,A.aAJ,A.aAG,A.aAF,A.aAL,A.aAQ,A.aAO,A.aAP,A.aAN,A.awL,A.ayr,A.ayq,A.ays,A.ayu,A.aAT,A.aB2,A.aB1,A.aB6,A.aB7,A.aBm,A.aAK,A.aAS,A.aAR,A.aB8,A.aBs,A.aCE,A.aUr,A.aEf,A.aEg,A.aDZ,A.ahK,A.aNj,A.aFa,A.aqX,A.aXo,A.aOS,A.alm,A.alB,A.alF,A.akE,A.akB,A.akA,A.akC,A.akD,A.akw,A.akz,A.aSL,A.aSI,A.aAo,A.aAp,A.aOJ,A.amb,A.aqd,A.aPi,A.aqa,A.akh,A.aPn,A.aQZ,A.aTy,A.aV4,A.aRY,A.aSj,A.aXL,A.aXM,A.aQS,A.aQR,A.aQP,A.aCX,A.asu,A.asv,A.aUg,A.aUe,A.aUf,A.aCZ,A.aED,A.aEJ,A.aTp,A.aTo,A.aAl,A.aTn,A.aTm,A.ajA,A.aMF,A.aMH,A.aC2,A.aCb,A.arx,A.aRH,A.apQ,A.apV,A.aha,A.avI,A.aGv,A.b_T,A.b_U,A.b0G,A.aSv,A.az7,A.az9,A.az8,A.aZJ,A.aZK,A.aZM,A.b_M,A.b_K,A.b_n,A.b0l,A.b_Z,A.b0m,A.aCl,A.b0n,A.afk,A.afm,A.aft,A.afI,A.ag_,A.afX,A.aJE,A.aJA,A.ag8,A.aWA,A.aqT,A.aqN,A.aqH,A.at0,A.aRh,A.aRj,A.aRl,A.aR1,A.aSc,A.aUO,A.aUN,A.aVa,A.aI8,A.aIa,A.aIk,A.aIm,A.asX,A.aiD,A.aix,A.aiA,A.ape,A.aph,A.asy,A.aRB,A.aBF,A.aBE,A.aFo,A.aFt,A.aIf,A.aZu,A.aZb,A.aZc,A.aZd,A.aZo,A.aZv,A.aZw,A.aZx,A.aZy,A.aZz,A.aZA,A.aZB,A.aZe,A.aZf,A.aZg,A.aZ6,A.aZh,A.aZi,A.aZj,A.aZk,A.aZl,A.aZm,A.aZn,A.aZp,A.aZq,A.aZr,A.aZs,A.ap_,A.aoX,A.aoY,A.agI,A.aYl,A.aFC,A.azo,A.azJ,A.azK,A.azj,A.azM,A.ajn,A.aql,A.aoM,A.aBr,A.aBq,A.aBp,A.ao5,A.ao6,A.aJj])
+p(A.Wb,[A.aZW,A.b_w,A.ajX,A.ajW,A.as2,A.arZ,A.amq,A.ayC,A.aFb,A.b0r,A.ar9,A.ajT,A.aLD,A.aic,A.aie,A.ajz,A.azg,A.arQ,A.b_t,A.aXW,A.aZ3,A.apb,A.aoU,A.aP0,A.aP7,A.aFJ,A.aJw,A.aMI,A.aTO,A.aPd,A.aq3,A.asp,A.asP,A.aF5,A.aQa,A.aQ3,A.axB,A.aWV,A.aHV,A.aHU,A.aWU,A.aWT,A.b_j,A.b_k,A.ai1,A.ai0,A.aM0,A.aM_,A.aLZ,A.akS,A.akR,A.aZR,A.b_C,A.ak6,A.amf,A.ame,A.ahO,A.ahQ,A.ahS,A.ahU,A.an0,A.b_i,A.any,A.b_m,A.ajK,A.aSU,A.aSO,A.az1,A.at2,A.aQw,A.aT3,A.aMZ,A.aXJ,A.aT0,A.aT_,A.aSY,A.aT6,A.aXF,A.aXG,A.aSA,A.aLU,A.aCA,A.aCz,A.aU9,A.aVD,A.aVE,A.aXN,A.aVY,A.aTu,A.aH9,A.aT4,A.aND,A.aNH,A.aWc,A.aXK,A.aXO,A.aXP,A.aXQ,A.aOL,A.aOM,A.aOO,A.aM3,A.ark,A.arp,A.arm,A.agv,A.axU,A.ax3,A.aBv,A.aAC,A.aAJ,A.aAG,A.aAF,A.aAL,A.aAQ,A.aAO,A.aAP,A.aAN,A.awL,A.ayr,A.ayq,A.ays,A.ayu,A.aAT,A.aB2,A.aB1,A.aB6,A.aB7,A.aBm,A.aAK,A.aAS,A.aAR,A.aB8,A.aBs,A.aCE,A.aUr,A.aEf,A.aEg,A.aDZ,A.ahK,A.aNj,A.aFa,A.aqX,A.aXo,A.aOS,A.alm,A.alB,A.alF,A.akE,A.akB,A.akA,A.akC,A.akD,A.akw,A.akz,A.aSL,A.aSI,A.aAo,A.aAp,A.aOJ,A.amb,A.aqd,A.aPi,A.aqa,A.akh,A.aPn,A.aQZ,A.aTy,A.aV4,A.aRY,A.aSj,A.aXL,A.aXM,A.aQS,A.aQR,A.aQP,A.aCX,A.asu,A.asv,A.aUg,A.aUe,A.aUf,A.aCZ,A.aED,A.aEJ,A.aTp,A.aTo,A.aAl,A.aTn,A.aTm,A.ajA,A.aMF,A.aMH,A.aC2,A.aCb,A.arx,A.aRH,A.apQ,A.apV,A.aha,A.avI,A.aGv,A.b_T,A.b_U,A.b0G,A.aSv,A.az7,A.az9,A.az8,A.aZJ,A.aZK,A.aZM,A.b_M,A.b_K,A.b_n,A.b0l,A.b_Z,A.b0m,A.aCl,A.b0n,A.afk,A.afm,A.aft,A.afI,A.ag_,A.afX,A.aJE,A.aJA,A.ag8,A.aWA,A.aqT,A.aqN,A.aqH,A.at0,A.aRh,A.aRj,A.aRl,A.aR1,A.aSc,A.aUS,A.aUR,A.aVa,A.aI8,A.aIa,A.aIk,A.aIm,A.asX,A.aiD,A.aix,A.aiA,A.ape,A.aph,A.asy,A.aRB,A.aBF,A.aBE,A.aFo,A.aFt,A.aIf,A.aZu,A.aZb,A.aZc,A.aZd,A.aZo,A.aZv,A.aZw,A.aZx,A.aZy,A.aZz,A.aZA,A.aZB,A.aZe,A.aZf,A.aZg,A.aZ6,A.aZh,A.aZi,A.aZj,A.aZk,A.aZl,A.aZm,A.aZn,A.aZp,A.aZq,A.aZr,A.aZs,A.ap_,A.aoX,A.aoY,A.agI,A.aYl,A.aFC,A.azo,A.azJ,A.azK,A.azj,A.azM,A.ajn,A.aql,A.aoM,A.aBr,A.aBq,A.aBp,A.ao5,A.ao6,A.aJj])
 p(A.B,[A.Ea,A.x8,A.n_,A.aP,A.eg,A.aO,A.f3,A.yh,A.qm,A.yc,A.wk,A.d4,A.mm,A.pz,A.z4,A.a3R,A.ab9,A.hu,A.mf,A.w1,A.o6,A.f9,A.bo,A.hj,A.ad0,A.JE,A.a3B])
 p(A.iq,[A.XE,A.Ix,A.Iy])
 p(A.hk,[A.Hf,A.q_,A.a_m])
@@ -123086,7 +123089,7 @@ B.Fj=new A.hT(0,-1)
 B.eo=new A.hT(1,0)
 B.fu=new A.hT(-1,0)
 B.b5=new A.hT(-1,-1)
-B.v=new A.fh(0,0)
+B.u=new A.fh(0,0)
 B.kx=new A.fh(0,1)
 B.i2=new A.fh(0,-1)
 B.ky=new A.fh(1,0)
@@ -123102,10 +123105,10 @@ B.c9=new A.kR(1,"forward")
 B.co=new A.kR(2,"reverse")
 B.al=new A.kR(3,"completed")
 B.Fm=new A.ng(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.dF=new A.agp(0,"dev")
+B.dG=new A.agp(0,"dev")
 B.kC=new A.Gg(0,"exit")
 B.oT=new A.Gg(1,"cancel")
-B.dG=new A.lO(0,"detached")
+B.dH=new A.lO(0,"detached")
 B.cN=new A.lO(1,"resumed")
 B.i3=new A.lO(2,"inactive")
 B.i4=new A.lO(3,"hidden")
@@ -123125,7 +123128,7 @@ B.b4=new A.jd(-1,-1,B.p,!1,-1,-1)
 B.ah=new A.cM(-1,-1)
 B.ao=new A.c8("",B.b4,B.ah)
 B.oV=new A.A_(!1,"",B.ag,B.ao,null)
-B.dH=new A.kU(0,"disabled")
+B.dI=new A.kU(0,"disabled")
 B.eq=new A.kU(1,"always")
 B.oW=new A.kU(2,"onUserInteraction")
 B.i5=new A.kU(3,"onUnfocus")
@@ -123142,9 +123145,9 @@ B.Ft=new A.V5(B.Dn,null,null,null,B.Fs,null,null,null,null,null,null)
 B.Fu=new A.Gq(null,null,null,null,null,null,null,null)
 B.eu=new A.MU()
 B.er=new A.eK("flutter/accessibility",B.eu,null,t.J)
-B.dL=new A.arL()
-B.Fv=new A.eK("flutter/keyevent",B.dL,null,t.J)
-B.Fw=new A.eK("flutter/system",B.dL,null,t.J)
+B.dM=new A.arL()
+B.Fv=new A.eK("flutter/keyevent",B.dM,null,t.J)
+B.Fw=new A.eK("flutter/system",B.dM,null,t.J)
 B.kM=new A.aFQ()
 B.Fx=new A.eK("flutter/lifecycle",B.kM,null,A.a5("eK<h?>"))
 B.oX=new A.lQ(0,0)
@@ -123167,11 +123170,11 @@ B.jx=new A.aW(40,40)
 B.Gd=new A.df(B.jx,B.jx,B.jx,B.jx)
 B.jy=new A.aW(60,50)
 B.Ge=new A.df(B.jy,B.jy,B.jy,B.jy)
-B.e6=new A.aW(4,4)
-B.p0=new A.df(B.e6,B.e6,B.H,B.H)
+B.e7=new A.aW(4,4)
+B.p0=new A.df(B.e7,B.e7,B.H,B.H)
 B.jv=new A.aW(22,22)
 B.Gf=new A.df(B.jv,B.jv,B.jv,B.jv)
-B.fx=new A.df(B.e6,B.e6,B.e6,B.e6)
+B.fx=new A.df(B.e7,B.e7,B.e7,B.e7)
 B.az=new A.df(B.H,B.H,B.H,B.H)
 B.jz=new A.aW(7,7)
 B.Gi=new A.df(B.jz,B.jz,B.jz,B.jz)
@@ -123238,13 +123241,13 @@ B.i8=new A.Gy(0,"tight")
 B.p6=new A.Gy(1,"max")
 B.p7=new A.Gy(5,"strut")
 B.au=new A.Vq(0,"rectangle")
-B.dI=new A.Vr(0,"tight")
+B.dJ=new A.Vr(0,"tight")
 B.GN=new A.Vr(1,"max")
 B.aS=new A.Vs(0,"dark")
 B.aA=new A.Vs(1,"light")
-B.dc=new A.GA(0,"blink")
+B.dd=new A.GA(0,"blink")
 B.bP=new A.GA(1,"webkit")
-B.dJ=new A.GA(2,"firefox")
+B.dK=new A.GA(2,"firefox")
 B.GO=new A.GB(null,null,null,null,null,null,null,null,null)
 B.GP=new A.ahC(0,"normal")
 B.I1=new A.PB(A.a5("PB<x<v>>"))
@@ -123281,10 +123284,10 @@ B.kJ=new A.Xh()
 B.b_=new A.Xh()
 B.H6=new A.amI()
 B.ib=new A.Xz()
-B.dK=new A.ap5()
+B.dL=new A.ap5()
 B.abW=new A.XO()
 B.jQ=new A.D2(0,"serverAndCache")
-B.e9=new A.CR(0,"none")
+B.ea=new A.CR(0,"none")
 B.pf=new A.apF()
 B.H8=new A.apJ()
 B.H9=new A.aq_()
@@ -123467,7 +123470,7 @@ B.HN=new A.a1D()
 B.cQ=new A.aF9()
 B.ev=new A.aFc()
 B.HO=new A.a2m()
-B.dM=new A.aGw()
+B.dN=new A.aGw()
 B.HP=new A.aGD()
 B.HQ=new A.aGI()
 B.HR=new A.aGJ()
@@ -123536,30 +123539,30 @@ B.pv=new A.ry(2,"controller")
 B.Ig=new A.GH(null,null,null,null,null,null)
 B.ac0=new A.aif(0,"scale")
 B.DX=new A.bp("Nenhum jogo encontrado.",null,null,null,null,null,null,null,null,null)
-B.Ih=new A.ec(B.v,null,null,B.DX,null)
+B.Ih=new A.ec(B.u,null,null,B.DX,null)
 B.aC=new A.dc(0,0,null,null)
-B.Ii=new A.ec(B.v,null,null,B.aC,null)
+B.Ii=new A.ec(B.u,null,null,B.aC,null)
 B.acg=new A.aJu(0,"material")
 B.fH=new A.nm(null,null,null,null,null,null,null,null)
 B.a0N=new A.dc(5,5,B.fH,null)
-B.Ij=new A.ec(B.v,null,null,B.a0N,null)
-B.aY=new A.ec(B.v,null,null,B.fH,null)
+B.Ij=new A.ec(B.u,null,null,B.a0N,null)
+B.aY=new A.ec(B.u,null,null,B.fH,null)
 B.Iy=new A.nm(1,null,null,null,null,null,null,null)
-B.Ik=new A.ec(B.v,null,null,B.Iy,null)
+B.Ik=new A.ec(B.u,null,null,B.Iy,null)
 B.a7G=new A.bp("Nenhum produto cadastrado",null,null,null,null,null,null,null,null,null)
-B.Il=new A.ec(B.v,null,null,B.a7G,null)
+B.Il=new A.ec(B.u,null,null,B.a7G,null)
 B.a7u=new A.bp("Nenhum time cadastrado",null,null,null,null,null,null,null,null,null)
-B.Im=new A.ec(B.v,null,null,B.a7u,null)
+B.Im=new A.ec(B.u,null,null,B.a7u,null)
 B.a7C=new A.bp("Nenhum torneio cadastrado",null,null,null,null,null,null,null,null,null)
-B.In=new A.ec(B.v,null,null,B.a7C,null)
+B.In=new A.ec(B.u,null,null,B.a7C,null)
 B.a7a=new A.bp("Nenhum membro encontrado.",null,null,null,null,null,null,null,null,null)
-B.pw=new A.ec(B.v,null,null,B.a7a,null)
+B.pw=new A.ec(B.u,null,null,B.a7a,null)
 B.a7B=new A.bp("Desafio n\xe3o encontrado",null,null,null,null,null,null,null,null,null)
-B.Io=new A.ec(B.v,null,null,B.a7B,null)
+B.Io=new A.ec(B.u,null,null,B.a7B,null)
 B.a7A=new A.bp("Nenhum desafio encontrado.",null,null,null,null,null,null,null,null,null)
-B.Ip=new A.ec(B.v,null,null,B.a7A,null)
+B.Ip=new A.ec(B.u,null,null,B.a7A,null)
 B.Ix=new A.nm(2,null,null,null,null,null,null,null)
-B.ic=new A.ec(B.v,null,null,B.Ix,null)
+B.ic=new A.ec(B.u,null,null,B.Ix,null)
 B.mu=s([],t.FF)
 B.px=new A.k8(B.mu,B.mu)
 B.py=new A.vC(0,"selectTeam")
@@ -123569,7 +123572,7 @@ B.Iu=new A.VD(1,"getLastChallenges")
 B.It=new A.rA(B.Iu,null)
 B.Iv=new A.Ab(null,null,null,null,null,null,null,null,null)
 B.ez=new A.Ac(0,"none")
-B.dN=new A.Ac(1,"isTrue")
+B.dO=new A.Ac(1,"isTrue")
 B.id=new A.Ac(2,"isFalse")
 B.eA=new A.Ac(3,"mixed")
 B.Iw=new A.GL(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -123643,7 +123646,7 @@ B.KV=new A.K(1,0.21176470588235294,0.20392156862745098,0.23137254901960785,B.f)
 B.IL=new A.K(1,0.5764705882352941,0.5607843137254902,0.6,B.f)
 B.IG=new A.Ap(B.aS,B.fL,B.L9,B.iu,B.io,B.io,B.fL,B.qb,B.iu,B.l1,B.Lf,B.ir,B.is,B.is,B.l1,B.pR,B.ir,B.l_,B.KS,B.ij,B.ik,B.ik,B.l_,B.pW,B.ij,B.KQ,B.LB,B.q5,B.pT,B.l7,B.ip,B.l0,B.l7,B.Lb,B.Lu,B.kX,B.II,B.LQ,B.KV,B.pO,B.IL,B.l0,B.m,B.m,B.ip,B.qc,B.l4,B.fL,B.l7,B.ip)
 B.IM=new A.K(1,0.5098039215686274,0.8431372549019608,1,B.f)
-B.dd=new A.a7(4278190080)
+B.de=new A.a7(4278190080)
 B.eB=new A.K(1,0.3803921568627451,0.3803921568627451,0.3803921568627451,B.f)
 B.pK=new A.K(1,0.9490196078431372,0.9490196078431372,0.9490196078431372,B.f)
 B.KT=new A.K(0.4,0.7843137254901961,0.7843137254901961,0.7843137254901961,B.f)
@@ -123654,7 +123657,7 @@ B.pN=new A.K(1,0.12941176470588237,0.12941176470588237,0.12941176470588237,B.f)
 B.L6=new A.K(1,0.5490196078431373,1,0.5098039215686274,B.f)
 B.pP=new A.K(0,1,1,1,B.f)
 B.Lc=new A.K(0.03137254901960784,0,0,0,B.f)
-B.de=new A.K(1,0.25882352941176473,0.25882352941176473,0.25882352941176473,B.f)
+B.df=new A.K(1,0.25882352941176473,0.25882352941176473,0.25882352941176473,B.f)
 B.kZ=new A.K(1,0.12941176470588237,0.5882352941176471,0.9529411764705882,B.f)
 B.a7=new A.K(0.5411764705882353,0,0,0,B.f)
 B.pV=new A.K(0.5019607843137255,0.5019607843137255,0.5019607843137255,0.5019607843137255,B.f)
@@ -123686,34 +123689,34 @@ B.LR=new A.K(1,0.0784313725490196,0.07058823529411765,0.18823529411764706,B.f)
 B.LT=new A.K(0.03137254901960784,0.6196078431372549,0.6196078431372549,0.6196078431372549,B.f)
 B.M1=new A.K(0.9411764705882353,0.7529411764705882,0.7529411764705882,0.7529411764705882,B.f)
 B.M2=new A.K(1,1,0.9411764705882353,0.5098039215686274,B.f)
-B.j=new A.to(0,"start")
-B.k=new A.Z4(1,"max")
-B.l=new A.vQ(2,"center")
+B.k=new A.to(0,"start")
+B.l=new A.Z4(1,"max")
+B.j=new A.vQ(2,"center")
 B.o=new A.aIz(1,"down")
 B.ZC=new A.eT(!0,"Pol\xedtica de privacidade",null)
-B.u=new A.vQ(0,"start")
+B.v=new A.vQ(0,"start")
 B.r=new A.qy(4,"start")
-B.a1s=new A.cE(null,null,null,null,'A plataforma Quer Valer sabe o quanto \xe9 importante para voc\xea conhecer e estar seguro sobre a utiliza\xe7\xe3o dos seus dados pessoais. Por isso, nos preocupamos em esclarecer e divulgar nossa pol\xedtica de utiliza\xe7\xe3o dessas informa\xe7\xf5es. Assim, voc\xea poder\xe1 entender melhor quais informa\xe7\xf5es obtemos e como as utilizamos. Dedique alguns minutos do seu tempo para ler essa pol\xedtica e aproveitar de forma consciente e segura tudo o que o Quer Valer tem para oferecer. Para assegurar regras claras e precisas, o Quer Valer pode alterar essa pol\xedtica de tempos em tempos, e sendo assim, recomenda sua leitura periodicamente.\n\nEsta pol\xedtica permitir\xe1 que voc\xea saiba:\n1. Quais informa\xe7\xf5es obtemos;\n2. O que s\xe3o cookies e qual a sua utilidade;\n3. Como ser\xe3o utilizadas estas informa\xe7\xf5es;\n4. Quem coleta as informa\xe7\xf5es;\n5. Com quem suas informa\xe7\xf5es podem ser compartilhadas;\n6. Quais s\xe3o as suas op\xe7\xf5es a respeito da coleta, uso e distribui\xe7\xe3o de suas informa\xe7\xf5es;\n7. Como o Quer Valer trata suas informa\xe7\xf5es relativas a finan\xe7as pessoais e sa\xfade;\n8. Precau\xe7\xf5es de seguran\xe7a estabelecidas para sua prote\xe7\xe3o em caso de perda, m\xe1 utiliza\xe7\xe3o ou altera\xe7\xe3o de suas informa\xe7\xf5es e;\n9. O que mais voc\xea precisa saber sobre sua privacidade na Internet.\n\n\n**1. TIPOS DE INFORMA\xc7\xd5ES QUE PODEM SER COLETADAS POR QUER VALER**\n\nO Quer Valer coleta informa\xe7\xf5es de diversas formas, em diferentes \xe1reas do portal.\n\nAlgumas informa\xe7\xf5es pessoais s\xe3o obtidas quando voc\xea se registra. Durante o processo de registro, o Quer Valer pergunta seu nome, endere\xe7o de e-mail e outras informa\xe7\xf5es pessoais. Quanto mais informa\xe7\xf5es corretas voc\xea fornecer, melhor ser\xe1 a personaliza\xe7\xe3o da sua experi\xeancia.\n\nEntretanto, \xe9 tecnicamente imposs\xedvel que os usu\xe1rios do Quer Valer escolham como login para registro palavras, express\xf5es ou conjuntos gr\xe1ficos denominativos que j\xe1 tenham sido escolhidos anteriormente por outros usu\xe1rios e/ou assinantes, bem como \xe9 vedado a esses, assinantes e/ou usu\xe1rios a escolha de express\xf5es malsoantes, injuriosas, coincidentes com marcas de produtos ou servi\xe7os de terceiros, denomina\xe7\xf5es sociais, express\xf5es publicit\xe1rias, nomes ou pseud\xf4nimos de personalidades p\xfablicas, de pessoas famosas ou registrados por terceiros, ou que n\xe3o remetam \xe0 identidade do registrante e, em geral, contr\xe1rios \xe0 lei, \xe0 ordem ou \xe0s exig\xeancias da moral e dos bons costumes comumente aceitos. Al\xe9m disso, \xe9 terminantemente proibido o uso de nomes de marcas, programas, produtos ou servi\xe7os de propriedade ou oferecidos pelo Quer Valer ou de qualquer uma de suas sociedades controladoras, sociedade controladas ou sociedades sob controle comum.\n\nO assinante e/ou usu\xe1rio que desobedecer ao estabelecido no par\xe1grafo supra poder\xe1 ter o seu login cancelado e bloqueado sem aviso pr\xe9vio e a crit\xe9rio exclusivo do Quer Valer.\n\nDepois do registro, voc\xea estar\xe1 apto a usufruir e desfrutar de benef\xedcios de um usu\xe1rio cadastrado do Quer Valer, incluindo a participa\xe7\xe3o em promo\xe7\xf5es, eventos on-line, sorteios e compras.\n\nO Quer Valer possui diversos parceiros e/ou patrocinadores, que tamb\xe9m criam sorteios e promo\xe7\xf5es, oferecendo in\xfameros bens e/ou servi\xe7os atrav\xe9s de sites que s\xe3o acessados dentro do Quer Valer. As informa\xe7\xf5es que voc\xea fornece quando visita e/ou completa transa\xe7\xf5es nesses sites s\xe3o obtidas por esses parceiros e/ou patrocinadores, estando assim sujeitas \xe0s suas pr\xf3prias pr\xe1ticas de obten\xe7\xe3o e uso de dados, sem que caiba qualquer responsabilidade ao Quer Valer pelo manuseio de tais informa\xe7\xf5es.\n\nPara obter informa\xe7\xf5es sobre as pol\xedticas e normas de privacidade desses parceiros e/ou patrocinadores, sugerimos que voc\xea localize as normas de relacionamento espec\xedficas dentro do pr\xf3prio site do parceiro.\n\n\n**2. O QUE S\xc3O "COOKIES" E QUAL SUA UTILIDADE**\n\nCookies s\xe3o pequenos arquivos de texto enviados ao seu computador. Os cookies s\xe3o armazenados no seu computador. Estes pequenos arquivos servem para reconhecer, acompanhar e armazenar a navega\xe7\xe3o do usu\xe1rio na Internet.\n\nO uso de cookies para acompanhar e armazenar informa\xe7\xf5es possibilitar\xe1 o Quer Valer oferecer um servi\xe7o mais personalizado (hiperlink para o texto explicativo sobre personaliza\xe7\xe3o), de acordo com as caracter\xedsticas e interesses de seus usu\xe1rios, possibilitando, inclusive, a oferta de conte\xfado e publicidade espec\xedficos para cada pessoa, beneficiando a experi\xeancia do usu\xe1rio na Internet.\n\nEm geral, os cookies s\xe3o utilizados para: Proporcionar servi\xe7os diferenciados, lembrando quem voc\xea \xe9 e quais s\xe3o os seus h\xe1bitos de navega\xe7\xe3o, al\xe9m de acessar as informa\xe7\xf5es do seu cadastro no Quer Valer (armazenadas em nossos servidores);\n\nAjudar os parceiros do Canal de Compras do Quer Valer a acompanhar visitas e neg\xf3cios em suas lojas;\n\nCalcular a dimens\xe3o da audi\xeancia do Quer Valer;\n\nAcompanhar o andamento de promo\xe7\xf5es. Quando uma promo\xe7\xe3o organizada pelo Quer Valer usa cookies, as informa\xe7\xf5es gravadas no cookie indicam a pontua\xe7\xe3o do usu\xe1rio.\n\nMedir certos padr\xf5es de navega\xe7\xe3o, mapeando quais \xe1reas do portal Quer Valer voc\xea visitou e seus h\xe1bitos de visita como um todo. Usamos essa informa\xe7\xe3o para verificar a rotina de navega\xe7\xe3o dos nossos usu\xe1rios, e assim oferecer conte\xfado e/ou servi\xe7os cada vez mais personalizados.\n\nFacilitar e agilizar o preenchimento de formul\xe1rios. As informa\xe7\xf5es contidas nos cookies de cada usu\xe1rio podem ser utilizadas para preencher previamente os formul\xe1rios de coleta de dados existentes na Internet.\n\nOs anunciantes, parceiros e/ou patrocinadores do Quer Valer poder\xe3o utilizar seus pr\xf3prios cookies, os quais n\xe3o s\xe3o cobertos por esta pol\xedtica. Sugerimos que voc\xea consulte as pol\xedticas de privacidade dessas empresas.\n\n\n**3. COMO SER\xc3O UTILIZADAS ESTAS INFORMA\xc7\xd5ES**\n\nAs informa\xe7\xf5es coletadas pelo Quer Valer ser\xe3o utilizadas para personalizar o conte\xfado e/ou servi\xe7os disponibilizados. Isso inclui servi\xe7os de personaliza\xe7\xe3o, comunica\xe7\xf5es interativas, compras on-line e outros tipos de servi\xe7os. Sabendo mais sobre voc\xea, o Quer Valer pode fornecer conte\xfado e servi\xe7os mais relevantes e proporcionar uma melhor experi\xeancia on-line.\n\nAs informa\xe7\xf5es tamb\xe9m poder\xe3o ser utilizadas para gerar dados estat\xedsticos gerais com finalidade informativa ou comercial. Informa\xe7\xf5es geogr\xe1ficas, demogr\xe1ficas, psicogr\xe1ficas e de perfil de uso dos usu\xe1rios Quer Valer poder\xe3o ser fornecidas a parceiros, patrocinadores, anunciantes ou outras empresas externas, sem que sejam revelados nomes ou outros dados de navega\xe7\xe3o.\n\nAs informa\xe7\xf5es coletadas poder\xe3o ser utilizadas para direcionamento de campanhas publicit\xe1rias de uma forma geral, como por exemplo no caso em que um anunciante determina como foco de uma determinada campanha homens com mais de 25 anos. Nesse caso, veiculamos a propaganda aos usu\xe1rios dentro dessa faixa et\xe1ria utilizando banners e/ou e-mails promocionais. Os usu\xe1rios ao se cadastrarem no Quer Valer ter\xe3o a op\xe7\xe3o de receber ou n\xe3o em sua conta de e-mail ofertas e/ou propaganda, sendo que, a qualquer tempo, essa op\xe7\xe3o poder\xe1 ser alterada pelo usu\xe1rio.\n\nAs informa\xe7\xf5es pessoais individuais n\xe3o ser\xe3o comercializadas ou fornecidas a terceiros em nenhuma hip\xf3tese, salvo em estrito cumprimento de ordens judiciais ou procedimentos jur\xeddicos similares. Todas as informa\xe7\xf5es fornecidas a parceiros, patrocinadores, anunciantes e demais ser\xe3o apenas de grupos de usu\xe1rios (segmentos de mercado).\n\n\n**4. QUEM COLETA AS INFORMA\xc7\xd5ES**\n\nQuando o Quer Valer solicita informa\xe7\xf5es pessoais a voc\xea, essas informa\xe7\xf5es estar\xe3o sendo enviadas somente para parceiros da empresa, a n\xe3o ser que seja indicado de forma diferente. Alguns parceiros, patrocinadores, anunciantes e demais que sejam acessados atrav\xe9s do portal Quer Valer, poder\xe3o solicitar informa\xe7\xf5es financeiras e/ou pessoais suas. Num caso como esse, essas informa\xe7\xf5es n\xe3o estar\xe3o sendo enviadas ao Quer Valer, e, sendo assim, o portal n\xe3o ter\xe1 qualquer responsabilidade pela utiliza\xe7\xe3o e manejo dessa informa\xe7\xe3o, n\xe3o sendo aplicada a presente pol\xedtica.\n\nO Quer Valer destaca que no portal podem existir links e/ou p\xe1ginas que utilizem publicidade gr\xe1fica de outros parceiros e/ou empresas, como por exemplo, o Google Ads, que utiliza relat\xf3rio de informa\xe7\xf5es demogr\xe1ficas da respectiva plataforma de publicidade. Caso voc\xea tenha interesse em desativar tal publicidade gr\xe1fica, dever\xe1 acessar o link configura\xe7\xf5es de an\xfancios (https://www.google.com/settings/ads ) e personalizar sua pr\xf3pria experi\xeancia.\n\nAs promo\xe7\xf5es realizadas no Quer Valer podem ser patrocinadas por outras empresas ou segundo uma parceria entre o Quer Valer e uma dessas empresas. Alguns ou todos os dados coletados durante uma promo\xe7\xe3o podem ser compartilhados com o parceiro e/ou patrocinador. Se os dados forem compartilhados, voc\xea ser\xe1 notificado antes da coleta ou transfer\xeancia dos dados. Assim, poder\xe1 decidir n\xe3o participar da promo\xe7\xe3o se n\xe3o desejar que seus dados sejam compartilhados.\n\nSempre que voc\xea acessar anunciantes ou outros Sites da Web atrav\xe9s de links presentes no site do Quer Valer, aqueles poder\xe3o coletar informa\xe7\xf5es sobre voc\xea. Lembramos que as pr\xe1ticas relativas \xe0 privacidade desses parceiros e terceiros n\xe3o s\xe3o cobertos pela presente pol\xedtica e podem ser bem diferentes dos padr\xf5es de privacidade do Eportudo.com.\n\n\n**5. COM QUEM SUAS INFORMA\xc7\xd5ES PODEM SER COMPARTILHADAS**\n\nO Quer Valer n\xe3o tem como pr\xe1tica a divulga\xe7\xe3o de informa\xe7\xf5es que possam identific\xe1-lo, salvo quando autorizado por voc\xea ou em circunst\xe2ncias previstas nesta presente pol\xedtica. Em alguns casos, essa identifica\xe7\xe3o ser\xe1 necess\xe1ria, caso voc\xea adquira um determinado produto ou servi\xe7o ou ganhe um pr\xeamio cuja entrega, para ser feita, necessite de suas informa\xe7\xf5es pessoais. A identifica\xe7\xe3o tamb\xe9m pode ser pedida para que uma determinada transa\xe7\xe3o comercial possa ser efetivada. A revela\xe7\xe3o dos seus dados poder\xe1 ainda acontecer devido a exig\xeancias legais. Podemos revelar suas informa\xe7\xf5es pessoais em algumas circunst\xe2ncias, listadas nos casos a seguir:\n\nParceiros de neg\xf3cios e patrocinadores: O Quer Valer pode divulgar suas informa\xe7\xf5es pessoais a alguns parceiros, patrocinadores, anunciantes e demais. Por\xe9m, nesses casos, voc\xea ser\xe1 consultado antes mesmo de a coleta ou transfer\xeancia de dados ser feita. Os detalhes do uso compartilhado podem ser encontrados nos contratos de uso espec\xedficos e tamb\xe9m nas regras das promo\xe7\xf5es. Alguns ou todos os dados coletados durante uma promo\xe7\xe3o do Eportudo.com podem ser compartilhados com um patrocinador. Se forem compartilhados dados que possam identific\xe1-lo, voc\xea ser\xe1 informado antes da coleta ou transfer\xeancia de dados.\n\nAlgumas promo\xe7\xf5es oferecem oportunidades para solicita\xe7\xe3o de informa\xe7\xf5es adicionais dos patrocinadores. Solicitando mais informa\xe7\xf5es, voc\xea d\xe1 ao Eportudo.com permiss\xe3o para transferir suas informa\xe7\xf5es pessoais para o patrocinador, para que ele possa atender \xe0 sua solicita\xe7\xe3o.\n\nCanal de Compras: Se voc\xea adquirir um produto no canal de compras do Eportudo.com, as informa\xe7\xf5es obtidas durante a sua visita \xe0s lojas e as informa\xe7\xf5es que voc\xea fornecer \xe0s mesmas, tais como o n\xfamero do seu cart\xe3o de cr\xe9dito e dados para contato, s\xe3o automaticamente repassadas aos lojistas. Isso ocorre para permitir que as transa\xe7\xf5es sejam efetuadas. Os lojistas que fazem parte do canal de compras do Eportudo.com possuem pr\xe1ticas de privacidade e coleta de dados pr\xf3prias. O Quer Valer n\xe3o se responsabiliza por essas pol\xedticas independentes. Para obter mais informa\xe7\xf5es sobre o lojista, sua loja e suas pol\xedticas de privacidade, retorne \xe0 p\xe1gina inicial dessa loja e localize o link da respectiva pol\xedtica.\n\nLeil\xf5es: O Quer Valer n\xe3o possui um servi\xe7o pr\xf3prio de leil\xf5es, e, portanto, n\xe3o assume quaisquer responsabilidades em decorr\xeancia de informa\xe7\xf5es que voc\xea venha a fornecer a sites que organizam esse tipo de evento. Lembramos que essas informa\xe7\xf5es n\xe3o estar\xe3o sujeitas \xe0 pol\xedtica de privacidade do Quer Valer.\n\nDados de terceiros e dados agregados: Sob acordos de confidencialidade e demais instrumento contratuais, o Quer Valer pode comparar informa\xe7\xf5es do usu\xe1rio com dados de terceiros. Al\xe9m disso, o Quer Valer pode divulgar estat\xedsticas agregadas para grupos de usu\xe1rios (por exemplo, 65% dos nossos usu\xe1rios s\xe3o do sexo masculino) com o objetivo de descrever nossos servi\xe7os para prov\xe1veis parceiros, anunciantes etc., bem como tendo em vista outros objetivos legais.\n\nDados de terceiros e dados agregados: Sob acordos de confidencialidade e demais instrumento contratuais, o Quer Valer pode comparar informa\xe7\xf5es do usu\xe1rio com dados de terceiros. Al\xe9m disso, o Quer Valer pode divulgar estat\xedsticas agregadas para grupos de usu\xe1rios (por exemplo, 65% dos nossos usu\xe1rios s\xe3o do sexo masculino) com o objetivo de descrever nossos servi\xe7os para prov\xe1veis parceiros, anunciantes etc., bem como tendo em vista outros objetivos legais.\n\nOutros: O Quer Valer tamb\xe9m pode divulgar informa\xe7\xf5es sobre o usu\xe1rio em casos especiais nos quais temos raz\xe3o para acreditar que a divulga\xe7\xe3o dessas informa\xe7\xf5es \xe9 necess\xe1ria para identificar, entrar em contato ou agir legalmente contra algu\xe9m que possa estar causando danos ou interferindo (intencional ou n\xe3o intencionalmente) nos direitos ou na propriedade do Quer Valer, de outros usu\xe1rios do Quer Valer ou de qualquer pessoa que seja prejudicada por tais atividades. O Quer Valer pode divulgar informa\xe7\xf5es sobre o usu\xe1rio quando exigido por lei e com objetivos administrativos ou outros que considerarmos necess\xe1rios para manter e aprimorar nossos produtos e servi\xe7os.\n\n\n**6. QUAIS S\xc3O AS SUAS OP\xc7\xd5ES A RESPEITO DA COLETA, USO E DISTRIBUI\xc7\xc3O DE SUAS INFORMA\xc7\xd5ES**\n\nSe, ao se registrar, voc\xea indicou que est\xe1 interessado em receber ofertas ou informa\xe7\xf5es do Quer Valer e nossos parceiros, poderemos ocasionalmente enviar a voc\xea mensagens, via e-mail, sobre produtos e servi\xe7os que possam interess\xe1-lo. Somente o Quer Valer (ou agentes que trabalhem em nome do Quer Valer e sob acordos de confidencialidade) enviar\xe3o a voc\xea essas comunica\xe7\xf5es e somente se voc\xea indicou que n\xe3o tem obje\xe7\xe3o contra essas ofertas. Se n\xe3o desejar receber mais esses informes, basta dizer-nos ao fornecer suas informa\xe7\xf5es pessoais, ou, a qualquer momento, alterar suas informa\xe7\xf5es cadastrais, selecionando a op\xe7\xe3o de n\xe3o receber mais essas comunica\xe7\xf5es. Ser\xe3o necess\xe1rias sua identifica\xe7\xe3o e senha no cadastro do Quer Valer para acessar suas informa\xe7\xf5es cadastrais.\n\nPara alguns tipos de promo\xe7\xf5es, solicitaremos seu endere\xe7o de e-mail para atualiz\xe1-lo sobre a sua pontua\xe7\xe3o, suas participa\xe7\xf5es e status nas premia\xe7\xf5es. Ao participar desse tipo de promo\xe7\xe3o, voc\xea automaticamente recebe mensagens relacionadas \xe0 promo\xe7\xe3o, a menos que escolha a op\xe7\xe3o sem e-mail oferecida por algumas delas. Ocasionalmente, essas mensagens de e-mail relacionadas \xe0 promo\xe7\xe3o podem incluir an\xfancios direcionados. Se uma determinada promo\xe7\xe3o n\xe3o oferecer uma op\xe7\xe3o de n\xe3o recebimento de e-mail, voc\xea poder\xe1 optar por n\xe3o receber e-mails, mas voc\xea deixa de participar dessa promo\xe7\xe3o.\n\nVoc\xea tamb\xe9m tem op\xe7\xf5es em rela\xe7\xe3o aos cookies. Modificando suas prefer\xeancias de navega\xe7\xe3o, voc\xea tem a op\xe7\xe3o de aceitar todos os cookies, ser notificado quando um cookie for enviado ou rejeitar todos os cookies. Se voc\xea optar por rejeitar todos os cookies, n\xe3o conseguir\xe1 usar alguns dos servi\xe7os do Quer Valer que requerem registro para participa\xe7\xe3o. Tamb\xe9m n\xe3o poder\xe1 usufruir de todos benef\xedcios e facilidades de uma experi\xeancia personalizada na Internet.\n\nO Quer Valer n\xe3o comercializa informa\xe7\xf5es de usu\xe1rios para ningu\xe9m. Na ocasi\xe3o da coleta ou transfer\xeancia dos dados, n\xf3s o notificaremos, caso as informa\xe7\xf5es a seu respeito sejam compartilhadas com terceiros. Al\xe9m disso, voc\xea sempre ter\xe1 a op\xe7\xe3o de n\xe3o permitir a transfer\xeancia desses dados. Se n\xe3o desejar que eles sejam compartilhados, voc\xea poder\xe1 optar por n\xe3o usar um determinado servi\xe7o ou n\xe3o participar de certas promo\xe7\xf5es ou concursos.\n\n\n**7. COMO O QUER VALER TRATA SUAS INFORMA\xc7\xd5ES RELATIVAS A FINAN\xc7AS PESSOAIS E SA\xdaDE**\n\nO Quer Valer manter\xe1 de forma confidencial suas informa\xe7\xf5es relativas a finan\xe7as e sa\xfade e nunca comercializar\xe1 tais informa\xe7\xf5es.\n\nSabermos qual seu perfil de utiliza\xe7\xe3o de servi\xe7os e recursos nos ajudar\xe1 a oferecer um conte\xfado personalizado. Por\xe9m, como ocorre com todas as informa\xe7\xf5es que podem identific\xe1-lo, n\xe3o disponibilizamos essas informa\xe7\xf5es para terceiros sem a sua permiss\xe3o. Quaisquer estat\xedsticas sobre usu\xe1rios que possamos fornecer a prov\xe1veis anunciantes ou parceiros, com rela\xe7\xe3o ao uso de produtos ou servi\xe7os financeiros no Quer Valer s\xe3o fornecidas somente em conjunto e n\xe3o incluem nenhuma informa\xe7\xe3o que permita identifica\xe7\xe3o pessoal de qualquer usu\xe1rio individual.\n\nObserve que podem existir locais no aplicativo Quer Valer, nos quais voc\xea pode transmitir informa\xe7\xf5es sobre cart\xe3o de cr\xe9dito para concluir uma transa\xe7\xe3o de compra ou com o objetivo de verifica\xe7\xe3o. Sempre que solicitamos um n\xfamero de cart\xe3o de cr\xe9dito n\xf3s transmitimos esse n\xfamero no formato criptografado. Utilizamos a criptografia padr\xe3o da ind\xfastria, SSL (Secure Sockets Layer, camada de soquetes de seguran\xe7a).\n\n\n**8. PRECAU\xc7\xd5ES DE SEGURAN\xc7A ESTABELECIDAS PARA SUA PROTE\xc7\xc3O EM CASO DE PERDA, M\xc1 UTILIZA\xc7\xc3O OU ALTERA\xc7\xc3O DE SUAS INFORMA\xc7\xd5ES**\n\nAs informa\xe7\xf5es sobre a conta do Quer Valer s\xe3o protegidas por senha, para que somente voc\xea tenha acesso a suas informa\xe7\xf5es pessoais.\n\nSua senha \xe9 secreta e recomendamos que n\xe3o a revele a ningu\xe9m. O Quer Valer n\xe3o ir\xe1 solicitar, em nenhuma hip\xf3tese, seja por e-mail ou telefone, sua senha pessoal. Lembre-se tamb\xe9m de desconectar-se da sua conta do Quer Valer e fechar a janela do seu navegador quando concluir sua navega\xe7\xe3o na Internet. Isso garante que outras pessoas n\xe3o tenham acesso \xe0s suas informa\xe7\xf5es pessoais e correspond\xeancias, caso voc\xea compartilhe um computador com algu\xe9m ou esteja usando um computador em local p\xfablico como uma biblioteca ou local de acesso p\xfablico \xe0 Internet.\n\nNenhuma transmiss\xe3o de dados na Internet \xe9 100% segura. Sendo assim, embora o Quer Valer sempre fa\xe7a o poss\xedvel para proteger suas informa\xe7\xf5es pessoais, n\xe3o \xe9 poss\xedvel garantir a seguran\xe7a de todas as informa\xe7\xf5es que voc\xea venha a nos fornecer. \xc9 uma decis\xe3o pessoal a utiliza\xe7\xe3o do servi\xe7o nessas condi\xe7\xf5es.\n\n\n**9. O QUE MAIS VOC\xca PRECISA SABER SOBRE SUA PRIVACIDADE ON-LINE**\n\nEm \xfaltima an\xe1lise voc\xea \xe9 o respons\xe1vel pela manuten\xe7\xe3o de sua privacidade e pelo sigilo de suas senhas e/ou informa\xe7\xf5es pessoais.\n\nSendo assim, recomendamos:\n\nInforme-se: ao acessar a Internet sempre busque a pol\xedtica/declara\xe7\xe3o de privacidade do Site que voc\xea est\xe1 acessando.\n\nDiga a seus filhos para n\xe3o falarem sobre sua senha com estranhos. Ensine-os a n\xe3o fornecerem qualquer informa\xe7\xe3o pessoal, incluindo seus nomes, e diga-lhes para nunca preencherem formul\xe1rios on-line sem primeiro pedirem sua permiss\xe3o.\n\nUse senhas complexas. Senhas simples s\xe3o f\xe1ceis de serem quebradas. Use senhas complexas de combina\xe7\xf5es bastante longas de letras e n\xfameros que necessitam combina\xe7\xf5es pouco usuais do teclado.\n\nNunca forne\xe7a sua senha a ningu\xe9m on-line. Apenas forne\xe7a sua senha ao realizar compras pessoalmente. Se sua senha foi fornecida, mude-a imediatamente.\n\nAn\xfancios pessoais e salas de bate-papo s\xe3o de dom\xednio p\xfablico. Qualquer informa\xe7\xe3o que voc\xea torne dispon\xedvel em salas de bate-papo, em f\xf3runs ou em an\xfancios pessoais estar\xe1 dispon\xedvel a qualquer pessoa com acesso a esses locais. Sugerimos que voc\xea evite incluir informa\xe7\xf5es que permitam \xe0s pessoas encontr\xe1-lo, tais como o n\xfamero de seu telefone ou seu endere\xe7o para correspond\xeancia.\n\n\n**POL\xcdTICA DE SEGURAN\xc7A QUER VALER**\n\nEste instrumento, bem como outros termos, contratos, pol\xedticas, regras, exig\xeancias, limita\xe7\xf5es, sinaliza\xe7\xf5es, notas, notifica\xe7\xf5es e demais condi\xe7\xf5es dispon\xedveis no Portal Quer Valer, inclusive termos de uso de produtos espec\xedficos e a Pol\xedtica de Seguran\xe7a e Privacidade do Portal Quer Valer localizada no \xedcone (\u201cPol\xedtica de Privacidade\u201d), documentos estes pass\xedveis de altera\xe7\xe3o e tal como vigentes \xe0 \xe9poca de utiliza\xe7\xe3o do Portal Quer Valer (doravante, todos, em conjunto, denominados "Termos Gerais"), regulamentam a disponibiliza\xe7\xe3o e a utiliza\xe7\xe3o e acesso pelo usu\xe1rio (doravante simplesmente denominado \u201cVoc\xea\u201d) aos Conte\xfados (conforme defini\xe7\xe3o do termo abaixo), bem como limitam a responsabilidade do Quer Valer, por sua filial localizada na Pra\xe7a Chu\xed, 35, sal\xe3o t\xe9rreo \u2013 Ed. Max Offices - Vila Ema \u2013 CEP 12243-380 - S\xe3o Jos\xe9 dos Campos - SP, e/ou suas afiliadas ("Quer Valer") pela disponibiliza\xe7\xe3o dos mesmos.\nEsta pol\xedtica permitir\xe1 que voc\xea saiba:\n\n\t\u2022 Direitos sobre o conte\xfado disponibilizado;\n\t\u2022 Isen\xe7\xe3o de responsabilidade;\n\t\u2022 Seguran\xe7a e fluxo normal de comunica\xe7\xf5es entre servidores;\n\t\u2022 Autoriza\xe7\xe3o;\n\t\u2022 Suspens\xe3o, bloqueio e exclus\xe3o;\n\t\u2022 Altera\xe7\xe3o na Pol\xedtica de Privacidade;\n\t\u2022 Compartilhamento de informa\xe7\xe3o\n\t\u2022 Cessa\xe7\xe3o do uso de dados; e\n\t\u2022 Condi\xe7\xf5es gerais.\n\n\n**Direitos sobre o conte\xfado disponibilizado;**\n\nTodos os materiais contidos no portal Quer Valer e nos aplicativos disponibilizados pelo Quer Valer, incluindo mas sem se limitar a textos, v\xeddeos, formatos, ilustra\xe7\xf5es, anima\xe7\xf5es, gr\xe1ficos, fotografias, marcas, patentes, fontes, grafismo, esquemas de cores, layout, trade-dress, identidade visual, experi\xeancia de navega\xe7\xe3o, designs, aplicativos, interfaces de aplicativos, softwares, fragmentos de softwares (doravante designados coletivamente ou em rela\xe7\xe3o a qualquer parcela destes como \u201cConte\xfado\u201d) s\xe3o protegidos pela legisla\xe7\xe3o brasileira, em especial pela Lei de Direitos Autorais (Lei Federal 9.610/98) e Lei de Propriedade Industrial (Lei Federal 9.279/96).\n\nEm rela\xe7\xe3o ao uso autorizado dos Conte\xfados, este consiste unicamente em uma licen\xe7a a Voc\xea, n\xe3o exclusiva, intransfer\xedvel, revog\xe1vel e limitada, estritamente para visualiza\xe7\xe3o do Conte\xfado nos meios disponibilizados e autorizados pelo Quer Valer, sempre em \xe2mbito pessoal e privado, sem fins comerciais. Nenhum outro direito adicional \xe9 concedido a Voc\xea salvo se feito de forma expressa e por escrito pelo Quer Valer ou leg\xedtimo titular de direitos sobre o Conte\xfado.\n\nLembramos que qualquer acesso e/ou utiliza\xe7\xe3o que n\xe3o os expressamente autorizados ficam vedados. S\xe3o vedadas, exemplificativamente, as seguintes pr\xe1ticas, seja por meio de a\xe7\xe3o, dispositivo, mecanismo, software ou de qualquer forma e para qualquer fim:\n(i) remover, alterar, interferir, degradar, desativar, evitar ou de qualquer forma modificar marca d\u2019\xe1gua, copyright, s\xedmbolo, marca ou qualquer outro sinal indicativo de titularidade ou para outro fim inserido no Conte\xfado, ou quaisquer direitos e/ou mecanismos de prote\xe7\xe3o associados ao Conte\xfado, bem como filtros e controle de acesso, inclusive se baseados em territ\xf3rio (geoblocking) ou faixa et\xe1ria;\n(ii) copiar no todo ou em parte, fazer download, executar engenharia reversa, \u201cdescompilar\u201d, \u201crecompilar\u201d, \u201ccompilar\u201d, criptografar, \u201cdesencriptografar\u201d, desmembrar, capturar, reproduzir, arquivar, distribuir, fazer upload, publicar, modificar, traduzir, exibir, transmitir, distribuir, disponibilizar, utilizar m\xe9todos de data mining, coleta ou extra\xe7\xe3o de dados, ou embeddar o Conte\xfado;\n(iii) utilizar meta-tags para extra\xe7\xe3o dos Conte\xfados, reorganizar, armazenar, captar, exibir, retransmitir, tornar dispon\xedvel ou incorporar o Conte\xfado, inclusive frames, recaps e screenshots em qualquer meio;\n(iv) comercializar, distribuir gratuita ou onerosamente, anunciar ou desenvolver um neg\xf3cio, direta ou indiretamente, a partir do Conte\xfado;\n(v) utilizar o Conte\xfado de qualquer forma para a cria\xe7\xe3o de obras derivadas ou nele baseadas, tais como aplicativos, websites, montagens, mash-ups, v\xeddeos e materiais de marketing ou merchandising, entre outros;\n(vi) modificar, remover, interferir, tentar alterar qualquer parte do Conte\xfado, em especial os players de v\xeddeo, ou qualquer tecnologia por tr\xe1s dos mesmos. Essa restri\xe7\xe3o tamb\xe9m se aplica a qualquer altera\xe7\xe3o, interfer\xeancia ou a\xe7\xe3o que de qualquer forma possibilite, ainda que de forma privada, a visualiza\xe7\xe3o do Conte\xfado sem que sejam exibidos e/ou utilizados os aplicativos e players de v\xeddeo disponibilizados pelo Quer Valer e todos os elementos relacionados ao Portal Quer Valer (tais como interface, marcas registradas e eventuais an\xfancios) ou sem que sejam acess\xedveis todas as funcionalidades, an\xfancios e interfaces associados aos Conte\xfados pelo Eportudo.com;\n(vii) associar ou gerar qualquer impress\xe3o, de fato ou em pot\xeancia, de associa\xe7\xe3o de nomes, produtos, pessoas, empresas, terceiros ou de qualquer elemento com os Conte\xfados e/ou com o Quer Valer, seus s\xf3cios, talentos, afiliadas ou dirigentes; ou\n(viii) utilizar de qualquer interface (API) do pr\xf3prio Quer Valer ou de terceiros para qualquer fim, inclusive para extra\xe7\xe3o, distribui\xe7\xe3o, execu\xe7\xe3o e/ou disponibiliza\xe7\xe3o dos Conte\xfados.\nExcepcionalmente, o Quer Valer autoriza a indexa\xe7\xe3o automatizada de textos presentes no Conte\xfado, desde que estejam dispon\xedveis em \xe1reas de acesso irrestrito do Portal Quer Valer e n\xe3o contenham qualquer ressalva \xe0 indexa\xe7\xe3o, por crawlers de ferramentas de buscas de utiliza\xe7\xe3o p\xfablica e gratuita exclusivamente para apresenta\xe7\xe3o de hyperlinks em resultados gerais de busca que apontem para os Conte\xfados, desde que isto n\xe3o importe em viola\xe7\xe3o dos itens \u201ci\u201d a \u201cviii\u201d acima, em especial do item \u201ciii\u201d.\n\n\n**Isen\xe7\xe3o de responsabilidade**\n\nHyperlinks externos n\xe3o constituem endosso pelo Quer Valer dos sites/ambientes vinculados ou as informa\xe7\xf5es, produtos ou servi\xe7os ali contidos.\n\nO Quer Valer n\xe3o concede qualquer garantia relacionada \xe0 disponibilidade, continuidade de funcionamento ou infalibilidade do Portal Quer Valer e/ou Conte\xfados, nem que os mesmos ser\xe3o \xfateis para a realiza\xe7\xe3o de qualquer atividade em particular. Ainda, consideradas as caracter\xedsticas do meio internet, o Quer Valer n\xe3o garante a seguran\xe7a e privacidade do Conte\xfado fora do dom\xednio Quer Valer, salvo se nos termos da Pol\xedtica de Privacidade, nem que o mesmo ser\xe1 ininterrupto, livre de v\xedrus ou outros problemas, erros e ataques e, em particular, n\xe3o garante que terceiros n\xe3o autorizados n\xe3o possam acessar e, eventualmente, interceptar, eliminar, alterar, modificar ou manipular de qualquer modo os dados presentes e/ou transmitidos a seus servidores.\n\n\n**Seguran\xe7a e fluxo normal de comunica\xe7\xf5es entre servidores**\n\nFica expressamente vedada qualquer pr\xe1tica que possa prejudicar a imagem do Quer Valer ou violar direitos desta sobre o Conte\xfado, danificar seu patrim\xf4nio, danificar ou de qualquer forma interferir no fluxo normal de comunica\xe7\xf5es com seus servidores, na seguran\xe7a, inviolabilidade e privacidade dos dados l\xe1 armazenados e transmitidos, incluindo, mas n\xe3o se limitando \xe0quelas que importem, possam importar em ou favore\xe7am:\n\n(i) Intercepta\xe7\xe3o ou monitoramento do tr\xe1fego de dados a partir ou para os servidores do Quer Valer;\n\n(ii) Fraudar, mascarar ou alterar a origem de comunica\xe7\xf5es (incluindo, mas sem se limitar a altera\xe7\xe3o de cabe\xe7alhos de e-mails, origem de arquivos, origem da requisi\xe7\xe3o de dados, etc.);\n\n(iii) Degradar, fazer qualquer uso que n\xe3o expressamente autorizado ou sobrecarregar com qualquer finalidade os servidores do Eportudo.com;\n\n(iv) Acessar qualquer dado disponibilizado nos servidores do Quer Valer de forma ileg\xedtima (falsificando credenciais, utilizando-se de credenciais de terceiros, etc.); ou\n\n(v) Quebrar, bypassar, danificar, adulterar ou degradar qualquer parte ou mecanismo de seguran\xe7a do Portal Eportudo.com e seus servidores.\n\n\n**Autoriza\xe7\xe3o**\n\nAo assistir e/ou utilizar o Conte\xfado de qualquer forma, voc\xea expressa sua aceita\xe7\xe3o plena e sem reservas aos Termos Gerais tal como vigentes naquele instante, para todos os fins de direito. Assim, a leitura atenta por Voc\xea dos Termos Gerais em cada uma das ocasi\xf5es em que se propuser a assistir e/ou utilizar o Conte\xfado \xe9 recomend\xe1vel. Se Voc\xea n\xe3o concordar com algum dos termos e regras aqui previstos, voc\xea n\xe3o dever\xe1 assistir e/ou utilizar o Conte\xfado.\n\nPlano de Melhoria da Experi\xeancia do Usu\xe1rio: Caso voc\xea participe do Plano de Melhoria de Experi\xeancia do Cliente, o Quer Valer coletar\xe1 estat\xedsticas de utiliza\xe7\xe3o de cada produto da plataforma utilizado por voc\xea. Essas estat\xedsticas em geral incluem informa\xe7\xf5es sobre instala\xe7\xe3o e frequ\xeancia de utiliza\xe7\xe3o com rela\xe7\xe3o a cada caracter\xedstica. Depois de analisar esses dados, o Quer Valer buscar\xe1 melhorar a qualidade de seus produtos e prestar-lhe servi\xe7os mais seguros. Coletamos essas estat\xedsticas, que n\xe3o incluem informa\xe7\xf5es de identidade pessoal, exclusivamente com o fim de aprimorar os produtos do portal.\n\nFeedback: Atualmente, quando voc\xea entrar em contato com o Quer Valer por e-mail ou de qualquer outra maneira, podemos registrar sua mensagem para nos ajudar a solucionar com mais efici\xeancia quaisquer quest\xf5es ou problemas que voc\xea possa ter. Caso concorde em receber informa\xe7\xf5es de atualiza\xe7\xe3o de produto ou quaisquer de nossos materiais de marketing, poderemos usar seu endere\xe7o de e-mail para lhe enviar atualiza\xe7\xf5es, not\xedcias e informa\xe7\xf5es de marketing. Contudo, voc\xea poder\xe1 cancelar a assinatura dessas comunica\xe7\xf5es a qualquer momento.\n\nVoc\xea est\xe1 de acordo que o Quer Valer poder\xe1 ter acesso e coletar as seguintes informa\xe7\xf5es suas e de seu sistema:\n\n1. Informa\xe7\xf5es do seu sistema: lista de softwares instalados, lista msconfig, lista de servi\xe7os. Vers\xe3o do sistema operacional, vers\xe3o do navegador, o endere\xe7o MAC da placa de rede, disco r\xedgido de n\xfamero de s\xe9rie, mem\xf3ria, estrutura do sistema (32/64).\n2. Informa\xe7\xf5es de comportamento do pr\xf3prio software: instala\xe7\xe3o, desinstala\xe7\xe3o, atividade di\xe1ria, pedidos de upgrade etc.\n3. Dados de seu comportamento: incluindo os recursos utilizados e bot\xe3o clicado pelo usu\xe1rio.\n4. Arquivos Portabele Executable (EXE, DLL, arquivo sys) do computador do usu\xe1rio, o caminho do arquivo PE ser\xe1 carregado.\\nPor exemplo, se um novo arquivo gtapi.dll \xe9 criado no computador de um usu\xe1rio, os nossos produtos anti-v\xedrus ir\xe3o carregar esse arquivo e o caminho do arquivo (C:\\Users\\renzhijie\\AppData\\LocalLow\\Sun\\Java\\jre1.6.020\\gtapi.dll) para o nosso servidor para identifica\xe7\xe3o.\n\n5. O formato Portable Executable (PE) \xe9 um formato de arquivo para execut\xe1veis, c\xf3digo objeto, DLLs, arquivos de fontes FON, [1] [2] e outros utilizados nas vers\xf5es dos sistemas operacionais Windows de 32 bits e de 64 bits. Por favor, consulte o endere\xe7o abaixo para mais detalhes: http://en.wikipedia.org/wiki/Portable_Executable.\n6. Quanto \xe0s URLs visitadas voc\xea, servir\xe1 para verificar a seguran\xe7a de tais URLs visitadas, por exemplo, se voc\xea visitou um site com um navegador http://www.google.com, nossos produtos antiv\xedrus v\xe3o carregar esta URL para o nosso servidor para identifica\xe7\xe3o.\n\\nA coleta de seus dados pessoais pelo Quer Valer, seu armazenamento e cust\xf3dia ser\xe3o tratados na forma prevista na legisla\xe7\xe3o aplic\xe1vel.\n\n\n**Suspens\xe3o, bloqueio e exclus\xe3o**\n\nA fim de otimizar a disponibiliza\xe7\xe3o do Conte\xfado, o Quer Valer poder\xe1, inclusive por quest\xf5es de seguran\xe7a, restringir, limitar e realizar a suspens\xe3o ou bloqueios, totais ou parciais, de disponibiliza\xe7\xe3o e acesso ao Conte\xfado.\n\nO Quer Valer poder\xe1 descontinuar a disponibilidade ou distribui\xe7\xe3o de qualquer Conte\xfado, a qualquer tempo e sem necessidade de pr\xe9vio aviso.\n\n\n**Altera\xe7\xf5es na Pol\xedtica de Privacidade**\n\nO Quer Valer poder\xe1 efetuar altera\xe7\xf5es eventuais e peri\xf3dicas em sua pol\xedtica de privacidade. Havendo altera\xe7\xe3o na pol\xedtica sobre o uso de suas informa\xe7\xf5es pessoais, o portal divulgar\xe1 as regras relevantes em lugar not\xf3rio na sua p\xe1gina da web para notific\xe1-los oportunamente e dentro do programa, o qual necessitar\xe1 do seu expresso consentimento. \xc9 de sua responsabilidade assegurar-se dos termos atualizados da pol\xedtica de privacidade bem como de que entendeu os termos atualizados da pol\xedtica de privacidade. Voc\xea tamb\xe9m dever\xe1 anuir expressamente com as altera\xe7\xf5es para que continue acessando o site.\n\n\n**Compartilhamento de informa\xe7\xe3o**\n\nO Quer Valer adotou procedimentos espec\xedficos para prote\xe7\xe3o de suas informa\xe7\xf5es. N\xe3o divulgamos suas informa\xe7\xf5es a terceiros, salvo nas seguintes situa\xe7\xf5es:\n\n\t\u2022 Caso exigido por lei ou departamentos governamentais com autoridade legal;\n\t\u2022 Para o fim de salvaguardar os seus interesses e do p\xfablico em geral antes ou durante uma emerg\xeancia;\n\t\u2022 Para o fim de salvaguardar os seus direitos autorais, marcas, patentes e quaisquer outros direitos ou interesses previstos em lei do Quer Valer; e\n\t\u2022 Caso voc\xea consinta \xe0 revela\xe7\xe3o de suas informa\xe7\xf5es.\n\nCom rela\xe7\xe3o aos itens acima, o Quer Valer dever\xe1 inform\xe1-lo acerca da divulga\xe7\xe3o de suas informa\xe7\xf5es. Voc\xea dever\xe1 ter acesso as suas informa\xe7\xf5es contidas nos dados e cadastros, bem como nos seus respectivos banco de dados. Em qualquer momento que voc\xea descubra qualquer incompatibilidade sempre que encontrar inexatid\xe3o nos seus dados e cadastros, poder\xe1 exigir sua imediata corre\xe7\xe3o, que dever\xe3o ser alteradas pelo Quer Valer dentro do prazo de 5 (cinco) dias \xfateis.\n\nCaso o Quer Valer participe de quaisquer incorpora\xe7\xf5es, aquisi\xe7\xf5es ou vendas de ativos significativas continuaremos assegurando a confidencialidade de suas informa\xe7\xf5es pessoais e o notificaremos com anteced\xeancia se as incorpora\xe7\xf5es, fus\xf5es, aquisi\xe7\xf5es ou vendas de ativos puderem resultar na transfer\xeancia ou modifica\xe7\xe3o da Pol\xedtica de Privacidade.\n\nA utiliza\xe7\xe3o de servi\xe7os ou dispositivos de terceiros poder\xe1 resultar na divulga\xe7\xe3o de suas informa\xe7\xf5es a terceiros. Voc\xea deve ler e reconhecer os termos e condi\xe7\xf5es de seguran\xe7a de informa\xe7\xf5es do terceiro. O Quer Valer n\xe3o \xe9 respons\xe1vel por quaisquer riscos a usu\xe1rios porventura decorrentes da utiliza\xe7\xe3o de produtos e servi\xe7os de terceiros.\n\nVoc\xea poder\xe1 optar por n\xe3o fornecer suas informa\xe7\xf5es ao Quer Valer ou por cancelar a coleta pelo Quer Valer, de alguns tipos de informa\xe7\xf5es por meio do reajuste de suas configura\xe7\xf5es pessoais de produto. No entanto, o Quer Valer se isenta de responsabilidade por qualquer mau funcionamento de quaisquer caracter\xedsticas de produto ou servi\xe7o decorrente do fato de voc\xea optar por n\xe3o fornecer suas informa\xe7\xf5es pessoais ao Quer Valer.\n\n\n**Cessa\xe7\xe3o de uso de dados**\n\nVoc\xea pode a qualquer tempo solicitar a cessa\xe7\xe3o do uso de seus dados coletados, bem como requerer sejam estes deletados da base de dados do Quer Valer, mediante solicita\xe7\xe3o expressa, ciente de que o impedimento do tratamento de dados nos moldes pactuados inicialmente poder\xe1 impedir o seu acesso aos servi\xe7os oferecidos.\n\n\n**Condi\xe7\xf5es gerais**\n\nNo caso de conflitos existentes entre regras e instrumentos listados na defini\xe7\xe3o dos Termos Gerais constantes no caput deste instrumento, dever\xe3o prevalecer regras e condi\xe7\xf5es sobre produtos e/ou servi\xe7os espec\xedficos tal como disponibilizados por escrito pelo Quer Valer.\n\nO n\xe3o exerc\xedcio pelo Quer Valer de quaisquer direitos ou faculdades que lhe sejam conferidos por estes Termos Gerais ou pela legisla\xe7\xe3o brasileira, bem como a eventual toler\xe2ncia contra infra\xe7\xf5es a estes Termos Gerais ou a seus direitos, n\xe3o importar\xe1 na ren\xfancia aos seus direitos, nova\xe7\xe3o ou altera\xe7\xe3o de itens e cl\xe1usulas deste instrumento, podendo ainda o Quer Valer exercer seus direitos a qualquer momento.\n\nEstes Termos Gerais, bem como a rela\xe7\xe3o decorrente das a\xe7\xf5es aqui compreendidas, assim como qualquer disputa que surja em virtude disto ser\xe1 regulada exclusivamente pela legisla\xe7\xe3o brasileira.\n\nFica eleito o Foro Central da Comarca da Capital do Estado de S\xe3o Paulo para dirimir quaisquer quest\xf5es oriundas da utiliza\xe7\xe3o dos Conte\xfados e/ou viola\xe7\xe3o destes Termos Gerais, renunciando as partes a qualquer outro, por mais privilegiado que seja ou venha a ser.\n\nCaso voc\xea considere que existem fatos, circunst\xe2ncias ou suspeita de qualquer uso inadequado dos Conte\xfados ou qualquer quest\xe3o de seguran\xe7a relacionada ao Quer Valer e, em particular, que representem viola\xe7\xe3o de direito autoral ou de propriedade intelectual ou outros direitos, pedimos que envie uma comunica\xe7\xe3o ao Quer Valer por meio do e-mail privacidade@quervaler.com.br contendo, se poss\xedvel, seus dados pessoais (nome, endere\xe7o e n\xfamero de telefone), bem como especifica\xe7\xe3o do evento verificado por Voc\xea (em particular, quando se tratar de suposta viola\xe7\xe3o de direitos autorais, indica\xe7\xe3o precisa e completa dos conte\xfados protegidos e supostamente infringidos com as respectivas URLs).',null,B.u,B.r)
+B.a1s=new A.cE(null,null,null,null,'A plataforma Quer Valer sabe o quanto \xe9 importante para voc\xea conhecer e estar seguro sobre a utiliza\xe7\xe3o dos seus dados pessoais. Por isso, nos preocupamos em esclarecer e divulgar nossa pol\xedtica de utiliza\xe7\xe3o dessas informa\xe7\xf5es. Assim, voc\xea poder\xe1 entender melhor quais informa\xe7\xf5es obtemos e como as utilizamos. Dedique alguns minutos do seu tempo para ler essa pol\xedtica e aproveitar de forma consciente e segura tudo o que o Quer Valer tem para oferecer. Para assegurar regras claras e precisas, o Quer Valer pode alterar essa pol\xedtica de tempos em tempos, e sendo assim, recomenda sua leitura periodicamente.\n\nEsta pol\xedtica permitir\xe1 que voc\xea saiba:\n1. Quais informa\xe7\xf5es obtemos;\n2. O que s\xe3o cookies e qual a sua utilidade;\n3. Como ser\xe3o utilizadas estas informa\xe7\xf5es;\n4. Quem coleta as informa\xe7\xf5es;\n5. Com quem suas informa\xe7\xf5es podem ser compartilhadas;\n6. Quais s\xe3o as suas op\xe7\xf5es a respeito da coleta, uso e distribui\xe7\xe3o de suas informa\xe7\xf5es;\n7. Como o Quer Valer trata suas informa\xe7\xf5es relativas a finan\xe7as pessoais e sa\xfade;\n8. Precau\xe7\xf5es de seguran\xe7a estabelecidas para sua prote\xe7\xe3o em caso de perda, m\xe1 utiliza\xe7\xe3o ou altera\xe7\xe3o de suas informa\xe7\xf5es e;\n9. O que mais voc\xea precisa saber sobre sua privacidade na Internet.\n\n\n**1. TIPOS DE INFORMA\xc7\xd5ES QUE PODEM SER COLETADAS POR QUER VALER**\n\nO Quer Valer coleta informa\xe7\xf5es de diversas formas, em diferentes \xe1reas do portal.\n\nAlgumas informa\xe7\xf5es pessoais s\xe3o obtidas quando voc\xea se registra. Durante o processo de registro, o Quer Valer pergunta seu nome, endere\xe7o de e-mail e outras informa\xe7\xf5es pessoais. Quanto mais informa\xe7\xf5es corretas voc\xea fornecer, melhor ser\xe1 a personaliza\xe7\xe3o da sua experi\xeancia.\n\nEntretanto, \xe9 tecnicamente imposs\xedvel que os usu\xe1rios do Quer Valer escolham como login para registro palavras, express\xf5es ou conjuntos gr\xe1ficos denominativos que j\xe1 tenham sido escolhidos anteriormente por outros usu\xe1rios e/ou assinantes, bem como \xe9 vedado a esses, assinantes e/ou usu\xe1rios a escolha de express\xf5es malsoantes, injuriosas, coincidentes com marcas de produtos ou servi\xe7os de terceiros, denomina\xe7\xf5es sociais, express\xf5es publicit\xe1rias, nomes ou pseud\xf4nimos de personalidades p\xfablicas, de pessoas famosas ou registrados por terceiros, ou que n\xe3o remetam \xe0 identidade do registrante e, em geral, contr\xe1rios \xe0 lei, \xe0 ordem ou \xe0s exig\xeancias da moral e dos bons costumes comumente aceitos. Al\xe9m disso, \xe9 terminantemente proibido o uso de nomes de marcas, programas, produtos ou servi\xe7os de propriedade ou oferecidos pelo Quer Valer ou de qualquer uma de suas sociedades controladoras, sociedade controladas ou sociedades sob controle comum.\n\nO assinante e/ou usu\xe1rio que desobedecer ao estabelecido no par\xe1grafo supra poder\xe1 ter o seu login cancelado e bloqueado sem aviso pr\xe9vio e a crit\xe9rio exclusivo do Quer Valer.\n\nDepois do registro, voc\xea estar\xe1 apto a usufruir e desfrutar de benef\xedcios de um usu\xe1rio cadastrado do Quer Valer, incluindo a participa\xe7\xe3o em promo\xe7\xf5es, eventos on-line, sorteios e compras.\n\nO Quer Valer possui diversos parceiros e/ou patrocinadores, que tamb\xe9m criam sorteios e promo\xe7\xf5es, oferecendo in\xfameros bens e/ou servi\xe7os atrav\xe9s de sites que s\xe3o acessados dentro do Quer Valer. As informa\xe7\xf5es que voc\xea fornece quando visita e/ou completa transa\xe7\xf5es nesses sites s\xe3o obtidas por esses parceiros e/ou patrocinadores, estando assim sujeitas \xe0s suas pr\xf3prias pr\xe1ticas de obten\xe7\xe3o e uso de dados, sem que caiba qualquer responsabilidade ao Quer Valer pelo manuseio de tais informa\xe7\xf5es.\n\nPara obter informa\xe7\xf5es sobre as pol\xedticas e normas de privacidade desses parceiros e/ou patrocinadores, sugerimos que voc\xea localize as normas de relacionamento espec\xedficas dentro do pr\xf3prio site do parceiro.\n\n\n**2. O QUE S\xc3O "COOKIES" E QUAL SUA UTILIDADE**\n\nCookies s\xe3o pequenos arquivos de texto enviados ao seu computador. Os cookies s\xe3o armazenados no seu computador. Estes pequenos arquivos servem para reconhecer, acompanhar e armazenar a navega\xe7\xe3o do usu\xe1rio na Internet.\n\nO uso de cookies para acompanhar e armazenar informa\xe7\xf5es possibilitar\xe1 o Quer Valer oferecer um servi\xe7o mais personalizado (hiperlink para o texto explicativo sobre personaliza\xe7\xe3o), de acordo com as caracter\xedsticas e interesses de seus usu\xe1rios, possibilitando, inclusive, a oferta de conte\xfado e publicidade espec\xedficos para cada pessoa, beneficiando a experi\xeancia do usu\xe1rio na Internet.\n\nEm geral, os cookies s\xe3o utilizados para: Proporcionar servi\xe7os diferenciados, lembrando quem voc\xea \xe9 e quais s\xe3o os seus h\xe1bitos de navega\xe7\xe3o, al\xe9m de acessar as informa\xe7\xf5es do seu cadastro no Quer Valer (armazenadas em nossos servidores);\n\nAjudar os parceiros do Canal de Compras do Quer Valer a acompanhar visitas e neg\xf3cios em suas lojas;\n\nCalcular a dimens\xe3o da audi\xeancia do Quer Valer;\n\nAcompanhar o andamento de promo\xe7\xf5es. Quando uma promo\xe7\xe3o organizada pelo Quer Valer usa cookies, as informa\xe7\xf5es gravadas no cookie indicam a pontua\xe7\xe3o do usu\xe1rio.\n\nMedir certos padr\xf5es de navega\xe7\xe3o, mapeando quais \xe1reas do portal Quer Valer voc\xea visitou e seus h\xe1bitos de visita como um todo. Usamos essa informa\xe7\xe3o para verificar a rotina de navega\xe7\xe3o dos nossos usu\xe1rios, e assim oferecer conte\xfado e/ou servi\xe7os cada vez mais personalizados.\n\nFacilitar e agilizar o preenchimento de formul\xe1rios. As informa\xe7\xf5es contidas nos cookies de cada usu\xe1rio podem ser utilizadas para preencher previamente os formul\xe1rios de coleta de dados existentes na Internet.\n\nOs anunciantes, parceiros e/ou patrocinadores do Quer Valer poder\xe3o utilizar seus pr\xf3prios cookies, os quais n\xe3o s\xe3o cobertos por esta pol\xedtica. Sugerimos que voc\xea consulte as pol\xedticas de privacidade dessas empresas.\n\n\n**3. COMO SER\xc3O UTILIZADAS ESTAS INFORMA\xc7\xd5ES**\n\nAs informa\xe7\xf5es coletadas pelo Quer Valer ser\xe3o utilizadas para personalizar o conte\xfado e/ou servi\xe7os disponibilizados. Isso inclui servi\xe7os de personaliza\xe7\xe3o, comunica\xe7\xf5es interativas, compras on-line e outros tipos de servi\xe7os. Sabendo mais sobre voc\xea, o Quer Valer pode fornecer conte\xfado e servi\xe7os mais relevantes e proporcionar uma melhor experi\xeancia on-line.\n\nAs informa\xe7\xf5es tamb\xe9m poder\xe3o ser utilizadas para gerar dados estat\xedsticos gerais com finalidade informativa ou comercial. Informa\xe7\xf5es geogr\xe1ficas, demogr\xe1ficas, psicogr\xe1ficas e de perfil de uso dos usu\xe1rios Quer Valer poder\xe3o ser fornecidas a parceiros, patrocinadores, anunciantes ou outras empresas externas, sem que sejam revelados nomes ou outros dados de navega\xe7\xe3o.\n\nAs informa\xe7\xf5es coletadas poder\xe3o ser utilizadas para direcionamento de campanhas publicit\xe1rias de uma forma geral, como por exemplo no caso em que um anunciante determina como foco de uma determinada campanha homens com mais de 25 anos. Nesse caso, veiculamos a propaganda aos usu\xe1rios dentro dessa faixa et\xe1ria utilizando banners e/ou e-mails promocionais. Os usu\xe1rios ao se cadastrarem no Quer Valer ter\xe3o a op\xe7\xe3o de receber ou n\xe3o em sua conta de e-mail ofertas e/ou propaganda, sendo que, a qualquer tempo, essa op\xe7\xe3o poder\xe1 ser alterada pelo usu\xe1rio.\n\nAs informa\xe7\xf5es pessoais individuais n\xe3o ser\xe3o comercializadas ou fornecidas a terceiros em nenhuma hip\xf3tese, salvo em estrito cumprimento de ordens judiciais ou procedimentos jur\xeddicos similares. Todas as informa\xe7\xf5es fornecidas a parceiros, patrocinadores, anunciantes e demais ser\xe3o apenas de grupos de usu\xe1rios (segmentos de mercado).\n\n\n**4. QUEM COLETA AS INFORMA\xc7\xd5ES**\n\nQuando o Quer Valer solicita informa\xe7\xf5es pessoais a voc\xea, essas informa\xe7\xf5es estar\xe3o sendo enviadas somente para parceiros da empresa, a n\xe3o ser que seja indicado de forma diferente. Alguns parceiros, patrocinadores, anunciantes e demais que sejam acessados atrav\xe9s do portal Quer Valer, poder\xe3o solicitar informa\xe7\xf5es financeiras e/ou pessoais suas. Num caso como esse, essas informa\xe7\xf5es n\xe3o estar\xe3o sendo enviadas ao Quer Valer, e, sendo assim, o portal n\xe3o ter\xe1 qualquer responsabilidade pela utiliza\xe7\xe3o e manejo dessa informa\xe7\xe3o, n\xe3o sendo aplicada a presente pol\xedtica.\n\nO Quer Valer destaca que no portal podem existir links e/ou p\xe1ginas que utilizem publicidade gr\xe1fica de outros parceiros e/ou empresas, como por exemplo, o Google Ads, que utiliza relat\xf3rio de informa\xe7\xf5es demogr\xe1ficas da respectiva plataforma de publicidade. Caso voc\xea tenha interesse em desativar tal publicidade gr\xe1fica, dever\xe1 acessar o link configura\xe7\xf5es de an\xfancios (https://www.google.com/settings/ads ) e personalizar sua pr\xf3pria experi\xeancia.\n\nAs promo\xe7\xf5es realizadas no Quer Valer podem ser patrocinadas por outras empresas ou segundo uma parceria entre o Quer Valer e uma dessas empresas. Alguns ou todos os dados coletados durante uma promo\xe7\xe3o podem ser compartilhados com o parceiro e/ou patrocinador. Se os dados forem compartilhados, voc\xea ser\xe1 notificado antes da coleta ou transfer\xeancia dos dados. Assim, poder\xe1 decidir n\xe3o participar da promo\xe7\xe3o se n\xe3o desejar que seus dados sejam compartilhados.\n\nSempre que voc\xea acessar anunciantes ou outros Sites da Web atrav\xe9s de links presentes no site do Quer Valer, aqueles poder\xe3o coletar informa\xe7\xf5es sobre voc\xea. Lembramos que as pr\xe1ticas relativas \xe0 privacidade desses parceiros e terceiros n\xe3o s\xe3o cobertos pela presente pol\xedtica e podem ser bem diferentes dos padr\xf5es de privacidade do Eportudo.com.\n\n\n**5. COM QUEM SUAS INFORMA\xc7\xd5ES PODEM SER COMPARTILHADAS**\n\nO Quer Valer n\xe3o tem como pr\xe1tica a divulga\xe7\xe3o de informa\xe7\xf5es que possam identific\xe1-lo, salvo quando autorizado por voc\xea ou em circunst\xe2ncias previstas nesta presente pol\xedtica. Em alguns casos, essa identifica\xe7\xe3o ser\xe1 necess\xe1ria, caso voc\xea adquira um determinado produto ou servi\xe7o ou ganhe um pr\xeamio cuja entrega, para ser feita, necessite de suas informa\xe7\xf5es pessoais. A identifica\xe7\xe3o tamb\xe9m pode ser pedida para que uma determinada transa\xe7\xe3o comercial possa ser efetivada. A revela\xe7\xe3o dos seus dados poder\xe1 ainda acontecer devido a exig\xeancias legais. Podemos revelar suas informa\xe7\xf5es pessoais em algumas circunst\xe2ncias, listadas nos casos a seguir:\n\nParceiros de neg\xf3cios e patrocinadores: O Quer Valer pode divulgar suas informa\xe7\xf5es pessoais a alguns parceiros, patrocinadores, anunciantes e demais. Por\xe9m, nesses casos, voc\xea ser\xe1 consultado antes mesmo de a coleta ou transfer\xeancia de dados ser feita. Os detalhes do uso compartilhado podem ser encontrados nos contratos de uso espec\xedficos e tamb\xe9m nas regras das promo\xe7\xf5es. Alguns ou todos os dados coletados durante uma promo\xe7\xe3o do Eportudo.com podem ser compartilhados com um patrocinador. Se forem compartilhados dados que possam identific\xe1-lo, voc\xea ser\xe1 informado antes da coleta ou transfer\xeancia de dados.\n\nAlgumas promo\xe7\xf5es oferecem oportunidades para solicita\xe7\xe3o de informa\xe7\xf5es adicionais dos patrocinadores. Solicitando mais informa\xe7\xf5es, voc\xea d\xe1 ao Eportudo.com permiss\xe3o para transferir suas informa\xe7\xf5es pessoais para o patrocinador, para que ele possa atender \xe0 sua solicita\xe7\xe3o.\n\nCanal de Compras: Se voc\xea adquirir um produto no canal de compras do Eportudo.com, as informa\xe7\xf5es obtidas durante a sua visita \xe0s lojas e as informa\xe7\xf5es que voc\xea fornecer \xe0s mesmas, tais como o n\xfamero do seu cart\xe3o de cr\xe9dito e dados para contato, s\xe3o automaticamente repassadas aos lojistas. Isso ocorre para permitir que as transa\xe7\xf5es sejam efetuadas. Os lojistas que fazem parte do canal de compras do Eportudo.com possuem pr\xe1ticas de privacidade e coleta de dados pr\xf3prias. O Quer Valer n\xe3o se responsabiliza por essas pol\xedticas independentes. Para obter mais informa\xe7\xf5es sobre o lojista, sua loja e suas pol\xedticas de privacidade, retorne \xe0 p\xe1gina inicial dessa loja e localize o link da respectiva pol\xedtica.\n\nLeil\xf5es: O Quer Valer n\xe3o possui um servi\xe7o pr\xf3prio de leil\xf5es, e, portanto, n\xe3o assume quaisquer responsabilidades em decorr\xeancia de informa\xe7\xf5es que voc\xea venha a fornecer a sites que organizam esse tipo de evento. Lembramos que essas informa\xe7\xf5es n\xe3o estar\xe3o sujeitas \xe0 pol\xedtica de privacidade do Quer Valer.\n\nDados de terceiros e dados agregados: Sob acordos de confidencialidade e demais instrumento contratuais, o Quer Valer pode comparar informa\xe7\xf5es do usu\xe1rio com dados de terceiros. Al\xe9m disso, o Quer Valer pode divulgar estat\xedsticas agregadas para grupos de usu\xe1rios (por exemplo, 65% dos nossos usu\xe1rios s\xe3o do sexo masculino) com o objetivo de descrever nossos servi\xe7os para prov\xe1veis parceiros, anunciantes etc., bem como tendo em vista outros objetivos legais.\n\nDados de terceiros e dados agregados: Sob acordos de confidencialidade e demais instrumento contratuais, o Quer Valer pode comparar informa\xe7\xf5es do usu\xe1rio com dados de terceiros. Al\xe9m disso, o Quer Valer pode divulgar estat\xedsticas agregadas para grupos de usu\xe1rios (por exemplo, 65% dos nossos usu\xe1rios s\xe3o do sexo masculino) com o objetivo de descrever nossos servi\xe7os para prov\xe1veis parceiros, anunciantes etc., bem como tendo em vista outros objetivos legais.\n\nOutros: O Quer Valer tamb\xe9m pode divulgar informa\xe7\xf5es sobre o usu\xe1rio em casos especiais nos quais temos raz\xe3o para acreditar que a divulga\xe7\xe3o dessas informa\xe7\xf5es \xe9 necess\xe1ria para identificar, entrar em contato ou agir legalmente contra algu\xe9m que possa estar causando danos ou interferindo (intencional ou n\xe3o intencionalmente) nos direitos ou na propriedade do Quer Valer, de outros usu\xe1rios do Quer Valer ou de qualquer pessoa que seja prejudicada por tais atividades. O Quer Valer pode divulgar informa\xe7\xf5es sobre o usu\xe1rio quando exigido por lei e com objetivos administrativos ou outros que considerarmos necess\xe1rios para manter e aprimorar nossos produtos e servi\xe7os.\n\n\n**6. QUAIS S\xc3O AS SUAS OP\xc7\xd5ES A RESPEITO DA COLETA, USO E DISTRIBUI\xc7\xc3O DE SUAS INFORMA\xc7\xd5ES**\n\nSe, ao se registrar, voc\xea indicou que est\xe1 interessado em receber ofertas ou informa\xe7\xf5es do Quer Valer e nossos parceiros, poderemos ocasionalmente enviar a voc\xea mensagens, via e-mail, sobre produtos e servi\xe7os que possam interess\xe1-lo. Somente o Quer Valer (ou agentes que trabalhem em nome do Quer Valer e sob acordos de confidencialidade) enviar\xe3o a voc\xea essas comunica\xe7\xf5es e somente se voc\xea indicou que n\xe3o tem obje\xe7\xe3o contra essas ofertas. Se n\xe3o desejar receber mais esses informes, basta dizer-nos ao fornecer suas informa\xe7\xf5es pessoais, ou, a qualquer momento, alterar suas informa\xe7\xf5es cadastrais, selecionando a op\xe7\xe3o de n\xe3o receber mais essas comunica\xe7\xf5es. Ser\xe3o necess\xe1rias sua identifica\xe7\xe3o e senha no cadastro do Quer Valer para acessar suas informa\xe7\xf5es cadastrais.\n\nPara alguns tipos de promo\xe7\xf5es, solicitaremos seu endere\xe7o de e-mail para atualiz\xe1-lo sobre a sua pontua\xe7\xe3o, suas participa\xe7\xf5es e status nas premia\xe7\xf5es. Ao participar desse tipo de promo\xe7\xe3o, voc\xea automaticamente recebe mensagens relacionadas \xe0 promo\xe7\xe3o, a menos que escolha a op\xe7\xe3o sem e-mail oferecida por algumas delas. Ocasionalmente, essas mensagens de e-mail relacionadas \xe0 promo\xe7\xe3o podem incluir an\xfancios direcionados. Se uma determinada promo\xe7\xe3o n\xe3o oferecer uma op\xe7\xe3o de n\xe3o recebimento de e-mail, voc\xea poder\xe1 optar por n\xe3o receber e-mails, mas voc\xea deixa de participar dessa promo\xe7\xe3o.\n\nVoc\xea tamb\xe9m tem op\xe7\xf5es em rela\xe7\xe3o aos cookies. Modificando suas prefer\xeancias de navega\xe7\xe3o, voc\xea tem a op\xe7\xe3o de aceitar todos os cookies, ser notificado quando um cookie for enviado ou rejeitar todos os cookies. Se voc\xea optar por rejeitar todos os cookies, n\xe3o conseguir\xe1 usar alguns dos servi\xe7os do Quer Valer que requerem registro para participa\xe7\xe3o. Tamb\xe9m n\xe3o poder\xe1 usufruir de todos benef\xedcios e facilidades de uma experi\xeancia personalizada na Internet.\n\nO Quer Valer n\xe3o comercializa informa\xe7\xf5es de usu\xe1rios para ningu\xe9m. Na ocasi\xe3o da coleta ou transfer\xeancia dos dados, n\xf3s o notificaremos, caso as informa\xe7\xf5es a seu respeito sejam compartilhadas com terceiros. Al\xe9m disso, voc\xea sempre ter\xe1 a op\xe7\xe3o de n\xe3o permitir a transfer\xeancia desses dados. Se n\xe3o desejar que eles sejam compartilhados, voc\xea poder\xe1 optar por n\xe3o usar um determinado servi\xe7o ou n\xe3o participar de certas promo\xe7\xf5es ou concursos.\n\n\n**7. COMO O QUER VALER TRATA SUAS INFORMA\xc7\xd5ES RELATIVAS A FINAN\xc7AS PESSOAIS E SA\xdaDE**\n\nO Quer Valer manter\xe1 de forma confidencial suas informa\xe7\xf5es relativas a finan\xe7as e sa\xfade e nunca comercializar\xe1 tais informa\xe7\xf5es.\n\nSabermos qual seu perfil de utiliza\xe7\xe3o de servi\xe7os e recursos nos ajudar\xe1 a oferecer um conte\xfado personalizado. Por\xe9m, como ocorre com todas as informa\xe7\xf5es que podem identific\xe1-lo, n\xe3o disponibilizamos essas informa\xe7\xf5es para terceiros sem a sua permiss\xe3o. Quaisquer estat\xedsticas sobre usu\xe1rios que possamos fornecer a prov\xe1veis anunciantes ou parceiros, com rela\xe7\xe3o ao uso de produtos ou servi\xe7os financeiros no Quer Valer s\xe3o fornecidas somente em conjunto e n\xe3o incluem nenhuma informa\xe7\xe3o que permita identifica\xe7\xe3o pessoal de qualquer usu\xe1rio individual.\n\nObserve que podem existir locais no aplicativo Quer Valer, nos quais voc\xea pode transmitir informa\xe7\xf5es sobre cart\xe3o de cr\xe9dito para concluir uma transa\xe7\xe3o de compra ou com o objetivo de verifica\xe7\xe3o. Sempre que solicitamos um n\xfamero de cart\xe3o de cr\xe9dito n\xf3s transmitimos esse n\xfamero no formato criptografado. Utilizamos a criptografia padr\xe3o da ind\xfastria, SSL (Secure Sockets Layer, camada de soquetes de seguran\xe7a).\n\n\n**8. PRECAU\xc7\xd5ES DE SEGURAN\xc7A ESTABELECIDAS PARA SUA PROTE\xc7\xc3O EM CASO DE PERDA, M\xc1 UTILIZA\xc7\xc3O OU ALTERA\xc7\xc3O DE SUAS INFORMA\xc7\xd5ES**\n\nAs informa\xe7\xf5es sobre a conta do Quer Valer s\xe3o protegidas por senha, para que somente voc\xea tenha acesso a suas informa\xe7\xf5es pessoais.\n\nSua senha \xe9 secreta e recomendamos que n\xe3o a revele a ningu\xe9m. O Quer Valer n\xe3o ir\xe1 solicitar, em nenhuma hip\xf3tese, seja por e-mail ou telefone, sua senha pessoal. Lembre-se tamb\xe9m de desconectar-se da sua conta do Quer Valer e fechar a janela do seu navegador quando concluir sua navega\xe7\xe3o na Internet. Isso garante que outras pessoas n\xe3o tenham acesso \xe0s suas informa\xe7\xf5es pessoais e correspond\xeancias, caso voc\xea compartilhe um computador com algu\xe9m ou esteja usando um computador em local p\xfablico como uma biblioteca ou local de acesso p\xfablico \xe0 Internet.\n\nNenhuma transmiss\xe3o de dados na Internet \xe9 100% segura. Sendo assim, embora o Quer Valer sempre fa\xe7a o poss\xedvel para proteger suas informa\xe7\xf5es pessoais, n\xe3o \xe9 poss\xedvel garantir a seguran\xe7a de todas as informa\xe7\xf5es que voc\xea venha a nos fornecer. \xc9 uma decis\xe3o pessoal a utiliza\xe7\xe3o do servi\xe7o nessas condi\xe7\xf5es.\n\n\n**9. O QUE MAIS VOC\xca PRECISA SABER SOBRE SUA PRIVACIDADE ON-LINE**\n\nEm \xfaltima an\xe1lise voc\xea \xe9 o respons\xe1vel pela manuten\xe7\xe3o de sua privacidade e pelo sigilo de suas senhas e/ou informa\xe7\xf5es pessoais.\n\nSendo assim, recomendamos:\n\nInforme-se: ao acessar a Internet sempre busque a pol\xedtica/declara\xe7\xe3o de privacidade do Site que voc\xea est\xe1 acessando.\n\nDiga a seus filhos para n\xe3o falarem sobre sua senha com estranhos. Ensine-os a n\xe3o fornecerem qualquer informa\xe7\xe3o pessoal, incluindo seus nomes, e diga-lhes para nunca preencherem formul\xe1rios on-line sem primeiro pedirem sua permiss\xe3o.\n\nUse senhas complexas. Senhas simples s\xe3o f\xe1ceis de serem quebradas. Use senhas complexas de combina\xe7\xf5es bastante longas de letras e n\xfameros que necessitam combina\xe7\xf5es pouco usuais do teclado.\n\nNunca forne\xe7a sua senha a ningu\xe9m on-line. Apenas forne\xe7a sua senha ao realizar compras pessoalmente. Se sua senha foi fornecida, mude-a imediatamente.\n\nAn\xfancios pessoais e salas de bate-papo s\xe3o de dom\xednio p\xfablico. Qualquer informa\xe7\xe3o que voc\xea torne dispon\xedvel em salas de bate-papo, em f\xf3runs ou em an\xfancios pessoais estar\xe1 dispon\xedvel a qualquer pessoa com acesso a esses locais. Sugerimos que voc\xea evite incluir informa\xe7\xf5es que permitam \xe0s pessoas encontr\xe1-lo, tais como o n\xfamero de seu telefone ou seu endere\xe7o para correspond\xeancia.\n\n\n**POL\xcdTICA DE SEGURAN\xc7A QUER VALER**\n\nEste instrumento, bem como outros termos, contratos, pol\xedticas, regras, exig\xeancias, limita\xe7\xf5es, sinaliza\xe7\xf5es, notas, notifica\xe7\xf5es e demais condi\xe7\xf5es dispon\xedveis no Portal Quer Valer, inclusive termos de uso de produtos espec\xedficos e a Pol\xedtica de Seguran\xe7a e Privacidade do Portal Quer Valer localizada no \xedcone (\u201cPol\xedtica de Privacidade\u201d), documentos estes pass\xedveis de altera\xe7\xe3o e tal como vigentes \xe0 \xe9poca de utiliza\xe7\xe3o do Portal Quer Valer (doravante, todos, em conjunto, denominados "Termos Gerais"), regulamentam a disponibiliza\xe7\xe3o e a utiliza\xe7\xe3o e acesso pelo usu\xe1rio (doravante simplesmente denominado \u201cVoc\xea\u201d) aos Conte\xfados (conforme defini\xe7\xe3o do termo abaixo), bem como limitam a responsabilidade do Quer Valer, por sua filial localizada na Pra\xe7a Chu\xed, 35, sal\xe3o t\xe9rreo \u2013 Ed. Max Offices - Vila Ema \u2013 CEP 12243-380 - S\xe3o Jos\xe9 dos Campos - SP, e/ou suas afiliadas ("Quer Valer") pela disponibiliza\xe7\xe3o dos mesmos.\nEsta pol\xedtica permitir\xe1 que voc\xea saiba:\n\n\t\u2022 Direitos sobre o conte\xfado disponibilizado;\n\t\u2022 Isen\xe7\xe3o de responsabilidade;\n\t\u2022 Seguran\xe7a e fluxo normal de comunica\xe7\xf5es entre servidores;\n\t\u2022 Autoriza\xe7\xe3o;\n\t\u2022 Suspens\xe3o, bloqueio e exclus\xe3o;\n\t\u2022 Altera\xe7\xe3o na Pol\xedtica de Privacidade;\n\t\u2022 Compartilhamento de informa\xe7\xe3o\n\t\u2022 Cessa\xe7\xe3o do uso de dados; e\n\t\u2022 Condi\xe7\xf5es gerais.\n\n\n**Direitos sobre o conte\xfado disponibilizado;**\n\nTodos os materiais contidos no portal Quer Valer e nos aplicativos disponibilizados pelo Quer Valer, incluindo mas sem se limitar a textos, v\xeddeos, formatos, ilustra\xe7\xf5es, anima\xe7\xf5es, gr\xe1ficos, fotografias, marcas, patentes, fontes, grafismo, esquemas de cores, layout, trade-dress, identidade visual, experi\xeancia de navega\xe7\xe3o, designs, aplicativos, interfaces de aplicativos, softwares, fragmentos de softwares (doravante designados coletivamente ou em rela\xe7\xe3o a qualquer parcela destes como \u201cConte\xfado\u201d) s\xe3o protegidos pela legisla\xe7\xe3o brasileira, em especial pela Lei de Direitos Autorais (Lei Federal 9.610/98) e Lei de Propriedade Industrial (Lei Federal 9.279/96).\n\nEm rela\xe7\xe3o ao uso autorizado dos Conte\xfados, este consiste unicamente em uma licen\xe7a a Voc\xea, n\xe3o exclusiva, intransfer\xedvel, revog\xe1vel e limitada, estritamente para visualiza\xe7\xe3o do Conte\xfado nos meios disponibilizados e autorizados pelo Quer Valer, sempre em \xe2mbito pessoal e privado, sem fins comerciais. Nenhum outro direito adicional \xe9 concedido a Voc\xea salvo se feito de forma expressa e por escrito pelo Quer Valer ou leg\xedtimo titular de direitos sobre o Conte\xfado.\n\nLembramos que qualquer acesso e/ou utiliza\xe7\xe3o que n\xe3o os expressamente autorizados ficam vedados. S\xe3o vedadas, exemplificativamente, as seguintes pr\xe1ticas, seja por meio de a\xe7\xe3o, dispositivo, mecanismo, software ou de qualquer forma e para qualquer fim:\n(i) remover, alterar, interferir, degradar, desativar, evitar ou de qualquer forma modificar marca d\u2019\xe1gua, copyright, s\xedmbolo, marca ou qualquer outro sinal indicativo de titularidade ou para outro fim inserido no Conte\xfado, ou quaisquer direitos e/ou mecanismos de prote\xe7\xe3o associados ao Conte\xfado, bem como filtros e controle de acesso, inclusive se baseados em territ\xf3rio (geoblocking) ou faixa et\xe1ria;\n(ii) copiar no todo ou em parte, fazer download, executar engenharia reversa, \u201cdescompilar\u201d, \u201crecompilar\u201d, \u201ccompilar\u201d, criptografar, \u201cdesencriptografar\u201d, desmembrar, capturar, reproduzir, arquivar, distribuir, fazer upload, publicar, modificar, traduzir, exibir, transmitir, distribuir, disponibilizar, utilizar m\xe9todos de data mining, coleta ou extra\xe7\xe3o de dados, ou embeddar o Conte\xfado;\n(iii) utilizar meta-tags para extra\xe7\xe3o dos Conte\xfados, reorganizar, armazenar, captar, exibir, retransmitir, tornar dispon\xedvel ou incorporar o Conte\xfado, inclusive frames, recaps e screenshots em qualquer meio;\n(iv) comercializar, distribuir gratuita ou onerosamente, anunciar ou desenvolver um neg\xf3cio, direta ou indiretamente, a partir do Conte\xfado;\n(v) utilizar o Conte\xfado de qualquer forma para a cria\xe7\xe3o de obras derivadas ou nele baseadas, tais como aplicativos, websites, montagens, mash-ups, v\xeddeos e materiais de marketing ou merchandising, entre outros;\n(vi) modificar, remover, interferir, tentar alterar qualquer parte do Conte\xfado, em especial os players de v\xeddeo, ou qualquer tecnologia por tr\xe1s dos mesmos. Essa restri\xe7\xe3o tamb\xe9m se aplica a qualquer altera\xe7\xe3o, interfer\xeancia ou a\xe7\xe3o que de qualquer forma possibilite, ainda que de forma privada, a visualiza\xe7\xe3o do Conte\xfado sem que sejam exibidos e/ou utilizados os aplicativos e players de v\xeddeo disponibilizados pelo Quer Valer e todos os elementos relacionados ao Portal Quer Valer (tais como interface, marcas registradas e eventuais an\xfancios) ou sem que sejam acess\xedveis todas as funcionalidades, an\xfancios e interfaces associados aos Conte\xfados pelo Eportudo.com;\n(vii) associar ou gerar qualquer impress\xe3o, de fato ou em pot\xeancia, de associa\xe7\xe3o de nomes, produtos, pessoas, empresas, terceiros ou de qualquer elemento com os Conte\xfados e/ou com o Quer Valer, seus s\xf3cios, talentos, afiliadas ou dirigentes; ou\n(viii) utilizar de qualquer interface (API) do pr\xf3prio Quer Valer ou de terceiros para qualquer fim, inclusive para extra\xe7\xe3o, distribui\xe7\xe3o, execu\xe7\xe3o e/ou disponibiliza\xe7\xe3o dos Conte\xfados.\nExcepcionalmente, o Quer Valer autoriza a indexa\xe7\xe3o automatizada de textos presentes no Conte\xfado, desde que estejam dispon\xedveis em \xe1reas de acesso irrestrito do Portal Quer Valer e n\xe3o contenham qualquer ressalva \xe0 indexa\xe7\xe3o, por crawlers de ferramentas de buscas de utiliza\xe7\xe3o p\xfablica e gratuita exclusivamente para apresenta\xe7\xe3o de hyperlinks em resultados gerais de busca que apontem para os Conte\xfados, desde que isto n\xe3o importe em viola\xe7\xe3o dos itens \u201ci\u201d a \u201cviii\u201d acima, em especial do item \u201ciii\u201d.\n\n\n**Isen\xe7\xe3o de responsabilidade**\n\nHyperlinks externos n\xe3o constituem endosso pelo Quer Valer dos sites/ambientes vinculados ou as informa\xe7\xf5es, produtos ou servi\xe7os ali contidos.\n\nO Quer Valer n\xe3o concede qualquer garantia relacionada \xe0 disponibilidade, continuidade de funcionamento ou infalibilidade do Portal Quer Valer e/ou Conte\xfados, nem que os mesmos ser\xe3o \xfateis para a realiza\xe7\xe3o de qualquer atividade em particular. Ainda, consideradas as caracter\xedsticas do meio internet, o Quer Valer n\xe3o garante a seguran\xe7a e privacidade do Conte\xfado fora do dom\xednio Quer Valer, salvo se nos termos da Pol\xedtica de Privacidade, nem que o mesmo ser\xe1 ininterrupto, livre de v\xedrus ou outros problemas, erros e ataques e, em particular, n\xe3o garante que terceiros n\xe3o autorizados n\xe3o possam acessar e, eventualmente, interceptar, eliminar, alterar, modificar ou manipular de qualquer modo os dados presentes e/ou transmitidos a seus servidores.\n\n\n**Seguran\xe7a e fluxo normal de comunica\xe7\xf5es entre servidores**\n\nFica expressamente vedada qualquer pr\xe1tica que possa prejudicar a imagem do Quer Valer ou violar direitos desta sobre o Conte\xfado, danificar seu patrim\xf4nio, danificar ou de qualquer forma interferir no fluxo normal de comunica\xe7\xf5es com seus servidores, na seguran\xe7a, inviolabilidade e privacidade dos dados l\xe1 armazenados e transmitidos, incluindo, mas n\xe3o se limitando \xe0quelas que importem, possam importar em ou favore\xe7am:\n\n(i) Intercepta\xe7\xe3o ou monitoramento do tr\xe1fego de dados a partir ou para os servidores do Quer Valer;\n\n(ii) Fraudar, mascarar ou alterar a origem de comunica\xe7\xf5es (incluindo, mas sem se limitar a altera\xe7\xe3o de cabe\xe7alhos de e-mails, origem de arquivos, origem da requisi\xe7\xe3o de dados, etc.);\n\n(iii) Degradar, fazer qualquer uso que n\xe3o expressamente autorizado ou sobrecarregar com qualquer finalidade os servidores do Eportudo.com;\n\n(iv) Acessar qualquer dado disponibilizado nos servidores do Quer Valer de forma ileg\xedtima (falsificando credenciais, utilizando-se de credenciais de terceiros, etc.); ou\n\n(v) Quebrar, bypassar, danificar, adulterar ou degradar qualquer parte ou mecanismo de seguran\xe7a do Portal Eportudo.com e seus servidores.\n\n\n**Autoriza\xe7\xe3o**\n\nAo assistir e/ou utilizar o Conte\xfado de qualquer forma, voc\xea expressa sua aceita\xe7\xe3o plena e sem reservas aos Termos Gerais tal como vigentes naquele instante, para todos os fins de direito. Assim, a leitura atenta por Voc\xea dos Termos Gerais em cada uma das ocasi\xf5es em que se propuser a assistir e/ou utilizar o Conte\xfado \xe9 recomend\xe1vel. Se Voc\xea n\xe3o concordar com algum dos termos e regras aqui previstos, voc\xea n\xe3o dever\xe1 assistir e/ou utilizar o Conte\xfado.\n\nPlano de Melhoria da Experi\xeancia do Usu\xe1rio: Caso voc\xea participe do Plano de Melhoria de Experi\xeancia do Cliente, o Quer Valer coletar\xe1 estat\xedsticas de utiliza\xe7\xe3o de cada produto da plataforma utilizado por voc\xea. Essas estat\xedsticas em geral incluem informa\xe7\xf5es sobre instala\xe7\xe3o e frequ\xeancia de utiliza\xe7\xe3o com rela\xe7\xe3o a cada caracter\xedstica. Depois de analisar esses dados, o Quer Valer buscar\xe1 melhorar a qualidade de seus produtos e prestar-lhe servi\xe7os mais seguros. Coletamos essas estat\xedsticas, que n\xe3o incluem informa\xe7\xf5es de identidade pessoal, exclusivamente com o fim de aprimorar os produtos do portal.\n\nFeedback: Atualmente, quando voc\xea entrar em contato com o Quer Valer por e-mail ou de qualquer outra maneira, podemos registrar sua mensagem para nos ajudar a solucionar com mais efici\xeancia quaisquer quest\xf5es ou problemas que voc\xea possa ter. Caso concorde em receber informa\xe7\xf5es de atualiza\xe7\xe3o de produto ou quaisquer de nossos materiais de marketing, poderemos usar seu endere\xe7o de e-mail para lhe enviar atualiza\xe7\xf5es, not\xedcias e informa\xe7\xf5es de marketing. Contudo, voc\xea poder\xe1 cancelar a assinatura dessas comunica\xe7\xf5es a qualquer momento.\n\nVoc\xea est\xe1 de acordo que o Quer Valer poder\xe1 ter acesso e coletar as seguintes informa\xe7\xf5es suas e de seu sistema:\n\n1. Informa\xe7\xf5es do seu sistema: lista de softwares instalados, lista msconfig, lista de servi\xe7os. Vers\xe3o do sistema operacional, vers\xe3o do navegador, o endere\xe7o MAC da placa de rede, disco r\xedgido de n\xfamero de s\xe9rie, mem\xf3ria, estrutura do sistema (32/64).\n2. Informa\xe7\xf5es de comportamento do pr\xf3prio software: instala\xe7\xe3o, desinstala\xe7\xe3o, atividade di\xe1ria, pedidos de upgrade etc.\n3. Dados de seu comportamento: incluindo os recursos utilizados e bot\xe3o clicado pelo usu\xe1rio.\n4. Arquivos Portabele Executable (EXE, DLL, arquivo sys) do computador do usu\xe1rio, o caminho do arquivo PE ser\xe1 carregado.\\nPor exemplo, se um novo arquivo gtapi.dll \xe9 criado no computador de um usu\xe1rio, os nossos produtos anti-v\xedrus ir\xe3o carregar esse arquivo e o caminho do arquivo (C:\\Users\\renzhijie\\AppData\\LocalLow\\Sun\\Java\\jre1.6.020\\gtapi.dll) para o nosso servidor para identifica\xe7\xe3o.\n\n5. O formato Portable Executable (PE) \xe9 um formato de arquivo para execut\xe1veis, c\xf3digo objeto, DLLs, arquivos de fontes FON, [1] [2] e outros utilizados nas vers\xf5es dos sistemas operacionais Windows de 32 bits e de 64 bits. Por favor, consulte o endere\xe7o abaixo para mais detalhes: http://en.wikipedia.org/wiki/Portable_Executable.\n6. Quanto \xe0s URLs visitadas voc\xea, servir\xe1 para verificar a seguran\xe7a de tais URLs visitadas, por exemplo, se voc\xea visitou um site com um navegador http://www.google.com, nossos produtos antiv\xedrus v\xe3o carregar esta URL para o nosso servidor para identifica\xe7\xe3o.\n\\nA coleta de seus dados pessoais pelo Quer Valer, seu armazenamento e cust\xf3dia ser\xe3o tratados na forma prevista na legisla\xe7\xe3o aplic\xe1vel.\n\n\n**Suspens\xe3o, bloqueio e exclus\xe3o**\n\nA fim de otimizar a disponibiliza\xe7\xe3o do Conte\xfado, o Quer Valer poder\xe1, inclusive por quest\xf5es de seguran\xe7a, restringir, limitar e realizar a suspens\xe3o ou bloqueios, totais ou parciais, de disponibiliza\xe7\xe3o e acesso ao Conte\xfado.\n\nO Quer Valer poder\xe1 descontinuar a disponibilidade ou distribui\xe7\xe3o de qualquer Conte\xfado, a qualquer tempo e sem necessidade de pr\xe9vio aviso.\n\n\n**Altera\xe7\xf5es na Pol\xedtica de Privacidade**\n\nO Quer Valer poder\xe1 efetuar altera\xe7\xf5es eventuais e peri\xf3dicas em sua pol\xedtica de privacidade. Havendo altera\xe7\xe3o na pol\xedtica sobre o uso de suas informa\xe7\xf5es pessoais, o portal divulgar\xe1 as regras relevantes em lugar not\xf3rio na sua p\xe1gina da web para notific\xe1-los oportunamente e dentro do programa, o qual necessitar\xe1 do seu expresso consentimento. \xc9 de sua responsabilidade assegurar-se dos termos atualizados da pol\xedtica de privacidade bem como de que entendeu os termos atualizados da pol\xedtica de privacidade. Voc\xea tamb\xe9m dever\xe1 anuir expressamente com as altera\xe7\xf5es para que continue acessando o site.\n\n\n**Compartilhamento de informa\xe7\xe3o**\n\nO Quer Valer adotou procedimentos espec\xedficos para prote\xe7\xe3o de suas informa\xe7\xf5es. N\xe3o divulgamos suas informa\xe7\xf5es a terceiros, salvo nas seguintes situa\xe7\xf5es:\n\n\t\u2022 Caso exigido por lei ou departamentos governamentais com autoridade legal;\n\t\u2022 Para o fim de salvaguardar os seus interesses e do p\xfablico em geral antes ou durante uma emerg\xeancia;\n\t\u2022 Para o fim de salvaguardar os seus direitos autorais, marcas, patentes e quaisquer outros direitos ou interesses previstos em lei do Quer Valer; e\n\t\u2022 Caso voc\xea consinta \xe0 revela\xe7\xe3o de suas informa\xe7\xf5es.\n\nCom rela\xe7\xe3o aos itens acima, o Quer Valer dever\xe1 inform\xe1-lo acerca da divulga\xe7\xe3o de suas informa\xe7\xf5es. Voc\xea dever\xe1 ter acesso as suas informa\xe7\xf5es contidas nos dados e cadastros, bem como nos seus respectivos banco de dados. Em qualquer momento que voc\xea descubra qualquer incompatibilidade sempre que encontrar inexatid\xe3o nos seus dados e cadastros, poder\xe1 exigir sua imediata corre\xe7\xe3o, que dever\xe3o ser alteradas pelo Quer Valer dentro do prazo de 5 (cinco) dias \xfateis.\n\nCaso o Quer Valer participe de quaisquer incorpora\xe7\xf5es, aquisi\xe7\xf5es ou vendas de ativos significativas continuaremos assegurando a confidencialidade de suas informa\xe7\xf5es pessoais e o notificaremos com anteced\xeancia se as incorpora\xe7\xf5es, fus\xf5es, aquisi\xe7\xf5es ou vendas de ativos puderem resultar na transfer\xeancia ou modifica\xe7\xe3o da Pol\xedtica de Privacidade.\n\nA utiliza\xe7\xe3o de servi\xe7os ou dispositivos de terceiros poder\xe1 resultar na divulga\xe7\xe3o de suas informa\xe7\xf5es a terceiros. Voc\xea deve ler e reconhecer os termos e condi\xe7\xf5es de seguran\xe7a de informa\xe7\xf5es do terceiro. O Quer Valer n\xe3o \xe9 respons\xe1vel por quaisquer riscos a usu\xe1rios porventura decorrentes da utiliza\xe7\xe3o de produtos e servi\xe7os de terceiros.\n\nVoc\xea poder\xe1 optar por n\xe3o fornecer suas informa\xe7\xf5es ao Quer Valer ou por cancelar a coleta pelo Quer Valer, de alguns tipos de informa\xe7\xf5es por meio do reajuste de suas configura\xe7\xf5es pessoais de produto. No entanto, o Quer Valer se isenta de responsabilidade por qualquer mau funcionamento de quaisquer caracter\xedsticas de produto ou servi\xe7o decorrente do fato de voc\xea optar por n\xe3o fornecer suas informa\xe7\xf5es pessoais ao Quer Valer.\n\n\n**Cessa\xe7\xe3o de uso de dados**\n\nVoc\xea pode a qualquer tempo solicitar a cessa\xe7\xe3o do uso de seus dados coletados, bem como requerer sejam estes deletados da base de dados do Quer Valer, mediante solicita\xe7\xe3o expressa, ciente de que o impedimento do tratamento de dados nos moldes pactuados inicialmente poder\xe1 impedir o seu acesso aos servi\xe7os oferecidos.\n\n\n**Condi\xe7\xf5es gerais**\n\nNo caso de conflitos existentes entre regras e instrumentos listados na defini\xe7\xe3o dos Termos Gerais constantes no caput deste instrumento, dever\xe3o prevalecer regras e condi\xe7\xf5es sobre produtos e/ou servi\xe7os espec\xedficos tal como disponibilizados por escrito pelo Quer Valer.\n\nO n\xe3o exerc\xedcio pelo Quer Valer de quaisquer direitos ou faculdades que lhe sejam conferidos por estes Termos Gerais ou pela legisla\xe7\xe3o brasileira, bem como a eventual toler\xe2ncia contra infra\xe7\xf5es a estes Termos Gerais ou a seus direitos, n\xe3o importar\xe1 na ren\xfancia aos seus direitos, nova\xe7\xe3o ou altera\xe7\xe3o de itens e cl\xe1usulas deste instrumento, podendo ainda o Quer Valer exercer seus direitos a qualquer momento.\n\nEstes Termos Gerais, bem como a rela\xe7\xe3o decorrente das a\xe7\xf5es aqui compreendidas, assim como qualquer disputa que surja em virtude disto ser\xe1 regulada exclusivamente pela legisla\xe7\xe3o brasileira.\n\nFica eleito o Foro Central da Comarca da Capital do Estado de S\xe3o Paulo para dirimir quaisquer quest\xf5es oriundas da utiliza\xe7\xe3o dos Conte\xfados e/ou viola\xe7\xe3o destes Termos Gerais, renunciando as partes a qualquer outro, por mais privilegiado que seja ou venha a ser.\n\nCaso voc\xea considere que existem fatos, circunst\xe2ncias ou suspeita de qualquer uso inadequado dos Conte\xfados ou qualquer quest\xe3o de seguran\xe7a relacionada ao Quer Valer e, em particular, que representem viola\xe7\xe3o de direito autoral ou de propriedade intelectual ou outros direitos, pedimos que envie uma comunica\xe7\xe3o ao Quer Valer por meio do e-mail privacidade@quervaler.com.br contendo, se poss\xedvel, seus dados pessoais (nome, endere\xe7o e n\xfamero de telefone), bem como especifica\xe7\xe3o do evento verificado por Voc\xea (em particular, quando se tratar de suposta viola\xe7\xe3o de direitos autorais, indica\xe7\xe3o precisa e completa dos conte\xfados protegidos e supostamente infringidos com as respectivas URLs).',null,B.v,B.r)
 B.RC=s([B.a1s],t.YV)
-B.a1G=new A.of(B.RC,B.u,0,null)
+B.a1G=new A.of(B.RC,B.v,0,null)
 B.Mc=new A.dg(B.a1G,500,null)
 B.Si=s([B.ZC,B.Mc],t.p)
-B.M6=new A.no(B.aa,B.j,B.k,B.l,null,B.o,null,0,B.Si,null)
+B.M6=new A.no(B.aa,B.k,B.l,B.j,null,B.o,null,0,B.Si,null)
 B.Zy=new A.eT(!0,"Como funciona",null)
-B.a1z=new A.cE(null,null,null,null,"O Quer Valer \xe9 uma comunidade digital de desafios e previs\xf5es esportivas criada para promover intera\xe7\xe3o, entretenimento e resenha entre amigos. Aqui, voc\xea pode criar e participar de desafios amistosos relacionados a eventos esportivos \u2014 tudo de forma leve e divertida. Os desafios t\xeam car\xe1ter simb\xf3lico: n\xe3o envolvem apostas financeiras, pr\xeamios em dinheiro ou bens intermediados pela plataforma. O cumprimento de brindes, mimos ou presentes \xe9 volunt\xe1rio e de responsabilidade exclusiva dos participantes.\n\n\n**Passo a passo:**\n\n1. **Escolha o jogo e seu time favorito:** Entre na partida e escolha o time que voc\xea acredita que vai vencer.\n\n2. **Defina o pr\xeamio simb\xf3lico:** Escolha o valor do seu cupom, que depois poder\xe1 ser resgatado como vale-presente em uma das lojas dispon\xedveis.\n\n3. **Escolha o advers\xe1rio:** Convide um amigo j\xe1 cadastrado ou envie o convite para quem ainda n\xe3o est\xe1 na plataforma. (Compartilhe facilmente o link pelo WhatsApp ou pela rede de sua prefer\xeancia.)\n\n4. **Envie o desafio:** Clique em \u201cEnviar Desafio\u201d e aguarde a resposta do seu advers\xe1rio.\n\n5. Seu amigo recebe a notifica\xe7\xe3o. **Ele pode aceitar ou recusar o desafio:**\n  - Se aceitar, o duelo **T\xe1 valendo!**\n  - Se recusar, voc\xea tamb\xe9m ser\xe1 avisado.\n\n6. **Ap\xf3s o jogo, o resultado \xe9 divulgado:** O Quer Valer te avisa quem venceu e ajuda a organizar o cumprimento do pr\xeamio.\n\n7. **Compartilhe a vit\xf3ria!** \ud83c\udfc6 Quando receber seu pr\xeamio, mostre no grupo! O que importa mesmo \xe9 a divers\xe3o, o esp\xedrito esportivo e aquela boa zoeira entre amigos. **Boa divers\xe3o!**\n\n**Lembrando:** o Quer Valer n\xe3o se envolve na compra dos pr\xeamios \u2014 \xe9 tudo na confian\xe7a.\n\n\n**Perguntas frequentes (mini-FAQ)**\n\n**E se o perdedor n\xe3o pagar?** O app registra inadimpl\xeancia no hist\xf3rico e envia lembretes. Voc\xea pode bloquear novos duelos com quem n\xe3o cumpre. (A comunidade valoriza quem joga limpo.)\n\n**Precisa ter 18+?** Sim. O Quer Valer \xe9 para adultos e segue os Termos de Uso e Regras da Comunidade.\n\n**O que o Quer Valer n\xe3o \xe9**\n\n- N\xe3o \xe9 casa de apostas: n\xe3o h\xe1 odds, tips ou intermedia\xe7\xe3o financeira.",null,B.u,B.r)
+B.a1z=new A.cE(null,null,null,null,"O Quer Valer \xe9 uma comunidade digital de desafios e previs\xf5es esportivas criada para promover intera\xe7\xe3o, entretenimento e resenha entre amigos. Aqui, voc\xea pode criar e participar de desafios amistosos relacionados a eventos esportivos \u2014 tudo de forma leve e divertida. Os desafios t\xeam car\xe1ter simb\xf3lico: n\xe3o envolvem apostas financeiras, pr\xeamios em dinheiro ou bens intermediados pela plataforma. O cumprimento de brindes, mimos ou presentes \xe9 volunt\xe1rio e de responsabilidade exclusiva dos participantes.\n\n\n**Passo a passo:**\n\n1. **Escolha o jogo e seu time favorito:** Entre na partida e escolha o time que voc\xea acredita que vai vencer.\n\n2. **Defina o pr\xeamio simb\xf3lico:** Escolha o valor do seu cupom, que depois poder\xe1 ser resgatado como vale-presente em uma das lojas dispon\xedveis.\n\n3. **Escolha o advers\xe1rio:** Convide um amigo j\xe1 cadastrado ou envie o convite para quem ainda n\xe3o est\xe1 na plataforma. (Compartilhe facilmente o link pelo WhatsApp ou pela rede de sua prefer\xeancia.)\n\n4. **Envie o desafio:** Clique em \u201cEnviar Desafio\u201d e aguarde a resposta do seu advers\xe1rio.\n\n5. Seu amigo recebe a notifica\xe7\xe3o. **Ele pode aceitar ou recusar o desafio:**\n  - Se aceitar, o duelo **T\xe1 valendo!**\n  - Se recusar, voc\xea tamb\xe9m ser\xe1 avisado.\n\n6. **Ap\xf3s o jogo, o resultado \xe9 divulgado:** O Quer Valer te avisa quem venceu e ajuda a organizar o cumprimento do pr\xeamio.\n\n7. **Compartilhe a vit\xf3ria!** \ud83c\udfc6 Quando receber seu pr\xeamio, mostre no grupo! O que importa mesmo \xe9 a divers\xe3o, o esp\xedrito esportivo e aquela boa zoeira entre amigos. **Boa divers\xe3o!**\n\n**Lembrando:** o Quer Valer n\xe3o se envolve na compra dos pr\xeamios \u2014 \xe9 tudo na confian\xe7a.\n\n\n**Perguntas frequentes (mini-FAQ)**\n\n**E se o perdedor n\xe3o pagar?** O app registra inadimpl\xeancia no hist\xf3rico e envia lembretes. Voc\xea pode bloquear novos duelos com quem n\xe3o cumpre. (A comunidade valoriza quem joga limpo.)\n\n**Precisa ter 18+?** Sim. O Quer Valer \xe9 para adultos e segue os Termos de Uso e Regras da Comunidade.\n\n**O que o Quer Valer n\xe3o \xe9**\n\n- N\xe3o \xe9 casa de apostas: n\xe3o h\xe1 odds, tips ou intermedia\xe7\xe3o financeira.",null,B.v,B.r)
 B.S7=s([B.a1z],t.YV)
-B.a1J=new A.of(B.S7,B.u,0,null)
+B.a1J=new A.of(B.S7,B.v,0,null)
 B.Ma=new A.dg(B.a1J,500,null)
 B.Ry=s([B.Zy,B.Ma],t.p)
-B.M7=new A.no(B.aa,B.j,B.k,B.l,null,B.o,null,0,B.Ry,null)
+B.M7=new A.no(B.aa,B.k,B.l,B.j,null,B.o,null,0,B.Ry,null)
 B.qd=new A.H8(0,"none")
 B.M8=new A.H8(1,"waiting")
 B.lb=new A.H8(3,"done")
 B.M9=new A.rG(!1)
 B.cp=new A.rG(!0)
-B.a1w=new A.cE(null,null,null,null,"Quer apostar e ganhar dinheiro? Ent\xe3o, **aqui n\xe3o \xe9 o seu lugar.**\n\n\nN\xe3o sabemos nada de odds, tips, handicaps e outros n\xfameros sem alma. Para n\xf3s, **esporte n\xe3o tem nada a ver com isso.** Ou voc\xea torce para o cart\xe3o amarelo? S\xe9rio mesmo?\n\nEsporte \xe9 paix\xe3o, conex\xe3o e divers\xe3o. Este \xe9 um espa\xe7o pra aqueles que vivem o time de cora\xe7\xe3o. Pra aqueles que sentem o jogo na pele, que tem seu lugar da sorte e n\xe3o abrem m\xe3o dele. **Feito para torcedores de verdade.**\n\nNo **Quer Valer**, cada desafio \xe9 um duelo entre f\xe3s, \xe0s vezes contra um amigo, outras vezes contra um advers\xe1rio mesmo. \xc9 botar f\xe9 no seu time, desafiar e, quando o outro aceitar, poder dizer: **\u201cT\xe1 valendo!\u201d**\n\n**Ao final da partida, o vencedor recebe a gl\xf3ria.** Quem perde, cumpre o combinado. E o resto fica pra resenha.\n\nEnt\xe3o, se \xe9 isso que voc\xea procura, seja bem-vindo. O **QV** \xe9 uma comunidade de f\xe3s de esportes, que celebra a boa e velha rivalidade. Porque o que vale mesmo n\xe3o \xe9 o placar, mas as hist\xf3rias que ficam de um jogo entre amigos.\n\nE a\xed, **quer valer?**",null,B.u,B.r)
+B.a1w=new A.cE(null,null,null,null,"Quer apostar e ganhar dinheiro? Ent\xe3o, **aqui n\xe3o \xe9 o seu lugar.**\n\n\nN\xe3o sabemos nada de odds, tips, handicaps e outros n\xfameros sem alma. Para n\xf3s, **esporte n\xe3o tem nada a ver com isso.** Ou voc\xea torce para o cart\xe3o amarelo? S\xe9rio mesmo?\n\nEsporte \xe9 paix\xe3o, conex\xe3o e divers\xe3o. Este \xe9 um espa\xe7o pra aqueles que vivem o time de cora\xe7\xe3o. Pra aqueles que sentem o jogo na pele, que tem seu lugar da sorte e n\xe3o abrem m\xe3o dele. **Feito para torcedores de verdade.**\n\nNo **Quer Valer**, cada desafio \xe9 um duelo entre f\xe3s, \xe0s vezes contra um amigo, outras vezes contra um advers\xe1rio mesmo. \xc9 botar f\xe9 no seu time, desafiar e, quando o outro aceitar, poder dizer: **\u201cT\xe1 valendo!\u201d**\n\n**Ao final da partida, o vencedor recebe a gl\xf3ria.** Quem perde, cumpre o combinado. E o resto fica pra resenha.\n\nEnt\xe3o, se \xe9 isso que voc\xea procura, seja bem-vindo. O **QV** \xe9 uma comunidade de f\xe3s de esportes, que celebra a boa e velha rivalidade. Porque o que vale mesmo n\xe3o \xe9 o placar, mas as hist\xf3rias que ficam de um jogo entre amigos.\n\nE a\xed, **quer valer?**",null,B.v,B.r)
 B.S4=s([B.a1w],t.YV)
-B.a1I=new A.of(B.S4,B.u,0,null)
+B.a1I=new A.of(B.S4,B.v,0,null)
 B.Mb=new A.dg(B.a1I,500,null)
 B.iv=new A.kX(0,"cut")
 B.iw=new A.kX(1,"copy")
@@ -123737,7 +123740,7 @@ B.Me=new A.he(0.05,0,0.133333,0.06)
 B.av=new A.he(0.4,0,0.2,1)
 B.qi=new A.he(0.215,0.61,0.355,1)
 B.lh=new A.he(0.35,0.91,0.33,0.97)
-B.df=new A.he(0.42,0,1,1)
+B.dg=new A.he(0.42,0,1,1)
 B.Mg=new A.he(0.208333,0.82,0.25,1)
 B.qj=new A.he(0.42,0,0.58,1)
 B.ba=new A.he(0.25,0.1,0.25,1)
@@ -123752,7 +123755,7 @@ B.fM=new A.K(0.34901960784313724,0,0,0,B.f)
 B.ii=new A.K(0.5019607843137255,1,1,1,B.f)
 B.Mm=new A.dO(B.fM,null,null,B.fM,B.ii,B.fM,B.ii,B.fM,B.ii,B.fM,B.ii)
 B.eC=new A.K(1,0.8392156862745098,0.8392156862745098,0.8392156862745098,B.f)
-B.Mn=new A.dO(B.eC,null,null,B.eC,B.de,B.eC,B.de,B.eC,B.de,B.eC,B.de)
+B.Mn=new A.dO(B.eC,null,null,B.eC,B.df,B.eC,B.df,B.eC,B.df,B.eC,B.df)
 B.fP=new A.K(0.6980392156862745,1,1,1,B.f)
 B.il=new A.K(0.6980392156862745,0.18823529411764706,0.18823529411764706,0.18823529411764706,B.f)
 B.Mp=new A.dO(B.fP,null,null,B.fP,B.il,B.fP,B.il,B.fP,B.il,B.fP,B.il)
@@ -123797,10 +123800,10 @@ B.bb=new A.Wz(0,"base")
 B.iD=new A.Wz(1,"elevated")
 B.Mv=new A.ajY(1,"latency")
 B.Mw=new A.Hs(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.dO=new A.nr(0,"calendar")
-B.dg=new A.nr(1,"input")
+B.dP=new A.nr(0,"calendar")
+B.dh=new A.nr(1,"input")
 B.fR=new A.nr(2,"calendarOnly")
-B.dP=new A.nr(3,"inputOnly")
+B.dQ=new A.nr(3,"inputOnly")
 B.iE=new A.WB(0,"day")
 B.li=new A.WB(1,"year")
 B.Mx=new A.hg(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -123817,7 +123820,7 @@ B.eF=new A.WI(0,"background")
 B.qp=new A.WI(1,"foreground")
 B.cr=new A.WJ(!1)
 B.abm=new A.a86(null)
-B.dQ=new A.rJ(null,null,null,B.abm,null)
+B.dR=new A.rJ(null,null,null,B.abm,null)
 B.eg=new A.E(!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.aV=new A.Nw(0,"clip")
 B.a6=new A.aH7(0,"parent")
@@ -123873,7 +123876,7 @@ B.N2=new A.AK(null,null,null,null,null,null,null,null,null)
 B.N3=new A.HO(null,null,null,null)
 B.O=new A.bc(0)
 B.br=new A.bc(1e5)
-B.dR=new A.bc(1e6)
+B.dS=new A.bc(1e6)
 B.N4=new A.bc(12e4)
 B.N5=new A.bc(12e5)
 B.ls=new A.bc(125e3)
@@ -124055,8 +124058,8 @@ B.qW=new A.kd(!1,!1,!1,!1)
 B.qX=new A.kd(!1,!1,!1,!0)
 B.qY=new A.kd(!1,!1,!0,!1)
 B.qZ=new A.kd(!1,!1,!0,!0)
-B.dS=new A.kd(!0,!1,!1,!1)
-B.dT=new A.kd(!0,!1,!1,!0)
+B.dT=new A.kd(!0,!1,!1,!1)
+B.dU=new A.kd(!0,!1,!1,!0)
 B.r_=new A.kd(!0,!1,!0,!1)
 B.r0=new A.kd(!0,!1,!0,!0)
 B.r1=new A.pe(!1,!1,!1,!1)
@@ -124085,9 +124088,9 @@ B.ra=new A.pi(1,"arrayRemove")
 B.rb=new A.pi(5,"incrementInteger")
 B.ac6=new A.Xq(0,"any")
 B.Ol=new A.Xq(2,"image")
-B.Om=new A.wa(B.dd,null)
+B.Om=new A.wa(B.de,null)
 B.On=new A.Ic(null)
-B.dh=new A.wb(0,"none")
+B.di=new A.wb(0,"none")
 B.rc=new A.wb(1,"low")
 B.bE=new A.wb(2,"medium")
 B.h3=new A.wb(3,"high")
@@ -124109,7 +124112,7 @@ B.me=new A.rZ(1,"traditional")
 B.ac7=new A.aob(0,"automatic")
 B.rf=new A.aoe("focus")
 B.eO=new A.B_(0,"normal")
-B.dU=new A.B_(1,"italic")
+B.dV=new A.B_(1,"italic")
 B.Os=new A.m6(0,"w100")
 B.d_=new A.iW(0,100)
 B.Ot=new A.m6(1,"w200")
@@ -124137,18 +124140,18 @@ B.cw=new A.XN(0,"accepted")
 B.aT=new A.XN(1,"rejected")
 B.rk=new A.wt(0,"pointerEvents")
 B.iV=new A.wt(1,"browserGestures")
-B.dV=new A.IE(0,"ready")
+B.dW=new A.IE(0,"ready")
 B.iW=new A.IE(1,"possible")
 B.OB=new A.IE(2,"defunct")
-B.OC=new A.iY(B.d_,B.dU)
-B.OD=new A.iY(B.x,B.dU)
-B.OE=new A.iY(B.aG,B.dU)
+B.OC=new A.iY(B.d_,B.dV)
+B.OD=new A.iY(B.x,B.dV)
+B.OE=new A.iY(B.aG,B.dV)
 B.OF=new A.iY(B.x,B.eO)
 B.OG=new A.iY(B.cv,B.eO)
-B.OH=new A.iY(B.cv,B.dU)
+B.OH=new A.iY(B.cv,B.dV)
 B.OI=new A.iY(B.h5,B.eO)
 B.OJ=new A.iY(B.aG,B.eO)
-B.OK=new A.iY(B.h5,B.dU)
+B.OK=new A.iY(B.h5,B.dV)
 B.OL=new A.iY(B.d_,B.eO)
 B.mh=new A.IJ(0,"objectBoundingBox")
 B.OM=new A.IJ(1,"userSpaceOnUse")
@@ -124288,12 +124291,12 @@ B.rG=new A.Jt(0,"opportunity")
 B.mo=new A.Jt(2,"mandatory")
 B.rH=new A.Jt(3,"endOfText")
 B.Fl=new A.fh(1,-1)
-B.d7=new A.yu(0,"clamp")
+B.d8=new A.yu(0,"clamp")
 B.LO=new A.K(0.9803921568627451,0.06274509803921569,0.1843137254901961,0.3686274509803922,B.f)
 B.Lt=new A.K(0.9803921568627451,0.3411764705882353,0.23137254901960785,0.6196078431372549,B.f)
 B.LV=new A.K(1,0.3607843137254902,0.023529411764705882,0.4470588235294118,B.f)
 B.T3=s([B.LO,B.Lt,B.LV],t.t_)
-B.Qg=new A.wM(B.Fl,B.oR,B.d7,B.T3,null,null)
+B.Qg=new A.wM(B.Fl,B.oR,B.d8,B.T3,null,null)
 B.rI=new A.nL(B.cP,A.a5("nL<i9>"))
 B.j3=new A.nL(B.cP,A.a5("nL<ht>"))
 B.Qh=new A.nL(B.cP,t.wO)
@@ -124347,17 +124350,17 @@ B.aaR=new A.jU(0.925,0.5)
 B.aaL=new A.jU(0.9625,0.75)
 B.aaM=new A.jU(1,1)
 B.Rq=s([B.aaK,B.aaP,B.aaS,B.aaU,B.aaQ,B.aaO,B.aaN,B.aaT,B.aaR,B.aaL,B.aaM],A.a5("y<jU>"))
-B.dv=new A.qy(0,"left")
+B.dw=new A.qy(0,"left")
 B.fc=new A.qy(1,"right")
 B.c4=new A.qy(2,"center")
 B.hS=new A.qy(3,"justify")
 B.jV=new A.qy(5,"end")
-B.Rr=s([B.dv,B.fc,B.c4,B.hS,B.r,B.jV],A.a5("y<qy>"))
+B.Rr=s([B.dw,B.fc,B.c4,B.hS,B.r,B.jV],A.a5("y<qy>"))
 B.bn=new A.mL(0,"dial")
 B.c5=new A.mL(1,"input")
 B.fg=new A.mL(2,"dialOnly")
-B.d8=new A.mL(3,"inputOnly")
-B.Rs=s([B.bn,B.c5,B.fg,B.d8],A.a5("y<mL>"))
+B.d9=new A.mL(3,"inputOnly")
+B.Rs=s([B.bn,B.c5,B.fg,B.d9],A.a5("y<mL>"))
 B.RH=s([2,1.13276676],t.n)
 B.QE=s([2.18349805,1.20311921],t.n)
 B.SS=s([2.33888662,1.28698796],t.n)
@@ -124435,16 +124438,16 @@ B.RN=s([0,0,0,0,102,116,121,112,51,103,112,53],t.t)
 B.St=s([255,255,255,0,255,255,255,255,255,255,255,255],t.t)
 B.Vd=new A.dC("video/3gpp",B.RN,B.St)
 B.Rx=s([0,0,0,0,102,116,121,112,97,118,99,49],t.t)
-B.di=s([0,0,0,0,255,255,255,255,255,255,255,255],t.t)
-B.US=new A.dC("video/mp4",B.Rx,B.di)
+B.dj=s([0,0,0,0,255,255,255,255,255,255,255,255],t.t)
+B.US=new A.dC("video/mp4",B.Rx,B.dj)
 B.Sn=s([0,0,0,0,102,116,121,112,105,115,111,50],t.t)
-B.UT=new A.dC("video/mp4",B.Sn,B.di)
+B.UT=new A.dC("video/mp4",B.Sn,B.dj)
 B.QB=s([0,0,0,0,102,116,121,112,105,115,111,109],t.t)
-B.V4=new A.dC("video/mp4",B.QB,B.di)
+B.V4=new A.dC("video/mp4",B.QB,B.dj)
 B.SX=s([0,0,0,0,102,116,121,112,109,112,52,49],t.t)
-B.UX=new A.dC("video/mp4",B.SX,B.di)
+B.UX=new A.dC("video/mp4",B.SX,B.dj)
 B.T_=s([0,0,0,0,102,116,121,112,109,112,52,50],t.t)
-B.Vf=new A.dC("video/mp4",B.T_,B.di)
+B.Vf=new A.dC("video/mp4",B.T_,B.dj)
 B.Rg=s([70,84,108,103],t.t)
 B.UP=new A.dC("model/gltf-binary",B.Rg,null)
 B.S8=s([82,73,70,70,0,0,0,0,87,69,66,80],t.t)
@@ -124452,11 +124455,11 @@ B.UZ=new A.dC("image/webp",B.S8,B.mq)
 B.Qr=s([119,79,70,50],t.t)
 B.V2=new A.dC("font/woff2",B.Qr,null)
 B.Su=s([0,0,0,0,102,116,121,112,104,101,105,99],t.t)
-B.Vc=new A.dC("image/heic",B.Su,B.di)
+B.Vc=new A.dC("image/heic",B.Su,B.dj)
 B.QU=s([0,0,0,0,102,116,121,112,104,101,105,120],t.t)
-B.Vb=new A.dC("image/heic",B.QU,B.di)
+B.Vb=new A.dC("image/heic",B.QU,B.dj)
 B.RA=s([0,0,0,0,102,116,121,112,109,105,102,49],t.t)
-B.UW=new A.dC("image/heif",B.RA,B.di)
+B.UW=new A.dC("image/heif",B.RA,B.dj)
 B.RD=s([B.UO,B.V0,B.UV,B.Ve,B.V5,B.V8,B.V6,B.V9,B.V1,B.UY,B.V7,B.UR,B.V_,B.UU,B.Va,B.UQ,B.V3,B.Vd,B.US,B.UT,B.V4,B.UX,B.Vf,B.UP,B.UZ,B.V2,B.Vc,B.Vb,B.UW],t.gg)
 B.RE=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.E0=new A.bU(0,0)
@@ -124494,15 +124497,15 @@ B.ay=new A.hN(6,"prefixIcon")
 B.bf=new A.hN(7,"suffixIcon")
 B.cm=new A.hN(8,"helperError")
 B.cn=new A.hN(9,"counter")
-B.dz=new A.hN(10,"container")
-B.RK=s([B.b9,B.bo,B.aq,B.by,B.bz,B.bA,B.ay,B.bf,B.cm,B.cn,B.dz],A.a5("y<hN>"))
+B.dA=new A.hN(10,"container")
+B.RK=s([B.b9,B.bo,B.aq,B.by,B.bz,B.bA,B.ay,B.bf,B.cm,B.cn,B.dA],A.a5("y<hN>"))
 B.Iq=new A.vC(1,"selectOffer")
 B.Ir=new A.vC(2,"selectOpponent")
 B.RL=s([B.py,B.Iq,B.Ir],A.a5("y<vC>"))
 B.o4=new A.yu(1,"repeated")
 B.o5=new A.yu(2,"mirror")
 B.hV=new A.yu(3,"decal")
-B.rQ=s([B.d7,B.o4,B.o5,B.hV],A.a5("y<yu>"))
+B.rQ=s([B.d8,B.o4,B.o5,B.hV],A.a5("y<yu>"))
 B.Tl=new A.pK("en",null,"US")
 B.rR=s([B.Tl],t.ss)
 B.aaz=new A.qT(0,0)
@@ -124521,8 +124524,8 @@ B.ed=new A.kD(2,"refused")
 B.fb=new A.kD(3,"finished")
 B.RW=s([B.ck,B.jR,B.ed,B.fb],A.a5("y<kD>"))
 B.bt=new A.xg(0,"portrait")
-B.dm=new A.xg(1,"landscape")
-B.rU=s([B.bt,B.dm],A.a5("y<xg>"))
+B.dn=new A.xg(1,"landscape")
+B.rU=s([B.bt,B.dn],A.a5("y<xg>"))
 B.hq=new A.Kx(0,"nonZero")
 B.yz=new A.Kx(1,"evenOdd")
 B.RX=s([B.hq,B.yz],A.a5("y<Kx>"))
@@ -124560,16 +124563,16 @@ B.a2c=new A.ok(3,"dashed")
 B.a2e=new A.ok(4,"wavy")
 B.S6=s([B.a27,B.DL,B.a2a,B.a2c,B.a2e],A.a5("y<ok>"))
 B.rV=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.s)
-B.dB=new A.n4(0,"leading")
+B.dC=new A.n4(0,"leading")
 B.c7=new A.n4(1,"title")
-B.dC=new A.n4(2,"subtitle")
+B.dD=new A.n4(2,"subtitle")
 B.fr=new A.n4(3,"trailing")
-B.Se=s([B.dB,B.c7,B.dC,B.fr],A.a5("y<n4>"))
+B.Se=s([B.dC,B.c7,B.dD,B.fr],A.a5("y<n4>"))
 B.Ic=new A.vz(0,"auto")
 B.Id=new A.vz(1,"full")
 B.Ie=new A.vz(2,"chromium")
 B.Sg=s([B.Ic,B.Id,B.Ie,B.cT],A.a5("y<vz>"))
-B.Sh=s([B.dO,B.dg,B.fR,B.dP],A.a5("y<nr>"))
+B.Sh=s([B.dP,B.dh,B.fR,B.dQ],A.a5("y<nr>"))
 B.bL=new A.iB(1,"fuchsia")
 B.Sl=s([B.ax,B.bL,B.U,B.bM,B.b7,B.bN],A.a5("y<iB>"))
 B.Ev=new A.E3(0,"topLeft")
@@ -124641,14 +124644,14 @@ B.LE=new A.K(1,0.9803921568627451,0.7450980392156863,0.1568627450980392,B.f)
 B.L3=new A.K(1,0.8235294117647058,0.45098039215686275,0.0392156862745098,B.f)
 B.SO=s([B.LE,B.L3],t.t_)
 B.SP=s(["S","M","T","W","T","F","S"],t.s)
-B.t1=s([B.dH,B.eq,B.oW,B.i5],A.a5("y<kU>"))
+B.t1=s([B.dI,B.eq,B.oW,B.i5],A.a5("y<kU>"))
 B.Wz=new A.l(0,2)
 B.GJ=new A.fV(0.75,B.fw,B.pU,B.Wz,1.5)
 B.SV=s([B.GJ],t.sq)
 B.SW=s([B.E3,B.E4,B.E5,B.E6,B.E7,B.E8,B.E9,B.Ea,B.Eb,B.Ec,B.E1,B.E2],t.JN)
 B.GL=new A.fV(0,B.fw,B.l3,B.h,5)
 B.T2=s([B.GL],t.sq)
-B.h9=s([B.dG,B.cN,B.i3,B.i4,B.kD],t.QP)
+B.h9=s([B.dH,B.cN,B.i3,B.i4,B.kD],t.QP)
 B.Fe=new A.zP(0,"count")
 B.Ff=new A.zP(1,"sum")
 B.Fg=new A.zP(2,"average")
@@ -124670,7 +124673,7 @@ B.Ta=s([B.F3,B.F4,B.F5,B.F6,B.F7,B.F8,B.F9],A.a5("y<ne>"))
 B.mx=s([B.d_,B.rg,B.h5,B.x,B.at,B.mg,B.aG,B.ri,B.cv],A.a5("y<iW>"))
 B.a_f=new A.CR(1,"estimate")
 B.a_g=new A.CR(2,"previous")
-B.t3=s([B.e9,B.a_f,B.a_g],A.a5("y<CR>"))
+B.t3=s([B.ea,B.a_f,B.a_g],A.a5("y<CR>"))
 B.hP=new A.Dd(0,"butt")
 B.jS=new A.Dd(1,"round")
 B.Dp=new A.Dd(2,"square")
@@ -124709,8 +124712,8 @@ B.bc=new A.k(4294967423)
 B.mC=new A.k(4294967558)
 B.hf=new A.k(8589934848)
 B.ja=new A.k(8589934849)
-B.dj=new A.k(8589934850)
-B.dY=new A.k(8589934851)
+B.dk=new A.k(8589934850)
+B.dZ=new A.k(8589934851)
 B.hg=new A.k(8589934852)
 B.jb=new A.k(8589934853)
 B.hh=new A.k(8589934854)
@@ -124728,7 +124731,7 @@ B.Vg=new A.pL(B.h,B.ac,B.ac,B.ac)
 B.hm=new A.to(1,"end")
 B.cg=new A.to(2,"center")
 B.b1=new A.to(3,"spaceBetween")
-B.dk=new A.to(4,"spaceAround")
+B.dl=new A.to(4,"spaceAround")
 B.d1=new A.to(5,"spaceEvenly")
 B.a0=new A.Z4(0,"min")
 B.Vh=new A.nN(B.cP,B.cP,A.a5("nN<h,h>"))
@@ -124858,8 +124861,8 @@ B.tj=new A.k(4294967566)
 B.tk=new A.k(4294967567)
 B.tl=new A.k(4294967568)
 B.tm=new A.k(4294967569)
-B.dW=new A.k(4294968069)
-B.dX=new A.k(4294968070)
+B.dX=new A.k(4294968069)
+B.dY=new A.k(4294968070)
 B.hd=new A.k(4294968071)
 B.he=new A.k(4294968072)
 B.mD=new A.k(4294968321)
@@ -125155,17 +125158,17 @@ B.xV=new A.k(8589935146)
 B.xW=new A.k(8589935147)
 B.U9=new A.k(8589935148)
 B.xX=new A.k(8589935149)
-B.dZ=new A.k(8589935150)
+B.e_=new A.k(8589935150)
 B.xY=new A.k(8589935151)
 B.mK=new A.k(8589935152)
 B.hi=new A.k(8589935153)
-B.e_=new A.k(8589935154)
+B.e0=new A.k(8589935154)
 B.hj=new A.k(8589935155)
-B.e0=new A.k(8589935156)
+B.e1=new A.k(8589935156)
 B.mL=new A.k(8589935157)
-B.e1=new A.k(8589935158)
+B.e2=new A.k(8589935158)
 B.hk=new A.k(8589935159)
-B.e2=new A.k(8589935160)
+B.e3=new A.k(8589935160)
 B.hl=new A.k(8589935161)
 B.Ua=new A.k(8589935165)
 B.Ub=new A.k(8589935361)
@@ -125199,7 +125202,7 @@ B.UC=new A.k(8589935388)
 B.UD=new A.k(8589935389)
 B.UE=new A.k(8589935390)
 B.UF=new A.k(8589935391)
-B.Vj=new A.db([32,B.td,33,B.TF,34,B.TG,35,B.TH,36,B.TI,37,B.TJ,38,B.TK,39,B.TL,40,B.TM,41,B.TN,42,B.te,43,B.xH,44,B.TO,45,B.xI,46,B.xJ,47,B.xK,48,B.xL,49,B.xM,50,B.xN,51,B.xO,52,B.xP,53,B.xQ,54,B.xR,55,B.xS,56,B.xT,57,B.xU,58,B.TP,59,B.TQ,60,B.TR,61,B.TS,62,B.TT,63,B.TU,64,B.TV,91,B.UG,92,B.UH,93,B.UI,94,B.UJ,95,B.UK,96,B.UL,97,B.mM,98,B.xZ,99,B.mN,100,B.Tm,101,B.t8,102,B.t9,103,B.Tn,104,B.To,105,B.Tp,106,B.Tq,107,B.Tr,108,B.Ts,109,B.Tt,110,B.ta,111,B.Tu,112,B.tb,113,B.Tv,114,B.Tw,115,B.Tx,116,B.tc,117,B.Ty,118,B.mA,119,B.Tz,120,B.mB,121,B.TA,122,B.ha,123,B.TB,124,B.TC,125,B.TD,126,B.TE,4294967297,B.tf,4294967304,B.bj,4294967305,B.j5,4294967309,B.j6,4294967323,B.hb,4294967423,B.bc,4294967553,B.tg,4294967555,B.j7,4294967556,B.hc,4294967558,B.mC,4294967559,B.th,4294967560,B.ti,4294967562,B.j8,4294967564,B.j9,4294967566,B.tj,4294967567,B.tk,4294967568,B.tl,4294967569,B.tm,4294968065,B.cA,4294968066,B.ce,4294968067,B.cf,4294968068,B.cB,4294968069,B.dW,4294968070,B.dX,4294968071,B.hd,4294968072,B.he,4294968321,B.mD,4294968322,B.tn,4294968323,B.to,4294968324,B.tp,4294968325,B.tq,4294968326,B.tr,4294968327,B.mE,4294968328,B.ts,4294968329,B.tt,4294968330,B.tu,4294968577,B.tv,4294968578,B.tw,4294968579,B.tx,4294968580,B.ty,4294968581,B.tz,4294968582,B.tA,4294968583,B.tB,4294968584,B.tC,4294968585,B.tD,4294968586,B.tE,4294968587,B.tF,4294968588,B.tG,4294968589,B.tH,4294968590,B.tI,4294968833,B.tJ,4294968834,B.tK,4294968835,B.tL,4294968836,B.tM,4294968837,B.tN,4294968838,B.tO,4294968839,B.tP,4294968840,B.tQ,4294968841,B.tR,4294968842,B.tS,4294968843,B.tT,4294969089,B.tU,4294969090,B.tV,4294969091,B.tW,4294969092,B.tX,4294969093,B.tY,4294969094,B.tZ,4294969095,B.u_,4294969096,B.u0,4294969097,B.u1,4294969098,B.u2,4294969099,B.u3,4294969100,B.u4,4294969101,B.u5,4294969102,B.u6,4294969103,B.u7,4294969104,B.u8,4294969105,B.u9,4294969106,B.ua,4294969107,B.ub,4294969108,B.uc,4294969109,B.ud,4294969110,B.ue,4294969111,B.uf,4294969112,B.ug,4294969113,B.uh,4294969114,B.ui,4294969115,B.uj,4294969116,B.uk,4294969117,B.ul,4294969345,B.um,4294969346,B.un,4294969347,B.uo,4294969348,B.up,4294969349,B.uq,4294969350,B.ur,4294969351,B.us,4294969352,B.ut,4294969353,B.uu,4294969354,B.uv,4294969355,B.uw,4294969356,B.ux,4294969357,B.uy,4294969358,B.uz,4294969359,B.uA,4294969360,B.uB,4294969361,B.uC,4294969362,B.uD,4294969363,B.uE,4294969364,B.uF,4294969365,B.uG,4294969366,B.uH,4294969367,B.uI,4294969368,B.uJ,4294969601,B.uK,4294969602,B.uL,4294969603,B.uM,4294969604,B.uN,4294969605,B.uO,4294969606,B.uP,4294969607,B.uQ,4294969608,B.uR,4294969857,B.uS,4294969858,B.uT,4294969859,B.uU,4294969860,B.uV,4294969861,B.uW,4294969863,B.uX,4294969864,B.uY,4294969865,B.uZ,4294969866,B.v_,4294969867,B.v0,4294969868,B.v1,4294969869,B.v2,4294969870,B.v3,4294969871,B.v4,4294969872,B.v5,4294969873,B.v6,4294970113,B.v7,4294970114,B.v8,4294970115,B.v9,4294970116,B.va,4294970117,B.vb,4294970118,B.vc,4294970119,B.vd,4294970120,B.ve,4294970121,B.vf,4294970122,B.vg,4294970123,B.vh,4294970124,B.vi,4294970125,B.vj,4294970126,B.vk,4294970127,B.vl,4294970369,B.vm,4294970370,B.vn,4294970371,B.vo,4294970372,B.vp,4294970373,B.vq,4294970374,B.vr,4294970375,B.vs,4294970625,B.vt,4294970626,B.vu,4294970627,B.vv,4294970628,B.vw,4294970629,B.vx,4294970630,B.vy,4294970631,B.vz,4294970632,B.vA,4294970633,B.vB,4294970634,B.vC,4294970635,B.vD,4294970636,B.vE,4294970637,B.vF,4294970638,B.vG,4294970639,B.vH,4294970640,B.vI,4294970641,B.vJ,4294970642,B.vK,4294970643,B.vL,4294970644,B.vM,4294970645,B.vN,4294970646,B.vO,4294970647,B.vP,4294970648,B.vQ,4294970649,B.vR,4294970650,B.vS,4294970651,B.vT,4294970652,B.vU,4294970653,B.vV,4294970654,B.vW,4294970655,B.vX,4294970656,B.vY,4294970657,B.vZ,4294970658,B.w_,4294970659,B.w0,4294970660,B.w1,4294970661,B.w2,4294970662,B.w3,4294970663,B.w4,4294970664,B.w5,4294970665,B.w6,4294970666,B.w7,4294970667,B.w8,4294970668,B.w9,4294970669,B.wa,4294970670,B.wb,4294970671,B.wc,4294970672,B.wd,4294970673,B.we,4294970674,B.wf,4294970675,B.wg,4294970676,B.wh,4294970677,B.wi,4294970678,B.wj,4294970679,B.wk,4294970680,B.wl,4294970681,B.wm,4294970682,B.wn,4294970683,B.wo,4294970684,B.wp,4294970685,B.wq,4294970686,B.wr,4294970687,B.ws,4294970688,B.wt,4294970689,B.wu,4294970690,B.wv,4294970691,B.ww,4294970692,B.wx,4294970693,B.wy,4294970694,B.wz,4294970695,B.wA,4294970696,B.wB,4294970697,B.wC,4294970698,B.wD,4294970699,B.wE,4294970700,B.wF,4294970701,B.wG,4294970702,B.wH,4294970703,B.wI,4294970704,B.wJ,4294970705,B.wK,4294970706,B.wL,4294970707,B.wM,4294970708,B.wN,4294970709,B.wO,4294970710,B.wP,4294970711,B.wQ,4294970712,B.wR,4294970713,B.wS,4294970714,B.wT,4294970715,B.wU,4294970882,B.wV,4294970884,B.wW,4294970885,B.wX,4294970886,B.wY,4294970887,B.wZ,4294970888,B.x_,4294970889,B.x0,4294971137,B.x1,4294971138,B.x2,4294971393,B.x3,4294971394,B.x4,4294971395,B.x5,4294971396,B.x6,4294971397,B.x7,4294971398,B.x8,4294971399,B.x9,4294971400,B.xa,4294971401,B.xb,4294971402,B.xc,4294971403,B.xd,4294971649,B.xe,4294971650,B.xf,4294971651,B.xg,4294971652,B.xh,4294971653,B.xi,4294971654,B.xj,4294971655,B.xk,4294971656,B.xl,4294971657,B.xm,4294971658,B.xn,4294971659,B.xo,4294971660,B.xp,4294971661,B.xq,4294971662,B.xr,4294971663,B.xs,4294971664,B.xt,4294971665,B.xu,4294971666,B.xv,4294971667,B.xw,4294971668,B.xx,4294971669,B.xy,4294971670,B.xz,4294971671,B.xA,4294971672,B.xB,4294971673,B.xC,4294971674,B.xD,4294971675,B.xE,4294971905,B.xF,4294971906,B.xG,8589934592,B.TW,8589934593,B.TX,8589934594,B.TY,8589934595,B.TZ,8589934608,B.U_,8589934609,B.U0,8589934610,B.U1,8589934611,B.U2,8589934612,B.U3,8589934624,B.U4,8589934625,B.U5,8589934626,B.U6,8589934848,B.hf,8589934849,B.ja,8589934850,B.dj,8589934851,B.dY,8589934852,B.hg,8589934853,B.jb,8589934854,B.hh,8589934855,B.jc,8589935088,B.mF,8589935090,B.mG,8589935092,B.mH,8589935094,B.mI,8589935117,B.mJ,8589935144,B.U7,8589935145,B.U8,8589935146,B.xV,8589935147,B.xW,8589935148,B.U9,8589935149,B.xX,8589935150,B.dZ,8589935151,B.xY,8589935152,B.mK,8589935153,B.hi,8589935154,B.e_,8589935155,B.hj,8589935156,B.e0,8589935157,B.mL,8589935158,B.e1,8589935159,B.hk,8589935160,B.e2,8589935161,B.hl,8589935165,B.Ua,8589935361,B.Ub,8589935362,B.Uc,8589935363,B.Ud,8589935364,B.Ue,8589935365,B.Uf,8589935366,B.Ug,8589935367,B.Uh,8589935368,B.Ui,8589935369,B.Uj,8589935370,B.Uk,8589935371,B.Ul,8589935372,B.Um,8589935373,B.Un,8589935374,B.Uo,8589935375,B.Up,8589935376,B.Uq,8589935377,B.Ur,8589935378,B.Us,8589935379,B.Ut,8589935380,B.Uu,8589935381,B.Uv,8589935382,B.Uw,8589935383,B.Ux,8589935384,B.Uy,8589935385,B.Uz,8589935386,B.UA,8589935387,B.UB,8589935388,B.UC,8589935389,B.UD,8589935390,B.UE,8589935391,B.UF],A.a5("db<v,k>"))
+B.Vj=new A.db([32,B.td,33,B.TF,34,B.TG,35,B.TH,36,B.TI,37,B.TJ,38,B.TK,39,B.TL,40,B.TM,41,B.TN,42,B.te,43,B.xH,44,B.TO,45,B.xI,46,B.xJ,47,B.xK,48,B.xL,49,B.xM,50,B.xN,51,B.xO,52,B.xP,53,B.xQ,54,B.xR,55,B.xS,56,B.xT,57,B.xU,58,B.TP,59,B.TQ,60,B.TR,61,B.TS,62,B.TT,63,B.TU,64,B.TV,91,B.UG,92,B.UH,93,B.UI,94,B.UJ,95,B.UK,96,B.UL,97,B.mM,98,B.xZ,99,B.mN,100,B.Tm,101,B.t8,102,B.t9,103,B.Tn,104,B.To,105,B.Tp,106,B.Tq,107,B.Tr,108,B.Ts,109,B.Tt,110,B.ta,111,B.Tu,112,B.tb,113,B.Tv,114,B.Tw,115,B.Tx,116,B.tc,117,B.Ty,118,B.mA,119,B.Tz,120,B.mB,121,B.TA,122,B.ha,123,B.TB,124,B.TC,125,B.TD,126,B.TE,4294967297,B.tf,4294967304,B.bj,4294967305,B.j5,4294967309,B.j6,4294967323,B.hb,4294967423,B.bc,4294967553,B.tg,4294967555,B.j7,4294967556,B.hc,4294967558,B.mC,4294967559,B.th,4294967560,B.ti,4294967562,B.j8,4294967564,B.j9,4294967566,B.tj,4294967567,B.tk,4294967568,B.tl,4294967569,B.tm,4294968065,B.cA,4294968066,B.ce,4294968067,B.cf,4294968068,B.cB,4294968069,B.dX,4294968070,B.dY,4294968071,B.hd,4294968072,B.he,4294968321,B.mD,4294968322,B.tn,4294968323,B.to,4294968324,B.tp,4294968325,B.tq,4294968326,B.tr,4294968327,B.mE,4294968328,B.ts,4294968329,B.tt,4294968330,B.tu,4294968577,B.tv,4294968578,B.tw,4294968579,B.tx,4294968580,B.ty,4294968581,B.tz,4294968582,B.tA,4294968583,B.tB,4294968584,B.tC,4294968585,B.tD,4294968586,B.tE,4294968587,B.tF,4294968588,B.tG,4294968589,B.tH,4294968590,B.tI,4294968833,B.tJ,4294968834,B.tK,4294968835,B.tL,4294968836,B.tM,4294968837,B.tN,4294968838,B.tO,4294968839,B.tP,4294968840,B.tQ,4294968841,B.tR,4294968842,B.tS,4294968843,B.tT,4294969089,B.tU,4294969090,B.tV,4294969091,B.tW,4294969092,B.tX,4294969093,B.tY,4294969094,B.tZ,4294969095,B.u_,4294969096,B.u0,4294969097,B.u1,4294969098,B.u2,4294969099,B.u3,4294969100,B.u4,4294969101,B.u5,4294969102,B.u6,4294969103,B.u7,4294969104,B.u8,4294969105,B.u9,4294969106,B.ua,4294969107,B.ub,4294969108,B.uc,4294969109,B.ud,4294969110,B.ue,4294969111,B.uf,4294969112,B.ug,4294969113,B.uh,4294969114,B.ui,4294969115,B.uj,4294969116,B.uk,4294969117,B.ul,4294969345,B.um,4294969346,B.un,4294969347,B.uo,4294969348,B.up,4294969349,B.uq,4294969350,B.ur,4294969351,B.us,4294969352,B.ut,4294969353,B.uu,4294969354,B.uv,4294969355,B.uw,4294969356,B.ux,4294969357,B.uy,4294969358,B.uz,4294969359,B.uA,4294969360,B.uB,4294969361,B.uC,4294969362,B.uD,4294969363,B.uE,4294969364,B.uF,4294969365,B.uG,4294969366,B.uH,4294969367,B.uI,4294969368,B.uJ,4294969601,B.uK,4294969602,B.uL,4294969603,B.uM,4294969604,B.uN,4294969605,B.uO,4294969606,B.uP,4294969607,B.uQ,4294969608,B.uR,4294969857,B.uS,4294969858,B.uT,4294969859,B.uU,4294969860,B.uV,4294969861,B.uW,4294969863,B.uX,4294969864,B.uY,4294969865,B.uZ,4294969866,B.v_,4294969867,B.v0,4294969868,B.v1,4294969869,B.v2,4294969870,B.v3,4294969871,B.v4,4294969872,B.v5,4294969873,B.v6,4294970113,B.v7,4294970114,B.v8,4294970115,B.v9,4294970116,B.va,4294970117,B.vb,4294970118,B.vc,4294970119,B.vd,4294970120,B.ve,4294970121,B.vf,4294970122,B.vg,4294970123,B.vh,4294970124,B.vi,4294970125,B.vj,4294970126,B.vk,4294970127,B.vl,4294970369,B.vm,4294970370,B.vn,4294970371,B.vo,4294970372,B.vp,4294970373,B.vq,4294970374,B.vr,4294970375,B.vs,4294970625,B.vt,4294970626,B.vu,4294970627,B.vv,4294970628,B.vw,4294970629,B.vx,4294970630,B.vy,4294970631,B.vz,4294970632,B.vA,4294970633,B.vB,4294970634,B.vC,4294970635,B.vD,4294970636,B.vE,4294970637,B.vF,4294970638,B.vG,4294970639,B.vH,4294970640,B.vI,4294970641,B.vJ,4294970642,B.vK,4294970643,B.vL,4294970644,B.vM,4294970645,B.vN,4294970646,B.vO,4294970647,B.vP,4294970648,B.vQ,4294970649,B.vR,4294970650,B.vS,4294970651,B.vT,4294970652,B.vU,4294970653,B.vV,4294970654,B.vW,4294970655,B.vX,4294970656,B.vY,4294970657,B.vZ,4294970658,B.w_,4294970659,B.w0,4294970660,B.w1,4294970661,B.w2,4294970662,B.w3,4294970663,B.w4,4294970664,B.w5,4294970665,B.w6,4294970666,B.w7,4294970667,B.w8,4294970668,B.w9,4294970669,B.wa,4294970670,B.wb,4294970671,B.wc,4294970672,B.wd,4294970673,B.we,4294970674,B.wf,4294970675,B.wg,4294970676,B.wh,4294970677,B.wi,4294970678,B.wj,4294970679,B.wk,4294970680,B.wl,4294970681,B.wm,4294970682,B.wn,4294970683,B.wo,4294970684,B.wp,4294970685,B.wq,4294970686,B.wr,4294970687,B.ws,4294970688,B.wt,4294970689,B.wu,4294970690,B.wv,4294970691,B.ww,4294970692,B.wx,4294970693,B.wy,4294970694,B.wz,4294970695,B.wA,4294970696,B.wB,4294970697,B.wC,4294970698,B.wD,4294970699,B.wE,4294970700,B.wF,4294970701,B.wG,4294970702,B.wH,4294970703,B.wI,4294970704,B.wJ,4294970705,B.wK,4294970706,B.wL,4294970707,B.wM,4294970708,B.wN,4294970709,B.wO,4294970710,B.wP,4294970711,B.wQ,4294970712,B.wR,4294970713,B.wS,4294970714,B.wT,4294970715,B.wU,4294970882,B.wV,4294970884,B.wW,4294970885,B.wX,4294970886,B.wY,4294970887,B.wZ,4294970888,B.x_,4294970889,B.x0,4294971137,B.x1,4294971138,B.x2,4294971393,B.x3,4294971394,B.x4,4294971395,B.x5,4294971396,B.x6,4294971397,B.x7,4294971398,B.x8,4294971399,B.x9,4294971400,B.xa,4294971401,B.xb,4294971402,B.xc,4294971403,B.xd,4294971649,B.xe,4294971650,B.xf,4294971651,B.xg,4294971652,B.xh,4294971653,B.xi,4294971654,B.xj,4294971655,B.xk,4294971656,B.xl,4294971657,B.xm,4294971658,B.xn,4294971659,B.xo,4294971660,B.xp,4294971661,B.xq,4294971662,B.xr,4294971663,B.xs,4294971664,B.xt,4294971665,B.xu,4294971666,B.xv,4294971667,B.xw,4294971668,B.xx,4294971669,B.xy,4294971670,B.xz,4294971671,B.xA,4294971672,B.xB,4294971673,B.xC,4294971674,B.xD,4294971675,B.xE,4294971905,B.xF,4294971906,B.xG,8589934592,B.TW,8589934593,B.TX,8589934594,B.TY,8589934595,B.TZ,8589934608,B.U_,8589934609,B.U0,8589934610,B.U1,8589934611,B.U2,8589934612,B.U3,8589934624,B.U4,8589934625,B.U5,8589934626,B.U6,8589934848,B.hf,8589934849,B.ja,8589934850,B.dk,8589934851,B.dZ,8589934852,B.hg,8589934853,B.jb,8589934854,B.hh,8589934855,B.jc,8589935088,B.mF,8589935090,B.mG,8589935092,B.mH,8589935094,B.mI,8589935117,B.mJ,8589935144,B.U7,8589935145,B.U8,8589935146,B.xV,8589935147,B.xW,8589935148,B.U9,8589935149,B.xX,8589935150,B.e_,8589935151,B.xY,8589935152,B.mK,8589935153,B.hi,8589935154,B.e0,8589935155,B.hj,8589935156,B.e1,8589935157,B.mL,8589935158,B.e2,8589935159,B.hk,8589935160,B.e3,8589935161,B.hl,8589935165,B.Ua,8589935361,B.Ub,8589935362,B.Uc,8589935363,B.Ud,8589935364,B.Ue,8589935365,B.Uf,8589935366,B.Ug,8589935367,B.Uh,8589935368,B.Ui,8589935369,B.Uj,8589935370,B.Uk,8589935371,B.Ul,8589935372,B.Um,8589935373,B.Un,8589935374,B.Uo,8589935375,B.Up,8589935376,B.Uq,8589935377,B.Ur,8589935378,B.Us,8589935379,B.Ut,8589935380,B.Uu,8589935381,B.Uv,8589935382,B.Uw,8589935383,B.Ux,8589935384,B.Uy,8589935385,B.Uz,8589935386,B.UA,8589935387,B.UB,8589935388,B.UC,8589935389,B.UD,8589935390,B.UE,8589935391,B.UF],A.a5("db<v,k>"))
 B.a00=new A.aC(B.mJ,!1,!1,!1,!1,B.w)
 B.D3=new A.aC(B.hb,!1,!1,!1,!1,B.w)
 B.D4=new A.aC(B.j5,!1,!1,!1,!1,B.w)
@@ -125227,7 +125230,7 @@ B.Vm=new A.c_(B.Wi,[458907,458873,458978,458982,458833,458832,458831,458834,4588
 B.Vo=new A.db([8,"\\b",9,"\\t",10,"\\n",11,"\\v",12,"\\f",13,"\\r",34,'\\"',39,"\\'",92,"\\\\"],t.TM)
 B.Vp=new A.db([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],t.TM)
 B.yn={AVRInput:0,AVRPower:1,Accel:2,Accept:3,Again:4,AllCandidates:5,Alphanumeric:6,AltGraph:7,AppSwitch:8,ArrowDown:9,ArrowLeft:10,ArrowRight:11,ArrowUp:12,Attn:13,AudioBalanceLeft:14,AudioBalanceRight:15,AudioBassBoostDown:16,AudioBassBoostToggle:17,AudioBassBoostUp:18,AudioFaderFront:19,AudioFaderRear:20,AudioSurroundModeNext:21,AudioTrebleDown:22,AudioTrebleUp:23,AudioVolumeDown:24,AudioVolumeMute:25,AudioVolumeUp:26,Backspace:27,BrightnessDown:28,BrightnessUp:29,BrowserBack:30,BrowserFavorites:31,BrowserForward:32,BrowserHome:33,BrowserRefresh:34,BrowserSearch:35,BrowserStop:36,Call:37,Camera:38,CameraFocus:39,Cancel:40,CapsLock:41,ChannelDown:42,ChannelUp:43,Clear:44,Close:45,ClosedCaptionToggle:46,CodeInput:47,ColorF0Red:48,ColorF1Green:49,ColorF2Yellow:50,ColorF3Blue:51,ColorF4Grey:52,ColorF5Brown:53,Compose:54,ContextMenu:55,Convert:56,Copy:57,CrSel:58,Cut:59,DVR:60,Delete:61,Dimmer:62,DisplaySwap:63,Eisu:64,Eject:65,End:66,EndCall:67,Enter:68,EraseEof:69,Esc:70,Escape:71,ExSel:72,Execute:73,Exit:74,F1:75,F10:76,F11:77,F12:78,F13:79,F14:80,F15:81,F16:82,F17:83,F18:84,F19:85,F2:86,F20:87,F21:88,F22:89,F23:90,F24:91,F3:92,F4:93,F5:94,F6:95,F7:96,F8:97,F9:98,FavoriteClear0:99,FavoriteClear1:100,FavoriteClear2:101,FavoriteClear3:102,FavoriteRecall0:103,FavoriteRecall1:104,FavoriteRecall2:105,FavoriteRecall3:106,FavoriteStore0:107,FavoriteStore1:108,FavoriteStore2:109,FavoriteStore3:110,FinalMode:111,Find:112,Fn:113,FnLock:114,GoBack:115,GoHome:116,GroupFirst:117,GroupLast:118,GroupNext:119,GroupPrevious:120,Guide:121,GuideNextDay:122,GuidePreviousDay:123,HangulMode:124,HanjaMode:125,Hankaku:126,HeadsetHook:127,Help:128,Hibernate:129,Hiragana:130,HiraganaKatakana:131,Home:132,Hyper:133,Info:134,Insert:135,InstantReplay:136,JunjaMode:137,KanaMode:138,KanjiMode:139,Katakana:140,Key11:141,Key12:142,LastNumberRedial:143,LaunchApplication1:144,LaunchApplication2:145,LaunchAssistant:146,LaunchCalendar:147,LaunchContacts:148,LaunchControlPanel:149,LaunchMail:150,LaunchMediaPlayer:151,LaunchMusicPlayer:152,LaunchPhone:153,LaunchScreenSaver:154,LaunchSpreadsheet:155,LaunchWebBrowser:156,LaunchWebCam:157,LaunchWordProcessor:158,Link:159,ListProgram:160,LiveContent:161,Lock:162,LogOff:163,MailForward:164,MailReply:165,MailSend:166,MannerMode:167,MediaApps:168,MediaAudioTrack:169,MediaClose:170,MediaFastForward:171,MediaLast:172,MediaPause:173,MediaPlay:174,MediaPlayPause:175,MediaRecord:176,MediaRewind:177,MediaSkip:178,MediaSkipBackward:179,MediaSkipForward:180,MediaStepBackward:181,MediaStepForward:182,MediaStop:183,MediaTopMenu:184,MediaTrackNext:185,MediaTrackPrevious:186,MicrophoneToggle:187,MicrophoneVolumeDown:188,MicrophoneVolumeMute:189,MicrophoneVolumeUp:190,ModeChange:191,NavigateIn:192,NavigateNext:193,NavigateOut:194,NavigatePrevious:195,New:196,NextCandidate:197,NextFavoriteChannel:198,NextUserProfile:199,NonConvert:200,Notification:201,NumLock:202,OnDemand:203,Open:204,PageDown:205,PageUp:206,Pairing:207,Paste:208,Pause:209,PinPDown:210,PinPMove:211,PinPToggle:212,PinPUp:213,Play:214,PlaySpeedDown:215,PlaySpeedReset:216,PlaySpeedUp:217,Power:218,PowerOff:219,PreviousCandidate:220,Print:221,PrintScreen:222,Process:223,Props:224,RandomToggle:225,RcLowBattery:226,RecordSpeedNext:227,Redo:228,RfBypass:229,Romaji:230,STBInput:231,STBPower:232,Save:233,ScanChannelsToggle:234,ScreenModeNext:235,ScrollLock:236,Select:237,Settings:238,ShiftLevel5:239,SingleCandidate:240,Soft1:241,Soft2:242,Soft3:243,Soft4:244,Soft5:245,Soft6:246,Soft7:247,Soft8:248,SpeechCorrectionList:249,SpeechInputToggle:250,SpellCheck:251,SplitScreenToggle:252,Standby:253,Subtitle:254,Super:255,Symbol:256,SymbolLock:257,TV:258,TV3DMode:259,TVAntennaCable:260,TVAudioDescription:261,TVAudioDescriptionMixDown:262,TVAudioDescriptionMixUp:263,TVContentsMenu:264,TVDataService:265,TVInput:266,TVInputComponent1:267,TVInputComponent2:268,TVInputComposite1:269,TVInputComposite2:270,TVInputHDMI1:271,TVInputHDMI2:272,TVInputHDMI3:273,TVInputHDMI4:274,TVInputVGA1:275,TVMediaContext:276,TVNetwork:277,TVNumberEntry:278,TVPower:279,TVRadioService:280,TVSatellite:281,TVSatelliteBS:282,TVSatelliteCS:283,TVSatelliteToggle:284,TVTerrestrialAnalog:285,TVTerrestrialDigital:286,TVTimer:287,Tab:288,Teletext:289,Undo:290,Unidentified:291,VideoModeNext:292,VoiceDial:293,WakeUp:294,Wink:295,Zenkaku:296,ZenkakuHankaku:297,ZoomIn:298,ZoomOut:299,ZoomToggle:300}
-B.Vq=new A.c_(B.yn,[B.vA,B.vB,B.tg,B.tv,B.tw,B.tU,B.tV,B.j7,B.x3,B.cA,B.ce,B.cf,B.cB,B.tx,B.vt,B.vu,B.vv,B.wV,B.vw,B.vx,B.vy,B.vz,B.wW,B.wX,B.v4,B.v6,B.v5,B.bj,B.tJ,B.tK,B.vm,B.vn,B.vo,B.vp,B.vq,B.vr,B.vs,B.x4,B.tL,B.x5,B.ty,B.hc,B.vC,B.vD,B.mD,B.uS,B.vK,B.tW,B.vE,B.vF,B.vG,B.vH,B.vI,B.vJ,B.tX,B.tz,B.tY,B.tn,B.to,B.tp,B.wI,B.bc,B.vL,B.vM,B.uc,B.tM,B.dW,B.x6,B.j6,B.tq,B.hb,B.hb,B.tr,B.tA,B.vN,B.um,B.uv,B.uw,B.ux,B.uy,B.uz,B.uA,B.uB,B.uC,B.uD,B.uE,B.un,B.uF,B.uG,B.uH,B.uI,B.uJ,B.uo,B.up,B.uq,B.ur,B.us,B.ut,B.uu,B.vO,B.vP,B.vQ,B.vR,B.vS,B.vT,B.vU,B.vV,B.vW,B.vX,B.vY,B.vZ,B.tZ,B.tB,B.mC,B.th,B.x7,B.x8,B.u_,B.u0,B.u1,B.u2,B.w_,B.w0,B.w1,B.u9,B.ua,B.ud,B.x9,B.tC,B.tR,B.ue,B.uf,B.dX,B.ti,B.w2,B.mE,B.w3,B.ub,B.ug,B.uh,B.ui,B.xF,B.xG,B.xa,B.vc,B.v7,B.vk,B.v8,B.vi,B.vl,B.v9,B.va,B.vb,B.vj,B.vd,B.ve,B.vf,B.vg,B.vh,B.w4,B.w5,B.w6,B.w7,B.tN,B.uT,B.uU,B.uV,B.xc,B.w8,B.wJ,B.wU,B.w9,B.wa,B.wb,B.wc,B.uW,B.wd,B.we,B.wf,B.wK,B.wL,B.wM,B.wN,B.uX,B.wO,B.uY,B.uZ,B.wY,B.wZ,B.x0,B.x_,B.u3,B.wP,B.wQ,B.wR,B.wS,B.v_,B.u4,B.wg,B.wh,B.u5,B.xb,B.j8,B.wi,B.v0,B.hd,B.he,B.wT,B.ts,B.tD,B.wj,B.wk,B.wl,B.wm,B.tE,B.wn,B.wo,B.wp,B.tO,B.tP,B.u6,B.v1,B.tQ,B.u7,B.tF,B.wq,B.wr,B.ws,B.tt,B.wt,B.uj,B.wy,B.wz,B.v2,B.wu,B.wv,B.j9,B.tG,B.ww,B.tm,B.u8,B.uK,B.uL,B.uM,B.uN,B.uO,B.uP,B.uQ,B.uR,B.x1,B.x2,B.v3,B.wx,B.tS,B.wA,B.tj,B.tk,B.tl,B.wC,B.xe,B.xf,B.xg,B.xh,B.xi,B.xj,B.xk,B.wD,B.xl,B.xm,B.xn,B.xo,B.xp,B.xq,B.xr,B.xs,B.xt,B.xu,B.xv,B.xw,B.wE,B.xx,B.xy,B.xz,B.xA,B.xB,B.xC,B.xD,B.xE,B.j5,B.wB,B.tu,B.tf,B.wF,B.xd,B.tT,B.wG,B.uk,B.ul,B.tH,B.tI,B.wH],A.a5("c_<h,k>"))
+B.Vq=new A.c_(B.yn,[B.vA,B.vB,B.tg,B.tv,B.tw,B.tU,B.tV,B.j7,B.x3,B.cA,B.ce,B.cf,B.cB,B.tx,B.vt,B.vu,B.vv,B.wV,B.vw,B.vx,B.vy,B.vz,B.wW,B.wX,B.v4,B.v6,B.v5,B.bj,B.tJ,B.tK,B.vm,B.vn,B.vo,B.vp,B.vq,B.vr,B.vs,B.x4,B.tL,B.x5,B.ty,B.hc,B.vC,B.vD,B.mD,B.uS,B.vK,B.tW,B.vE,B.vF,B.vG,B.vH,B.vI,B.vJ,B.tX,B.tz,B.tY,B.tn,B.to,B.tp,B.wI,B.bc,B.vL,B.vM,B.uc,B.tM,B.dX,B.x6,B.j6,B.tq,B.hb,B.hb,B.tr,B.tA,B.vN,B.um,B.uv,B.uw,B.ux,B.uy,B.uz,B.uA,B.uB,B.uC,B.uD,B.uE,B.un,B.uF,B.uG,B.uH,B.uI,B.uJ,B.uo,B.up,B.uq,B.ur,B.us,B.ut,B.uu,B.vO,B.vP,B.vQ,B.vR,B.vS,B.vT,B.vU,B.vV,B.vW,B.vX,B.vY,B.vZ,B.tZ,B.tB,B.mC,B.th,B.x7,B.x8,B.u_,B.u0,B.u1,B.u2,B.w_,B.w0,B.w1,B.u9,B.ua,B.ud,B.x9,B.tC,B.tR,B.ue,B.uf,B.dY,B.ti,B.w2,B.mE,B.w3,B.ub,B.ug,B.uh,B.ui,B.xF,B.xG,B.xa,B.vc,B.v7,B.vk,B.v8,B.vi,B.vl,B.v9,B.va,B.vb,B.vj,B.vd,B.ve,B.vf,B.vg,B.vh,B.w4,B.w5,B.w6,B.w7,B.tN,B.uT,B.uU,B.uV,B.xc,B.w8,B.wJ,B.wU,B.w9,B.wa,B.wb,B.wc,B.uW,B.wd,B.we,B.wf,B.wK,B.wL,B.wM,B.wN,B.uX,B.wO,B.uY,B.uZ,B.wY,B.wZ,B.x0,B.x_,B.u3,B.wP,B.wQ,B.wR,B.wS,B.v_,B.u4,B.wg,B.wh,B.u5,B.xb,B.j8,B.wi,B.v0,B.hd,B.he,B.wT,B.ts,B.tD,B.wj,B.wk,B.wl,B.wm,B.tE,B.wn,B.wo,B.wp,B.tO,B.tP,B.u6,B.v1,B.tQ,B.u7,B.tF,B.wq,B.wr,B.ws,B.tt,B.wt,B.uj,B.wy,B.wz,B.v2,B.wu,B.wv,B.j9,B.tG,B.ww,B.tm,B.u8,B.uK,B.uL,B.uM,B.uN,B.uO,B.uP,B.uQ,B.uR,B.x1,B.x2,B.v3,B.wx,B.tS,B.wA,B.tj,B.tk,B.tl,B.wC,B.xe,B.xf,B.xg,B.xh,B.xi,B.xj,B.xk,B.wD,B.xl,B.xm,B.xn,B.xo,B.xp,B.xq,B.xr,B.xs,B.xt,B.xu,B.xv,B.xw,B.wE,B.xx,B.xy,B.xz,B.xA,B.xB,B.xC,B.xD,B.xE,B.j5,B.wB,B.tu,B.tf,B.wF,B.xd,B.tT,B.wG,B.uk,B.ul,B.tH,B.tI,B.wH],A.a5("c_<h,k>"))
 B.Vr=new A.c_(B.yn,[4294970632,4294970633,4294967553,4294968577,4294968578,4294969089,4294969090,4294967555,4294971393,4294968065,4294968066,4294968067,4294968068,4294968579,4294970625,4294970626,4294970627,4294970882,4294970628,4294970629,4294970630,4294970631,4294970884,4294970885,4294969871,4294969873,4294969872,4294967304,4294968833,4294968834,4294970369,4294970370,4294970371,4294970372,4294970373,4294970374,4294970375,4294971394,4294968835,4294971395,4294968580,4294967556,4294970634,4294970635,4294968321,4294969857,4294970642,4294969091,4294970636,4294970637,4294970638,4294970639,4294970640,4294970641,4294969092,4294968581,4294969093,4294968322,4294968323,4294968324,4294970703,4294967423,4294970643,4294970644,4294969108,4294968836,4294968069,4294971396,4294967309,4294968325,4294967323,4294967323,4294968326,4294968582,4294970645,4294969345,4294969354,4294969355,4294969356,4294969357,4294969358,4294969359,4294969360,4294969361,4294969362,4294969363,4294969346,4294969364,4294969365,4294969366,4294969367,4294969368,4294969347,4294969348,4294969349,4294969350,4294969351,4294969352,4294969353,4294970646,4294970647,4294970648,4294970649,4294970650,4294970651,4294970652,4294970653,4294970654,4294970655,4294970656,4294970657,4294969094,4294968583,4294967558,4294967559,4294971397,4294971398,4294969095,4294969096,4294969097,4294969098,4294970658,4294970659,4294970660,4294969105,4294969106,4294969109,4294971399,4294968584,4294968841,4294969110,4294969111,4294968070,4294967560,4294970661,4294968327,4294970662,4294969107,4294969112,4294969113,4294969114,4294971905,4294971906,4294971400,4294970118,4294970113,4294970126,4294970114,4294970124,4294970127,4294970115,4294970116,4294970117,4294970125,4294970119,4294970120,4294970121,4294970122,4294970123,4294970663,4294970664,4294970665,4294970666,4294968837,4294969858,4294969859,4294969860,4294971402,4294970667,4294970704,4294970715,4294970668,4294970669,4294970670,4294970671,4294969861,4294970672,4294970673,4294970674,4294970705,4294970706,4294970707,4294970708,4294969863,4294970709,4294969864,4294969865,4294970886,4294970887,4294970889,4294970888,4294969099,4294970710,4294970711,4294970712,4294970713,4294969866,4294969100,4294970675,4294970676,4294969101,4294971401,4294967562,4294970677,4294969867,4294968071,4294968072,4294970714,4294968328,4294968585,4294970678,4294970679,4294970680,4294970681,4294968586,4294970682,4294970683,4294970684,4294968838,4294968839,4294969102,4294969868,4294968840,4294969103,4294968587,4294970685,4294970686,4294970687,4294968329,4294970688,4294969115,4294970693,4294970694,4294969869,4294970689,4294970690,4294967564,4294968588,4294970691,4294967569,4294969104,4294969601,4294969602,4294969603,4294969604,4294969605,4294969606,4294969607,4294969608,4294971137,4294971138,4294969870,4294970692,4294968842,4294970695,4294967566,4294967567,4294967568,4294970697,4294971649,4294971650,4294971651,4294971652,4294971653,4294971654,4294971655,4294970698,4294971656,4294971657,4294971658,4294971659,4294971660,4294971661,4294971662,4294971663,4294971664,4294971665,4294971666,4294971667,4294970699,4294971668,4294971669,4294971670,4294971671,4294971672,4294971673,4294971674,4294971675,4294967305,4294970696,4294968330,4294967297,4294970700,4294971403,4294968843,4294970701,4294969116,4294969117,4294968589,4294968590,4294970702],t.eL)
 B.Ws={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
 B.Vs=new A.c_(B.Ws,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.li)
@@ -125393,7 +125396,7 @@ B.Ke=new A.a7(4294303411)
 B.Kg=new A.a7(4294309365)
 B.KN=new A.a7(4294967040)
 B.JD=new A.a7(4288335154)
-B.Vy=new A.c_(B.Wy,[B.Ka,B.Kk,B.pA,B.Jn,B.Kc,B.Kf,B.KD,B.dd,B.KF,B.IS,B.Jt,B.JF,B.K2,B.Jf,B.Jm,B.JU,B.Kt,B.Jg,B.KJ,B.K_,B.pA,B.IQ,B.IW,B.JM,B.pG,B.IT,B.pG,B.JP,B.Jv,B.Je,B.Ku,B.JC,B.Ju,B.K5,B.Jx,B.Jb,B.pB,B.pB,B.IY,B.JA,B.Kp,B.IX,B.pC,B.pC,B.J2,B.JL,B.KL,B.J4,B.pI,B.K0,B.Ki,B.Kz,B.JY,B.pF,B.pF,B.IU,B.JH,B.Kb,B.Ks,B.JS,B.Jd,B.KP,B.K9,B.K4,B.KH,B.Jl,B.KK,B.JG,B.K8,B.K3,B.Km,B.pH,B.Jy,B.pH,B.Kx,B.Kv,B.J3,B.Js,B.pE,B.pE,B.JJ,B.KO,B.J_,B.J6,B.Kl,B.pI,B.Jo,B.Jh,B.IR,B.JN,B.Jz,B.J7,B.Jk,B.IZ,B.Jc,B.JR,B.J1,B.Kh,B.KE,B.KC,B.KB,B.IP,B.Kn,B.Jq,B.Jj,B.Kw,B.Kq,B.JX,B.K7,B.JB,B.JI,B.JZ,B.KG,B.KA,B.JT,B.Ky,B.K1,B.JK,B.Jp,B.Ko,B.JO,B.J9,B.Jw,B.Kj,B.Kd,B.J5,B.KI,B.JE,B.JQ,B.Jr,B.Ji,B.pD,B.pD,B.KM,B.J0,B.Ja,B.JV,B.IV,B.JW,B.Kr,B.IJ,B.J8,B.K6,B.Ke,B.kV,B.Kg,B.KN,B.JD],A.a5("c_<h,a7>"))
+B.Vy=new A.c_(B.Wy,[B.Ka,B.Kk,B.pA,B.Jn,B.Kc,B.Kf,B.KD,B.de,B.KF,B.IS,B.Jt,B.JF,B.K2,B.Jf,B.Jm,B.JU,B.Kt,B.Jg,B.KJ,B.K_,B.pA,B.IQ,B.IW,B.JM,B.pG,B.IT,B.pG,B.JP,B.Jv,B.Je,B.Ku,B.JC,B.Ju,B.K5,B.Jx,B.Jb,B.pB,B.pB,B.IY,B.JA,B.Kp,B.IX,B.pC,B.pC,B.J2,B.JL,B.KL,B.J4,B.pI,B.K0,B.Ki,B.Kz,B.JY,B.pF,B.pF,B.IU,B.JH,B.Kb,B.Ks,B.JS,B.Jd,B.KP,B.K9,B.K4,B.KH,B.Jl,B.KK,B.JG,B.K8,B.K3,B.Km,B.pH,B.Jy,B.pH,B.Kx,B.Kv,B.J3,B.Js,B.pE,B.pE,B.JJ,B.KO,B.J_,B.J6,B.Kl,B.pI,B.Jo,B.Jh,B.IR,B.JN,B.Jz,B.J7,B.Jk,B.IZ,B.Jc,B.JR,B.J1,B.Kh,B.KE,B.KC,B.KB,B.IP,B.Kn,B.Jq,B.Jj,B.Kw,B.Kq,B.JX,B.K7,B.JB,B.JI,B.JZ,B.KG,B.KA,B.JT,B.Ky,B.K1,B.JK,B.Jp,B.Ko,B.JO,B.J9,B.Jw,B.Kj,B.Kd,B.J5,B.KI,B.JE,B.JQ,B.Jr,B.Ji,B.pD,B.pD,B.KM,B.J0,B.Ja,B.JV,B.IV,B.JW,B.Kr,B.IJ,B.J8,B.K6,B.Ke,B.kV,B.Kg,B.KN,B.JD],A.a5("c_<h,a7>"))
 B.Wv={type:0}
 B.Vz=new A.c_(B.Wv,["line"],t.li)
 B.VB=new A.c_(B.bH,[],A.a5("c_<lZ,Q>"))
@@ -125441,35 +125444,35 @@ B.y8=new A.db(["*",B.QS,"+",B.QT,"-",B.QV,".",B.QW,"/",B.QX,"0",B.QY,"1",B.QZ,"2
 B.R8=s([B.te,null,null,B.xV],t.L)
 B.SQ=s([B.xH,null,null,B.xW],t.L)
 B.RG=s([B.xI,null,null,B.xX],t.L)
-B.Sd=s([B.xJ,null,null,B.dZ],t.L)
+B.Sd=s([B.xJ,null,null,B.e_],t.L)
 B.Qn=s([B.xK,null,null,B.xY],t.L)
 B.Tb=s([B.xL,null,null,B.mK],t.L)
 B.T1=s([B.xM,null,null,B.hi],t.L)
-B.Rf=s([B.xN,null,null,B.e_],t.L)
+B.Rf=s([B.xN,null,null,B.e0],t.L)
 B.Tg=s([B.xO,null,null,B.hj],t.L)
-B.T0=s([B.xP,null,null,B.e0],t.L)
+B.T0=s([B.xP,null,null,B.e1],t.L)
 B.Rc=s([B.xQ,null,null,B.mL],t.L)
-B.QA=s([B.xR,null,null,B.e1],t.L)
+B.QA=s([B.xR,null,null,B.e2],t.L)
 B.Ru=s([B.xS,null,null,B.hk],t.L)
-B.SR=s([B.xT,null,null,B.e2],t.L)
+B.SR=s([B.xT,null,null,B.e3],t.L)
 B.ST=s([B.xU,null,null,B.hl],t.L)
 B.Rl=s([B.hg,B.hg,B.jb,null],t.L)
 B.Tc=s([B.j7,null,B.j7,null],t.L)
-B.RP=s([B.cA,null,null,B.e_],t.L)
-B.RQ=s([B.ce,null,null,B.e0],t.L)
-B.RR=s([B.cf,null,null,B.e1],t.L)
-B.Tf=s([B.cB,null,null,B.e2],t.L)
+B.RP=s([B.cA,null,null,B.e0],t.L)
+B.RQ=s([B.ce,null,null,B.e1],t.L)
+B.RR=s([B.cf,null,null,B.e2],t.L)
+B.Tf=s([B.cB,null,null,B.e3],t.L)
 B.SY=s([B.mD,null,null,B.mL],t.L)
 B.Rm=s([B.hf,B.hf,B.ja,null],t.L)
-B.So=s([B.bc,null,null,B.dZ],t.L)
-B.RS=s([B.dW,null,null,B.hi],t.L)
+B.So=s([B.bc,null,null,B.e_],t.L)
+B.RS=s([B.dX,null,null,B.hi],t.L)
 B.Rb=s([B.j6,null,null,B.mJ],t.L)
-B.RT=s([B.dX,null,null,B.hk],t.L)
+B.RT=s([B.dY,null,null,B.hk],t.L)
 B.SZ=s([B.mE,null,null,B.mK],t.L)
 B.Rn=s([B.hh,B.hh,B.jc,null],t.L)
 B.RU=s([B.hd,null,null,B.hj],t.L)
 B.Sw=s([B.he,null,null,B.hl],t.L)
-B.Ro=s([B.dj,B.dj,B.dY,null],t.L)
+B.Ro=s([B.dk,B.dk,B.dZ,null],t.L)
 B.VC=new A.db(["*",B.R8,"+",B.SQ,"-",B.RG,".",B.Sd,"/",B.Qn,"0",B.Tb,"1",B.T1,"2",B.Rf,"3",B.Tg,"4",B.T0,"5",B.Rc,"6",B.QA,"7",B.Ru,"8",B.SR,"9",B.ST,"Alt",B.Rl,"AltGraph",B.Tc,"ArrowDown",B.RP,"ArrowLeft",B.RQ,"ArrowRight",B.RR,"ArrowUp",B.Tf,"Clear",B.SY,"Control",B.Rm,"Delete",B.So,"End",B.RS,"Enter",B.Rb,"Home",B.RT,"Insert",B.SZ,"Meta",B.Rn,"PageDown",B.RU,"PageUp",B.Sw,"Shift",B.Ro],A.a5("db<h,x<k?>>"))
 B.Wj={multiply:0,screen:1,overlay:2,darken:3,lighten:4,"color-dodge":5,"color-burn":6,"hard-light":7,"soft-light":8,difference:9,exclusion:10,hue:11,saturation:12,color:13,luminosity:14}
 B.FZ=new A.hc(24,"multiply")
@@ -125530,7 +125533,7 @@ B.BQ=new A.F(786979)
 B.BU=new A.F(786983)
 B.BP=new A.F(786977)
 B.BT=new A.F(786982)
-B.e4=new A.F(458809)
+B.e5=new A.F(458809)
 B.zY=new A.F(458806)
 B.AF=new A.F(458853)
 B.f0=new A.F(458976)
@@ -125735,11 +125738,11 @@ B.yF=new A.F(22)
 B.AY=new A.F(458874)
 B.Bt=new A.F(65667)
 B.BW=new A.F(786994)
-B.ya=new A.c_(B.Wh,[B.Bg,B.AX,B.f2,B.f4,B.Am,B.Al,B.Ak,B.An,B.B4,B.B2,B.B3,B.zX,B.zU,B.zN,B.zS,B.zT,B.Bw,B.Bv,B.BR,B.BV,B.BS,B.BQ,B.BU,B.BP,B.BT,B.e4,B.zY,B.AF,B.f0,B.hs,B.B9,B.B_,B.AZ,B.Ah,B.zL,B.zC,B.zD,B.zE,B.zF,B.zG,B.zH,B.zI,B.zJ,B.zK,B.Bu,B.BF,B.Ai,B.zM,B.zR,B.n2,B.n2,B.A0,B.A9,B.Aa,B.Ab,B.AI,B.AJ,B.AK,B.AL,B.AM,B.AN,B.AO,B.A1,B.AP,B.AQ,B.AR,B.AS,B.AT,B.A2,B.A3,B.A4,B.A5,B.A6,B.A7,B.A8,B.B1,B.hr,B.yC,B.yI,B.yR,B.yS,B.yT,B.yU,B.yV,B.yW,B.yX,B.yJ,B.yK,B.yL,B.yM,B.yN,B.yO,B.yP,B.yQ,B.yY,B.yZ,B.z_,B.z0,B.z1,B.z2,B.z3,B.z4,B.z5,B.z6,B.z7,B.z8,B.z9,B.za,B.zb,B.AV,B.Af,B.yA,B.Ae,B.AE,B.B6,B.B8,B.B7,B.zc,B.zd,B.ze,B.zf,B.zg,B.zh,B.zi,B.zj,B.zk,B.zl,B.zm,B.zn,B.zo,B.zp,B.zq,B.zr,B.zs,B.zt,B.zu,B.zv,B.zw,B.zx,B.zy,B.zz,B.zA,B.zB,B.C_,B.Bb,B.Bc,B.Bd,B.Be,B.Bf,B.BK,B.BJ,B.BO,B.BL,B.BI,B.BN,B.BY,B.BX,B.BZ,B.BA,B.By,B.Bx,B.BG,B.Bz,B.BB,B.BH,B.BE,B.BC,B.BD,B.f3,B.hu,B.yH,B.zQ,B.Ba,B.jq,B.AC,B.At,B.Au,B.Av,B.Aw,B.Ax,B.Ay,B.Az,B.AA,B.AB,B.Ar,B.Bk,B.Bq,B.Br,B.B5,B.AD,B.Ao,B.As,B.AH,B.Bo,B.Bn,B.Bm,B.Bl,B.Bp,B.Ap,B.Bi,B.Bj,B.Aq,B.AU,B.Aj,B.Ag,B.B0,B.Ad,B.zZ,B.AG,B.Ac,B.yG,B.Bh,B.zW,B.yE,B.jp,B.AW,B.BM,B.zV,B.f1,B.ht,B.C0,B.A_,B.Bs,B.zP,B.yB,B.yD,B.zO,B.yF,B.AY,B.Bt,B.BW],A.a5("c_<h,F>"))
+B.ya=new A.c_(B.Wh,[B.Bg,B.AX,B.f2,B.f4,B.Am,B.Al,B.Ak,B.An,B.B4,B.B2,B.B3,B.zX,B.zU,B.zN,B.zS,B.zT,B.Bw,B.Bv,B.BR,B.BV,B.BS,B.BQ,B.BU,B.BP,B.BT,B.e5,B.zY,B.AF,B.f0,B.hs,B.B9,B.B_,B.AZ,B.Ah,B.zL,B.zC,B.zD,B.zE,B.zF,B.zG,B.zH,B.zI,B.zJ,B.zK,B.Bu,B.BF,B.Ai,B.zM,B.zR,B.n2,B.n2,B.A0,B.A9,B.Aa,B.Ab,B.AI,B.AJ,B.AK,B.AL,B.AM,B.AN,B.AO,B.A1,B.AP,B.AQ,B.AR,B.AS,B.AT,B.A2,B.A3,B.A4,B.A5,B.A6,B.A7,B.A8,B.B1,B.hr,B.yC,B.yI,B.yR,B.yS,B.yT,B.yU,B.yV,B.yW,B.yX,B.yJ,B.yK,B.yL,B.yM,B.yN,B.yO,B.yP,B.yQ,B.yY,B.yZ,B.z_,B.z0,B.z1,B.z2,B.z3,B.z4,B.z5,B.z6,B.z7,B.z8,B.z9,B.za,B.zb,B.AV,B.Af,B.yA,B.Ae,B.AE,B.B6,B.B8,B.B7,B.zc,B.zd,B.ze,B.zf,B.zg,B.zh,B.zi,B.zj,B.zk,B.zl,B.zm,B.zn,B.zo,B.zp,B.zq,B.zr,B.zs,B.zt,B.zu,B.zv,B.zw,B.zx,B.zy,B.zz,B.zA,B.zB,B.C_,B.Bb,B.Bc,B.Bd,B.Be,B.Bf,B.BK,B.BJ,B.BO,B.BL,B.BI,B.BN,B.BY,B.BX,B.BZ,B.BA,B.By,B.Bx,B.BG,B.Bz,B.BB,B.BH,B.BE,B.BC,B.BD,B.f3,B.hu,B.yH,B.zQ,B.Ba,B.jq,B.AC,B.At,B.Au,B.Av,B.Aw,B.Ax,B.Ay,B.Az,B.AA,B.AB,B.Ar,B.Bk,B.Bq,B.Br,B.B5,B.AD,B.Ao,B.As,B.AH,B.Bo,B.Bn,B.Bm,B.Bl,B.Bp,B.Ap,B.Bi,B.Bj,B.Aq,B.AU,B.Aj,B.Ag,B.B0,B.Ad,B.zZ,B.AG,B.Ac,B.yG,B.Bh,B.zW,B.yE,B.jp,B.AW,B.BM,B.zV,B.f1,B.ht,B.C0,B.A_,B.Bs,B.zP,B.yB,B.yD,B.zO,B.yF,B.AY,B.Bt,B.BW],A.a5("c_<h,F>"))
 B.Ww={"deleteBackward:":0,"deleteWordBackward:":1,"deleteToBeginningOfLine:":2,"deleteForward:":3,"deleteWordForward:":4,"deleteToEndOfLine:":5,"moveLeft:":6,"moveRight:":7,"moveForward:":8,"moveBackward:":9,"moveUp:":10,"moveDown:":11,"moveLeftAndModifySelection:":12,"moveRightAndModifySelection:":13,"moveUpAndModifySelection:":14,"moveDownAndModifySelection:":15,"moveWordLeft:":16,"moveWordRight:":17,"moveToBeginningOfParagraph:":18,"moveToEndOfParagraph:":19,"moveWordLeftAndModifySelection:":20,"moveWordRightAndModifySelection:":21,"moveParagraphBackwardAndModifySelection:":22,"moveParagraphForwardAndModifySelection:":23,"moveToLeftEndOfLine:":24,"moveToRightEndOfLine:":25,"moveToBeginningOfDocument:":26,"moveToEndOfDocument:":27,"moveToLeftEndOfLineAndModifySelection:":28,"moveToRightEndOfLineAndModifySelection:":29,"moveToBeginningOfDocumentAndModifySelection:":30,"moveToEndOfDocumentAndModifySelection:":31,"transpose:":32,"scrollToBeginningOfDocument:":33,"scrollToEndOfDocument:":34,"scrollPageUp:":35,"scrollPageDown:":36,"pageUpAndModifySelection:":37,"pageDownAndModifySelection:":38,"cancelOperation:":39,"insertTab:":40,"insertBacktab:":41}
 B.Cn=new A.qj(!1)
 B.Co=new A.qj(!0)
-B.VM=new A.c_(B.Ww,[B.lk,B.ln,B.ll,B.fS,B.fT,B.lm,B.eH,B.eI,B.eI,B.eH,B.eL,B.eM,B.iJ,B.iK,B.h1,B.h2,B.iN,B.iO,B.dS,B.dT,B.r7,B.r8,B.r3,B.r4,B.dS,B.dT,B.eJ,B.eK,B.qS,B.qT,B.m9,B.ma,B.pm,B.Cn,B.Co,B.nf,B.jC,B.iP,B.iQ,B.pc,B.kK,B.pk],A.a5("c_<h,bk>"))
+B.VM=new A.c_(B.Ww,[B.lk,B.ln,B.ll,B.fS,B.fT,B.lm,B.eH,B.eI,B.eI,B.eH,B.eL,B.eM,B.iJ,B.iK,B.h1,B.h2,B.iN,B.iO,B.dT,B.dU,B.r7,B.r8,B.r3,B.r4,B.dT,B.dU,B.eJ,B.eK,B.qS,B.qT,B.m9,B.ma,B.pm,B.Cn,B.Co,B.nf,B.jC,B.iP,B.iQ,B.pc,B.kK,B.pk],A.a5("c_<h,bk>"))
 B.Wq={BU:0,DD:1,FX:2,TP:3,YD:4,ZR:5}
 B.d2=new A.c_(B.Wq,["MM","DE","FR","TL","YE","CD"],t.li)
 B.Xy=new A.F(458752)
@@ -125781,7 +125784,7 @@ B.Y6=new A.F(786952)
 B.Y7=new A.F(786989)
 B.Y8=new A.F(786990)
 B.Y9=new A.F(787065)
-B.VN=new A.db([16,B.yA,17,B.yB,18,B.hr,19,B.yC,20,B.yD,21,B.yE,22,B.yF,23,B.yG,24,B.yH,65666,B.Bs,65667,B.Bt,65717,B.Bu,392961,B.yI,392962,B.yJ,392963,B.yK,392964,B.yL,392965,B.yM,392966,B.yN,392967,B.yO,392968,B.yP,392969,B.yQ,392970,B.yR,392971,B.yS,392972,B.yT,392973,B.yU,392974,B.yV,392975,B.yW,392976,B.yX,392977,B.yY,392978,B.yZ,392979,B.z_,392980,B.z0,392981,B.z1,392982,B.z2,392983,B.z3,392984,B.z4,392985,B.z5,392986,B.z6,392987,B.z7,392988,B.z8,392989,B.z9,392990,B.za,392991,B.zb,458752,B.Xy,458753,B.Xz,458754,B.XA,458755,B.XB,458756,B.zc,458757,B.zd,458758,B.ze,458759,B.zf,458760,B.zg,458761,B.zh,458762,B.zi,458763,B.zj,458764,B.zk,458765,B.zl,458766,B.zm,458767,B.zn,458768,B.zo,458769,B.zp,458770,B.zq,458771,B.zr,458772,B.zs,458773,B.zt,458774,B.zu,458775,B.zv,458776,B.zw,458777,B.zx,458778,B.zy,458779,B.zz,458780,B.zA,458781,B.zB,458782,B.zC,458783,B.zD,458784,B.zE,458785,B.zF,458786,B.zG,458787,B.zH,458788,B.zI,458789,B.zJ,458790,B.zK,458791,B.zL,458792,B.zM,458793,B.n2,458794,B.zN,458795,B.zO,458796,B.zP,458797,B.zQ,458798,B.zR,458799,B.zS,458800,B.zT,458801,B.zU,458803,B.zV,458804,B.zW,458805,B.zX,458806,B.zY,458807,B.zZ,458808,B.A_,458809,B.e4,458810,B.A0,458811,B.A1,458812,B.A2,458813,B.A3,458814,B.A4,458815,B.A5,458816,B.A6,458817,B.A7,458818,B.A8,458819,B.A9,458820,B.Aa,458821,B.Ab,458822,B.Ac,458823,B.jp,458824,B.Ad,458825,B.Ae,458826,B.Af,458827,B.Ag,458828,B.Ah,458829,B.Ai,458830,B.Aj,458831,B.Ak,458832,B.Al,458833,B.Am,458834,B.An,458835,B.jq,458836,B.Ao,458837,B.Ap,458838,B.Aq,458839,B.Ar,458840,B.As,458841,B.At,458842,B.Au,458843,B.Av,458844,B.Aw,458845,B.Ax,458846,B.Ay,458847,B.Az,458848,B.AA,458849,B.AB,458850,B.AC,458851,B.AD,458852,B.AE,458853,B.AF,458854,B.AG,458855,B.AH,458856,B.AI,458857,B.AJ,458858,B.AK,458859,B.AL,458860,B.AM,458861,B.AN,458862,B.AO,458863,B.AP,458864,B.AQ,458865,B.AR,458866,B.AS,458867,B.AT,458868,B.AU,458869,B.AV,458871,B.AW,458873,B.AX,458874,B.AY,458875,B.AZ,458876,B.B_,458877,B.B0,458878,B.B1,458879,B.B2,458880,B.B3,458881,B.B4,458885,B.B5,458887,B.B6,458888,B.B7,458889,B.B8,458890,B.B9,458891,B.Ba,458896,B.Bb,458897,B.Bc,458898,B.Bd,458899,B.Be,458900,B.Bf,458907,B.Bg,458915,B.Bh,458934,B.Bi,458935,B.Bj,458939,B.Bk,458960,B.Bl,458961,B.Bm,458962,B.Bn,458963,B.Bo,458964,B.Bp,458967,B.XC,458968,B.Bq,458969,B.Br,458976,B.f0,458977,B.f1,458978,B.f2,458979,B.f3,458980,B.hs,458981,B.ht,458982,B.f4,458983,B.hu,786528,B.XD,786529,B.XE,786543,B.Bv,786544,B.Bw,786546,B.XF,786547,B.XG,786548,B.XH,786549,B.XI,786553,B.XJ,786554,B.XK,786563,B.XL,786572,B.XM,786573,B.XN,786580,B.XO,786588,B.XP,786589,B.XQ,786608,B.Bx,786609,B.By,786610,B.Bz,786611,B.BA,786612,B.BB,786613,B.BC,786614,B.BD,786615,B.BE,786616,B.BF,786637,B.BG,786639,B.XR,786661,B.XS,786819,B.BH,786820,B.XT,786822,B.XU,786826,B.BI,786829,B.XV,786830,B.XW,786834,B.BJ,786836,B.BK,786838,B.XX,786844,B.XY,786846,B.XZ,786847,B.BL,786850,B.BM,786855,B.Y_,786859,B.Y0,786862,B.Y1,786865,B.BN,786871,B.Y2,786891,B.BO,786945,B.Y3,786947,B.Y4,786951,B.Y5,786952,B.Y6,786977,B.BP,786979,B.BQ,786980,B.BR,786981,B.BS,786982,B.BT,786983,B.BU,786986,B.BV,786989,B.Y7,786990,B.Y8,786994,B.BW,787065,B.Y9,787081,B.BX,787083,B.BY,787084,B.BZ,787101,B.C_,787103,B.C0],A.a5("db<v,F>"))
+B.VN=new A.db([16,B.yA,17,B.yB,18,B.hr,19,B.yC,20,B.yD,21,B.yE,22,B.yF,23,B.yG,24,B.yH,65666,B.Bs,65667,B.Bt,65717,B.Bu,392961,B.yI,392962,B.yJ,392963,B.yK,392964,B.yL,392965,B.yM,392966,B.yN,392967,B.yO,392968,B.yP,392969,B.yQ,392970,B.yR,392971,B.yS,392972,B.yT,392973,B.yU,392974,B.yV,392975,B.yW,392976,B.yX,392977,B.yY,392978,B.yZ,392979,B.z_,392980,B.z0,392981,B.z1,392982,B.z2,392983,B.z3,392984,B.z4,392985,B.z5,392986,B.z6,392987,B.z7,392988,B.z8,392989,B.z9,392990,B.za,392991,B.zb,458752,B.Xy,458753,B.Xz,458754,B.XA,458755,B.XB,458756,B.zc,458757,B.zd,458758,B.ze,458759,B.zf,458760,B.zg,458761,B.zh,458762,B.zi,458763,B.zj,458764,B.zk,458765,B.zl,458766,B.zm,458767,B.zn,458768,B.zo,458769,B.zp,458770,B.zq,458771,B.zr,458772,B.zs,458773,B.zt,458774,B.zu,458775,B.zv,458776,B.zw,458777,B.zx,458778,B.zy,458779,B.zz,458780,B.zA,458781,B.zB,458782,B.zC,458783,B.zD,458784,B.zE,458785,B.zF,458786,B.zG,458787,B.zH,458788,B.zI,458789,B.zJ,458790,B.zK,458791,B.zL,458792,B.zM,458793,B.n2,458794,B.zN,458795,B.zO,458796,B.zP,458797,B.zQ,458798,B.zR,458799,B.zS,458800,B.zT,458801,B.zU,458803,B.zV,458804,B.zW,458805,B.zX,458806,B.zY,458807,B.zZ,458808,B.A_,458809,B.e5,458810,B.A0,458811,B.A1,458812,B.A2,458813,B.A3,458814,B.A4,458815,B.A5,458816,B.A6,458817,B.A7,458818,B.A8,458819,B.A9,458820,B.Aa,458821,B.Ab,458822,B.Ac,458823,B.jp,458824,B.Ad,458825,B.Ae,458826,B.Af,458827,B.Ag,458828,B.Ah,458829,B.Ai,458830,B.Aj,458831,B.Ak,458832,B.Al,458833,B.Am,458834,B.An,458835,B.jq,458836,B.Ao,458837,B.Ap,458838,B.Aq,458839,B.Ar,458840,B.As,458841,B.At,458842,B.Au,458843,B.Av,458844,B.Aw,458845,B.Ax,458846,B.Ay,458847,B.Az,458848,B.AA,458849,B.AB,458850,B.AC,458851,B.AD,458852,B.AE,458853,B.AF,458854,B.AG,458855,B.AH,458856,B.AI,458857,B.AJ,458858,B.AK,458859,B.AL,458860,B.AM,458861,B.AN,458862,B.AO,458863,B.AP,458864,B.AQ,458865,B.AR,458866,B.AS,458867,B.AT,458868,B.AU,458869,B.AV,458871,B.AW,458873,B.AX,458874,B.AY,458875,B.AZ,458876,B.B_,458877,B.B0,458878,B.B1,458879,B.B2,458880,B.B3,458881,B.B4,458885,B.B5,458887,B.B6,458888,B.B7,458889,B.B8,458890,B.B9,458891,B.Ba,458896,B.Bb,458897,B.Bc,458898,B.Bd,458899,B.Be,458900,B.Bf,458907,B.Bg,458915,B.Bh,458934,B.Bi,458935,B.Bj,458939,B.Bk,458960,B.Bl,458961,B.Bm,458962,B.Bn,458963,B.Bo,458964,B.Bp,458967,B.XC,458968,B.Bq,458969,B.Br,458976,B.f0,458977,B.f1,458978,B.f2,458979,B.f3,458980,B.hs,458981,B.ht,458982,B.f4,458983,B.hu,786528,B.XD,786529,B.XE,786543,B.Bv,786544,B.Bw,786546,B.XF,786547,B.XG,786548,B.XH,786549,B.XI,786553,B.XJ,786554,B.XK,786563,B.XL,786572,B.XM,786573,B.XN,786580,B.XO,786588,B.XP,786589,B.XQ,786608,B.Bx,786609,B.By,786610,B.Bz,786611,B.BA,786612,B.BB,786613,B.BC,786614,B.BD,786615,B.BE,786616,B.BF,786637,B.BG,786639,B.XR,786661,B.XS,786819,B.BH,786820,B.XT,786822,B.XU,786826,B.BI,786829,B.XV,786830,B.XW,786834,B.BJ,786836,B.BK,786838,B.XX,786844,B.XY,786846,B.XZ,786847,B.BL,786850,B.BM,786855,B.Y_,786859,B.Y0,786862,B.Y1,786865,B.BN,786871,B.Y2,786891,B.BO,786945,B.Y3,786947,B.Y4,786951,B.Y5,786952,B.Y6,786977,B.BP,786979,B.BQ,786980,B.BR,786981,B.BS,786982,B.BT,786983,B.BU,786986,B.BV,786989,B.Y7,786990,B.Y8,786994,B.BW,787065,B.Y9,787081,B.BX,787083,B.BY,787084,B.BZ,787101,B.C_,787103,B.C0],A.a5("db<v,F>"))
 B.t0=s([],A.a5("y<cb>"))
 B.yb=new A.fC(B.t0,B.t0,null,!0)
 B.VO=new A.BB(null)
@@ -125819,7 +125822,7 @@ B.mQ=new A.tr(B.VJ,1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.
 B.Ly=new A.K(1,0.9607843137254902,0.9607843137254902,0.9607843137254902,B.f)
 B.Ln=new A.K(1,0.9333333333333333,0.9333333333333333,0.9333333333333333,B.f)
 B.KY=new A.K(1,0.7411764705882353,0.7411764705882353,0.7411764705882353,B.f)
-B.Vn=new A.db([50,B.q2,100,B.Ly,200,B.Ln,300,B.q4,350,B.eC,400,B.KY,500,B.qa,600,B.eD,700,B.eB,800,B.de,850,B.l2,900,B.pN],t.pl)
+B.Vn=new A.db([50,B.q2,100,B.Ly,200,B.Ln,300,B.q4,350,B.eC,400,B.KY,500,B.qa,600,B.eD,700,B.eB,800,B.df,850,B.l2,900,B.pN],t.pl)
 B.d3=new A.tr(B.Vn,1,0.6196078431372549,0.6196078431372549,0.6196078431372549,B.f)
 B.VQ=new A.wY(0,"padded")
 B.VR=new A.wY(1,"shrinkWrap")
@@ -125842,7 +125845,7 @@ B.VZ=new A.l7("dev.fluttercommunity.plus/share",B.bm)
 B.jh=new A.l7("plugins.flutter.io/shared_preferences",B.bm)
 B.yf=new A.l7("flutter/platform_views",B.bm)
 B.W_=new A.l7("dev.fluttercommunity.plus/package_info",B.bm)
-B.e3=new A.Zr(0,"latestPointer")
+B.e4=new A.Zr(0,"latestPointer")
 B.mW=new A.Zr(1,"averageBoundaryPointers")
 B.yh=new A.x7(0,"clipRect")
 B.yi=new A.x7(1,"clipRRect")
@@ -125870,7 +125873,7 @@ B.WD=new A.l(0,8)
 B.yp=new A.l(0,-1)
 B.WE=new A.l(0,-12)
 B.WF=new A.l(11,-4)
-B.dl=new A.l(1,0)
+B.dm=new A.l(1,0)
 B.WG=new A.l(1,3)
 B.WH=new A.l(22,0)
 B.WI=new A.l(3,0)
@@ -125946,7 +125949,7 @@ B.Xs=new A.a__(0,"fill")
 B.bl=new A.ZZ(1,"stroke")
 B.Xt=new A.a__(1,"stroke")
 B.yy=new A.tB(1/0)
-B.dn=new A.C0(0,"move")
+B.dp=new A.C0(0,"move")
 B.bS=new A.C0(1,"line")
 B.bI=new A.C0(2,"cubic")
 B.cj=new A.a_3(0,"nonZero")
@@ -125967,7 +125970,7 @@ B.C7=new A.cG(0,0)
 B.C8=new A.q3(0,"cancel")
 B.n4=new A.q3(1,"add")
 B.Yh=new A.q3(2,"remove")
-B.e5=new A.q3(3,"hover")
+B.e6=new A.q3(3,"hover")
 B.Yi=new A.q3(4,"down")
 B.jr=new A.q3(5,"move")
 B.C9=new A.q3(6,"up")
@@ -125982,7 +125985,7 @@ B.Yj=new A.Cb(1,"scroll")
 B.Yk=new A.Cb(3,"scale")
 B.Yl=new A.Cb(4,"unknown")
 B.Ym=new A.Cc(null)
-B.dp=new A.Ce(0,"top")
+B.dq=new A.Ce(0,"top")
 B.c3=new A.Ce(1,"bottom")
 B.jt=new A.Ce(2,"left")
 B.f6=new A.Ce(3,"right")
@@ -125996,14 +125999,14 @@ B.Cd=new A.xD(4,"externalNonBrowserApplication")
 B.Yp=new A.Ck(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Yq=new A.Lb(null,null,null,null,null,null,null,null,null)
 B.Ce=new A.aW(1,1)
-B.dq=new A.aW(2,2)
+B.dr=new A.aW(2,2)
 B.Yr=new A.aW(-1/0,-1/0)
 B.Ys=new A.aW(1.5,1.5)
 B.Yt=new A.aW(1/0,1/0)
 B.Yu=new A.aq(0,0)
 B.Yv=new A.aq(0,!0)
-B.d6=new A.NA(2,"collapsed")
-B.Yy=new A.aq(B.d6,B.d6)
+B.d7=new A.NA(2,"collapsed")
+B.Yy=new A.aq(B.d7,B.d7)
 B.YC=new A.aq("","")
 B.YD=new A.aq("NOVO","DESAFIO")
 B.YE=new A.aq("RESULTADO","FINAL")
@@ -126032,13 +126035,13 @@ B.oo=new A.eu('"',1,"DOUBLE_QUOTE")
 B.Z2=new A.aq("",B.oo)
 B.Z3=new A.jI(0,0,0,0)
 B.Z4=new A.G(-1/0,-1/0,1/0,1/0)
-B.dr=new A.G(-1e9,-1e9,1e9,1e9)
+B.ds=new A.G(-1e9,-1e9,1e9,1e9)
 B.Z5=new A.jI(-1e9,-1e9,1e9,1e9)
 B.Cf=new A.Cs(0,"start")
 B.n7=new A.Cs(1,"stable")
 B.Z6=new A.Cs(2,"changed")
 B.Z7=new A.Cs(3,"unstable")
-B.ds=new A.Ct(0,"identical")
+B.dt=new A.Ct(0,"identical")
 B.Z8=new A.Ct(1,"metadata")
 B.Z9=new A.Ct(2,"paint")
 B.bJ=new A.Ct(3,"layout")
@@ -126048,7 +126051,7 @@ B.Cg=new A.dQ(B.i7,B.B)
 B.jw=new A.aW(28,28)
 B.Gh=new A.df(B.jw,B.jw,B.jw,B.jw)
 B.n8=new A.dQ(B.Gh,B.B)
-B.Gg=new A.df(B.dq,B.dq,B.dq,B.dq)
+B.Gg=new A.df(B.dr,B.dr,B.dr,B.dr)
 B.n9=new A.dQ(B.Gg,B.B)
 B.Zc=new A.dQ(B.fx,B.B)
 B.Ch=new A.aCa(0,"none")
@@ -126060,10 +126063,10 @@ B.Ze=new A.CF(null)
 B.Zf=new A.LX(1333)
 B.na=new A.LX(2222)
 B.Zg=new A.a0Z(null,null)
-B.e7=new A.xS(0,"idle")
+B.e8=new A.xS(0,"idle")
 B.nb=new A.xS(1,"transientCallbacks")
 B.Ck=new A.xS(2,"midFrameMicrotasks")
-B.e8=new A.xS(3,"persistentCallbacks")
+B.e9=new A.xS(3,"persistentCallbacks")
 B.nc=new A.xS(4,"postFrameCallbacks")
 B.Cl=new A.aCL(0,"englishLike")
 B.hv=new A.M5(0,"idle")
@@ -126106,16 +126109,16 @@ B.aI=new A.lh(5,"toolbar")
 B.aJ=new A.lh(6,"drag")
 B.hy=new A.lh(7,"stylusHandwriting")
 B.ZL=new A.y_(0,"startEdgeUpdate")
-B.dt=new A.y_(1,"endEdgeUpdate")
+B.du=new A.y_(1,"endEdgeUpdate")
 B.ZN=new A.y_(4,"selectWord")
 B.ZO=new A.y_(5,"selectParagraph")
 B.ng=new A.CN(0,"previousLine")
 B.nh=new A.CN(1,"nextLine")
 B.jD=new A.CN(2,"forward")
 B.jE=new A.CN(3,"backward")
-B.du=new A.Me(2,"none")
-B.Ct=new A.u_(null,null,B.du,B.ms,!0)
-B.Cu=new A.u_(null,null,B.du,B.ms,!1)
+B.dv=new A.Me(2,"none")
+B.Ct=new A.u_(null,null,B.dv,B.ms,!0)
+B.Cu=new A.u_(null,null,B.dv,B.ms,!1)
 B.T=new A.u0(0,"next")
 B.Z=new A.u0(1,"previous")
 B.a1=new A.u0(2,"end")
@@ -126213,75 +126216,75 @@ B.a_z=new A.y9("",B.CK)
 B.CN=new A.aC(B.mB,!1,!1,!1,!0,B.w)
 B.a_A=new A.aC(B.t9,!0,!1,!1,!1,B.w)
 B.bF=new A.Jy(1,"locked")
-B.a_C=new A.aC(B.e2,!1,!0,!1,!1,B.bF)
+B.a_C=new A.aC(B.e3,!1,!0,!1,!1,B.bF)
 B.a_D=new A.aC(B.hl,!1,!0,!1,!1,B.bF)
 B.CO=new A.aC(B.mA,!1,!1,!1,!0,B.w)
 B.a_E=new A.aC(B.xZ,!0,!1,!1,!1,B.w)
 B.CP=new A.aC(B.mN,!0,!1,!1,!1,B.w)
 B.CQ=new A.aC(B.mB,!0,!1,!1,!1,B.w)
-B.a_F=new A.aC(B.dZ,!0,!0,!1,!1,B.bF)
+B.a_F=new A.aC(B.e_,!0,!0,!1,!1,B.bF)
 B.CR=new A.aC(B.mN,!1,!1,!1,!0,B.w)
 B.bG=new A.Jy(2,"unlocked")
 B.a_L=new A.aC(B.hi,!1,!1,!1,!1,B.bG)
-B.a_I=new A.aC(B.e_,!1,!1,!1,!1,B.bG)
+B.a_I=new A.aC(B.e0,!1,!1,!1,!1,B.bG)
 B.a_J=new A.aC(B.hj,!1,!1,!1,!1,B.bG)
-B.a_H=new A.aC(B.e0,!1,!1,!1,!1,B.bG)
-B.a_G=new A.aC(B.e1,!1,!1,!1,!1,B.bG)
+B.a_H=new A.aC(B.e1,!1,!1,!1,!1,B.bG)
+B.a_G=new A.aC(B.e2,!1,!1,!1,!1,B.bG)
 B.a_K=new A.aC(B.hk,!1,!1,!1,!1,B.bG)
 B.CT=new A.aC(B.mA,!0,!1,!1,!1,B.w)
 B.a_T=new A.aC(B.hi,!1,!0,!1,!1,B.bF)
-B.a_Q=new A.aC(B.e_,!1,!0,!1,!1,B.bF)
+B.a_Q=new A.aC(B.e0,!1,!0,!1,!1,B.bF)
 B.a_R=new A.aC(B.hj,!1,!0,!1,!1,B.bF)
-B.a_P=new A.aC(B.e0,!1,!0,!1,!1,B.bF)
-B.a_O=new A.aC(B.e1,!1,!0,!1,!1,B.bF)
+B.a_P=new A.aC(B.e1,!1,!0,!1,!1,B.bF)
+B.a_O=new A.aC(B.e2,!1,!0,!1,!1,B.bF)
 B.a_S=new A.aC(B.hk,!1,!0,!1,!1,B.bF)
-B.a_U=new A.aC(B.dZ,!1,!1,!1,!1,B.bG)
-B.a_X=new A.aC(B.e_,!0,!1,!1,!1,B.bG)
-B.a_W=new A.aC(B.e0,!0,!1,!1,!1,B.bG)
-B.a_V=new A.aC(B.e1,!0,!1,!1,!1,B.bG)
+B.a_U=new A.aC(B.e_,!1,!1,!1,!1,B.bG)
+B.a_X=new A.aC(B.e0,!0,!1,!1,!1,B.bG)
+B.a_W=new A.aC(B.e1,!0,!1,!1,!1,B.bG)
+B.a_V=new A.aC(B.e2,!0,!1,!1,!1,B.bG)
 B.a_Z=new A.aC(B.ta,!0,!1,!1,!1,B.w)
 B.a0_=new A.aC(B.tc,!0,!1,!1,!1,B.w)
-B.jN=new A.aC(B.dW,!0,!1,!1,!1,B.w)
-B.jM=new A.aC(B.dX,!0,!1,!1,!1,B.w)
+B.jN=new A.aC(B.dX,!0,!1,!1,!1,B.w)
+B.jM=new A.aC(B.dY,!0,!1,!1,!1,B.w)
 B.a01=new A.aC(B.ha,!0,!1,!1,!1,B.w)
 B.a02=new A.aC(B.ha,!1,!0,!1,!0,B.w)
 B.a04=new A.aC(B.cA,!1,!0,!1,!0,B.w)
 B.D_=new A.aC(B.ce,!1,!0,!1,!0,B.w)
 B.D0=new A.aC(B.cf,!1,!0,!1,!0,B.w)
 B.a03=new A.aC(B.cB,!1,!0,!1,!0,B.w)
-B.a05=new A.aC(B.e2,!0,!1,!1,!1,B.bG)
-B.a07=new A.aC(B.e2,!1,!1,!1,!1,B.bG)
+B.a05=new A.aC(B.e3,!0,!1,!1,!1,B.bG)
+B.a07=new A.aC(B.e3,!1,!1,!1,!1,B.bG)
 B.a08=new A.aC(B.hl,!1,!1,!1,!1,B.bG)
 B.a09=new A.aC(B.tb,!0,!1,!1,!1,B.w)
-B.a0b=new A.aC(B.dZ,!1,!0,!1,!1,B.bF)
+B.a0b=new A.aC(B.e_,!1,!0,!1,!1,B.bF)
 B.a0c=new A.aC(B.ha,!0,!0,!1,!1,B.w)
 B.a0e=new A.aC(B.cA,!0,!0,!1,!1,B.w)
 B.a0d=new A.aC(B.cB,!0,!0,!1,!1,B.w)
-B.ns=new A.aC(B.dW,!0,!0,!1,!1,B.w)
-B.nr=new A.aC(B.dX,!0,!0,!1,!1,B.w)
+B.ns=new A.aC(B.dX,!0,!0,!1,!1,B.w)
+B.nr=new A.aC(B.dY,!0,!0,!1,!1,B.w)
 B.nt=new A.aC(B.mM,!0,!1,!1,!1,B.w)
 B.a0g=new A.aC(B.t8,!0,!1,!1,!1,B.w)
-B.a0j=new A.aC(B.e_,!0,!0,!1,!1,B.bF)
-B.a0i=new A.aC(B.e0,!0,!0,!1,!1,B.bF)
-B.a0h=new A.aC(B.e1,!0,!0,!1,!1,B.bF)
+B.a0j=new A.aC(B.e0,!0,!0,!1,!1,B.bF)
+B.a0i=new A.aC(B.e1,!0,!0,!1,!1,B.bF)
+B.a0h=new A.aC(B.e2,!0,!0,!1,!1,B.bF)
 B.D6=new A.aC(B.cA,!1,!0,!1,!1,B.w)
 B.nu=new A.aC(B.ce,!1,!0,!1,!1,B.w)
 B.nv=new A.aC(B.cf,!1,!0,!1,!1,B.w)
 B.D5=new A.aC(B.cB,!1,!0,!1,!1,B.w)
-B.hE=new A.aC(B.dW,!1,!0,!1,!1,B.w)
-B.hD=new A.aC(B.dX,!1,!0,!1,!1,B.w)
+B.hE=new A.aC(B.dX,!1,!0,!1,!1,B.w)
+B.hD=new A.aC(B.dY,!1,!0,!1,!1,B.w)
 B.nw=new A.aC(B.hd,!1,!0,!1,!1,B.w)
 B.D7=new A.aC(B.mM,!1,!1,!1,!0,B.w)
-B.hH=new A.aC(B.dW,!1,!1,!1,!1,B.w)
-B.hG=new A.aC(B.dX,!1,!1,!1,!1,B.w)
+B.hH=new A.aC(B.dX,!1,!1,!1,!1,B.w)
+B.hG=new A.aC(B.dY,!1,!1,!1,!1,B.w)
 B.nA=new A.aC(B.cA,!1,!0,!0,!1,B.w)
 B.nx=new A.aC(B.ce,!1,!0,!0,!1,B.w)
 B.ny=new A.aC(B.cf,!1,!0,!0,!1,B.w)
 B.nz=new A.aC(B.cB,!1,!0,!0,!1,B.w)
 B.nB=new A.aC(B.he,!1,!0,!1,!1,B.w)
-B.a0l=new A.aC(B.e2,!0,!0,!1,!1,B.bF)
+B.a0l=new A.aC(B.e3,!0,!0,!1,!1,B.bF)
 B.a0m=new A.aC(B.ha,!1,!1,!1,!0,B.w)
-B.a0n=new A.aC(B.dZ,!0,!1,!1,!1,B.bG)
+B.a0n=new A.aC(B.e_,!0,!1,!1,!1,B.bG)
 B.a0o=new A.I(1e5,1e5)
 B.D8=new A.I(10,10)
 B.a0q=new A.I(18,18)
@@ -126322,7 +126325,7 @@ B.cF=new A.dc(null,20,null,null)
 B.a0O=new A.dc(null,24,null,null)
 B.a0P=new A.dc(null,25,null,null)
 B.a0Q=new A.dc(null,2,null,null)
-B.ea=new A.dc(null,30,null,null)
+B.d6=new A.dc(null,30,null,null)
 B.nD=new A.dc(null,40,null,null)
 B.a0S=new A.dc(null,4,null,null)
 B.eb=new A.dc(null,50,null,null)
@@ -126373,24 +126376,24 @@ B.a1l=new A.N7(0,"miter")
 B.a1m=new A.N7(1,"round")
 B.a1n=new A.N7(2,"bevel")
 B.a6D=new A.E(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a1x=new A.cE(null,null,"\xdaltima atualiza\xe7\xe3o: [02/06/2026]",B.a6D,"O presente documento estabelece os Termos e Condi\xe7\xf5es de Uso da plataforma Quer Valer, de titularidade da empresa [Raz\xe3o Social da Empresa], inscrita no CNPJ sob o n\xba [n\xfamero do CNPJ], com sede em S\xe3o Jos\xe9 dos Campos \u2013 SP. Estes Termos regulam a utiliza\xe7\xe3o dos servi\xe7os disponibilizados pela plataforma e definem os direitos e deveres de seus usu\xe1rios, constituindo contrato eletr\xf4nico v\xe1lido e vinculante entre as partes.\nAo acessar, cadastrar-se ou utilizar a plataforma Quer Valer, o usu\xe1rio declara que leu, compreendeu e aceitou integralmente estes Termos de Uso e a Pol\xedtica de Privacidade da plataforma.",null,B.u,B.r)
-B.a1v=new A.cE(null,null,"\ud83c\udfaf Lembre-se:",null,"O Quer Valer \xe9 um espa\xe7o para **amigos se desafiarem, rirem e curtirem o futebol** com leveza e respeito. Desafio aceito \xe9 compromisso de resenha, n\xe3o de confus\xe3o.",null,B.u,B.r)
-B.a1B=new A.cE(null,null,null,null,"\n\u26bd **Respeite o jogo. Respeite o outro. E, acima de tudo, divirta-se.**",null,B.u,B.r)
+B.a1x=new A.cE(null,null,"\xdaltima atualiza\xe7\xe3o: [02/06/2026]",B.a6D,"O presente documento estabelece os Termos e Condi\xe7\xf5es de Uso da plataforma Quer Valer, de titularidade da empresa [Raz\xe3o Social da Empresa], inscrita no CNPJ sob o n\xba [n\xfamero do CNPJ], com sede em S\xe3o Jos\xe9 dos Campos \u2013 SP. Estes Termos regulam a utiliza\xe7\xe3o dos servi\xe7os disponibilizados pela plataforma e definem os direitos e deveres de seus usu\xe1rios, constituindo contrato eletr\xf4nico v\xe1lido e vinculante entre as partes.\nAo acessar, cadastrar-se ou utilizar a plataforma Quer Valer, o usu\xe1rio declara que leu, compreendeu e aceitou integralmente estes Termos de Uso e a Pol\xedtica de Privacidade da plataforma.",null,B.v,B.r)
+B.a1v=new A.cE(null,null,"\ud83c\udfaf Lembre-se:",null,"O Quer Valer \xe9 um espa\xe7o para **amigos se desafiarem, rirem e curtirem o futebol** com leveza e respeito. Desafio aceito \xe9 compromisso de resenha, n\xe3o de confus\xe3o.",null,B.v,B.r)
+B.a1B=new A.cE(null,null,null,null,"\n\u26bd **Respeite o jogo. Respeite o outro. E, acima de tudo, divirta-se.**",null,B.v,B.r)
 B.RJ=s([B.a1v,B.a1B],t.YV)
-B.a1H=new A.of(B.RJ,B.u,0,null)
-B.a1r=new A.cE(null,null,null,null,"\n**1 Respeito acima de tudo.**\nA resenha \xe9 livre, mas o respeito \xe9 obrigat\xf3rio. Zoar faz parte do jogo, ofender n\xe3o. Trate todos os usu\xe1rios com educa\xe7\xe3o e mantenha o esp\xedrito esportivo.",null,B.u,B.r)
-B.a1A=new A.cE(null,null,null,null,"\n**2 Nada de discurso de \xf3dio ou preconceito.**\nN\xe3o ser\xe3o tolerados coment\xe1rios ofensivos, discriminat\xf3rios ou que incentivem viol\xeancia. Viola\xe7\xf5es resultar\xe3o em banimento imediato.",null,B.u,B.r)
-B.a1u=new A.cE(null,null,null,null,"\n**3 Proibido conte\xfado expl\xedcito ou violento.**\nImagens, v\xeddeos, memes ou nomes de usu\xe1rios com nudez, viol\xeancia ou material perturbador n\xe3o s\xe3o permitidos.",null,B.u,B.r)
-B.a1C=new A.cE(null,null,null,null,"\n**4 Sem spam, flood ou autopromo\xe7\xe3o.**\nEvite mensagens repetitivas, propagandas n\xe3o autorizadas ou divulga\xe7\xe3o de links externos que n\xe3o tenham rela\xe7\xe3o com o jogo.",null,B.u,B.r)
-B.a1D=new A.cE(null,null,null,null,"\n**5 Mantenha o esp\xedrito de divers\xe3o.**\nQuer Valer \xe9 sobre rivalidade saud\xe1vel e bom humor. Discuss\xf5es exageradas, provoca\xe7\xf5es agressivas ou brigas fora de tom n\xe3o t\xeam espa\xe7o aqui.",null,B.u,B.r)
-B.a1y=new A.cE(null,null,null,null,"\n**6 Nada de links suspeitos ou pirataria.**\n\xc9 proibido compartilhar links de apostas, streams ilegais ou qualquer conte\xfado n\xe3o oficial.",null,B.u,B.r)
-B.a1t=new A.cE(null,null,null,null,"\n**7 Seja voc\xea mesmo.**\nN\xe3o se passe por outras pessoas, jogadores, administradores ou marcas. Impersonar algu\xe9m resultar\xe1 em puni\xe7\xe3o.",null,B.u,B.r)
-B.a1p=new A.cE(null,null,null,null,"\n**8 Privacidade \xe9 coisa s\xe9ria.**\nN\xe3o compartilhe informa\xe7\xf5es pessoais suas nem de terceiros. Nenhum membro da equipe Quer Valer pedir\xe1 dados pessoais em mensagens privadas.",null,B.u,B.r)
-B.a1E=new A.cE(null,null,null,null,"\n**9 Canal certo para cada conversa.**\nSe estiver interagindo em grupos ou comunidades, use os espa\xe7os adequados para cada tipo de assunto (desafios, resultados, memes, etc.).",null,B.u,B.r)
-B.a1F=new A.cE(null,null,null,null,"\n**10 Jogue limpo \u2014 literalmente.**\nTentativas de manipular resultados, burlar desafios ou criar m\xfaltiplas contas para obter vantagem resultar\xe3o em banimento.",null,B.u,B.r)
-B.a1q=new A.cE(null,null,null,null,"\n**11 Idade m\xednima: 18 anos.**\nO Quer Valer \xe9 uma plataforma voltada a adultos. Ao participar, voc\xea confirma que tem 18 anos ou mais e concorda com nossos Termos de Uso.",null,B.u,B.r)
+B.a1H=new A.of(B.RJ,B.v,0,null)
+B.a1r=new A.cE(null,null,null,null,"\n**1 Respeito acima de tudo.**\nA resenha \xe9 livre, mas o respeito \xe9 obrigat\xf3rio. Zoar faz parte do jogo, ofender n\xe3o. Trate todos os usu\xe1rios com educa\xe7\xe3o e mantenha o esp\xedrito esportivo.",null,B.v,B.r)
+B.a1A=new A.cE(null,null,null,null,"\n**2 Nada de discurso de \xf3dio ou preconceito.**\nN\xe3o ser\xe3o tolerados coment\xe1rios ofensivos, discriminat\xf3rios ou que incentivem viol\xeancia. Viola\xe7\xf5es resultar\xe3o em banimento imediato.",null,B.v,B.r)
+B.a1u=new A.cE(null,null,null,null,"\n**3 Proibido conte\xfado expl\xedcito ou violento.**\nImagens, v\xeddeos, memes ou nomes de usu\xe1rios com nudez, viol\xeancia ou material perturbador n\xe3o s\xe3o permitidos.",null,B.v,B.r)
+B.a1C=new A.cE(null,null,null,null,"\n**4 Sem spam, flood ou autopromo\xe7\xe3o.**\nEvite mensagens repetitivas, propagandas n\xe3o autorizadas ou divulga\xe7\xe3o de links externos que n\xe3o tenham rela\xe7\xe3o com o jogo.",null,B.v,B.r)
+B.a1D=new A.cE(null,null,null,null,"\n**5 Mantenha o esp\xedrito de divers\xe3o.**\nQuer Valer \xe9 sobre rivalidade saud\xe1vel e bom humor. Discuss\xf5es exageradas, provoca\xe7\xf5es agressivas ou brigas fora de tom n\xe3o t\xeam espa\xe7o aqui.",null,B.v,B.r)
+B.a1y=new A.cE(null,null,null,null,"\n**6 Nada de links suspeitos ou pirataria.**\n\xc9 proibido compartilhar links de apostas, streams ilegais ou qualquer conte\xfado n\xe3o oficial.",null,B.v,B.r)
+B.a1t=new A.cE(null,null,null,null,"\n**7 Seja voc\xea mesmo.**\nN\xe3o se passe por outras pessoas, jogadores, administradores ou marcas. Impersonar algu\xe9m resultar\xe1 em puni\xe7\xe3o.",null,B.v,B.r)
+B.a1p=new A.cE(null,null,null,null,"\n**8 Privacidade \xe9 coisa s\xe9ria.**\nN\xe3o compartilhe informa\xe7\xf5es pessoais suas nem de terceiros. Nenhum membro da equipe Quer Valer pedir\xe1 dados pessoais em mensagens privadas.",null,B.v,B.r)
+B.a1E=new A.cE(null,null,null,null,"\n**9 Canal certo para cada conversa.**\nSe estiver interagindo em grupos ou comunidades, use os espa\xe7os adequados para cada tipo de assunto (desafios, resultados, memes, etc.).",null,B.v,B.r)
+B.a1F=new A.cE(null,null,null,null,"\n**10 Jogue limpo \u2014 literalmente.**\nTentativas de manipular resultados, burlar desafios ou criar m\xfaltiplas contas para obter vantagem resultar\xe3o em banimento.",null,B.v,B.r)
+B.a1q=new A.cE(null,null,null,null,"\n**11 Idade m\xednima: 18 anos.**\nO Quer Valer \xe9 uma plataforma voltada a adultos. Ao participar, voc\xea confirma que tem 18 anos ou mais e concorda com nossos Termos de Uso.",null,B.v,B.r)
 B.T4=s([B.a1r,B.a1A,B.a1u,B.a1C,B.a1D,B.a1y,B.a1t,B.a1p,B.a1E,B.a1F,B.a1q],t.YV)
-B.a1K=new A.of(B.T4,B.u,0,null)
+B.a1K=new A.of(B.T4,B.v,0,null)
 B.a1L=new A.yf(null,null,null,0,null,null,null,0,null,null)
 B.a1M=new A.yf(null,null,null,null,null,null,null,null,null,null)
 B.ee=new A.Dh(B.bk,null,null,B.IE,null,null,B.bg,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -126469,7 +126472,7 @@ B.a2w=new A.jc(9,"join")
 B.DR=new A.lo(0,null,null)
 B.a2x=new A.lo(10,null,null)
 B.jW=new A.lo(1,null,null)
-B.dw=new A.lo(2,!1,!1)
+B.dx=new A.lo(2,!1,!1)
 B.a2y=new A.lo(2,!1,!0)
 B.a2z=new A.lo(3,null,null)
 B.a2A=new A.lo(4,null,null)
@@ -126826,7 +126829,7 @@ B.a8j=new A.NN(0.01,1/0)
 B.cH=new A.NN(0.001,0.001)
 B.a8k=new A.NO(0,"darker")
 B.eh=new A.NO(1,"lighter")
-B.d9=new A.NO(2,"nearer")
+B.da=new A.NO(2,"nearer")
 B.o6=new A.Dz(!1,!1,!1,!1)
 B.a8l=new A.Dz(!1,!1,!0,!0)
 B.a8m=new A.Dz(!0,!1,!1,!0)
@@ -126962,7 +126965,7 @@ B.a9V=new A.mR(7,"rainbow")
 B.a9W=new A.mR(8,"fruitSalad")
 B.Ep=new A.uq(B.h,0,B.O,B.h)
 B.oh=new A.uq(B.h,1,B.O,B.h)
-B.dx=new A.kG(B.h)
+B.dy=new A.kG(B.h)
 B.a9X=new A.aIx(0,"triangles")
 B.a9Y=new A.Oa(0,"undefined")
 B.Eq=new A.Oa(1,"forward")
@@ -126984,7 +126987,7 @@ B.k5=new A.bN(B.Da,t.W7)
 B.a0F=new A.I(64,40)
 B.ol=new A.bN(B.a0F,t.W7)
 B.a1b=new A.j8(B.B)
-B.dy=new A.bN(B.a1b,t.dy)
+B.dz=new A.bN(B.a1b,t.dy)
 B.Er=new A.cN(3,"dragged")
 B.L=new A.cN(4,"selected")
 B.om=new A.cN(5,"scrolledUnder")
@@ -127061,7 +127064,7 @@ B.ka=new A.Ek(0,"idle")
 B.aaI=new A.Ek(1,"absorb")
 B.kb=new A.Ek(2,"pull")
 B.EJ=new A.Ek(3,"recede")
-B.dA=new A.uF(0,"pressed")
+B.dB=new A.uF(0,"pressed")
 B.fp=new A.uF(1,"hover")
 B.EK=new A.uF(2,"focus")
 B.EL=new A.Q1(0,"twentyFourHour")
@@ -127171,16 +127174,16 @@ B.abC=new A.Su(B.qm,B.eE)
 B.oJ=new A.ig(0,"use24HourFormat")
 B.oK=new A.ig(1,"useMaterial3")
 B.oL=new A.ig(10,"orientation")
-B.da=new A.ig(11,"theme")
-B.dD=new A.ig(12,"defaultTheme")
+B.db=new A.ig(11,"theme")
+B.dE=new A.ig(12,"defaultTheme")
 B.oM=new A.ig(2,"entryMode")
 B.oN=new A.ig(3,"hourMinuteMode")
 B.oO=new A.ig(4,"onHourMinuteModeChanged")
 B.EZ=new A.ig(5,"onHourDoubleTapped")
 B.F_=new A.ig(6,"onMinuteDoubleTapped")
 B.oP=new A.ig(7,"hourDialType")
-B.dE=new A.ig(8,"selectedTime")
-B.db=new A.ig(9,"onSelectedTimeChanged")
+B.dF=new A.ig(8,"selectedTime")
+B.dc=new A.ig(9,"onSelectedTimeChanged")
 B.kt=new A.SD(0,"leading")
 B.ku=new A.SD(1,"middle")
 B.kv=new A.SD(2,"trailing")
@@ -127384,7 +127387,7 @@ return A.b([A.T(A.T(A.aI(),q),"Miter"),A.T(A.T(A.aI(),q),"Round"),A.T(A.T(A.aI()
 s($,"bHT","bk4",()=>{var q="TileMode"
 return A.b([A.T(A.T(A.aI(),q),"Clamp"),A.T(A.T(A.aI(),q),"Repeat"),A.T(A.T(A.aI(),q),"Mirror"),A.T(A.T(A.aI(),q),"Decal")],t.O)})
 s($,"bGA","b6C",()=>{var q="FilterMode",p="MipmapMode",o="Linear"
-return A.u([B.dh,{filter:A.T(A.T(A.aI(),q),"Nearest"),mipmap:A.T(A.T(A.aI(),p),"None")},B.rc,{filter:A.T(A.T(A.aI(),q),o),mipmap:A.T(A.T(A.aI(),p),"None")},B.bE,{filter:A.T(A.T(A.aI(),q),o),mipmap:A.T(A.T(A.aI(),p),o)},B.h3,{B:0.3333333333333333,C:0.3333333333333333}],A.a5("wb"),t.m)})
+return A.u([B.di,{filter:A.T(A.T(A.aI(),q),"Nearest"),mipmap:A.T(A.T(A.aI(),p),"None")},B.rc,{filter:A.T(A.T(A.aI(),q),o),mipmap:A.T(A.T(A.aI(),p),"None")},B.bE,{filter:A.T(A.T(A.aI(),q),o),mipmap:A.T(A.T(A.aI(),p),o)},B.h3,{B:0.3333333333333333,C:0.3333333333333333}],A.a5("wb"),t.m)})
 s($,"bGU","bjl",()=>{var q=A.b3e(2)
 q.$flags&2&&A.aD(q)
 q[0]=0
@@ -127450,7 +127453,7 @@ s($,"bEi","b6m",()=>new A.W1())
 s($,"bEj","oQ",()=>new A.aPa(A.w(t.S,A.a5("EI"))))
 s($,"bHu","a4",()=>new A.ahW(A.bs5(!1),new A.VX(),A.w(t.S,A.a5("DR"))))
 r($,"bIl","bkq",()=>{var q=A.T(A.Fm(A.oP(),"window"),"ImageDecoder")
-q=(q==null?null:A.b9t(q))!=null&&$.bW().geH()===B.dc
+q=(q==null?null:A.b9t(q))!=null&&$.bW().geH()===B.dd
 return q})
 s($,"bC1","bgu",()=>{var q=t.N
 return new A.ahr(A.u(["birthday","bday","birthdayDay","bday-day","birthdayMonth","bday-month","birthdayYear","bday-year","countryCode","country","countryName","country-name","creditCardExpirationDate","cc-exp","creditCardExpirationMonth","cc-exp-month","creditCardExpirationYear","cc-exp-year","creditCardFamilyName","cc-family-name","creditCardGivenName","cc-given-name","creditCardMiddleName","cc-additional-name","creditCardName","cc-name","creditCardNumber","cc-number","creditCardSecurityCode","cc-csc","creditCardType","cc-type","email","email","familyName","family-name","fullStreetAddress","street-address","gender","sex","givenName","given-name","impp","impp","jobTitle","organization-title","language","language","middleName","additional-name","name","name","namePrefix","honorific-prefix","nameSuffix","honorific-suffix","newPassword","new-password","nickname","nickname","oneTimeCode","one-time-code","organizationName","organization","password","current-password","photo","photo","postalCode","postal-code","streetAddressLevel1","address-level1","streetAddressLevel2","address-level2","streetAddressLevel3","address-level3","streetAddressLevel4","address-level4","streetAddressLine1","address-line1","streetAddressLine2","address-line2","streetAddressLine3","address-line3","telephoneNumber","tel","telephoneNumberAreaCode","tel-area-code","telephoneNumberCountryCode","tel-country-code","telephoneNumberExtension","tel-extension","telephoneNumberLocal","tel-local","telephoneNumberLocalPrefix","tel-local-prefix","telephoneNumberLocalSuffix","tel-local-suffix","telephoneNumberNational","tel-national","transactionAmount","transaction-amount","transactionCurrency","transaction-currency","url","url","username","username"],q,q))})
@@ -127591,7 +127594,7 @@ s($,"bGV","bjm",()=>A.b3S(1,1,500))
 s($,"bFK","biu",()=>A.btg(new A.aMb(),t.Pb))
 s($,"bII","bkA",()=>A.u([B.Mj,A.eo(40),B.Mk,A.eo(40),B.ql,A.eo(12)],A.a5("Ay"),t.m_))
 s($,"bIv","b6Q",()=>new A.a5d())
-s($,"bHe","bjB",()=>A.hr(B.dl,B.h,t.o))
+s($,"bHe","bjB",()=>A.hr(B.dm,B.h,t.o))
 s($,"bH7","b6I",()=>A.hr(B.h,B.WQ,t.o))
 r($,"bFL","biv",()=>A.bmx(B.aak,B.aaj))
 s($,"bIw","b6R",()=>new A.Wx())
@@ -127633,7 +127636,7 @@ s($,"bFG","bir",()=>A.fX(B.PZ).hc(A.fX(B.na)))
 s($,"bFH","bis",()=>A.fX(B.PY).hc(A.fX(B.na)))
 s($,"bFE","bip",()=>A.fX(B.na))
 s($,"bFF","biq",()=>A.fX(B.Zf))
-s($,"bFP","biy",()=>A.hr(0.875,1,t.i).hc(A.fX(B.df)))
+s($,"bFP","biy",()=>A.hr(0.875,1,t.i).hc(A.fX(B.dg)))
 s($,"bIS","b6W",()=>new A.Z9())
 s($,"bF4","bhZ",()=>A.bsz())
 s($,"bF3","bhY",()=>new A.a6m(A.w(A.a5("En"),t.we),5,A.a5("a6m<En,lr>")))
@@ -127644,7 +127647,7 @@ r($,"bEx","bhJ",()=>B.M1)
 r($,"bEz","bhL",()=>{var q=null
 return A.b40(q,B.l2,q,q,q,q,"sans-serif",q,q,18,q,q,q,q,q,q,q,q,q,q,q)})
 r($,"bEy","bhK",()=>{var q=null
-return A.b3o(q,q,q,q,q,q,q,q,q,B.dv,B.a2,q)})
+return A.b3o(q,q,q,q,q,q,q,q,q,B.dw,B.a2,q)})
 s($,"bG_","biF",()=>A.bpg())
 s($,"bEA","bhM",()=>A.a2j(65532))
 s($,"bFY","Us",()=>A.a2j(65532))
@@ -127659,12 +127662,12 @@ return new A.ayv(A.w(q,t.IE),A.w(q,p),A.w(q,p))})
 s($,"bC2","aew",()=>new A.ahu())
 s($,"bDa","bh0",()=>A.u([4294967562,B.mn,4294967564,B.Q8,4294967556,B.Q9],t.S,t.SQ))
 s($,"bDb","bh1",()=>{var q=t.bd
-return A.u([B.mG,A.cT([B.dj,B.dY],q),B.mI,A.cT([B.hh,B.jc],q),B.mH,A.cT([B.hg,B.jb],q),B.mF,A.cT([B.hf,B.ja],q)],q,A.a5("bE<k>"))})
+return A.u([B.mG,A.cT([B.dk,B.dZ],q),B.mI,A.cT([B.hh,B.jc],q),B.mH,A.cT([B.hg,B.jb],q),B.mF,A.cT([B.hf,B.ja],q)],q,A.a5("bE<k>"))})
 s($,"bJ_","bkI",()=>new A.ayJ())
 s($,"bEt","b6o",()=>new A.aA9(A.b([],A.a5("y<~(qb)>")),A.w(t.v3,t.bd)))
 s($,"bEs","bhH",()=>{var q=t.v3
-return A.u([B.ab8,A.cT([B.f2],q),B.ab9,A.cT([B.f4],q),B.aba,A.cT([B.f2,B.f4],q),B.ab7,A.cT([B.f2],q),B.ab4,A.cT([B.f1],q),B.ab5,A.cT([B.ht],q),B.ab6,A.cT([B.f1,B.ht],q),B.ab3,A.cT([B.f1],q),B.ab0,A.cT([B.f0],q),B.ab1,A.cT([B.hs],q),B.ab2,A.cT([B.f0,B.hs],q),B.ab_,A.cT([B.f0],q),B.abc,A.cT([B.f3],q),B.abd,A.cT([B.hu],q),B.abe,A.cT([B.f3,B.hu],q),B.abb,A.cT([B.f3],q),B.abf,A.cT([B.e4],q),B.abg,A.cT([B.jq],q),B.abh,A.cT([B.jp],q),B.abi,A.cT([B.hr],q)],A.a5("ev"),A.a5("bE<F>"))})
-s($,"bEr","b6n",()=>A.u([B.f2,B.hg,B.f4,B.jb,B.f1,B.dj,B.ht,B.dY,B.f0,B.hf,B.hs,B.ja,B.f3,B.hh,B.hu,B.jc,B.e4,B.hc,B.jq,B.j8,B.jp,B.j9],t.v3,t.bd))
+return A.u([B.ab8,A.cT([B.f2],q),B.ab9,A.cT([B.f4],q),B.aba,A.cT([B.f2,B.f4],q),B.ab7,A.cT([B.f2],q),B.ab4,A.cT([B.f1],q),B.ab5,A.cT([B.ht],q),B.ab6,A.cT([B.f1,B.ht],q),B.ab3,A.cT([B.f1],q),B.ab0,A.cT([B.f0],q),B.ab1,A.cT([B.hs],q),B.ab2,A.cT([B.f0,B.hs],q),B.ab_,A.cT([B.f0],q),B.abc,A.cT([B.f3],q),B.abd,A.cT([B.hu],q),B.abe,A.cT([B.f3,B.hu],q),B.abb,A.cT([B.f3],q),B.abf,A.cT([B.e5],q),B.abg,A.cT([B.jq],q),B.abh,A.cT([B.jp],q),B.abi,A.cT([B.hr],q)],A.a5("ev"),A.a5("bE<F>"))})
+s($,"bEr","b6n",()=>A.u([B.f2,B.hg,B.f4,B.jb,B.f1,B.dk,B.ht,B.dZ,B.f0,B.hf,B.hs,B.ja,B.f3,B.hh,B.hu,B.jc,B.e5,B.hc,B.jq,B.j8,B.jp,B.j9],t.v3,t.bd))
 s($,"bEq","bhG",()=>{var q=A.w(t.v3,t.bd)
 q.m(0,B.hr,B.mC)
 q.H(0,$.b6n())
@@ -127692,8 +127695,8 @@ m.m(0,B.nu,B.iJ)
 m.m(0,B.nv,B.iK)
 m.m(0,B.D5,B.h1)
 m.m(0,B.D6,B.h2)
-m.m(0,B.nn,B.dS)
-m.m(0,B.no,B.dT)
+m.m(0,B.nn,B.dT)
+m.m(0,B.no,B.dU)
 m.m(0,B.np,B.eJ)
 m.m(0,B.nq,B.eK)
 m.m(0,B.nx,B.qW)
@@ -127733,8 +127736,8 @@ s($,"bCh","bgy",()=>$.b67())
 s($,"bCj","b68",()=>A.u([B.a_O,B.iK,B.a_P,B.iJ,B.a_C,B.h1,B.a_Q,B.h2,B.a0h,B.r6,B.a0i,B.r5,B.a0l,B.r1,B.a0j,B.r2,B.a_D,B.iP,B.a_R,B.iQ,B.a_S,B.h1,B.a_T,B.h2,B.a0b,B.fS,B.a_F,B.fT,B.a_G,B.eI,B.a_H,B.eH,B.a07,B.eL,B.a_I,B.eM,B.a_V,B.iO,B.a_W,B.iN,B.a05,B.Og,B.a_X,B.Oh,B.a08,B.mb,B.a_J,B.mc,B.a_K,B.eL,B.a_L,B.eM,B.a_U,B.fS,B.a0n,B.fT],t.zU,t.vz))
 s($,"bCk","bgA",()=>{var q=A.me($.b12(),t.zU,t.vz)
 q.H(0,$.b68())
-q.m(0,B.hG,B.dS)
-q.m(0,B.hH,B.dT)
+q.m(0,B.hG,B.dT)
+q.m(0,B.hH,B.dU)
 q.m(0,B.hD,B.qW)
 q.m(0,B.hE,B.qX)
 q.m(0,B.jM,B.eJ)
@@ -127754,14 +127757,14 @@ m.m(0,B.D5,B.h1)
 m.m(0,B.D6,B.h2)
 m.m(0,B.nn,B.iN)
 m.m(0,B.no,B.iO)
-m.m(0,B.np,B.dS)
-m.m(0,B.nq,B.dT)
+m.m(0,B.np,B.dT)
+m.m(0,B.nq,B.dU)
 m.m(0,B.nx,B.r7)
 m.m(0,B.ny,B.r8)
 m.m(0,B.nz,B.r3)
 m.m(0,B.nA,B.r4)
-m.m(0,B.CU,B.dS)
-m.m(0,B.CV,B.dT)
+m.m(0,B.CU,B.dT)
+m.m(0,B.CV,B.dU)
 m.m(0,B.CW,B.eJ)
 m.m(0,B.CX,B.eK)
 m.m(0,B.D_,B.qS)
@@ -127783,8 +127786,8 @@ m.m(0,B.CO,B.pj)
 m.m(0,B.D7,B.kL)
 m.m(0,B.a0m,B.pn)
 m.m(0,B.a02,B.pl)
-m.m(0,B.a0g,B.dT)
-m.m(0,B.nt,B.dS)
+m.m(0,B.a0g,B.dU)
+m.m(0,B.nt,B.dT)
 m.m(0,B.a_A,B.eI)
 m.m(0,B.a_E,B.eH)
 m.m(0,B.a_Z,B.eM)
@@ -128006,7 +128009,7 @@ s($,"bF5","bi_",()=>new A.Zy("newline expected"))
 s($,"bHo","bjJ",()=>A.be9(!1))
 s($,"bHp","bjK",()=>A.be9(!0))
 s($,"bEb","ci",()=>A.iU())
-s($,"bJl","b7_",()=>A.bli()===B.dF?"https://lucassantosrc7.github.io/#":"https://www.quervaler.com")
+s($,"bJl","b7_",()=>A.bli()===B.dG?"https://lucassantosrc7.github.io/#":"https://www.quervaler.com")
 s($,"bJd","vd",()=>{var q=null
 return A.by(q,q,B.q,B.m,q,q,q,0.2,q,q,q,q,1/0)})
 s($,"bJe","bkO",()=>{var q=null
@@ -128031,26 +128034,26 @@ s($,"bIB","b1s",()=>A.bbQ(new A.b_b(),t.t6))
 s($,"bIi","bko",()=>A.mx(new A.aZE(),t.d))
 s($,"bIp","lI",()=>A.mx(new A.aZL(),t.O3))
 s($,"bIq","oR",()=>A.b1U(A.bys(),t.VH,t.Wf))
-s($,"bIn","bkr",()=>B.dK.$2$1(new A.aZJ(),t.cN,t.N))
-s($,"bIo","bks",()=>B.dK.$2$1(new A.aZK(),t.BX,t.N))
-s($,"bIr","FO",()=>B.dK.$2$1(new A.aZM(),t.BX,t.zM))
+s($,"bIn","bkr",()=>B.dL.$2$1(new A.aZJ(),t.cN,t.N))
+s($,"bIo","bks",()=>B.dL.$2$1(new A.aZK(),t.BX,t.N))
+s($,"bIr","FO",()=>B.dL.$2$1(new A.aZM(),t.BX,t.zM))
 s($,"bIE","bkw",()=>A.mx(new A.b_p(),t.y))
 s($,"bIQ","Uv",()=>A.mx(new A.b_N(),t.Z7))
 s($,"bIR","rj",()=>A.b3W(A.bAl(),t.dZ,t.uK))
 s($,"bIP","bkD",()=>B.HH.$2$1(new A.b_M(),t.NX,t.N))
 s($,"bID","bkv",()=>B.GT.aGG(new A.b_n(),t.y,t.zM))
-s($,"bJ7","bkL",()=>B.dK.$2$1(new A.b0l(),t.NX,t.zM))
+s($,"bJ7","bkL",()=>B.dL.$2$1(new A.b0l(),t.NX,t.zM))
 s($,"bIX","b1t",()=>A.mx(new A.b_R(),t.q0))
 s($,"bIZ","bkH",()=>A.b90(new A.b_S(),t.uM))
 s($,"bId","b1o",()=>A.b90(new A.aZ4(),t.uM))
 s($,"bJ0","bkJ",()=>A.mx(new A.b_Y(),t.QW))
-s($,"bJ2","bkK",()=>B.dK.$2$1(new A.b_Z(),t.aw,t.N))
-s($,"bJ8","b1x",()=>B.dK.$2$1(new A.b0m(),t.Ip,t.z))
+s($,"bJ2","bkK",()=>B.dL.$2$1(new A.b_Z(),t.aw,t.N))
+s($,"bJ8","b1x",()=>B.dL.$2$1(new A.b0m(),t.Ip,t.z))
 s($,"bJ6","b1w",()=>A.b3T(new A.b07(),t.T))
 s($,"bJ4","b6Y",()=>A.b3T(new A.b01(),t.T))
 s($,"bJb","bkM",()=>A.mx(new A.b0o(),t.BM))
 s($,"bJj","b1y",()=>A.mx(new A.b0X(),t.w2))
-s($,"bJ9","b6Z",()=>B.dK.$2$1(new A.b0n(),t.ro,t.z))
+s($,"bJ9","b6Z",()=>B.dL.$2$1(new A.b0n(),t.ro,t.z))
 s($,"bJn","Uw",()=>A.mx(new A.b0Z(),t.Zo))
 s($,"bJp","b1A",()=>A.bbQ(new A.b10(),t.Ni))
 s($,"bJu","aeP",()=>B.Hz.$3$1(A.bBR(),t._I,t.er,t.N))
@@ -128098,7 +128101,7 @@ s($,"bFk","b1g",()=>new A.t())
 r($,"bt7","b6u",()=>{var q=new A.awv()
 q.qO($.b1g())
 return q})
-s($,"bFl","bid",()=>A.cT(["http","https"],t.N).aNM(B.CI))
+s($,"bFl","bid",()=>A.cT(["http","https"],t.N).aNL(B.CI))
 r($,"bFq","big",()=>new A.ajH())
 s($,"bFp","bif",()=>{var q,p=J.pD(256,t.N)
 for(q=0;q<256;++q)p[q]=B.c.h1(B.e.kr(q,16),2,"0")
