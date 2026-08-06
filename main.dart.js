@@ -109510,8 +109510,7 @@ k=$.aR
 j=(k==null?$.aR=$.cw():k).c9("[DEFAULT]")
 k=$.cB()
 A.bl(j,k,!0)
-i=A.m9(new A.ci(j)).giL()
-if(B.b.n(B.QN,i==null?null:i.a.c.a.a)){q=!1
+if(B.b.n(B.QN,A.m9(new A.ci(j)).giL().a.c.a.a)){q=!1
 s=1
 break}i=n.b
 h=i.cw("challenges")
